@@ -5,13 +5,13 @@
 
 Clone:
 
-   mkdir ros2_ws || cd ros2_ws
+   mkdir ros2_ws/src || cd ros2_ws/src
    git clone https://github.com/mihsuhanov/ros2_migrated_packages.git --recursive
 
 Build (in directory ros2_ws):
 
    colcon build --symlink-install
-   source install/setup.bash
+   source ./install/setup.bash
 
 Launch (in directory ros2_ws):
 
@@ -19,5 +19,5 @@ Launch (in directory ros2_ws):
 
    ros2 launch feature_matcher matcher.launch.py
 
-   ros2 launch barrel_slam slam.launch.py
+
 
