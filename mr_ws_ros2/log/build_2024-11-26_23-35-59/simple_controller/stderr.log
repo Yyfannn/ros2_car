@@ -1,0 +1,4 @@
+[01m[K/home/tutu/mr_ws_ros2/src/simple_controller/src/controller.cpp:[m[K In member function ‘[01m[Kstd::size_t simple_controller::Controller::get_nearest_path_pose_index(int, std::size_t)[m[K’:
+[01m[K/home/tutu/mr_ws_ros2/src/simple_controller/src/controller.cpp:87:10:[m[K [01;35m[Kwarning: [m[K‘[01m[Knearest_index[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+   87 |   return [01;35m[Knearest_index[m[K;
+      |          [01;35m[K^~~~~~~~~~~~~[m[K

@@ -1,0 +1,85 @@
+[0.038s] Invoking command in '/home/tutu/mr_ws_ros2/build/simple_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/tutu/mr_ws_ros2/build/simple_planner -- -j8 -l8
+[0.092s] [35m[1mScanning dependencies of target planner[0m
+[0.159s] [ 50%] [32mBuilding CXX object CMakeFiles/planner.dir/src/planner.cpp.o[0m
+[2.023s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:[m[K In member function ‘[01m[Kstd::unique_lock<std::mutex> simple_planner::Planner::move_to_position(double, double, double, double)[m[K’:
+[2.023s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:114:23:[m[K [01;35m[Kwarning: [m[Kmoving a local object in a return statement prevents copy elision [[01;35m[K-Wpessimizing-move[m[K]
+[2.023s]   114 |       return [01;35m[Kstd::move(lock)[m[K;
+[2.023s]       |              [01;35m[K~~~~~~~~~^~~~~~[m[K
+[2.023s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:114:23:[m[K [01;36m[Knote: [m[Kremove ‘[01m[Kstd::move[m[K’ call
+[2.029s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:139:27:[m[K [01;35m[Kwarning: [m[Kmoving a local object in a return statement prevents copy elision [[01;35m[K-Wpessimizing-move[m[K]
+[2.030s]   139 |           return [01;35m[Kstd::move(lock)[m[K;
+[2.030s]       |                  [01;35m[K~~~~~~~~~^~~~~~[m[K
+[2.030s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:139:27:[m[K [01;36m[Knote: [m[Kremove ‘[01m[Kstd::move[m[K’ call
+[2.042s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:[m[K In member function ‘[01m[Kbool simple_planner::Planner::indices_in_map(int, int)[m[K’:
+[2.042s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:179:32:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Knav_msgs::msg::MapMetaData_<std::allocator<void> >::_width_type[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[2.042s]   179 |   return i >= 0 && j >= 0 && [01;35m[Ki < map_.info.width[m[K && j < map_.info.height;
+[2.042s]       |                              [01;35m[K~~^~~~~~~~~~~~~~~~~[m[K
+[2.042s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:179:55:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Knav_msgs::msg::MapMetaData_<std::allocator<void> >::_height_type[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[2.043s]   179 |   return i >= 0 && j >= 0 && i < map_.info.width && [01;35m[Kj < map_.info.height[m[K;
+[2.043s]       |                                                     [01;35m[K~~^~~~~~~~~~~~~~~~~~[m[K
+[2.046s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:[m[K In member function ‘[01m[Kvoid simple_planner::Planner::increase_obstacles(std::size_t)[m[K’:
+[2.046s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:190:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Knav_msgs::msg::MapMetaData_<std::allocator<void> >::_width_type[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[2.046s]   190 |   for (int i = 0; [01;35m[Ki < map_.info.width[m[K; ++i)
+[2.047s]       |                   [01;35m[K~~^~~~~~~~~~~~~~~~~[m[K
+[2.047s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:192:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Knav_msgs::msg::MapMetaData_<std::allocator<void> >::_height_type[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[2.047s]   192 |     for (int j = 0; [01;35m[Kj < map_.info.height[m[K; ++j)
+[2.047s]       |                     [01;35m[K~~^~~~~~~~~~~~~~~~~~[m[K
+[2.051s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:[m[K In member function ‘[01m[Kdouble simple_planner::Planner::heruistic(int, int)[m[K’:
+[2.051s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:240:31:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ki[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.051s]   240 | double Planner::heruistic([01;35m[Kint i[m[K, int j) {
+[2.051s]       |                           [01;35m[K~~~~^[m[K
+[2.052s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:240:38:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kj[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.052s]   240 | double Planner::heruistic(int i, [01;35m[Kint j[m[K) {
+[2.052s]       |                                  [01;35m[K~~~~^[m[K
+[2.052s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:[m[K In member function ‘[01m[Kbool simple_planner::CompareSearchNodes::operator()(const simple_planner::MapIndex&, const simple_planner::MapIndex&) const[m[K’:
+[2.052s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:249:51:[m[K [01;31m[Kerror: [m[K‘[01m[Knav_msgs::msg::OccupancyGrid simple_planner::Planner::map_[m[K’ is private within this context
+[2.052s]   249 |    SearchNode& left = planner_.map_value(planner_.[01;31m[Kmap_[m[K, left_index.i, left_index.j);
+[2.052s]       |                                                   [01;31m[K^~~~[m[K
+[2.053s] In file included from [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:2[m[K:
+[2.053s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.h:81:34:[m[K [01;36m[Knote: [m[Kdeclared private here
+[2.053s]    81 |     nav_msgs::msg::OccupancyGrid [01;36m[Kmap_[m[K;
+[2.053s]       |                                  [01;36m[K^~~~[m[K
+[2.053s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:249:83:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Ksimple_planner::Planner::map_value(nav_msgs::msg::OccupancyGrid&, const int&, const int&)[m[K’
+[2.053s]   249 |    SearchNode& left = planner_.map_value(planner_.map_, left_index.i, left_index.j[01;31m[K)[m[K;
+[2.053s]       |                                                                                   [01;31m[K^[m[K
+[2.053s] In file included from [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:2[m[K:
+[2.054s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.h:67:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> T& simple_planner::Planner::map_value(std::vector<BufferT>&, int, int)[m[K’
+[2.054s]    67 |     T& [01;36m[Kmap_value[m[K(std::vector<T>& data, int i, int j)
+[2.054s]       |        [01;36m[K^~~~~~~~~[m[K
+[2.054s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.h:67:8:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.054s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:249:83:[m[K [01;36m[Knote: [m[K  ‘[01m[Knav_msgs::msg::OccupancyGrid[m[K’ {aka ‘[01m[Knav_msgs::msg::OccupancyGrid_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kstd::vector<BufferT>[m[K’
+[2.054s]   249 |    SearchNode& left = planner_.map_value(planner_.map_, left_index.i, left_index.j[01;36m[K)[m[K;
+[2.054s]       |                                                                                   [01;36m[K^[m[K
+[2.054s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:251:52:[m[K [01;31m[Kerror: [m[K‘[01m[Knav_msgs::msg::OccupancyGrid simple_planner::Planner::map_[m[K’ is private within this context
+[2.054s]   251 |    SearchNode& right = planner_.map_value(planner_.[01;31m[Kmap_[m[K, right_index.i, right_index.j);
+[2.055s]       |                                                    [01;31m[K^~~~[m[K
+[2.055s] In file included from [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:2[m[K:
+[2.055s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.h:81:34:[m[K [01;36m[Knote: [m[Kdeclared private here
+[2.055s]    81 |     nav_msgs::msg::OccupancyGrid [01;36m[Kmap_[m[K;
+[2.055s]       |                                  [01;36m[K^~~~[m[K
+[2.055s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:251:86:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Ksimple_planner::Planner::map_value(nav_msgs::msg::OccupancyGrid&, const int&, const int&)[m[K’
+[2.055s]   251 |    SearchNode& right = planner_.map_value(planner_.map_, right_index.i, right_index.j[01;31m[K)[m[K;
+[2.055s]       |                                                                                      [01;31m[K^[m[K
+[2.055s] In file included from [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:2[m[K:
+[2.055s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.h:67:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> T& simple_planner::Planner::map_value(std::vector<BufferT>&, int, int)[m[K’
+[2.056s]    67 |     T& [01;36m[Kmap_value[m[K(std::vector<T>& data, int i, int j)
+[2.056s]       |        [01;36m[K^~~~~~~~~[m[K
+[2.056s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.h:67:8:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.056s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:251:86:[m[K [01;36m[Knote: [m[K  ‘[01m[Knav_msgs::msg::OccupancyGrid[m[K’ {aka ‘[01m[Knav_msgs::msg::OccupancyGrid_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kstd::vector<BufferT>[m[K’
+[2.056s]   251 |    SearchNode& right = planner_.map_value(planner_.map_, right_index.i, right_index.j[01;36m[K)[m[K;
+[2.056s]       |                                                                                      [01;36m[K^[m[K
+[2.062s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:[m[K In member function ‘[01m[Kvoid simple_planner::Planner::calculate_path()[m[K’:
+[2.063s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:333:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Knode[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.063s]   333 |       auto& [01;35m[Knode[m[K = map_value(search_map_, point.i, point.j);
+[2.063s]       |             [01;35m[K^~~~[m[K
+[2.063s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:[m[K At global scope:
+[2.063s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:338:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[2.063s]   338 | [01;31m[K}[m[K
+[2.064s]       | [01;31m[K^[m[K
+[2.064s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:12:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[2.064s]    12 | [01;36m[K{[m[K
+[2.064s]       | [01;36m[K^[m[K
+[4.566s] make[2]: *** [CMakeFiles/planner.dir/build.make:63：CMakeFiles/planner.dir/src/planner.cpp.o] 错误 1
+[4.566s] make[1]: *** [CMakeFiles/Makefile2:105：CMakeFiles/planner.dir/all] 错误 2
+[4.566s] make: *** [Makefile:141：all] 错误 2
+[4.568s] Invoked command in '/home/tutu/mr_ws_ros2/build/simple_planner' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/tutu/mr_ws_ros2/build/simple_planner -- -j8 -l8

@@ -1,0 +1,48 @@
+[0.040s] Invoking command in '/home/tutu/mr_ws_ros2/build/cart_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/tutu/mr_ws_ros2/build/cart_launch -- -j8 -l8
+[0.089s] Invoked command in '/home/tutu/mr_ws_ros2/build/cart_launch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/tutu/mr_ws_ros2/build/cart_launch -- -j8 -l8
+[0.187s] Invoking command in '/home/tutu/mr_ws_ros2/build/cart_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/tutu/mr_ws_ros2/build/cart_launch
+[0.211s] -- Install configuration: "RelWithDebInfo"
+[0.211s] -- Execute custom install script
+[0.212s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/cart_launch/share/cart_launch/launch/cart.launch.py
+[0.212s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/cart_launch/share/cart_launch/launch/cart_stage.launch.py
+[0.212s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/cart_launch/share/cart_launch/launch/cart_stage.xml
+[0.212s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/cart_launch/share/cart_launch/stage_worlds/bitmaps/cave.png
+[0.212s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/cart_launch/share/cart_launch/stage_worlds/bitmaps/cave.pngZone.Identifier
+[0.212s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/cart_launch/share/cart_launch/stage_worlds/bitmaps/empty.png
+[0.213s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/cart_launch/share/cart_launch/stage_worlds/bitmaps/empty.pngZone.Identifier
+[0.219s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/cart_launch/share/cart_launch/stage_worlds/bitmaps/feature_map.png
+[0.220s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/cart_launch/share/cart_launch/stage_worlds/bitmaps/feature_map.pngZone.Identifier
+[0.220s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/cart_launch/share/cart_launch/stage_worlds/bitmaps/feature_map_simple.png
+[0.220s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/cart_launch/share/cart_launch/stage_worlds/bitmaps/feature_map_simple.pngZone.Identifier
+[0.220s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/cart_launch/share/cart_launch/stage_worlds/bitmaps/kalman_map.png
+[0.220s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/cart_launch/share/cart_launch/stage_worlds/bitmaps/kalman_map.pngZone.Identifier
+[0.221s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/cart_launch/share/cart_launch/stage_worlds/bitmaps/mapping_map.png
+[0.221s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/cart_launch/share/cart_launch/stage_worlds/bitmaps/mapping_map.pngZone.Identifier
+[0.221s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/cart_launch/share/cart_launch/stage_worlds/cave.yaml
+[0.221s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/cart_launch/share/cart_launch/stage_worlds/empty.world
+[0.221s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/cart_launch/share/cart_launch/stage_worlds/feature_map.world
+[0.221s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/cart_launch/share/cart_launch/stage_worlds/feature_map_simple.world
+[0.221s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/cart_launch/share/cart_launch/stage_worlds/kalman_map.world
+[0.221s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/cart_launch/share/cart_launch/stage_worlds/map.inc
+[0.221s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/cart_launch/share/cart_launch/stage_worlds/mapping.world
+[0.222s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/cart_launch/share/cart_launch/stage_worlds/mr.inc
+[0.222s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/cart_launch/share/cart_launch/stage_worlds/pioneer.inc
+[0.222s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/cart_launch/share/cart_launch/stage_worlds/sick.inc
+[0.222s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/cart_launch/share/cart_launch/stage_worlds/sick20.inc
+[0.222s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/cart_launch/share/cart_launch/stage_worlds/simple.world
+[0.222s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/cart_launch/share/ament_index/resource_index/package_run_dependencies/cart_launch
+[0.222s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/cart_launch/share/ament_index/resource_index/parent_prefix_path/cart_launch
+[0.222s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/cart_launch/share/cart_launch/environment/ament_prefix_path.sh
+[0.222s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/cart_launch/share/cart_launch/environment/ament_prefix_path.dsv
+[0.222s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/cart_launch/share/cart_launch/environment/path.sh
+[0.222s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/cart_launch/share/cart_launch/environment/path.dsv
+[0.223s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/cart_launch/share/cart_launch/local_setup.bash
+[0.223s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/cart_launch/share/cart_launch/local_setup.sh
+[0.223s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/cart_launch/share/cart_launch/local_setup.zsh
+[0.223s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/cart_launch/share/cart_launch/local_setup.dsv
+[0.223s] -- Symlinking: /home/tutu/mr_ws_ros2/install/cart_launch/share/cart_launch/package.dsv
+[0.234s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/cart_launch/share/ament_index/resource_index/packages/cart_launch
+[0.235s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/cart_launch/share/cart_launch/cmake/cart_launchConfig.cmake
+[0.236s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/cart_launch/share/cart_launch/cmake/cart_launchConfig-version.cmake
+[0.236s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/cart_launch/share/cart_launch/package.xml
+[0.252s] Invoked command in '/home/tutu/mr_ws_ros2/build/cart_launch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/tutu/mr_ws_ros2/build/cart_launch

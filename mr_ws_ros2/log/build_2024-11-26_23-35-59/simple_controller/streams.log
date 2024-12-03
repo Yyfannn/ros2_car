@@ -1,0 +1,38 @@
+[0.028s] Invoking command in '/home/tutu/mr_ws_ros2/build/simple_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/tutu/mr_ws_ros2/build/simple_controller -- -j8 -l8
+[0.077s] [35m[1mScanning dependencies of target controller_node[0m
+[0.151s] [ 33%] [32mBuilding CXX object CMakeFiles/controller_node.dir/src/controller.cpp.o[0m
+[7.315s] [01m[K/home/tutu/mr_ws_ros2/src/simple_controller/src/controller.cpp:[m[K In member function ‘[01m[Kstd::size_t simple_controller::Controller::get_nearest_path_pose_index(int, std::size_t)[m[K’:
+[7.315s] [01m[K/home/tutu/mr_ws_ros2/src/simple_controller/src/controller.cpp:87:10:[m[K [01;35m[Kwarning: [m[K‘[01m[Knearest_index[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+[7.315s]    87 |   return [01;35m[Knearest_index[m[K;
+[7.315s]       |          [01;35m[K^~~~~~~~~~~~~[m[K
+[14.956s] [ 66%] [32m[1mLinking CXX executable controller_node[0m
+[15.232s] [100%] Built target controller_node
+[15.242s] Invoked command in '/home/tutu/mr_ws_ros2/build/simple_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/tutu/mr_ws_ros2/build/simple_controller -- -j8 -l8
+[15.274s] Invoking command in '/home/tutu/mr_ws_ros2/build/simple_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/tutu/mr_ws_ros2/build/simple_controller
+[15.283s] -- Install configuration: "RelWithDebInfo"
+[15.283s] -- Execute custom install script
+[15.283s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/simple_controller/share/ament_index/resource_index/package_run_dependencies/simple_controller
+[15.284s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/simple_controller/share/ament_index/resource_index/parent_prefix_path/simple_controller
+[15.284s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/simple_controller/share/simple_controller/environment/ament_prefix_path.sh
+[15.284s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/simple_controller/share/simple_controller/environment/ament_prefix_path.dsv
+[15.284s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/simple_controller/share/simple_controller/environment/path.sh
+[15.284s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/simple_controller/share/simple_controller/environment/path.dsv
+[15.285s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/simple_controller/share/simple_controller/local_setup.bash
+[15.285s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/simple_controller/share/simple_controller/local_setup.sh
+[15.285s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/simple_controller/share/simple_controller/local_setup.zsh
+[15.285s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/simple_controller/share/simple_controller/local_setup.dsv
+[15.285s] -- Symlinking: /home/tutu/mr_ws_ros2/install/simple_controller/share/simple_controller/package.dsv
+[15.293s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/simple_controller/share/ament_index/resource_index/packages/simple_controller
+[15.293s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/simple_controller/share/simple_controller/cmake/simple_controllerConfig.cmake
+[15.293s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/simple_controller/share/simple_controller/cmake/simple_controllerConfig-version.cmake
+[15.293s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/simple_controller/share/simple_controller/package.xml
+[15.293s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/simple_controller/lib/simple_controller/controller_node
+[15.294s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/simple_controller/share/simple_controller/launch/controller.launch.py
+[15.294s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/simple_controller/share/simple_controller/launch/controller.yaml
+[15.294s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/simple_controller/share/simple_controller/launch/controller1s.yaml
+[15.294s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/simple_controller/share/simple_controller/launch/controller_curv.yaml
+[15.294s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/simple_controller/share/simple_controller/launch/controller_stage.launch.py
+[15.295s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/simple_controller/share/simple_controller/launch/slam.launch
+[15.295s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/simple_controller/lib/simple_controller/start_rqt
+[15.296s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/simple_controller/share/simple_controller/rqt_cfg/steer_error.perspective
+[15.299s] Invoked command in '/home/tutu/mr_ws_ros2/build/simple_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/tutu/mr_ws_ros2/build/simple_controller

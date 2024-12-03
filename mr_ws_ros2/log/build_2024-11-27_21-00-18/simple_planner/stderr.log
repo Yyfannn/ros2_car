@@ -1,0 +1,109 @@
+[01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:[m[K In member function ‘[01m[Kstd::unique_lock<std::mutex> simple_planner::Planner::move_to_position(double, double, double, double)[m[K’:
+[01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:114:23:[m[K [01;35m[Kwarning: [m[Kmoving a local object in a return statement prevents copy elision [[01;35m[K-Wpessimizing-move[m[K]
+  114 |       return [01;35m[Kstd::move(lock)[m[K;
+      |              [01;35m[K~~~~~~~~~^~~~~~[m[K
+[01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:114:23:[m[K [01;36m[Knote: [m[Kremove ‘[01m[Kstd::move[m[K’ call
+[01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:139:27:[m[K [01;35m[Kwarning: [m[Kmoving a local object in a return statement prevents copy elision [[01;35m[K-Wpessimizing-move[m[K]
+  139 |           return [01;35m[Kstd::move(lock)[m[K;
+      |                  [01;35m[K~~~~~~~~~^~~~~~[m[K
+[01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:139:27:[m[K [01;36m[Knote: [m[Kremove ‘[01m[Kstd::move[m[K’ call
+[01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:[m[K In member function ‘[01m[Kbool simple_planner::Planner::indices_in_map(int, int)[m[K’:
+[01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:179:32:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Knav_msgs::msg::MapMetaData_<std::allocator<void> >::_width_type[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  179 |   return i >= 0 && j >= 0 && [01;35m[Ki < map_.info.width[m[K && j < map_.info.height;
+      |                              [01;35m[K~~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:179:55:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Knav_msgs::msg::MapMetaData_<std::allocator<void> >::_height_type[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  179 |   return i >= 0 && j >= 0 && i < map_.info.width && [01;35m[Kj < map_.info.height[m[K;
+      |                                                     [01;35m[K~~^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:[m[K In member function ‘[01m[Kvoid simple_planner::Planner::increase_obstacles(std::size_t)[m[K’:
+[01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:190:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Knav_msgs::msg::MapMetaData_<std::allocator<void> >::_width_type[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  190 |   for (int i = 0; [01;35m[Ki < map_.info.width[m[K; ++i)
+      |                   [01;35m[K~~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:192:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Knav_msgs::msg::MapMetaData_<std::allocator<void> >::_height_type[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  192 |     for (int j = 0; [01;35m[Kj < map_.info.height[m[K; ++j)
+      |                     [01;35m[K~~^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:[m[K In member function ‘[01m[Kdouble simple_planner::Planner::heruistic(int, int)[m[K’:
+[01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:240:31:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ki[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  240 | double Planner::heruistic([01;35m[Kint i[m[K, int j) {
+      |                           [01;35m[K~~~~^[m[K
+[01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:240:38:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kj[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  240 | double Planner::heruistic(int i, [01;35m[Kint j[m[K) {
+      |                                  [01;35m[K~~~~^[m[K
+[01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:[m[K In member function ‘[01m[Kbool simple_planner::CompareSearchNodes::operator()(const simple_planner::MapIndex&, const simple_planner::MapIndex&) const[m[K’:
+[01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:250:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kleft[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::left[m[K’?
+  250 |     if ([01;31m[Kleft[m[K.g + left.h == right.g + right.h) {
+      |         [01;31m[K^~~~[m[K
+      |         [32m[Kstd::left[m[K
+In file included from [01m[K/usr/include/c++/9/ios:42[m[K,
+                 from [01m[K/usr/include/c++/9/ostream:38[m[K,
+                 from [01m[K/usr/include/c++/9/iostream:39[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:22[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.h:4[m[K,
+                 from [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:2[m[K:
+[01m[K/usr/include/c++/9/bits/ios_base.h:1011:3:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::left[m[K’ declared here
+ 1011 |   [01;36m[Kleft[m[K(ios_base& __base)
+      |   [01;36m[K^~~~[m[K
+[01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:250:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kright[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::right[m[K’?
+  250 |     if (left.g + left.h == [01;31m[Kright[m[K.g + right.h) {
+      |                            [01;31m[K^~~~~[m[K
+      |                            [32m[Kstd::right[m[K
+In file included from [01m[K/usr/include/c++/9/ios:42[m[K,
+                 from [01m[K/usr/include/c++/9/ostream:38[m[K,
+                 from [01m[K/usr/include/c++/9/iostream:39[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:22[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.h:4[m[K,
+                 from [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:2[m[K:
+[01m[K/usr/include/c++/9/bits/ios_base.h:1019:3:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::right[m[K’ declared here
+ 1019 |   [01;36m[Kright[m[K(ios_base& __base)
+      |   [01;36m[K^~~~~[m[K
+[01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:256:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kleft[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::left[m[K’?
+  256 |     return [01;31m[Kleft[m[K.g + left.h < right.g + right.h;
+      |            [01;31m[K^~~~[m[K
+      |            [32m[Kstd::left[m[K
+In file included from [01m[K/usr/include/c++/9/ios:42[m[K,
+                 from [01m[K/usr/include/c++/9/ostream:38[m[K,
+                 from [01m[K/usr/include/c++/9/iostream:39[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:22[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.h:4[m[K,
+                 from [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:2[m[K:
+[01m[K/usr/include/c++/9/bits/ios_base.h:1011:3:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::left[m[K’ declared here
+ 1011 |   [01;36m[Kleft[m[K(ios_base& __base)
+      |   [01;36m[K^~~~[m[K
+[01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:256:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kright[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::right[m[K’?
+  256 |     return left.g + left.h < [01;31m[Kright[m[K.g + right.h;
+      |                              [01;31m[K^~~~~[m[K
+      |                              [32m[Kstd::right[m[K
+In file included from [01m[K/usr/include/c++/9/ios:42[m[K,
+                 from [01m[K/usr/include/c++/9/ostream:38[m[K,
+                 from [01m[K/usr/include/c++/9/iostream:39[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:22[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.h:4[m[K,
+                 from [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:2[m[K:
+[01m[K/usr/include/c++/9/bits/ios_base.h:1019:3:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::right[m[K’ declared here
+ 1019 |   [01;36m[Kright[m[K(ios_base& __base)
+      |   [01;36m[K^~~~~[m[K
+[01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:[m[K In member function ‘[01m[Kvoid simple_planner::Planner::calculate_path()[m[K’:
+[01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:331:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Knode[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  331 |       auto& [01;35m[Knode[m[K = map_value(search_map_, point.i, point.j);
+      |             [01;35m[K^~~~[m[K
+[01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:[m[K At global scope:
+[01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:336:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+  336 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+[01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:12:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   12 | [01;36m[K{[m[K
+      | [01;36m[K^[m[K
+make[2]: *** [CMakeFiles/planner.dir/build.make:63：CMakeFiles/planner.dir/src/planner.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:105：CMakeFiles/planner.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

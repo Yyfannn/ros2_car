@@ -1,0 +1,128 @@
+[0.013s] Invoking command in '/home/tutu/ros2m/build/stage_ros2': CMAKE_PREFIX_PATH=/home/tutu/ros2m/install/Stage:/opt/ros/humble LD_LIBRARY_PATH=/home/tutu/ros2m/install/Stage/lib:${LD_LIBRARY_PATH} PATH=/home/tutu/ros2m/install/Stage/bin:${PATH} /usr/bin/cmake /home/tutu/ros2m/src/stage_ros2 -DCMAKE_INSTALL_PREFIX=/home/tutu/ros2m/install/stage_ros2
+[0.116s] -- The C compiler identification is GNU 11.4.0
+[0.187s] -- The CXX compiler identification is GNU 11.4.0
+[0.204s] -- Detecting C compiler ABI info
+[0.302s] -- Detecting C compiler ABI info - done
+[0.312s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.313s] -- Detecting C compile features
+[0.314s] -- Detecting C compile features - done
+[0.320s] -- Detecting CXX compiler ABI info
+[0.465s] -- Detecting CXX compiler ABI info - done
+[0.473s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.477s] -- Detecting CXX compile features
+[0.480s] -- Detecting CXX compile features - done
+[0.485s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.701s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.820s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.867s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.875s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.893s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.910s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.927s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.975s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.981s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.195s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.229s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.275s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.292s] -- Looking for pthread.h
+[1.383s] -- Looking for pthread.h - found
+[1.383s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.477s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.477s] -- Found Threads: TRUE  
+[1.545s] -- Found rclcpp_components: 16.0.10 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.611s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.656s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.677s] -- Found tf2_ros: 0.25.8 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.776s] -- Found tf2_geometry_msgs: 0.25.8 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.810s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.814s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.814s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.822s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[1.854s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.013s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.014s] -- Configured cppcheck include dirs: /home/tutu/ros2m/src/stage_ros2/./include;$<BUILD_INTERFACE:/home/tutu/ros2m/src/stage_ros2/include>
+[2.014s] -- Configured cppcheck exclude dirs and/or files: 
+[2.016s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.021s] -- Added test 'lint_cmake' to check CMake code style
+[2.023s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.029s] -- Added test 'uncrustify' to check C / C++ code style
+[2.029s] -- Configured uncrustify additional arguments: 
+[2.031s] -- Added test 'xmllint' to check XML markup files
+[2.039s] -- Configuring done
+[2.072s] -- Generating done
+[2.080s] -- Build files have been written to: /home/tutu/ros2m/build/stage_ros2
+[2.102s] Invoked command in '/home/tutu/ros2m/build/stage_ros2' returned '0': CMAKE_PREFIX_PATH=/home/tutu/ros2m/install/Stage:/opt/ros/humble LD_LIBRARY_PATH=/home/tutu/ros2m/install/Stage/lib:${LD_LIBRARY_PATH} PATH=/home/tutu/ros2m/install/Stage/bin:${PATH} /usr/bin/cmake /home/tutu/ros2m/src/stage_ros2 -DCMAKE_INSTALL_PREFIX=/home/tutu/ros2m/install/stage_ros2
+[2.106s] Invoking command in '/home/tutu/ros2m/build/stage_ros2': CMAKE_PREFIX_PATH=/home/tutu/ros2m/install/Stage:/opt/ros/humble LD_LIBRARY_PATH=/home/tutu/ros2m/install/Stage/lib:${LD_LIBRARY_PATH} PATH=/home/tutu/ros2m/install/Stage/bin:${PATH} /usr/bin/cmake --build /home/tutu/ros2m/build/stage_ros2 -- -j1 -l1
+[2.164s] [ 14%] [32mBuilding CXX object CMakeFiles/stage_node.dir/src/stage_node.cpp.o[0m
+[11.911s] [ 28%] [32mBuilding CXX object CMakeFiles/stage_node.dir/src/vehicle.cpp.o[0m
+[29.959s] [ 42%] [32mBuilding CXX object CMakeFiles/stage_node.dir/src/ranger.cpp.o[0m
+[39.198s] [ 57%] [32mBuilding CXX object CMakeFiles/stage_node.dir/src/camera.cpp.o[0m
+[48.058s] [ 71%] [32m[1mLinking CXX shared library libstage_node.so[0m
+[49.306s] [ 71%] Built target stage_node
+[49.334s] [ 85%] [32mBuilding CXX object CMakeFiles/stage_ros2.dir/src/main.cpp.o[0m
+[54.724s] [100%] [32m[1mLinking CXX executable stage_ros2[0m
+[55.363s] [100%] Built target stage_ros2
+[55.378s] Invoked command in '/home/tutu/ros2m/build/stage_ros2' returned '0': CMAKE_PREFIX_PATH=/home/tutu/ros2m/install/Stage:/opt/ros/humble LD_LIBRARY_PATH=/home/tutu/ros2m/install/Stage/lib:${LD_LIBRARY_PATH} PATH=/home/tutu/ros2m/install/Stage/bin:${PATH} /usr/bin/cmake --build /home/tutu/ros2m/build/stage_ros2 -- -j1 -l1
+[55.384s] Invoking command in '/home/tutu/ros2m/build/stage_ros2': CMAKE_PREFIX_PATH=/home/tutu/ros2m/install/Stage:/opt/ros/humble LD_LIBRARY_PATH=/home/tutu/ros2m/install/Stage/lib:${LD_LIBRARY_PATH} PATH=/home/tutu/ros2m/install/Stage/bin:${PATH} /usr/bin/cmake --install /home/tutu/ros2m/build/stage_ros2
+[55.399s] -- Install configuration: ""
+[55.399s] -- Installing: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2/environment/library_path.sh
+[55.400s] -- Installing: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2/environment/library_path.dsv
+[55.401s] -- Installing: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2//launch
+[55.401s] -- Installing: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2//launch/f710.launch.py
+[55.404s] -- Installing: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2//launch/rviz.launch.py
+[55.404s] -- Installing: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2//launch/rviz_ns.launch.py
+[55.405s] -- Installing: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2//launch/stage.launch.py
+[55.407s] -- Installing: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2//launch/demo.launch.py
+[55.407s] -- Installing: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2//world
+[55.408s] -- Installing: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2//world/willow-four-erratics-multisensor.world
+[55.409s] -- Installing: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2//world/cave.world
+[55.409s] -- Installing: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2//world/cave_seven_robots.world
+[55.409s] -- Installing: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2//world/bitmaps
+[55.409s] -- Installing: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2//world/bitmaps/hallway.png
+[55.409s] -- Installing: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2//world/bitmaps/cave.png
+[55.409s] -- Installing: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2//world/bitmaps/hallway.pgm
+[55.411s] -- Installing: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2//world/bitmaps/warehouse200.pgm
+[55.413s] -- Installing: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2//world/bitmaps/line.png
+[55.413s] -- Installing: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2//world/bitmaps/warehouse032.pgm
+[55.415s] -- Installing: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2//world/bitmaps/willow-full.pgm
+[55.415s] -- Installing: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2//world/bitmaps/warehouse008.pgm
+[55.416s] -- Installing: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2//world/bitmaps/straden.png
+[55.416s] -- Installing: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2//world/include
+[55.417s] -- Installing: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2//world/include/robots.inc
+[55.417s] -- Installing: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2//world/include/pioneer2dx.inc
+[55.421s] -- Installing: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2//world/cave_three_robots.world
+[55.421s] -- Installing: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2//world/lines.world
+[55.421s] -- Installing: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2//world/cave_multi.world
+[55.421s] -- Installing: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2//world/straden.world
+[55.421s] -- Installing: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2//world/hallway.world
+[55.422s] -- Installing: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2//config
+[55.422s] -- Installing: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2//config/teleop_twist_joy
+[55.423s] -- Installing: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2//config/teleop_twist_joy/f710.config.yaml
+[55.423s] -- Installing: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2//config/rviz
+[55.423s] -- Installing: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2//config/rviz/lines.rviz
+[55.423s] -- Installing: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2//config/rviz/robot0.rviz
+[55.424s] -- Installing: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2//config/rviz/cave_seven_robots.rviz
+[55.424s] -- Installing: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2//config/rviz/cave_three_robots.rviz
+[55.424s] -- Installing: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2//config/rviz/robot_ns_depth.rviz
+[55.425s] -- Installing: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2//config/rviz/robot_ns.rviz
+[55.425s] -- Installing: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2//config/rviz/cave.rviz
+[55.426s] -- Installing: /home/tutu/ros2m/install/stage_ros2/lib/libstage_node.so
+[55.445s] -- Set runtime path of "/home/tutu/ros2m/install/stage_ros2/lib/libstage_node.so" to ""
+[55.446s] -- Installing: /home/tutu/ros2m/install/stage_ros2/lib/stage_ros2/stage_ros2
+[55.448s] -- Set runtime path of "/home/tutu/ros2m/install/stage_ros2/lib/stage_ros2/stage_ros2" to ""
+[55.449s] -- Installing: /home/tutu/ros2m/install/stage_ros2/share/ament_index/resource_index/package_run_dependencies/stage_ros2
+[55.449s] -- Installing: /home/tutu/ros2m/install/stage_ros2/share/ament_index/resource_index/parent_prefix_path/stage_ros2
+[55.450s] -- Installing: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2/environment/ament_prefix_path.sh
+[55.452s] -- Installing: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2/environment/ament_prefix_path.dsv
+[55.452s] -- Installing: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2/environment/path.sh
+[55.452s] -- Installing: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2/environment/path.dsv
+[55.452s] -- Installing: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2/local_setup.bash
+[55.452s] -- Installing: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2/local_setup.sh
+[55.453s] -- Installing: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2/local_setup.zsh
+[55.460s] -- Installing: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2/local_setup.dsv
+[55.460s] -- Installing: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2/package.dsv
+[55.460s] -- Installing: /home/tutu/ros2m/install/stage_ros2/share/ament_index/resource_index/packages/stage_ros2
+[55.460s] -- Installing: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2/cmake/stage_ros2Config.cmake
+[55.460s] -- Installing: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2/cmake/stage_ros2Config-version.cmake
+[55.460s] -- Installing: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2/package.xml
+[55.462s] Invoked command in '/home/tutu/ros2m/build/stage_ros2' returned '0': CMAKE_PREFIX_PATH=/home/tutu/ros2m/install/Stage:/opt/ros/humble LD_LIBRARY_PATH=/home/tutu/ros2m/install/Stage/lib:${LD_LIBRARY_PATH} PATH=/home/tutu/ros2m/install/Stage/bin:${PATH} /usr/bin/cmake --install /home/tutu/ros2m/build/stage_ros2

@@ -1,0 +1,8 @@
+source;share/feature_matcher/hook/cmake_prefix_path.ps1
+source;share/feature_matcher/hook/cmake_prefix_path.dsv
+source;share/feature_matcher/hook/cmake_prefix_path.sh
+source;share/feature_matcher/local_setup.bash
+source;share/feature_matcher/local_setup.dsv
+source;share/feature_matcher/local_setup.ps1
+source;share/feature_matcher/local_setup.sh
+source;share/feature_matcher/local_setup.zsh

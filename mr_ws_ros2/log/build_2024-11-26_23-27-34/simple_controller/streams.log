@@ -1,0 +1,32 @@
+[0.032s] Invoking command in '/home/tutu/mr_ws_ros2/build/simple_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/tutu/mr_ws_ros2/build/simple_controller -- -j8 -l8
+[0.109s] [100%] Built target controller_node
+[0.140s] Invoked command in '/home/tutu/mr_ws_ros2/build/simple_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/tutu/mr_ws_ros2/build/simple_controller -- -j8 -l8
+[0.168s] Invoking command in '/home/tutu/mr_ws_ros2/build/simple_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/tutu/mr_ws_ros2/build/simple_controller
+[0.179s] -- Install configuration: ""
+[0.179s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/simple_controller/share/ament_index/resource_index/package_run_dependencies/simple_controller
+[0.179s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/simple_controller/share/ament_index/resource_index/parent_prefix_path/simple_controller
+[0.179s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/simple_controller/share/simple_controller/environment/ament_prefix_path.sh
+[0.180s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/simple_controller/share/simple_controller/environment/ament_prefix_path.dsv
+[0.180s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/simple_controller/share/simple_controller/environment/path.sh
+[0.180s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/simple_controller/share/simple_controller/environment/path.dsv
+[0.180s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/simple_controller/share/simple_controller/local_setup.bash
+[0.180s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/simple_controller/share/simple_controller/local_setup.sh
+[0.180s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/simple_controller/share/simple_controller/local_setup.zsh
+[0.180s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/simple_controller/share/simple_controller/local_setup.dsv
+[0.180s] -- Installing: /home/tutu/mr_ws_ros2/install/simple_controller/share/simple_controller/package.dsv
+[0.180s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/simple_controller/share/ament_index/resource_index/packages/simple_controller
+[0.180s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/simple_controller/share/simple_controller/cmake/simple_controllerConfig.cmake
+[0.180s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/simple_controller/share/simple_controller/cmake/simple_controllerConfig-version.cmake
+[0.180s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/simple_controller/share/simple_controller/package.xml
+[0.180s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/simple_controller/lib/simple_controller/controller_node
+[0.181s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/simple_controller/share/simple_controller/launch
+[0.181s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/simple_controller/share/simple_controller/launch/slam.launch
+[0.181s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/simple_controller/share/simple_controller/launch/controller_stage.launch.py
+[0.181s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/simple_controller/share/simple_controller/launch/controller_curv.yaml
+[0.181s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/simple_controller/share/simple_controller/launch/controller.launch.py
+[0.181s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/simple_controller/share/simple_controller/launch/controller.yaml
+[0.181s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/simple_controller/share/simple_controller/launch/controller1s.yaml
+[0.181s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/simple_controller/lib/simple_controller/start_rqt
+[0.181s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/simple_controller/share/simple_controller/rqt_cfg
+[0.181s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/simple_controller/share/simple_controller/rqt_cfg/steer_error.perspective
+[0.185s] Invoked command in '/home/tutu/mr_ws_ros2/build/simple_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/tutu/mr_ws_ros2/build/simple_controller

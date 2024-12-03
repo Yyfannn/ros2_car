@@ -1,0 +1,11 @@
+# CMake generated Testfile for 
+# Source directory: /home/tutu/mr_ws_ros2/src/angles
+# Build directory: /home/tutu/mr_ws_ros2/build/angles
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+add_test(angles_utest "/usr/bin/python3" "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/tutu/mr_ws_ros2/build/angles/test_results/angles/angles_utest.gtest.xml" "--package-name" "angles" "--output-file" "/home/tutu/mr_ws_ros2/build/angles/ament_cmake_gtest/angles_utest.txt" "--command" "/home/tutu/mr_ws_ros2/build/angles/angles_utest" "--gtest_output=xml:/home/tutu/mr_ws_ros2/build/angles/test_results/angles/angles_utest.gtest.xml")
+set_tests_properties(angles_utest PROPERTIES  LABELS "gtest" REQUIRED_FILES "/home/tutu/mr_ws_ros2/build/angles/angles_utest" TIMEOUT "60" WORKING_DIRECTORY "/home/tutu/mr_ws_ros2/build/angles" _BACKTRACE_TRIPLES "/opt/ros/foxy/share/ament_cmake_test/cmake/ament_add_test.cmake;118;add_test;/opt/ros/foxy/share/ament_cmake_gtest/cmake/ament_add_gtest_test.cmake;86;ament_add_test;/opt/ros/foxy/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake;93;ament_add_gtest_test;/home/tutu/mr_ws_ros2/src/angles/CMakeLists.txt;22;ament_add_gtest;/home/tutu/mr_ws_ros2/src/angles/CMakeLists.txt;0;")
+add_test(utest "/usr/bin/python3" "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/tutu/mr_ws_ros2/build/angles/test_results/angles/utest.xunit.xml" "--package-name" "angles" "--output-file" "/home/tutu/mr_ws_ros2/build/angles/ament_cmake_pytest/utest.txt" "--command" "/usr/bin/python3" "-u" "-m" "pytest" "/home/tutu/mr_ws_ros2/src/angles/test/utest.py" "-o" "cache_dir=/home/tutu/mr_ws_ros2/build/angles/ament_cmake_pytest/utest/.cache" "--junit-xml=/home/tutu/mr_ws_ros2/build/angles/test_results/angles/utest.xunit.xml" "--junit-prefix=angles")
+set_tests_properties(utest PROPERTIES  LABELS "pytest" TIMEOUT "60" WORKING_DIRECTORY "/home/tutu/mr_ws_ros2/build/angles" _BACKTRACE_TRIPLES "/opt/ros/foxy/share/ament_cmake_test/cmake/ament_add_test.cmake;118;add_test;/opt/ros/foxy/share/ament_cmake_pytest/cmake/ament_add_pytest_test.cmake;165;ament_add_test;/home/tutu/mr_ws_ros2/src/angles/CMakeLists.txt;30;ament_add_pytest_test;/home/tutu/mr_ws_ros2/src/angles/CMakeLists.txt;0;")
+subdirs("gtest")

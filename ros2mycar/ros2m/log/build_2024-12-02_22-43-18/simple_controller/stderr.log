@@ -1,0 +1,24 @@
+In file included from [01m[K/home/tutu/ros2m/src/simple_controller/src/controller.h:28[m[K,
+                 from [01m[K/home/tutu/ros2m/src/simple_controller/src/controller_node.cpp:3[m[K:
+[01m[K/home/tutu/ros2m/src/simple_controller/include/trajectory_segment.h:[m[K In member function ‘[01m[Kvirtual double trajectory::LinearSegment::get_orientation(double) const[m[K’:
+[01m[K/home/tutu/ros2m/src/simple_controller/include/trajectory_segment.h:128:33:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpoint_len[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  128 |   double get_orientation([01;35m[Kdouble point_len[m[K) const {
+      |                          [01;35m[K~~~~~~~^~~~~~~~~[m[K
+In file included from [01m[K/home/tutu/ros2m/src/simple_controller/src/controller.h:28[m[K,
+                 from [01m[K/home/tutu/ros2m/src/simple_controller/src/controller.cpp:8[m[K:
+[01m[K/home/tutu/ros2m/src/simple_controller/include/trajectory_segment.h:[m[K In member function ‘[01m[Kvirtual double trajectory::LinearSegment::get_orientation(double) const[m[K’:
+[01m[K/home/tutu/ros2m/src/simple_controller/include/trajectory_segment.h:128:33:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpoint_len[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  128 |   double get_orientation([01;35m[Kdouble point_len[m[K) const {
+      |                          [01;35m[K~~~~~~~^~~~~~~~~[m[K
+[01m[K/home/tutu/ros2m/src/simple_controller/src/controller.cpp:[m[K In member function ‘[01m[Kstd::size_t simple_controller::Controller::cal_target_index()[m[K’:
+[01m[K/home/tutu/ros2m/src/simple_controller/src/controller.cpp:41:53:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   41 |   while (l_d > m_error && [01;35m[K(nearest_point_index + 1) < static_cast<int>(path.poses.size())[m[K)
+      |                           [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tutu/ros2m/src/simple_controller/src/controller.cpp:[m[K In member function ‘[01m[Kstd::size_t simple_controller::Controller::get_nearest_path_pose_index(int, std::size_t)[m[K’:
+[01m[K/home/tutu/ros2m/src/simple_controller/src/controller.cpp:81:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kindex[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   81 |   std::size_t [01;35m[Kindex[m[K = start_index;
+      |               [01;35m[K^~~~~[m[K
+[01m[K/home/tutu/ros2m/src/simple_controller/src/controller.cpp:[m[K In member function ‘[01m[Knav_msgs::msg::Path simple_controller::Controller::create_path() const[m[K’:
+[01m[K/home/tutu/ros2m/src/simple_controller/src/controller.cpp:229:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kprevious_segment_left[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  229 |   double [01;35m[Kprevious_segment_left[m[K = 0.0;
+      |          [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K

@@ -1,0 +1,1105 @@
+[0.000000] (-) TimerEvent: {}
+[0.000151] (Stage) JobQueued: {'identifier': 'Stage', 'dependencies': OrderedDict()}
+[0.000256] (cart_launch) JobQueued: {'identifier': 'cart_launch', 'dependencies': OrderedDict()}
+[0.000273] (simple_controller) JobQueued: {'identifier': 'simple_controller', 'dependencies': OrderedDict()}
+[0.000288] (stage_controller) JobQueued: {'identifier': 'stage_controller', 'dependencies': OrderedDict()}
+[0.000300] (stage_ros2) JobQueued: {'identifier': 'stage_ros2', 'dependencies': OrderedDict([('Stage', '/home/tutu/mr_ws_ros2/install/Stage')])}
+[0.000525] (Stage) JobStarted: {'identifier': 'Stage'}
+[0.007499] (cart_launch) JobStarted: {'identifier': 'cart_launch'}
+[0.014100] (simple_controller) JobStarted: {'identifier': 'simple_controller'}
+[0.019669] (stage_controller) JobStarted: {'identifier': 'stage_controller'}
+[0.029819] (Stage) JobProgress: {'identifier': 'Stage', 'progress': 'cmake'}
+[0.031182] (Stage) Command: {'cmd': ['/usr/bin/cmake', '/home/tutu/mr_ws_ros2/src/Stage', '-DCMAKE_BUILD_TYPE=RelWithDebInfo', '-DCMAKE_INSTALL_PREFIX=/home/tutu/mr_ws_ros2/install/Stage'], 'cwd': '/home/tutu/mr_ws_ros2/build/Stage', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/tutu'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'tutu'), ('VSCODE_NLS_CONFIG', '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"zh-cn","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","languagePack":{"translationsConfigFile":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn/tcf.json","messagesFile":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn/d78a74bcdfad14d5d3b1b782f87255d802b57511/nls.messages.json","corruptMarkerFile":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn/corrupted.info"},"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"992791cd017d0441f609c48108aa8c37.zh-cn","_languagePackSupport":true,"_translationsConfigFile":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn/tcf.json","_cacheRoot":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn","_resolvedLanguagePackCoreLocation":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn/d78a74bcdfad14d5d3b1b782f87255d802b57511","_corruptedFile":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn/corrupted.info"}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('SSH_AGENT_PID', '1115'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/tutu/mr_ws_ros2/install/stage_ros2/lib:/home/tutu/mr_ws_ros2/install/Stage/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/tutu'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.94.0'), ('DESKTOP_SESSION', 'ubuntu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-e2d25e69-1.94-main.sock'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', '1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '947'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '21286'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/tutu/mr_ws_ros2/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'tutu'), ('_', '/usr/bin/colcon'), ('JOURNAL_STREAM', '8:32632'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tutu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/tutu/mr_ws_ros2/install/Stage/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/WP:@/tmp/.ICE-unix/1153,unix/WP:/tmp/.ICE-unix/1153'), ('VSCODE_AMD_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('INVOCATION_ID', '972ca220c8044d17a27921443397959c'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', ''), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-3f633deaf7.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/tutu/mr_ws_ros2/install/stage_ros2:/home/tutu/mr_ws_ros2/install/stage_controller:/home/tutu/mr_ws_ros2/install/simple_controller:/home/tutu/mr_ws_ros2/install/cart_launch:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tutu/mr_ws_ros2/build/Stage'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VSCODE_CODE_CACHE_PATH', '/home/tutu/.config/Code/CachedData/d78a74bcdfad14d5d3b1b782f87255d802b57511'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/tutu/mr_ws_ros2/install/stage_ros2:/home/tutu/mr_ws_ros2/install/stage_controller:/home/tutu/mr_ws_ros2/install/simple_controller:/home/tutu/mr_ws_ros2/install/cart_launch:/home/tutu/mr_ws_ros2/install/Stage'), ('VSCODE_PID', '21286')]), 'shell': False}
+[0.035563] (cart_launch) JobProgress: {'identifier': 'cart_launch', 'progress': 'cmake'}
+[0.036369] (cart_launch) Command: {'cmd': ['/usr/bin/cmake', '/home/tutu/mr_ws_ros2/src/cart_launch', '-DCMAKE_BUILD_TYPE=RelWithDebInfo', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/tutu/mr_ws_ros2/install/cart_launch'], 'cwd': '/home/tutu/mr_ws_ros2/build/cart_launch', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/tutu'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'tutu'), ('VSCODE_NLS_CONFIG', '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"zh-cn","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","languagePack":{"translationsConfigFile":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn/tcf.json","messagesFile":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn/d78a74bcdfad14d5d3b1b782f87255d802b57511/nls.messages.json","corruptMarkerFile":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn/corrupted.info"},"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"992791cd017d0441f609c48108aa8c37.zh-cn","_languagePackSupport":true,"_translationsConfigFile":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn/tcf.json","_cacheRoot":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn","_resolvedLanguagePackCoreLocation":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn/d78a74bcdfad14d5d3b1b782f87255d802b57511","_corruptedFile":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn/corrupted.info"}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('SSH_AGENT_PID', '1115'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/tutu/mr_ws_ros2/install/stage_ros2/lib:/home/tutu/mr_ws_ros2/install/Stage/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/tutu'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.94.0'), ('DESKTOP_SESSION', 'ubuntu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-e2d25e69-1.94-main.sock'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', '1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '947'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '21286'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/tutu/mr_ws_ros2/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'tutu'), ('_', '/usr/bin/colcon'), ('JOURNAL_STREAM', '8:32632'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tutu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/tutu/mr_ws_ros2/install/Stage/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/WP:@/tmp/.ICE-unix/1153,unix/WP:/tmp/.ICE-unix/1153'), ('VSCODE_AMD_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('INVOCATION_ID', '972ca220c8044d17a27921443397959c'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', ''), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-3f633deaf7.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/tutu/mr_ws_ros2/install/stage_ros2:/home/tutu/mr_ws_ros2/install/stage_controller:/home/tutu/mr_ws_ros2/install/simple_controller:/home/tutu/mr_ws_ros2/install/cart_launch:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tutu/mr_ws_ros2/build/cart_launch'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VSCODE_CODE_CACHE_PATH', '/home/tutu/.config/Code/CachedData/d78a74bcdfad14d5d3b1b782f87255d802b57511'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/tutu/mr_ws_ros2/install/stage_ros2:/home/tutu/mr_ws_ros2/install/stage_controller:/home/tutu/mr_ws_ros2/install/simple_controller:/home/tutu/mr_ws_ros2/install/cart_launch:/home/tutu/mr_ws_ros2/install/Stage:/opt/ros/foxy'), ('VSCODE_PID', '21286')]), 'shell': False}
+[0.040712] (simple_controller) JobProgress: {'identifier': 'simple_controller', 'progress': 'cmake'}
+[0.042250] (simple_controller) Command: {'cmd': ['/usr/bin/cmake', '/home/tutu/mr_ws_ros2/src/simple_controller', '-DCMAKE_BUILD_TYPE=RelWithDebInfo', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/tutu/mr_ws_ros2/install/simple_controller'], 'cwd': '/home/tutu/mr_ws_ros2/build/simple_controller', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/tutu'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'tutu'), ('VSCODE_NLS_CONFIG', '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"zh-cn","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","languagePack":{"translationsConfigFile":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn/tcf.json","messagesFile":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn/d78a74bcdfad14d5d3b1b782f87255d802b57511/nls.messages.json","corruptMarkerFile":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn/corrupted.info"},"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"992791cd017d0441f609c48108aa8c37.zh-cn","_languagePackSupport":true,"_translationsConfigFile":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn/tcf.json","_cacheRoot":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn","_resolvedLanguagePackCoreLocation":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn/d78a74bcdfad14d5d3b1b782f87255d802b57511","_corruptedFile":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn/corrupted.info"}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('SSH_AGENT_PID', '1115'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/tutu/mr_ws_ros2/install/stage_ros2/lib:/home/tutu/mr_ws_ros2/install/Stage/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/tutu'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.94.0'), ('DESKTOP_SESSION', 'ubuntu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-e2d25e69-1.94-main.sock'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', '1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '947'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '21286'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/tutu/mr_ws_ros2/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'tutu'), ('_', '/usr/bin/colcon'), ('JOURNAL_STREAM', '8:32632'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tutu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/tutu/mr_ws_ros2/install/Stage/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/WP:@/tmp/.ICE-unix/1153,unix/WP:/tmp/.ICE-unix/1153'), ('VSCODE_AMD_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('INVOCATION_ID', '972ca220c8044d17a27921443397959c'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', ''), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-3f633deaf7.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/tutu/mr_ws_ros2/install/stage_ros2:/home/tutu/mr_ws_ros2/install/stage_controller:/home/tutu/mr_ws_ros2/install/simple_controller:/home/tutu/mr_ws_ros2/install/cart_launch:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tutu/mr_ws_ros2/build/simple_controller'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VSCODE_CODE_CACHE_PATH', '/home/tutu/.config/Code/CachedData/d78a74bcdfad14d5d3b1b782f87255d802b57511'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/tutu/mr_ws_ros2/install/stage_ros2:/home/tutu/mr_ws_ros2/install/stage_controller:/home/tutu/mr_ws_ros2/install/simple_controller:/home/tutu/mr_ws_ros2/install/cart_launch:/home/tutu/mr_ws_ros2/install/Stage:/opt/ros/foxy'), ('VSCODE_PID', '21286')]), 'shell': False}
+[0.048765] (stage_controller) JobProgress: {'identifier': 'stage_controller', 'progress': 'cmake'}
+[0.049997] (stage_controller) Command: {'cmd': ['/usr/bin/cmake', '/home/tutu/mr_ws_ros2/src/stage_controller', '-DCMAKE_BUILD_TYPE=RelWithDebInfo', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/tutu/mr_ws_ros2/install/stage_controller'], 'cwd': '/home/tutu/mr_ws_ros2/build/stage_controller', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/tutu'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'tutu'), ('VSCODE_NLS_CONFIG', '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"zh-cn","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","languagePack":{"translationsConfigFile":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn/tcf.json","messagesFile":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn/d78a74bcdfad14d5d3b1b782f87255d802b57511/nls.messages.json","corruptMarkerFile":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn/corrupted.info"},"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"992791cd017d0441f609c48108aa8c37.zh-cn","_languagePackSupport":true,"_translationsConfigFile":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn/tcf.json","_cacheRoot":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn","_resolvedLanguagePackCoreLocation":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn/d78a74bcdfad14d5d3b1b782f87255d802b57511","_corruptedFile":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn/corrupted.info"}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('SSH_AGENT_PID', '1115'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/tutu/mr_ws_ros2/install/stage_ros2/lib:/home/tutu/mr_ws_ros2/install/Stage/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/tutu'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.94.0'), ('DESKTOP_SESSION', 'ubuntu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-e2d25e69-1.94-main.sock'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', '1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '947'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '21286'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/tutu/mr_ws_ros2/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'tutu'), ('_', '/usr/bin/colcon'), ('JOURNAL_STREAM', '8:32632'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tutu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/tutu/mr_ws_ros2/install/Stage/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/WP:@/tmp/.ICE-unix/1153,unix/WP:/tmp/.ICE-unix/1153'), ('VSCODE_AMD_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('INVOCATION_ID', '972ca220c8044d17a27921443397959c'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', ''), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-3f633deaf7.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/tutu/mr_ws_ros2/install/stage_ros2:/home/tutu/mr_ws_ros2/install/stage_controller:/home/tutu/mr_ws_ros2/install/simple_controller:/home/tutu/mr_ws_ros2/install/cart_launch:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tutu/mr_ws_ros2/build/stage_controller'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VSCODE_CODE_CACHE_PATH', '/home/tutu/.config/Code/CachedData/d78a74bcdfad14d5d3b1b782f87255d802b57511'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/tutu/mr_ws_ros2/install/stage_ros2:/home/tutu/mr_ws_ros2/install/stage_controller:/home/tutu/mr_ws_ros2/install/simple_controller:/home/tutu/mr_ws_ros2/install/cart_launch:/home/tutu/mr_ws_ros2/install/Stage:/opt/ros/foxy'), ('VSCODE_PID', '21286')]), 'shell': False}
+[0.054571] (Stage) StdoutLine: {'line': b'-- Stage version 4.3.0\n'}
+[0.054827] (Stage) StdoutLine: {'line': b'-- Operating system is Linux\n'}
+[0.054953] (Stage) StdoutLine: {'line': b'-- Installing Libraries to /home/tutu/mr_ws_ros2/install/Stage/lib\n'}
+[0.055051] (Stage) StdoutLine: {'line': b'-- Installing Plugins to /home/tutu/mr_ws_ros2/install/Stage/lib/Stage-4.3\n'}
+[0.055151] (Stage) StdoutLine: {'line': b'-- Build type RELWITHDEBINFO\n'}
+[0.055256] (Stage) StdoutLine: {'line': b'-- Checking for libtool\n'}
+[0.055369] (Stage) StdoutLine: {'line': b'-- Checking for required libraries...\n'}
+[0.056507] (cart_launch) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.062583] (simple_controller) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.067649] (stage_controller) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.085769] (cart_launch) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.086736] (simple_controller) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.093051] (stage_controller) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.099863] (-) TimerEvent: {}
+[0.176058] (Stage) StdoutLine: {'line': b'-- Checking for optional libraries...\n'}
+[0.176468] (Stage) StdoutLine: {'line': b'-- Installation path CMAKE_INSTALL_PREFIX=/home/tutu/mr_ws_ros2/install/Stage\n'}
+[0.176930] (Stage) StdoutLine: {'line': b'-- Configuring libstage\n'}
+[0.184719] (Stage) StdoutLine: {'line': b"-- Checking for one of the modules 'playercore>=2.1.0'\n"}
+[0.188367] (Stage) StdoutLine: {'line': b'--   * Player not detected. If Player is installed but not detected, check your PKG_CONFIG_PATH.\n'}
+[0.199969] (-) TimerEvent: {}
+[0.208365] (Stage) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.249940] (Stage) StdoutLine: {'line': b'-- Generating done\n'}
+[0.252371] (Stage) StdoutLine: {'line': b'-- Build files have been written to: /home/tutu/mr_ws_ros2/build/Stage\n'}
+[0.258320] (Stage) CommandEnded: {'returncode': 0}
+[0.259347] (Stage) JobProgress: {'identifier': 'Stage', 'progress': 'build'}
+[0.260438] (Stage) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tutu/mr_ws_ros2/build/Stage', '--', '-j8', '-l8'], 'cwd': '/home/tutu/mr_ws_ros2/build/Stage', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/tutu'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'tutu'), ('VSCODE_NLS_CONFIG', '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"zh-cn","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","languagePack":{"translationsConfigFile":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn/tcf.json","messagesFile":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn/d78a74bcdfad14d5d3b1b782f87255d802b57511/nls.messages.json","corruptMarkerFile":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn/corrupted.info"},"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"992791cd017d0441f609c48108aa8c37.zh-cn","_languagePackSupport":true,"_translationsConfigFile":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn/tcf.json","_cacheRoot":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn","_resolvedLanguagePackCoreLocation":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn/d78a74bcdfad14d5d3b1b782f87255d802b57511","_corruptedFile":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn/corrupted.info"}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('SSH_AGENT_PID', '1115'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/tutu/mr_ws_ros2/install/stage_ros2/lib:/home/tutu/mr_ws_ros2/install/Stage/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/tutu'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.94.0'), ('DESKTOP_SESSION', 'ubuntu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-e2d25e69-1.94-main.sock'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', '1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '947'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '21286'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/tutu/mr_ws_ros2/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'tutu'), ('_', '/usr/bin/colcon'), ('JOURNAL_STREAM', '8:32632'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tutu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/tutu/mr_ws_ros2/install/Stage/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/WP:@/tmp/.ICE-unix/1153,unix/WP:/tmp/.ICE-unix/1153'), ('VSCODE_AMD_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('INVOCATION_ID', '972ca220c8044d17a27921443397959c'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', ''), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-3f633deaf7.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/tutu/mr_ws_ros2/install/stage_ros2:/home/tutu/mr_ws_ros2/install/stage_controller:/home/tutu/mr_ws_ros2/install/simple_controller:/home/tutu/mr_ws_ros2/install/cart_launch:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tutu/mr_ws_ros2/build/Stage'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VSCODE_CODE_CACHE_PATH', '/home/tutu/.config/Code/CachedData/d78a74bcdfad14d5d3b1b782f87255d802b57511'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/tutu/mr_ws_ros2/install/stage_ros2:/home/tutu/mr_ws_ros2/install/stage_controller:/home/tutu/mr_ws_ros2/install/simple_controller:/home/tutu/mr_ws_ros2/install/cart_launch:/home/tutu/mr_ws_ros2/install/Stage'), ('VSCODE_PID', '21286')]), 'shell': False}
+[0.296910] (cart_launch) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.299436] (simple_controller) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.300062] (-) TimerEvent: {}
+[0.303437] (stage_controller) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.306730] (cart_launch) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[0.307739] (simple_controller) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.313232] (stage_controller) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.332898] (Stage) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/block.cc.o\x1b[0m\n'}
+[0.333278] (Stage) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/blockgroup.cc.o\x1b[0m\n'}
+[0.334291] (Stage) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/camera.cc.o\x1b[0m\n'}
+[0.334573] (Stage) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/color.cc.o\x1b[0m\n'}
+[0.335417] (Stage) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/logentry.cc.o\x1b[0m\n'}
+[0.343413] (Stage) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/file_manager.cc.o\x1b[0m\n'}
+[0.343834] (Stage) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/gl.cc.o\x1b[0m\n'}
+[0.344555] (Stage) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model.cc.o\x1b[0m\n'}
+[0.359388] (simple_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.366917] (simple_controller) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.373817] (stage_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.386286] (stage_controller) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.400167] (-) TimerEvent: {}
+[0.442976] (cart_launch) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.453268] (cart_launch) StdoutLine: {'line': b'-- Generating done\n'}
+[0.455072] (cart_launch) StdoutLine: {'line': b'-- Build files have been written to: /home/tutu/mr_ws_ros2/build/cart_launch\n'}
+[0.463019] (cart_launch) CommandEnded: {'returncode': 0}
+[0.464517] (cart_launch) JobProgress: {'identifier': 'cart_launch', 'progress': 'build'}
+[0.464584] (cart_launch) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tutu/mr_ws_ros2/build/cart_launch', '--', '-j8', '-l8'], 'cwd': '/home/tutu/mr_ws_ros2/build/cart_launch', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/tutu'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'tutu'), ('VSCODE_NLS_CONFIG', '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"zh-cn","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","languagePack":{"translationsConfigFile":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn/tcf.json","messagesFile":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn/d78a74bcdfad14d5d3b1b782f87255d802b57511/nls.messages.json","corruptMarkerFile":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn/corrupted.info"},"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"992791cd017d0441f609c48108aa8c37.zh-cn","_languagePackSupport":true,"_translationsConfigFile":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn/tcf.json","_cacheRoot":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn","_resolvedLanguagePackCoreLocation":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn/d78a74bcdfad14d5d3b1b782f87255d802b57511","_corruptedFile":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn/corrupted.info"}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('SSH_AGENT_PID', '1115'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/tutu/mr_ws_ros2/install/stage_ros2/lib:/home/tutu/mr_ws_ros2/install/Stage/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/tutu'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.94.0'), ('DESKTOP_SESSION', 'ubuntu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-e2d25e69-1.94-main.sock'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', '1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '947'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '21286'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/tutu/mr_ws_ros2/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'tutu'), ('_', '/usr/bin/colcon'), ('JOURNAL_STREAM', '8:32632'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tutu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/tutu/mr_ws_ros2/install/Stage/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/WP:@/tmp/.ICE-unix/1153,unix/WP:/tmp/.ICE-unix/1153'), ('VSCODE_AMD_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('INVOCATION_ID', '972ca220c8044d17a27921443397959c'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', ''), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-3f633deaf7.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/tutu/mr_ws_ros2/install/stage_ros2:/home/tutu/mr_ws_ros2/install/stage_controller:/home/tutu/mr_ws_ros2/install/simple_controller:/home/tutu/mr_ws_ros2/install/cart_launch:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tutu/mr_ws_ros2/build/cart_launch'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VSCODE_CODE_CACHE_PATH', '/home/tutu/.config/Code/CachedData/d78a74bcdfad14d5d3b1b782f87255d802b57511'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/tutu/mr_ws_ros2/install/stage_ros2:/home/tutu/mr_ws_ros2/install/stage_controller:/home/tutu/mr_ws_ros2/install/simple_controller:/home/tutu/mr_ws_ros2/install/cart_launch:/home/tutu/mr_ws_ros2/install/Stage:/opt/ros/foxy'), ('VSCODE_PID', '21286')]), 'shell': False}
+[0.500281] (-) TimerEvent: {}
+[0.600719] (-) TimerEvent: {}
+[0.645188] (cart_launch) CommandEnded: {'returncode': 0}
+[0.700862] (-) TimerEvent: {}
+[0.782140] (simple_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.800968] (-) TimerEvent: {}
+[0.844960] (stage_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.900144] (simple_controller) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.901113] (-) TimerEvent: {}
+[0.906620] (simple_controller) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.929525] (cart_launch) JobProgress: {'identifier': 'cart_launch', 'progress': 'install'}
+[0.971996] (cart_launch) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/tutu/mr_ws_ros2/build/cart_launch'], 'cwd': '/home/tutu/mr_ws_ros2/build/cart_launch', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/tutu'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'tutu'), ('VSCODE_NLS_CONFIG', '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"zh-cn","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","languagePack":{"translationsConfigFile":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn/tcf.json","messagesFile":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn/d78a74bcdfad14d5d3b1b782f87255d802b57511/nls.messages.json","corruptMarkerFile":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn/corrupted.info"},"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"992791cd017d0441f609c48108aa8c37.zh-cn","_languagePackSupport":true,"_translationsConfigFile":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn/tcf.json","_cacheRoot":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn","_resolvedLanguagePackCoreLocation":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn/d78a74bcdfad14d5d3b1b782f87255d802b57511","_corruptedFile":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn/corrupted.info"}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('SSH_AGENT_PID', '1115'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/tutu/mr_ws_ros2/install/stage_ros2/lib:/home/tutu/mr_ws_ros2/install/Stage/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/tutu'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.94.0'), ('DESKTOP_SESSION', 'ubuntu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-e2d25e69-1.94-main.sock'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', '1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '947'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '21286'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/tutu/mr_ws_ros2/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'tutu'), ('_', '/usr/bin/colcon'), ('JOURNAL_STREAM', '8:32632'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tutu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/tutu/mr_ws_ros2/install/Stage/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/WP:@/tmp/.ICE-unix/1153,unix/WP:/tmp/.ICE-unix/1153'), ('VSCODE_AMD_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('INVOCATION_ID', '972ca220c8044d17a27921443397959c'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', ''), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-3f633deaf7.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/tutu/mr_ws_ros2/install/stage_ros2:/home/tutu/mr_ws_ros2/install/stage_controller:/home/tutu/mr_ws_ros2/install/simple_controller:/home/tutu/mr_ws_ros2/install/cart_launch:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tutu/mr_ws_ros2/build/cart_launch'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VSCODE_CODE_CACHE_PATH', '/home/tutu/.config/Code/CachedData/d78a74bcdfad14d5d3b1b782f87255d802b57511'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/tutu/mr_ws_ros2/install/stage_ros2:/home/tutu/mr_ws_ros2/install/stage_controller:/home/tutu/mr_ws_ros2/install/simple_controller:/home/tutu/mr_ws_ros2/install/cart_launch:/home/tutu/mr_ws_ros2/install/Stage:/opt/ros/foxy'), ('VSCODE_PID', '21286')]), 'shell': False}
+[1.001561] (-) TimerEvent: {}
+[1.017157] (cart_launch) StdoutLine: {'line': b'-- Install configuration: "RelWithDebInfo"\n'}
+[1.018891] (cart_launch) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[1.025802] (cart_launch) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/cart_launch/share/cart_launch/launch/cart.launch.py\n'}
+[1.066390] (stage_controller) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[1.069086] (stage_controller) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.073678] (cart_launch) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/cart_launch/share/cart_launch/launch/cart_stage.launch.py\n'}
+[1.101729] (-) TimerEvent: {}
+[1.115807] (cart_launch) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/cart_launch/share/cart_launch/launch/cart_stage.xml\n'}
+[1.162571] (cart_launch) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/cart_launch/share/cart_launch/stage_worlds/bitmaps/cave.png\n'}
+[1.201837] (-) TimerEvent: {}
+[1.230525] (cart_launch) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/cart_launch/share/cart_launch/stage_worlds/bitmaps/cave.png\xef\x80\xbaZone.Identifier\n'}
+[1.271300] (cart_launch) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/cart_launch/share/cart_launch/stage_worlds/bitmaps/empty.png\n'}
+[1.302005] (-) TimerEvent: {}
+[1.315766] (cart_launch) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/cart_launch/share/cart_launch/stage_worlds/bitmaps/empty.png\xef\x80\xbaZone.Identifier\n'}
+[1.374578] (cart_launch) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/cart_launch/share/cart_launch/stage_worlds/bitmaps/feature_map.png\n'}
+[1.402141] (-) TimerEvent: {}
+[1.416708] (simple_controller) StdoutLine: {'line': b'-- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)\n'}
+[1.426516] (cart_launch) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/cart_launch/share/cart_launch/stage_worlds/bitmaps/feature_map.png\xef\x80\xbaZone.Identifier\n'}
+[1.469937] (cart_launch) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/cart_launch/share/cart_launch/stage_worlds/bitmaps/feature_map_simple.png\n'}
+[1.477202] (stage_controller) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[1.502770] (-) TimerEvent: {}
+[1.515544] (cart_launch) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/cart_launch/share/cart_launch/stage_worlds/bitmaps/feature_map_simple.png\xef\x80\xbaZone.Identifier\n'}
+[1.565509] (cart_launch) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/cart_launch/share/cart_launch/stage_worlds/bitmaps/kalman_map.png\n'}
+[1.568527] (stage_controller) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.602927] (-) TimerEvent: {}
+[1.605167] (cart_launch) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/cart_launch/share/cart_launch/stage_worlds/bitmaps/kalman_map.png\xef\x80\xbaZone.Identifier\n'}
+[1.674121] (cart_launch) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/cart_launch/share/cart_launch/stage_worlds/bitmaps/mapping_map.png\n'}
+[1.703142] (-) TimerEvent: {}
+[1.713582] (cart_launch) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/cart_launch/share/cart_launch/stage_worlds/bitmaps/mapping_map.png\xef\x80\xbaZone.Identifier\n'}
+[1.745225] (stage_controller) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.747491] (stage_controller) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.748117] (stage_controller) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.748399] (stage_controller) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.749649] (stage_controller) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.750016] (stage_controller) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.751298] (stage_controller) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.753869] (stage_controller) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.754712] (stage_controller) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.756511] (stage_controller) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.759730] (cart_launch) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/cart_launch/share/cart_launch/stage_worlds/cave.yaml\n'}
+[1.763345] (stage_controller) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.798304] (cart_launch) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/cart_launch/share/cart_launch/stage_worlds/empty.world\n'}
+[1.803319] (-) TimerEvent: {}
+[1.807970] (stage_controller) StdoutLine: {'line': b'-- Generating done\n'}
+[1.817052] (stage_controller) StdoutLine: {'line': b'-- Build files have been written to: /home/tutu/mr_ws_ros2/build/stage_controller\n'}
+[1.832031] (stage_controller) CommandEnded: {'returncode': 0}
+[1.833640] (stage_controller) JobProgress: {'identifier': 'stage_controller', 'progress': 'build'}
+[1.833729] (stage_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tutu/mr_ws_ros2/build/stage_controller', '--', '-j8', '-l8'], 'cwd': '/home/tutu/mr_ws_ros2/build/stage_controller', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/tutu'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'tutu'), ('VSCODE_NLS_CONFIG', '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"zh-cn","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","languagePack":{"translationsConfigFile":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn/tcf.json","messagesFile":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn/d78a74bcdfad14d5d3b1b782f87255d802b57511/nls.messages.json","corruptMarkerFile":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn/corrupted.info"},"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"992791cd017d0441f609c48108aa8c37.zh-cn","_languagePackSupport":true,"_translationsConfigFile":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn/tcf.json","_cacheRoot":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn","_resolvedLanguagePackCoreLocation":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn/d78a74bcdfad14d5d3b1b782f87255d802b57511","_corruptedFile":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn/corrupted.info"}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('SSH_AGENT_PID', '1115'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/tutu/mr_ws_ros2/install/stage_ros2/lib:/home/tutu/mr_ws_ros2/install/Stage/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/tutu'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.94.0'), ('DESKTOP_SESSION', 'ubuntu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-e2d25e69-1.94-main.sock'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', '1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '947'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '21286'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/tutu/mr_ws_ros2/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'tutu'), ('_', '/usr/bin/colcon'), ('JOURNAL_STREAM', '8:32632'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tutu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/tutu/mr_ws_ros2/install/Stage/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/WP:@/tmp/.ICE-unix/1153,unix/WP:/tmp/.ICE-unix/1153'), ('VSCODE_AMD_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('INVOCATION_ID', '972ca220c8044d17a27921443397959c'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', ''), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-3f633deaf7.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/tutu/mr_ws_ros2/install/stage_ros2:/home/tutu/mr_ws_ros2/install/stage_controller:/home/tutu/mr_ws_ros2/install/simple_controller:/home/tutu/mr_ws_ros2/install/cart_launch:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tutu/mr_ws_ros2/build/stage_controller'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VSCODE_CODE_CACHE_PATH', '/home/tutu/.config/Code/CachedData/d78a74bcdfad14d5d3b1b782f87255d802b57511'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/tutu/mr_ws_ros2/install/stage_ros2:/home/tutu/mr_ws_ros2/install/stage_controller:/home/tutu/mr_ws_ros2/install/simple_controller:/home/tutu/mr_ws_ros2/install/cart_launch:/home/tutu/mr_ws_ros2/install/Stage:/opt/ros/foxy'), ('VSCODE_PID', '21286')]), 'shell': False}
+[1.855789] (cart_launch) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/cart_launch/share/cart_launch/stage_worlds/feature_map.world\n'}
+[1.864158] (simple_controller) StdoutLine: {'line': b'-- Found tf2: 0.13.14 (/opt/ros/foxy/share/tf2/cmake)\n'}
+[1.882517] (cart_launch) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/cart_launch/share/cart_launch/stage_worlds/feature_map_simple.world\n'}
+[1.903468] (-) TimerEvent: {}
+[1.912361] (cart_launch) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/cart_launch/share/cart_launch/stage_worlds/kalman_map.world\n'}
+[1.912762] (simple_controller) StdoutLine: {'line': b'-- Found angles: 1.12.6 (/opt/ros/foxy/share/angles/cmake)\n'}
+[1.924901] (simple_controller) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.954146] (cart_launch) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/cart_launch/share/cart_launch/stage_worlds/map.inc\n'}
+[1.969814] (cart_launch) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/cart_launch/share/cart_launch/stage_worlds/mapping.world\n'}
+[1.991229] (cart_launch) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/cart_launch/share/cart_launch/stage_worlds/mr.inc\n'}
+[2.003583] (-) TimerEvent: {}
+[2.008995] (cart_launch) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/cart_launch/share/cart_launch/stage_worlds/pioneer.inc\n'}
+[2.028022] (cart_launch) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/cart_launch/share/cart_launch/stage_worlds/sick.inc\n'}
+[2.047473] (cart_launch) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/cart_launch/share/cart_launch/stage_worlds/sick20.inc\n'}
+[2.066132] (cart_launch) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/cart_launch/share/cart_launch/stage_worlds/simple.world\n'}
+[2.104825] (-) TimerEvent: {}
+[2.107338] (cart_launch) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/cart_launch/share/ament_index/resource_index/package_run_dependencies/cart_launch\n'}
+[2.109390] (stage_controller) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/stage_controller.dir/src/stage_controller.cpp.o\x1b[0m\n'}
+[2.127620] (cart_launch) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/cart_launch/share/ament_index/resource_index/parent_prefix_path/cart_launch\n'}
+[2.128983] (stage_controller) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/stage_throttle.dir/src/stage_throttle.cpp.o\x1b[0m\n'}
+[2.130522] (simple_controller) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.132379] (simple_controller) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.132831] (simple_controller) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[2.133038] (simple_controller) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.135129] (simple_controller) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[2.135677] (simple_controller) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[2.142949] (simple_controller) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.143871] (simple_controller) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.144600] (simple_controller) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[2.145432] (Stage) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_actuator.cc.o\x1b[0m\n'}
+[2.145735] (cart_launch) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/cart_launch/share/cart_launch/environment/ament_prefix_path.sh\n'}
+[2.146322] (simple_controller) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.146608] (simple_controller) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.147323] (simple_controller) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.164408] (simple_controller) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.203376] (cart_launch) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/cart_launch/share/cart_launch/environment/ament_prefix_path.dsv\n'}
+[2.204976] (-) TimerEvent: {}
+[2.226777] (simple_controller) StdoutLine: {'line': b'-- Generating done\n'}
+[2.229974] (simple_controller) StdoutLine: {'line': b'-- Build files have been written to: /home/tutu/mr_ws_ros2/build/simple_controller\n'}
+[2.249078] (simple_controller) CommandEnded: {'returncode': 0}
+[2.251468] (simple_controller) JobProgress: {'identifier': 'simple_controller', 'progress': 'build'}
+[2.251642] (simple_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tutu/mr_ws_ros2/build/simple_controller', '--', '-j8', '-l8'], 'cwd': '/home/tutu/mr_ws_ros2/build/simple_controller', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/tutu'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'tutu'), ('VSCODE_NLS_CONFIG', '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"zh-cn","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","languagePack":{"translationsConfigFile":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn/tcf.json","messagesFile":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn/d78a74bcdfad14d5d3b1b782f87255d802b57511/nls.messages.json","corruptMarkerFile":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn/corrupted.info"},"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"992791cd017d0441f609c48108aa8c37.zh-cn","_languagePackSupport":true,"_translationsConfigFile":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn/tcf.json","_cacheRoot":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn","_resolvedLanguagePackCoreLocation":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn/d78a74bcdfad14d5d3b1b782f87255d802b57511","_corruptedFile":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn/corrupted.info"}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('SSH_AGENT_PID', '1115'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/tutu/mr_ws_ros2/install/stage_ros2/lib:/home/tutu/mr_ws_ros2/install/Stage/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/tutu'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.94.0'), ('DESKTOP_SESSION', 'ubuntu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-e2d25e69-1.94-main.sock'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', '1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '947'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '21286'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/tutu/mr_ws_ros2/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'tutu'), ('_', '/usr/bin/colcon'), ('JOURNAL_STREAM', '8:32632'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tutu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/tutu/mr_ws_ros2/install/Stage/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/WP:@/tmp/.ICE-unix/1153,unix/WP:/tmp/.ICE-unix/1153'), ('VSCODE_AMD_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('INVOCATION_ID', '972ca220c8044d17a27921443397959c'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', ''), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-3f633deaf7.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/tutu/mr_ws_ros2/install/stage_ros2:/home/tutu/mr_ws_ros2/install/stage_controller:/home/tutu/mr_ws_ros2/install/simple_controller:/home/tutu/mr_ws_ros2/install/cart_launch:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tutu/mr_ws_ros2/build/simple_controller'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VSCODE_CODE_CACHE_PATH', '/home/tutu/.config/Code/CachedData/d78a74bcdfad14d5d3b1b782f87255d802b57511'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/tutu/mr_ws_ros2/install/stage_ros2:/home/tutu/mr_ws_ros2/install/stage_controller:/home/tutu/mr_ws_ros2/install/simple_controller:/home/tutu/mr_ws_ros2/install/cart_launch:/home/tutu/mr_ws_ros2/install/Stage:/opt/ros/foxy'), ('VSCODE_PID', '21286')]), 'shell': False}
+[2.293407] (cart_launch) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/cart_launch/share/cart_launch/environment/path.sh\n'}
+[2.305313] (-) TimerEvent: {}
+[2.354790] (cart_launch) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/cart_launch/share/cart_launch/environment/path.dsv\n'}
+[2.397904] (cart_launch) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/cart_launch/share/cart_launch/local_setup.bash\n'}
+[2.405582] (-) TimerEvent: {}
+[2.448561] (cart_launch) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/cart_launch/share/cart_launch/local_setup.sh\n'}
+[2.496872] (cart_launch) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/cart_launch/share/cart_launch/local_setup.zsh\n'}
+[2.505801] (-) TimerEvent: {}
+[2.543367] (simple_controller) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/controller_node.dir/src/controller.cpp.o\x1b[0m\n'}
+[2.545921] (cart_launch) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/cart_launch/share/cart_launch/local_setup.dsv\n'}
+[2.579747] (simple_controller) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/controller_node.dir/src/controller_node.cpp.o\x1b[0m\n'}
+[2.597604] (cart_launch) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/cart_launch/share/cart_launch/package.dsv\n'}
+[2.605978] (-) TimerEvent: {}
+[2.647563] (cart_launch) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/cart_launch/share/ament_index/resource_index/packages/cart_launch\n'}
+[2.702542] (cart_launch) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/cart_launch/share/cart_launch/cmake/cart_launchConfig.cmake\n'}
+[2.706086] (-) TimerEvent: {}
+[2.749812] (cart_launch) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/cart_launch/share/cart_launch/cmake/cart_launchConfig-version.cmake\n'}
+[2.796694] (cart_launch) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/cart_launch/share/cart_launch/package.xml\n'}
+[2.806302] (-) TimerEvent: {}
+[2.849318] (cart_launch) CommandEnded: {'returncode': 0}
+[2.906572] (-) TimerEvent: {}
+[3.007418] (-) TimerEvent: {}
+[3.091573] (cart_launch) JobEnded: {'identifier': 'cart_launch', 'rc': 0}
+[3.107557] (-) TimerEvent: {}
+[3.135604] (Stage) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_blinkenlight.cc.o\x1b[0m\n'}
+[3.207694] (-) TimerEvent: {}
+[3.308130] (-) TimerEvent: {}
+[3.318247] (Stage) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_blobfinder.cc.o\x1b[0m\n'}
+[3.341051] (Stage) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_bumper.cc.o\x1b[0m\n'}
+[3.408271] (-) TimerEvent: {}
+[3.509227] (-) TimerEvent: {}
+[3.610019] (-) TimerEvent: {}
+[3.710438] (-) TimerEvent: {}
+[3.810912] (-) TimerEvent: {}
+[3.911381] (-) TimerEvent: {}
+[4.012347] (-) TimerEvent: {}
+[4.026443] (Stage) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_callbacks.cc.o\x1b[0m\n'}
+[4.112477] (-) TimerEvent: {}
+[4.212993] (-) TimerEvent: {}
+[4.314248] (-) TimerEvent: {}
+[4.324412] (Stage) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_camera.cc.o\x1b[0m\n'}
+[4.414422] (-) TimerEvent: {}
+[4.515896] (-) TimerEvent: {}
+[4.617011] (-) TimerEvent: {}
+[4.718556] (-) TimerEvent: {}
+[4.772946] (Stage) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_draw.cc.o\x1b[0m\n'}
+[4.818785] (-) TimerEvent: {}
+[4.919997] (-) TimerEvent: {}
+[5.020864] (-) TimerEvent: {}
+[5.121686] (-) TimerEvent: {}
+[5.222447] (-) TimerEvent: {}
+[5.311317] (Stage) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_fiducial.cc.o\x1b[0m\n'}
+[5.322564] (-) TimerEvent: {}
+[5.422992] (-) TimerEvent: {}
+[5.523446] (-) TimerEvent: {}
+[5.624212] (-) TimerEvent: {}
+[5.724604] (-) TimerEvent: {}
+[5.825086] (-) TimerEvent: {}
+[5.843006] (Stage) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_gripper.cc.o\x1b[0m\n'}
+[5.925218] (-) TimerEvent: {}
+[6.033081] (-) TimerEvent: {}
+[6.133564] (-) TimerEvent: {}
+[6.234463] (-) TimerEvent: {}
+[6.334991] (-) TimerEvent: {}
+[6.435922] (-) TimerEvent: {}
+[6.476607] (Stage) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_lightindicator.cc.o\x1b[0m\n'}
+[6.536069] (-) TimerEvent: {}
+[6.636902] (-) TimerEvent: {}
+[6.737691] (-) TimerEvent: {}
+[6.838669] (-) TimerEvent: {}
+[6.939067] (-) TimerEvent: {}
+[7.007230] (Stage) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_position.cc.o\x1b[0m\n'}
+[7.039181] (-) TimerEvent: {}
+[7.139591] (-) TimerEvent: {}
+[7.239994] (-) TimerEvent: {}
+[7.340510] (-) TimerEvent: {}
+[7.389682] (Stage) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_ranger.cc.o\x1b[0m\n'}
+[7.440638] (-) TimerEvent: {}
+[7.444412] (Stage) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/option.cc.o\x1b[0m\n'}
+[7.456232] (simple_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tutu/mr_ws_ros2/src/simple_controller/src/controller_node.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.456512] (simple_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tutu/mr_ws_ros2/src/simple_controller/src/controller_node.cpp:39:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kignoring return value of \xe2\x80\x98\x1b[01m\x1b[Krclcpp::node_interfaces::OnSetParametersCallbackHandle::SharedPtr rclcpp::Node::add_on_set_parameters_callback(rclcpp::Node::OnParametersSetCallbackType)\x1b[m\x1b[K\xe2\x80\x99, declared with attribute warn_unused_result [\x1b[01;35m\x1b[K-Wunused-result\x1b[m\x1b[K]\n'}
+[7.456661] (simple_controller) StderrLine: {'line': b'   39 |     })\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[7.456802] (simple_controller) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[7.456920] (simple_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[7.457041] (simple_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[7.457157] (simple_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[7.457325] (simple_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/tutu/mr_ws_ros2/src/simple_controller/src/controller_node.cpp:1\x1b[m\x1b[K:\n'}
+[7.457466] (simple_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:819:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[7.457673] (simple_controller) StderrLine: {'line': b'  819 |   \x1b[01;36m\x1b[Kadd_on_set_parameters_callback\x1b[m\x1b[K(OnParametersSetCallbackType callback);\n'}
+[7.457849] (simple_controller) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.540795] (-) TimerEvent: {}
+[7.641460] (-) TimerEvent: {}
+[7.649509] (Stage) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/powerpack.cc.o\x1b[0m\n'}
+[7.741633] (-) TimerEvent: {}
+[7.842342] (-) TimerEvent: {}
+[7.943176] (-) TimerEvent: {}
+[8.043822] (-) TimerEvent: {}
+[8.145577] (-) TimerEvent: {}
+[8.246880] (-) TimerEvent: {}
+[8.347319] (-) TimerEvent: {}
+[8.448230] (-) TimerEvent: {}
+[8.549113] (-) TimerEvent: {}
+[8.649909] (-) TimerEvent: {}
+[8.750706] (-) TimerEvent: {}
+[8.851445] (-) TimerEvent: {}
+[8.952310] (-) TimerEvent: {}
+[9.053438] (-) TimerEvent: {}
+[9.099471] (Stage) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/region.cc.o\x1b[0m\n'}
+[9.153554] (-) TimerEvent: {}
+[9.228324] (Stage) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/stage.cc.o\x1b[0m\n'}
+[9.253676] (-) TimerEvent: {}
+[9.281221] (Stage) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/texture_manager.cc.o\x1b[0m\n'}
+[9.353792] (-) TimerEvent: {}
+[9.454654] (-) TimerEvent: {}
+[9.555272] (-) TimerEvent: {}
+[9.585266] (Stage) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/typetable.cc.o\x1b[0m\n'}
+[9.655458] (-) TimerEvent: {}
+[9.757020] (-) TimerEvent: {}
+[9.858510] (-) TimerEvent: {}
+[9.959122] (-) TimerEvent: {}
+[10.059902] (-) TimerEvent: {}
+[10.160532] (-) TimerEvent: {}
+[10.201093] (Stage) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/world.cc.o\x1b[0m\n'}
+[10.260616] (-) TimerEvent: {}
+[10.361073] (-) TimerEvent: {}
+[10.461519] (-) TimerEvent: {}
+[10.561972] (-) TimerEvent: {}
+[10.662780] (-) TimerEvent: {}
+[10.763585] (-) TimerEvent: {}
+[10.863974] (-) TimerEvent: {}
+[10.964794] (-) TimerEvent: {}
+[11.066032] (-) TimerEvent: {}
+[11.167431] (-) TimerEvent: {}
+[11.268346] (-) TimerEvent: {}
+[11.372479] (-) TimerEvent: {}
+[11.474254] (-) TimerEvent: {}
+[11.477089] (Stage) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/worldfile.cc.o\x1b[0m\n'}
+[11.574452] (-) TimerEvent: {}
+[11.675352] (-) TimerEvent: {}
+[11.678883] (Stage) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/canvas.cc.o\x1b[0m\n'}
+[11.715897] (Stage) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/options_dlg.cc.o\x1b[0m\n'}
+[11.775521] (-) TimerEvent: {}
+[11.876482] (-) TimerEvent: {}
+[11.977346] (-) TimerEvent: {}
+[12.078088] (-) TimerEvent: {}
+[12.178591] (-) TimerEvent: {}
+[12.279329] (-) TimerEvent: {}
+[12.380123] (-) TimerEvent: {}
+[12.387029] (Stage) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/vis_strip.cc.o\x1b[0m\n'}
+[12.480249] (-) TimerEvent: {}
+[12.581143] (-) TimerEvent: {}
+[12.682292] (-) TimerEvent: {}
+[12.783485] (-) TimerEvent: {}
+[12.885978] (-) TimerEvent: {}
+[12.987702] (-) TimerEvent: {}
+[13.089109] (-) TimerEvent: {}
+[13.189676] (-) TimerEvent: {}
+[13.290197] (-) TimerEvent: {}
+[13.390872] (-) TimerEvent: {}
+[13.491871] (-) TimerEvent: {}
+[13.506905] (Stage) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/worldgui.cc.o\x1b[0m\n'}
+[13.529729] (Stage) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stage.dir/ancestor.cc.o\x1b[0m\n'}
+[13.591992] (-) TimerEvent: {}
+[13.692984] (-) TimerEvent: {}
+[13.793848] (-) TimerEvent: {}
+[13.894889] (-) TimerEvent: {}
+[13.995853] (-) TimerEvent: {}
+[14.096799] (-) TimerEvent: {}
+[14.198283] (-) TimerEvent: {}
+[14.299964] (-) TimerEvent: {}
+[14.403404] (-) TimerEvent: {}
+[14.505229] (-) TimerEvent: {}
+[14.606496] (-) TimerEvent: {}
+[14.707550] (-) TimerEvent: {}
+[14.808510] (-) TimerEvent: {}
+[14.909436] (-) TimerEvent: {}
+[15.010374] (-) TimerEvent: {}
+[15.111221] (-) TimerEvent: {}
+[15.212086] (-) TimerEvent: {}
+[15.312996] (-) TimerEvent: {}
+[15.417320] (-) TimerEvent: {}
+[15.518162] (-) TimerEvent: {}
+[15.618996] (-) TimerEvent: {}
+[15.719714] (-) TimerEvent: {}
+[15.820215] (-) TimerEvent: {}
+[15.920730] (-) TimerEvent: {}
+[16.021286] (-) TimerEvent: {}
+[16.121766] (-) TimerEvent: {}
+[16.222690] (-) TimerEvent: {}
+[16.323210] (-) TimerEvent: {}
+[16.423754] (-) TimerEvent: {}
+[16.524237] (-) TimerEvent: {}
+[16.624721] (-) TimerEvent: {}
+[16.725250] (-) TimerEvent: {}
+[16.826284] (-) TimerEvent: {}
+[16.927358] (-) TimerEvent: {}
+[17.028408] (-) TimerEvent: {}
+[17.130013] (-) TimerEvent: {}
+[17.231528] (-) TimerEvent: {}
+[17.332168] (-) TimerEvent: {}
+[17.432830] (-) TimerEvent: {}
+[17.533702] (-) TimerEvent: {}
+[17.634291] (-) TimerEvent: {}
+[17.734839] (-) TimerEvent: {}
+[17.835465] (-) TimerEvent: {}
+[17.936113] (-) TimerEvent: {}
+[18.036558] (-) TimerEvent: {}
+[18.137050] (-) TimerEvent: {}
+[18.237536] (-) TimerEvent: {}
+[18.338001] (-) TimerEvent: {}
+[18.438450] (-) TimerEvent: {}
+[18.538911] (-) TimerEvent: {}
+[18.639394] (-) TimerEvent: {}
+[18.739829] (-) TimerEvent: {}
+[18.840261] (-) TimerEvent: {}
+[18.940700] (-) TimerEvent: {}
+[19.041216] (-) TimerEvent: {}
+[19.141673] (-) TimerEvent: {}
+[19.218501] (Stage) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX shared library libstage.so\x1b[0m\n'}
+[19.241809] (-) TimerEvent: {}
+[19.342372] (-) TimerEvent: {}
+[19.443088] (-) TimerEvent: {}
+[19.544647] (-) TimerEvent: {}
+[19.646800] (-) TimerEvent: {}
+[19.747386] (-) TimerEvent: {}
+[19.848018] (-) TimerEvent: {}
+[19.860567] (Stage) StdoutLine: {'line': b'[ 57%] Built target stage\n'}
+[19.934254] (Stage) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object libstage/CMakeFiles/stagebinary.dir/main.cc.o\x1b[0m\n'}
+[19.935404] (Stage) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object examples/ctrl/CMakeFiles/fasr.dir/fasr.cc.o\x1b[0m\n'}
+[19.948197] (-) TimerEvent: {}
+[19.953998] (Stage) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object examples/ctrl/CMakeFiles/sink.dir/sink.cc.o\x1b[0m\n'}
+[19.966357] (Stage) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object examples/ctrl/CMakeFiles/fasr2.dir/fasr2.cc.o\x1b[0m\n'}
+[19.970878] (Stage) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object examples/ctrl/CMakeFiles/dynamic.dir/dynamic.cc.o\x1b[0m\n'}
+[19.991138] (Stage) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object examples/ctrl/CMakeFiles/source.dir/source.cc.o\x1b[0m\n'}
+[20.005665] (Stage) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object examples/ctrl/CMakeFiles/wander.dir/wander.cc.o\x1b[0m\n'}
+[20.024684] (Stage) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object examples/ctrl/CMakeFiles/rasterize.dir/rasterize.cc.o\x1b[0m\n'}
+[20.048316] (-) TimerEvent: {}
+[20.149493] (-) TimerEvent: {}
+[20.250367] (-) TimerEvent: {}
+[20.350877] (-) TimerEvent: {}
+[20.451833] (-) TimerEvent: {}
+[20.552830] (-) TimerEvent: {}
+[20.653385] (-) TimerEvent: {}
+[20.753879] (-) TimerEvent: {}
+[20.854366] (-) TimerEvent: {}
+[20.954831] (-) TimerEvent: {}
+[21.055324] (-) TimerEvent: {}
+[21.156356] (-) TimerEvent: {}
+[21.258053] (-) TimerEvent: {}
+[21.366108] (-) TimerEvent: {}
+[21.466587] (-) TimerEvent: {}
+[21.568557] (-) TimerEvent: {}
+[21.670133] (-) TimerEvent: {}
+[21.770686] (-) TimerEvent: {}
+[21.871248] (-) TimerEvent: {}
+[21.971858] (-) TimerEvent: {}
+[22.072342] (-) TimerEvent: {}
+[22.172931] (-) TimerEvent: {}
+[22.273502] (-) TimerEvent: {}
+[22.374878] (-) TimerEvent: {}
+[22.476191] (-) TimerEvent: {}
+[22.576786] (-) TimerEvent: {}
+[22.678993] (-) TimerEvent: {}
+[22.704541] (Stage) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking CXX shared module fasr.so\x1b[0m\n'}
+[22.779210] (-) TimerEvent: {}
+[22.879790] (-) TimerEvent: {}
+[22.980485] (-) TimerEvent: {}
+[23.054182] (Stage) StdoutLine: {'line': b'[ 72%] Built target fasr\n'}
+[23.080615] (-) TimerEvent: {}
+[23.141594] (Stage) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object examples/ctrl/CMakeFiles/fasr2.dir/astar/findpath.cpp.o\x1b[0m\n'}
+[23.180765] (-) TimerEvent: {}
+[23.281255] (-) TimerEvent: {}
+[23.381847] (-) TimerEvent: {}
+[23.483201] (-) TimerEvent: {}
+[23.584174] (-) TimerEvent: {}
+[23.685196] (-) TimerEvent: {}
+[23.786219] (-) TimerEvent: {}
+[23.886712] (-) TimerEvent: {}
+[23.923891] (Stage) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared module dynamic.so\x1b[0m\n'}
+[23.986868] (-) TimerEvent: {}
+[24.087411] (-) TimerEvent: {}
+[24.188227] (-) TimerEvent: {}
+[24.192275] (Stage) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX shared module wander.so\x1b[0m\n'}
+[24.288362] (-) TimerEvent: {}
+[24.390238] (-) TimerEvent: {}
+[24.462406] (Stage) StdoutLine: {'line': b'[ 77%] Built target dynamic\n'}
+[24.490423] (-) TimerEvent: {}
+[24.592035] (-) TimerEvent: {}
+[24.595877] (Stage) StdoutLine: {'line': b'[ 77%] Built target wander\n'}
+[24.631586] (Stage) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object examples/ctrl/CMakeFiles/lasernoise.dir/lasernoise.cc.o\x1b[0m\n'}
+[24.637032] (Stage) StdoutLine: {'line': b'[ 81%] \x1b[32m\x1b[1mLinking CXX shared module sink.so\x1b[0m\n'}
+[24.692232] (-) TimerEvent: {}
+[24.758349] (Stage) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object examples/ctrl/CMakeFiles/pioneer_flocking.dir/pioneer_flocking.cc.o\x1b[0m\n'}
+[24.759088] (Stage) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking CXX shared module rasterize.so\x1b[0m\n'}
+[24.787188] (Stage) StdoutLine: {'line': b'[ 86%] \x1b[32m\x1b[1mLinking CXX executable stage\x1b[0m\n'}
+[24.792422] (-) TimerEvent: {}
+[24.893685] (-) TimerEvent: {}
+[24.994477] (-) TimerEvent: {}
+[25.009630] (Stage) StdoutLine: {'line': b'[ 88%] \x1b[32m\x1b[1mLinking CXX shared module source.so\x1b[0m\n'}
+[25.094578] (-) TimerEvent: {}
+[25.097193] (Stage) StdoutLine: {'line': b'[ 88%] Built target rasterize\n'}
+[25.101522] (Stage) StdoutLine: {'line': b'[ 88%] Built target sink\n'}
+[25.194790] (-) TimerEvent: {}
+[25.285640] (Stage) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding CXX object worlds/benchmark/CMakeFiles/expand_pioneer.dir/expand_pioneer.cc.o\x1b[0m\n'}
+[25.294987] (-) TimerEvent: {}
+[25.305010] (Stage) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding CXX object worlds/benchmark/CMakeFiles/expand_swarm.dir/expand_swarm.cc.o\x1b[0m\n'}
+[25.352009] (Stage) StdoutLine: {'line': b'[ 91%] Built target source\n'}
+[25.395096] (-) TimerEvent: {}
+[25.428281] (Stage) StdoutLine: {'line': b'[ 91%] Built target stagebinary\n'}
+[25.495228] (-) TimerEvent: {}
+[25.595736] (-) TimerEvent: {}
+[25.696256] (-) TimerEvent: {}
+[25.796796] (-) TimerEvent: {}
+[25.897824] (-) TimerEvent: {}
+[25.998866] (-) TimerEvent: {}
+[26.099888] (-) TimerEvent: {}
+[26.200989] (-) TimerEvent: {}
+[26.302262] (-) TimerEvent: {}
+[26.404127] (-) TimerEvent: {}
+[26.505469] (-) TimerEvent: {}
+[26.608058] (-) TimerEvent: {}
+[26.699739] (Stage) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking CXX shared module fasr2.so\x1b[0m\n'}
+[26.708234] (-) TimerEvent: {}
+[26.810739] (-) TimerEvent: {}
+[26.911788] (-) TimerEvent: {}
+[26.954305] (Stage) StdoutLine: {'line': b'[ 93%] Built target fasr2\n'}
+[27.011931] (-) TimerEvent: {}
+[27.112421] (-) TimerEvent: {}
+[27.212897] (-) TimerEvent: {}
+[27.313393] (-) TimerEvent: {}
+[27.413847] (-) TimerEvent: {}
+[27.478340] (Stage) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking CXX shared module pioneer_flocking.so\x1b[0m\n'}
+[27.513979] (-) TimerEvent: {}
+[27.614478] (-) TimerEvent: {}
+[27.714985] (-) TimerEvent: {}
+[27.777379] (Stage) StdoutLine: {'line': b'[ 94%] Built target pioneer_flocking\n'}
+[27.815134] (-) TimerEvent: {}
+[27.915603] (-) TimerEvent: {}
+[27.977484] (Stage) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking CXX shared module lasernoise.so\x1b[0m\n'}
+[28.015745] (-) TimerEvent: {}
+[28.116214] (-) TimerEvent: {}
+[28.133576] (Stage) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking CXX shared module expand_swarm.so\x1b[0m\n'}
+[28.196893] (Stage) StdoutLine: {'line': b'[ 98%] Built target lasernoise\n'}
+[28.216376] (-) TimerEvent: {}
+[28.321331] (-) TimerEvent: {}
+[28.358625] (Stage) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared module expand_pioneer.so\x1b[0m\n'}
+[28.361887] (Stage) StdoutLine: {'line': b'[100%] Built target expand_swarm\n'}
+[28.421584] (-) TimerEvent: {}
+[28.513721] (Stage) StdoutLine: {'line': b'[100%] Built target expand_pioneer\n'}
+[28.521727] (-) TimerEvent: {}
+[28.533299] (Stage) CommandEnded: {'returncode': 0}
+[28.583636] (Stage) JobProgress: {'identifier': 'Stage', 'progress': 'install'}
+[28.585176] (Stage) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/tutu/mr_ws_ros2/build/Stage'], 'cwd': '/home/tutu/mr_ws_ros2/build/Stage', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/tutu'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'tutu'), ('VSCODE_NLS_CONFIG', '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"zh-cn","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","languagePack":{"translationsConfigFile":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn/tcf.json","messagesFile":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn/d78a74bcdfad14d5d3b1b782f87255d802b57511/nls.messages.json","corruptMarkerFile":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn/corrupted.info"},"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"992791cd017d0441f609c48108aa8c37.zh-cn","_languagePackSupport":true,"_translationsConfigFile":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn/tcf.json","_cacheRoot":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn","_resolvedLanguagePackCoreLocation":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn/d78a74bcdfad14d5d3b1b782f87255d802b57511","_corruptedFile":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn/corrupted.info"}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('SSH_AGENT_PID', '1115'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/tutu/mr_ws_ros2/install/stage_ros2/lib:/home/tutu/mr_ws_ros2/install/Stage/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/tutu'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.94.0'), ('DESKTOP_SESSION', 'ubuntu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-e2d25e69-1.94-main.sock'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', '1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '947'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '21286'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/tutu/mr_ws_ros2/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'tutu'), ('_', '/usr/bin/colcon'), ('JOURNAL_STREAM', '8:32632'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tutu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/tutu/mr_ws_ros2/install/Stage/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/WP:@/tmp/.ICE-unix/1153,unix/WP:/tmp/.ICE-unix/1153'), ('VSCODE_AMD_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('INVOCATION_ID', '972ca220c8044d17a27921443397959c'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', ''), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-3f633deaf7.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/tutu/mr_ws_ros2/install/stage_ros2:/home/tutu/mr_ws_ros2/install/stage_controller:/home/tutu/mr_ws_ros2/install/simple_controller:/home/tutu/mr_ws_ros2/install/cart_launch:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tutu/mr_ws_ros2/build/Stage'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VSCODE_CODE_CACHE_PATH', '/home/tutu/.config/Code/CachedData/d78a74bcdfad14d5d3b1b782f87255d802b57511'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/tutu/mr_ws_ros2/install/stage_ros2:/home/tutu/mr_ws_ros2/install/stage_controller:/home/tutu/mr_ws_ros2/install/simple_controller:/home/tutu/mr_ws_ros2/install/cart_launch:/home/tutu/mr_ws_ros2/install/Stage'), ('VSCODE_PID', '21286')]), 'shell': False}
+[28.602472] (Stage) StdoutLine: {'line': b'-- Install configuration: "RELWITHDEBINFO"\n'}
+[28.603033] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/lib/pkgconfig/stage.pc\n'}
+[28.603341] (Stage) StdoutLine: {'line': b'-- Installing: /home/tutu/mr_ws_ros2/install/Stage/lib/cmake/Stage/stage-config.cmake\n'}
+[28.603683] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/lib/cmake/Stage/stage-config-version.cmake\n'}
+[28.603977] (Stage) StdoutLine: {'line': b'-- Installing: /home/tutu/mr_ws_ros2/install/Stage/bin/stage\n'}
+[28.604217] (Stage) StdoutLine: {'line': b'-- Set runtime path of "/home/tutu/mr_ws_ros2/install/Stage/bin/stage" to ""\n'}
+[28.604539] (Stage) StdoutLine: {'line': b'-- Installing: /home/tutu/mr_ws_ros2/install/Stage/lib/libstage.so.4.3.0\n'}
+[28.619419] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/lib/libstage.so\n'}
+[28.619801] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/include/Stage-4.3/stage.hh\n'}
+[28.620522] (Stage) StdoutLine: {'line': b'-- Installing: /home/tutu/mr_ws_ros2/install/Stage/lib/Stage-4.3/fasr.so\n'}
+[28.621504] (Stage) StdoutLine: {'line': b'-- Set runtime path of "/home/tutu/mr_ws_ros2/install/Stage/lib/Stage-4.3/fasr.so" to ""\n'}
+[28.621968] (-) TimerEvent: {}
+[28.622358] (Stage) StdoutLine: {'line': b'-- Installing: /home/tutu/mr_ws_ros2/install/Stage/lib/Stage-4.3/sink.so\n'}
+[28.622705] (Stage) StdoutLine: {'line': b'-- Set runtime path of "/home/tutu/mr_ws_ros2/install/Stage/lib/Stage-4.3/sink.so" to ""\n'}
+[28.622969] (Stage) StdoutLine: {'line': b'-- Installing: /home/tutu/mr_ws_ros2/install/Stage/lib/Stage-4.3/source.so\n'}
+[28.623580] (Stage) StdoutLine: {'line': b'-- Set runtime path of "/home/tutu/mr_ws_ros2/install/Stage/lib/Stage-4.3/source.so" to ""\n'}
+[28.623904] (Stage) StdoutLine: {'line': b'-- Installing: /home/tutu/mr_ws_ros2/install/Stage/lib/Stage-4.3/wander.so\n'}
+[28.624460] (Stage) StdoutLine: {'line': b'-- Set runtime path of "/home/tutu/mr_ws_ros2/install/Stage/lib/Stage-4.3/wander.so" to ""\n'}
+[28.624870] (Stage) StdoutLine: {'line': b'-- Installing: /home/tutu/mr_ws_ros2/install/Stage/lib/Stage-4.3/pioneer_flocking.so\n'}
+[28.625556] (Stage) StdoutLine: {'line': b'-- Set runtime path of "/home/tutu/mr_ws_ros2/install/Stage/lib/Stage-4.3/pioneer_flocking.so" to ""\n'}
+[28.625835] (Stage) StdoutLine: {'line': b'-- Installing: /home/tutu/mr_ws_ros2/install/Stage/lib/Stage-4.3/rasterize.so\n'}
+[28.626249] (Stage) StdoutLine: {'line': b'-- Set runtime path of "/home/tutu/mr_ws_ros2/install/Stage/lib/Stage-4.3/rasterize.so" to ""\n'}
+[28.626491] (Stage) StdoutLine: {'line': b'-- Installing: /home/tutu/mr_ws_ros2/install/Stage/lib/Stage-4.3/lasernoise.so\n'}
+[28.626990] (Stage) StdoutLine: {'line': b'-- Set runtime path of "/home/tutu/mr_ws_ros2/install/Stage/lib/Stage-4.3/lasernoise.so" to ""\n'}
+[28.627248] (Stage) StdoutLine: {'line': b'-- Installing: /home/tutu/mr_ws_ros2/install/Stage/lib/Stage-4.3/dynamic.so\n'}
+[28.627761] (Stage) StdoutLine: {'line': b'-- Set runtime path of "/home/tutu/mr_ws_ros2/install/Stage/lib/Stage-4.3/dynamic.so" to ""\n'}
+[28.628351] (Stage) StdoutLine: {'line': b'-- Installing: /home/tutu/mr_ws_ros2/install/Stage/lib/Stage-4.3/fasr2.so\n'}
+[28.629675] (Stage) StdoutLine: {'line': b'-- Set runtime path of "/home/tutu/mr_ws_ros2/install/Stage/lib/Stage-4.3/fasr2.so" to ""\n'}
+[28.630037] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/assets/blue.png\n'}
+[28.630368] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/assets/death.png\n'}
+[28.630531] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/assets/green.png\n'}
+[28.630690] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/assets/logo.png\n'}
+[28.631251] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/assets/mains.png\n'}
+[28.631713] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/assets/mainspower.png\n'}
+[28.631888] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/assets/question_mark.png\n'}
+[28.632044] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/assets/red.png\n'}
+[28.632208] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/assets/stagelogo.png\n'}
+[28.632374] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/assets/stall-old.png\n'}
+[28.632614] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/assets/stall.png\n'}
+[28.632833] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/assets/rgb.txt\n'}
+[28.633077] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/rgb.txt\n'}
+[28.634411] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/amcl-sonar.cfg\n'}
+[28.634759] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/autolab.cfg\n'}
+[28.635011] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/camera.cfg\n'}
+[28.635233] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/everything.cfg\n'}
+[28.635438] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/lsp_test.cfg\n'}
+[28.636120] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/mbicp.cfg\n'}
+[28.636523] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/nd.cfg\n'}
+[28.636790] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/roomba.cfg\n'}
+[28.637349] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/simple.cfg\n'}
+[28.637583] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/test.cfg\n'}
+[28.637796] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/uoa_robotics_lab.cfg\n'}
+[28.637992] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/vfh.cfg\n'}
+[28.638207] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/wavefront-remote.cfg\n'}
+[28.638420] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/wavefront.cfg\n'}
+[28.638663] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/wifi.cfg\n'}
+[28.638942] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/SFU.world\n'}
+[28.639147] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/autolab.world\n'}
+[28.639312] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/camera.world\n'}
+[28.639467] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/circuit.world\n'}
+[28.639618] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/everything.world\n'}
+[28.639774] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/fasr.world\n'}
+[28.639938] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/fasr2.world\n'}
+[28.640095] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/fasr_plan.world\n'}
+[28.640255] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/large.world\n'}
+[28.640417] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/lsp_test.world\n'}
+[28.641030] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/mbicp.world\n'}
+[28.641335] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/pioneer_flocking.world\n'}
+[28.643142] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/pioneer_follow.world\n'}
+[28.643451] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/pioneer_walle.world\n'}
+[28.643741] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/roomba.world\n'}
+[28.644006] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/sensor_noise_demo.world\n'}
+[28.644398] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/sensor_noise_module_demo.world\n'}
+[28.644647] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/simple.world\n'}
+[28.644855] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/uoa_robotics_lab.world\n'}
+[28.645082] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/wifi.world\n'}
+[28.645353] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/beacons.inc\n'}
+[28.645600] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/chatterbox.inc\n'}
+[28.645838] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/hokuyo.inc\n'}
+[28.646055] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/irobot.inc\n'}
+[28.646280] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/map.inc\n'}
+[28.646471] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/objects.inc\n'}
+[28.646733] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/pantilt.inc\n'}
+[28.646965] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/pioneer.inc\n'}
+[28.647182] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/sick.inc\n'}
+[28.648081] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/ubot.inc\n'}
+[28.648919] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/uoa_robotics_lab_models.inc\n'}
+[28.649987] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/walle.inc\n'}
+[28.650632] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/cfggen.sh\n'}
+[28.650935] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/test.sh\n'}
+[28.651242] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/worldgen.sh\n'}
+[28.651510] (Stage) StdoutLine: {'line': b'-- Installing: /home/tutu/mr_ws_ros2/install/Stage/lib/Stage-4.3/expand_swarm.so\n'}
+[28.651746] (Stage) StdoutLine: {'line': b'-- Set runtime path of "/home/tutu/mr_ws_ros2/install/Stage/lib/Stage-4.3/expand_swarm.so" to ""\n'}
+[28.651981] (Stage) StdoutLine: {'line': b'-- Installing: /home/tutu/mr_ws_ros2/install/Stage/lib/Stage-4.3/expand_pioneer.so\n'}
+[28.652223] (Stage) StdoutLine: {'line': b'-- Set runtime path of "/home/tutu/mr_ws_ros2/install/Stage/lib/Stage-4.3/expand_pioneer.so" to ""\n'}
+[28.652420] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/bitmaps/889_05.png\n'}
+[28.652592] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/bitmaps/SFU_1200x615.png\n'}
+[28.652824] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/bitmaps/SRI-AIC-kwing.png\n'}
+[28.652989] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/bitmaps/autolab.png\n'}
+[28.653158] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/bitmaps/cave.png\n'}
+[28.653323] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/bitmaps/cave_compact.png\n'}
+[28.653479] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/bitmaps/cave_filled.png\n'}
+[28.653633] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/bitmaps/frieburg.png\n'}
+[28.653797] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/bitmaps/ghost.png\n'}
+[28.653967] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/bitmaps/hospital.png\n'}
+[28.654122] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/bitmaps/hospital_section.png\n'}
+[28.654275] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/bitmaps/human_outline.png\n'}
+[28.654433] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/bitmaps/mbicp.png\n'}
+[28.654591] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/bitmaps/rink.png\n'}
+[28.654750] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/bitmaps/sal2.png\n'}
+[28.654908] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/bitmaps/simple_rooms.png\n'}
+[28.655066] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/bitmaps/space_invader.png\n'}
+[28.655236] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/bitmaps/submarine.png\n'}
+[28.655408] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/bitmaps/submarine_small.png\n'}
+[28.655572] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/bitmaps/table.png\n'}
+[28.655731] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/bitmaps/uoa_robotics_lab.png\n'}
+[28.655896] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/wifi/commando.world\n'}
+[28.656060] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/wifi/hosp_wifi.world\n'}
+[28.656205] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/wifi/hosp_wifi_5.world\n'}
+[28.656352] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/wifi/wifi.world\n'}
+[28.656495] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/wifi/wifi_itu.world\n'}
+[28.656642] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/wifi/wifi_logdistance.world\n'}
+[28.656820] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/wifi/wifi_ray.world\n'}
+[28.656977] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/wifi/wifi_simple.world\n'}
+[28.657123] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/wifi/map.inc\n'}
+[28.657267] (Stage) CommandEnded: {'returncode': 0}
+[28.681630] (Stage) JobEnded: {'identifier': 'Stage', 'rc': 0}
+[28.687195] (stage_ros2) JobStarted: {'identifier': 'stage_ros2'}
+[28.707085] (stage_ros2) JobProgress: {'identifier': 'stage_ros2', 'progress': 'cmake'}
+[28.709319] (stage_ros2) Command: {'cmd': ['/usr/bin/cmake', '/home/tutu/mr_ws_ros2/src/stage_ros2', '-DCMAKE_BUILD_TYPE=RelWithDebInfo', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/tutu/mr_ws_ros2/install/stage_ros2'], 'cwd': '/home/tutu/mr_ws_ros2/build/stage_ros2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/tutu'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'tutu'), ('VSCODE_NLS_CONFIG', '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"zh-cn","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","languagePack":{"translationsConfigFile":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn/tcf.json","messagesFile":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn/d78a74bcdfad14d5d3b1b782f87255d802b57511/nls.messages.json","corruptMarkerFile":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn/corrupted.info"},"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"992791cd017d0441f609c48108aa8c37.zh-cn","_languagePackSupport":true,"_translationsConfigFile":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn/tcf.json","_cacheRoot":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn","_resolvedLanguagePackCoreLocation":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn/d78a74bcdfad14d5d3b1b782f87255d802b57511","_corruptedFile":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn/corrupted.info"}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('SSH_AGENT_PID', '1115'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/tutu/mr_ws_ros2/install/Stage/lib:/home/tutu/mr_ws_ros2/install/stage_ros2/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/tutu'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.94.0'), ('DESKTOP_SESSION', 'ubuntu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-e2d25e69-1.94-main.sock'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', '1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '947'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '21286'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/tutu/mr_ws_ros2/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'tutu'), ('_', '/usr/bin/colcon'), ('JOURNAL_STREAM', '8:32632'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tutu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/tutu/mr_ws_ros2/install/Stage/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/WP:@/tmp/.ICE-unix/1153,unix/WP:/tmp/.ICE-unix/1153'), ('VSCODE_AMD_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('INVOCATION_ID', '972ca220c8044d17a27921443397959c'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', ''), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-3f633deaf7.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/tutu/mr_ws_ros2/install/stage_ros2:/home/tutu/mr_ws_ros2/install/stage_controller:/home/tutu/mr_ws_ros2/install/simple_controller:/home/tutu/mr_ws_ros2/install/cart_launch:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tutu/mr_ws_ros2/build/stage_ros2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VSCODE_CODE_CACHE_PATH', '/home/tutu/.config/Code/CachedData/d78a74bcdfad14d5d3b1b782f87255d802b57511'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/tutu/mr_ws_ros2/install/Stage:/home/tutu/mr_ws_ros2/install/stage_ros2:/home/tutu/mr_ws_ros2/install/stage_controller:/home/tutu/mr_ws_ros2/install/simple_controller:/home/tutu/mr_ws_ros2/install/cart_launch:/opt/ros/foxy'), ('VSCODE_PID', '21286')]), 'shell': False}
+[28.724864] (-) TimerEvent: {}
+[28.752849] (stage_ros2) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[28.812397] (stage_ros2) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[28.824978] (-) TimerEvent: {}
+[28.925458] (-) TimerEvent: {}
+[29.025825] (-) TimerEvent: {}
+[29.126153] (-) TimerEvent: {}
+[29.226531] (-) TimerEvent: {}
+[29.259364] (stage_ros2) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[29.270581] (stage_ros2) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[29.325854] (stage_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[29.326630] (-) TimerEvent: {}
+[29.331458] (stage_ros2) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[29.426775] (-) TimerEvent: {}
+[29.472608] (simple_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tutu/mr_ws_ros2/src/simple_controller/src/controller.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::size_t simple_controller::Controller::get_nearest_path_pose_index(int, std::size_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[29.473029] (simple_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tutu/mr_ws_ros2/src/simple_controller/src/controller.cpp:86:10:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knearest_index\x1b[m\x1b[K\xe2\x80\x99 may be used uninitialized in this function [\x1b[01;35m\x1b[K-Wmaybe-uninitialized\x1b[m\x1b[K]\n'}
+[29.473230] (simple_controller) StderrLine: {'line': b'   86 |   return \x1b[01;35m\x1b[Knearest_index\x1b[m\x1b[K;\n'}
+[29.473386] (simple_controller) StderrLine: {'line': b'      |          \x1b[01;35m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[29.526909] (-) TimerEvent: {}
+[29.541338] (stage_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[29.628837] (-) TimerEvent: {}
+[29.640603] (stage_ros2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[29.643668] (stage_ros2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[29.728963] (-) TimerEvent: {}
+[29.829414] (-) TimerEvent: {}
+[29.929849] (-) TimerEvent: {}
+[29.935138] (stage_ros2) StdoutLine: {'line': b'-- Found rclcpp_components: 2.4.3 (/opt/ros/foxy/share/rclcpp_components/cmake)\n'}
+[30.030003] (-) TimerEvent: {}
+[30.041673] (stage_ros2) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[30.130131] (-) TimerEvent: {}
+[30.230586] (-) TimerEvent: {}
+[30.257493] (stage_ros2) StdoutLine: {'line': b'-- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)\n'}
+[30.330703] (-) TimerEvent: {}
+[30.395217] (stage_ros2) StdoutLine: {'line': b'-- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)\n'}
+[30.430964] (-) TimerEvent: {}
+[30.531516] (-) TimerEvent: {}
+[30.632878] (-) TimerEvent: {}
+[30.733547] (-) TimerEvent: {}
+[30.834180] (-) TimerEvent: {}
+[30.895160] (stage_ros2) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)\n'}
+[30.906965] (stage_ros2) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)\n'}
+[30.934353] (-) TimerEvent: {}
+[30.957549] (stage_ros2) StdoutLine: {'line': b'-- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)\n'}
+[30.985008] (stage_ros2) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[31.034500] (-) TimerEvent: {}
+[31.120294] (stage_ros2) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[31.121084] (stage_ros2) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/tutu/mr_ws_ros2/src/stage_ros2/./include;$<BUILD_INTERFACE:/home/tutu/mr_ws_ros2/src/stage_ros2/include>\n'}
+[31.121328] (stage_ros2) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[31.122062] (stage_ros2) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[31.122997] (stage_ros2) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[31.123708] (stage_ros2) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[31.125794] (stage_ros2) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[31.126105] (stage_ros2) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[31.126709] (stage_ros2) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[31.128919] (stage_ros2) StdoutLine: {'line': b"-- Added test 'clang_format' to check C / C++ code style\n"}
+[31.129596] (stage_ros2) StdoutLine: {'line': b"-- Added test 'pycodestyle' to check Python code against some of the style conventions in PEP 8\n"}
+[31.134720] (-) TimerEvent: {}
+[31.135509] (stage_ros2) StdoutLine: {'line': b'-- Configuring done\n'}
+[31.179313] (stage_ros2) StdoutLine: {'line': b'-- Generating done\n'}
+[31.183436] (stage_ros2) StdoutLine: {'line': b'-- Build files have been written to: /home/tutu/mr_ws_ros2/build/stage_ros2\n'}
+[31.194487] (stage_ros2) CommandEnded: {'returncode': 0}
+[31.195419] (stage_ros2) JobProgress: {'identifier': 'stage_ros2', 'progress': 'build'}
+[31.195874] (stage_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tutu/mr_ws_ros2/build/stage_ros2', '--', '-j8', '-l8'], 'cwd': '/home/tutu/mr_ws_ros2/build/stage_ros2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/tutu'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'tutu'), ('VSCODE_NLS_CONFIG', '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"zh-cn","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","languagePack":{"translationsConfigFile":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn/tcf.json","messagesFile":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn/d78a74bcdfad14d5d3b1b782f87255d802b57511/nls.messages.json","corruptMarkerFile":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn/corrupted.info"},"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"992791cd017d0441f609c48108aa8c37.zh-cn","_languagePackSupport":true,"_translationsConfigFile":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn/tcf.json","_cacheRoot":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn","_resolvedLanguagePackCoreLocation":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn/d78a74bcdfad14d5d3b1b782f87255d802b57511","_corruptedFile":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn/corrupted.info"}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('SSH_AGENT_PID', '1115'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/tutu/mr_ws_ros2/install/Stage/lib:/home/tutu/mr_ws_ros2/install/stage_ros2/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/tutu'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.94.0'), ('DESKTOP_SESSION', 'ubuntu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-e2d25e69-1.94-main.sock'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', '1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '947'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '21286'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/tutu/mr_ws_ros2/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'tutu'), ('_', '/usr/bin/colcon'), ('JOURNAL_STREAM', '8:32632'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tutu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/tutu/mr_ws_ros2/install/Stage/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/WP:@/tmp/.ICE-unix/1153,unix/WP:/tmp/.ICE-unix/1153'), ('VSCODE_AMD_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('INVOCATION_ID', '972ca220c8044d17a27921443397959c'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', ''), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-3f633deaf7.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/tutu/mr_ws_ros2/install/stage_ros2:/home/tutu/mr_ws_ros2/install/stage_controller:/home/tutu/mr_ws_ros2/install/simple_controller:/home/tutu/mr_ws_ros2/install/cart_launch:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tutu/mr_ws_ros2/build/stage_ros2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VSCODE_CODE_CACHE_PATH', '/home/tutu/.config/Code/CachedData/d78a74bcdfad14d5d3b1b782f87255d802b57511'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/tutu/mr_ws_ros2/install/Stage:/home/tutu/mr_ws_ros2/install/stage_ros2:/home/tutu/mr_ws_ros2/install/stage_controller:/home/tutu/mr_ws_ros2/install/simple_controller:/home/tutu/mr_ws_ros2/install/cart_launch:/opt/ros/foxy'), ('VSCODE_PID', '21286')]), 'shell': False}
+[31.234967] (-) TimerEvent: {}
+[31.329963] (stage_ros2) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/stage_node.dir/src/stage_node.cpp.o\x1b[0m\n'}
+[31.335120] (-) TimerEvent: {}
+[31.335973] (stage_ros2) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/stage_node.dir/src/camera.cpp.o\x1b[0m\n'}
+[31.343213] (stage_ros2) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/stage_node.dir/src/vehicle.cpp.o\x1b[0m\n'}
+[31.351823] (stage_ros2) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/stage_node.dir/src/ranger.cpp.o\x1b[0m\n'}
+[31.435282] (-) TimerEvent: {}
+[31.536275] (-) TimerEvent: {}
+[31.637305] (-) TimerEvent: {}
+[31.738183] (-) TimerEvent: {}
+[31.839089] (-) TimerEvent: {}
+[31.940277] (-) TimerEvent: {}
+[32.041261] (-) TimerEvent: {}
+[32.142182] (-) TimerEvent: {}
+[32.242757] (-) TimerEvent: {}
+[32.343332] (-) TimerEvent: {}
+[32.443787] (-) TimerEvent: {}
+[32.544797] (-) TimerEvent: {}
+[32.645323] (-) TimerEvent: {}
+[32.746494] (-) TimerEvent: {}
+[32.847111] (-) TimerEvent: {}
+[32.948716] (-) TimerEvent: {}
+[33.050155] (-) TimerEvent: {}
+[33.150769] (-) TimerEvent: {}
+[33.251295] (-) TimerEvent: {}
+[33.351889] (-) TimerEvent: {}
+[33.452368] (-) TimerEvent: {}
+[33.552922] (-) TimerEvent: {}
+[33.653466] (-) TimerEvent: {}
+[33.753956] (-) TimerEvent: {}
+[33.854402] (-) TimerEvent: {}
+[33.955362] (-) TimerEvent: {}
+[34.056303] (-) TimerEvent: {}
+[34.157343] (-) TimerEvent: {}
+[34.259424] (-) TimerEvent: {}
+[34.359930] (-) TimerEvent: {}
+[34.460399] (-) TimerEvent: {}
+[34.561604] (-) TimerEvent: {}
+[34.662151] (-) TimerEvent: {}
+[34.763827] (-) TimerEvent: {}
+[34.873525] (-) TimerEvent: {}
+[34.974061] (-) TimerEvent: {}
+[35.075275] (-) TimerEvent: {}
+[35.175754] (-) TimerEvent: {}
+[35.276209] (-) TimerEvent: {}
+[35.280186] (stage_controller) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable stage_throttle\x1b[0m\n'}
+[35.376349] (-) TimerEvent: {}
+[35.477523] (-) TimerEvent: {}
+[35.587787] (-) TimerEvent: {}
+[35.688340] (-) TimerEvent: {}
+[35.788814] (-) TimerEvent: {}
+[35.848292] (stage_controller) StdoutLine: {'line': b'[ 75%] Built target stage_throttle\n'}
+[35.888982] (-) TimerEvent: {}
+[35.989530] (-) TimerEvent: {}
+[36.089999] (-) TimerEvent: {}
+[36.190898] (-) TimerEvent: {}
+[36.292287] (-) TimerEvent: {}
+[36.335666] (stage_controller) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable stage_controller\x1b[0m\n'}
+[36.392422] (-) TimerEvent: {}
+[36.493062] (-) TimerEvent: {}
+[36.594487] (-) TimerEvent: {}
+[36.703858] (-) TimerEvent: {}
+[36.804340] (-) TimerEvent: {}
+[36.817524] (stage_controller) StdoutLine: {'line': b'[100%] Built target stage_controller\n'}
+[36.840983] (stage_controller) CommandEnded: {'returncode': 0}
+[36.904530] (-) TimerEvent: {}
+[36.938097] (stage_controller) JobProgress: {'identifier': 'stage_controller', 'progress': 'install'}
+[36.941356] (stage_controller) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/tutu/mr_ws_ros2/build/stage_controller'], 'cwd': '/home/tutu/mr_ws_ros2/build/stage_controller', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/tutu'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'tutu'), ('VSCODE_NLS_CONFIG', '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"zh-cn","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","languagePack":{"translationsConfigFile":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn/tcf.json","messagesFile":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn/d78a74bcdfad14d5d3b1b782f87255d802b57511/nls.messages.json","corruptMarkerFile":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn/corrupted.info"},"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"992791cd017d0441f609c48108aa8c37.zh-cn","_languagePackSupport":true,"_translationsConfigFile":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn/tcf.json","_cacheRoot":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn","_resolvedLanguagePackCoreLocation":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn/d78a74bcdfad14d5d3b1b782f87255d802b57511","_corruptedFile":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn/corrupted.info"}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('SSH_AGENT_PID', '1115'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/tutu/mr_ws_ros2/install/stage_ros2/lib:/home/tutu/mr_ws_ros2/install/Stage/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/tutu'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.94.0'), ('DESKTOP_SESSION', 'ubuntu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-e2d25e69-1.94-main.sock'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', '1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '947'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '21286'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/tutu/mr_ws_ros2/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'tutu'), ('_', '/usr/bin/colcon'), ('JOURNAL_STREAM', '8:32632'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tutu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/tutu/mr_ws_ros2/install/Stage/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/WP:@/tmp/.ICE-unix/1153,unix/WP:/tmp/.ICE-unix/1153'), ('VSCODE_AMD_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('INVOCATION_ID', '972ca220c8044d17a27921443397959c'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', ''), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-3f633deaf7.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/tutu/mr_ws_ros2/install/stage_ros2:/home/tutu/mr_ws_ros2/install/stage_controller:/home/tutu/mr_ws_ros2/install/simple_controller:/home/tutu/mr_ws_ros2/install/cart_launch:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tutu/mr_ws_ros2/build/stage_controller'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VSCODE_CODE_CACHE_PATH', '/home/tutu/.config/Code/CachedData/d78a74bcdfad14d5d3b1b782f87255d802b57511'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/tutu/mr_ws_ros2/install/stage_ros2:/home/tutu/mr_ws_ros2/install/stage_controller:/home/tutu/mr_ws_ros2/install/simple_controller:/home/tutu/mr_ws_ros2/install/cart_launch:/home/tutu/mr_ws_ros2/install/Stage:/opt/ros/foxy'), ('VSCODE_PID', '21286')]), 'shell': False}
+[36.963497] (stage_controller) StdoutLine: {'line': b'-- Install configuration: "RelWithDebInfo"\n'}
+[36.964783] (stage_controller) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[36.966081] (stage_controller) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/stage_controller/lib/stage_controller/stage_controller\n'}
+[36.987734] (stage_controller) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/stage_controller/lib/stage_controller/stage_throttle\n'}
+[37.004641] (-) TimerEvent: {}
+[37.012857] (stage_controller) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/stage_controller/share/ament_index/resource_index/package_run_dependencies/stage_controller\n'}
+[37.033502] (stage_controller) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/stage_controller/share/ament_index/resource_index/parent_prefix_path/stage_controller\n'}
+[37.053170] (stage_controller) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/stage_controller/share/stage_controller/environment/ament_prefix_path.sh\n'}
+[37.072663] (stage_controller) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/stage_controller/share/stage_controller/environment/ament_prefix_path.dsv\n'}
+[37.102243] (stage_controller) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/stage_controller/share/stage_controller/environment/path.sh\n'}
+[37.104799] (-) TimerEvent: {}
+[37.114240] (stage_controller) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/stage_controller/share/stage_controller/environment/path.dsv\n'}
+[37.135126] (stage_controller) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/stage_controller/share/stage_controller/local_setup.bash\n'}
+[37.157532] (stage_controller) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/stage_controller/share/stage_controller/local_setup.sh\n'}
+[37.181504] (stage_controller) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/stage_controller/share/stage_controller/local_setup.zsh\n'}
+[37.203534] (stage_controller) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/stage_controller/share/stage_controller/local_setup.dsv\n'}
+[37.208590] (-) TimerEvent: {}
+[37.238050] (stage_controller) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/stage_controller/share/stage_controller/package.dsv\n'}
+[37.267483] (stage_controller) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/stage_controller/share/ament_index/resource_index/packages/stage_controller\n'}
+[37.289074] (stage_controller) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/stage_controller/share/stage_controller/cmake/stage_controllerConfig.cmake\n'}
+[37.308772] (-) TimerEvent: {}
+[37.312410] (stage_controller) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/stage_controller/share/stage_controller/cmake/stage_controllerConfig-version.cmake\n'}
+[37.337859] (stage_controller) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/stage_controller/share/stage_controller/package.xml\n'}
+[37.375967] (stage_controller) CommandEnded: {'returncode': 0}
+[37.408976] (-) TimerEvent: {}
+[37.499564] (stage_controller) JobEnded: {'identifier': 'stage_controller', 'rc': 0}
+[37.516785] (-) TimerEvent: {}
+[37.620785] (-) TimerEvent: {}
+[37.721327] (-) TimerEvent: {}
+[37.821786] (-) TimerEvent: {}
+[37.922239] (-) TimerEvent: {}
+[38.022678] (-) TimerEvent: {}
+[38.123109] (-) TimerEvent: {}
+[38.223539] (-) TimerEvent: {}
+[38.323974] (-) TimerEvent: {}
+[38.424488] (-) TimerEvent: {}
+[38.525183] (-) TimerEvent: {}
+[38.626308] (-) TimerEvent: {}
+[38.727480] (-) TimerEvent: {}
+[38.827947] (-) TimerEvent: {}
+[38.928507] (-) TimerEvent: {}
+[39.029346] (-) TimerEvent: {}
+[39.129921] (-) TimerEvent: {}
+[39.230562] (-) TimerEvent: {}
+[39.331228] (-) TimerEvent: {}
+[39.431658] (-) TimerEvent: {}
+[39.532223] (-) TimerEvent: {}
+[39.632954] (-) TimerEvent: {}
+[39.733544] (-) TimerEvent: {}
+[39.833996] (-) TimerEvent: {}
+[39.934407] (-) TimerEvent: {}
+[40.034818] (-) TimerEvent: {}
+[40.135276] (-) TimerEvent: {}
+[40.235728] (-) TimerEvent: {}
+[40.336163] (-) TimerEvent: {}
+[40.436613] (-) TimerEvent: {}
+[40.537092] (-) TimerEvent: {}
+[40.637560] (-) TimerEvent: {}
+[40.738008] (-) TimerEvent: {}
+[40.838454] (-) TimerEvent: {}
+[40.938915] (-) TimerEvent: {}
+[41.039347] (-) TimerEvent: {}
+[41.139818] (-) TimerEvent: {}
+[41.240310] (-) TimerEvent: {}
+[41.340922] (-) TimerEvent: {}
+[41.441605] (-) TimerEvent: {}
+[41.543099] (-) TimerEvent: {}
+[41.645006] (-) TimerEvent: {}
+[41.745780] (-) TimerEvent: {}
+[41.846434] (-) TimerEvent: {}
+[41.946907] (-) TimerEvent: {}
+[42.047594] (-) TimerEvent: {}
+[42.148289] (-) TimerEvent: {}
+[42.248947] (-) TimerEvent: {}
+[42.349498] (-) TimerEvent: {}
+[42.450108] (-) TimerEvent: {}
+[42.550560] (-) TimerEvent: {}
+[42.651013] (-) TimerEvent: {}
+[42.751462] (-) TimerEvent: {}
+[42.851912] (-) TimerEvent: {}
+[42.952348] (-) TimerEvent: {}
+[43.052830] (-) TimerEvent: {}
+[43.153356] (-) TimerEvent: {}
+[43.253786] (-) TimerEvent: {}
+[43.354216] (-) TimerEvent: {}
+[43.454648] (-) TimerEvent: {}
+[43.555085] (-) TimerEvent: {}
+[43.655563] (-) TimerEvent: {}
+[43.756043] (-) TimerEvent: {}
+[43.856468] (-) TimerEvent: {}
+[43.956954] (-) TimerEvent: {}
+[44.057417] (-) TimerEvent: {}
+[44.157998] (-) TimerEvent: {}
+[44.258432] (-) TimerEvent: {}
+[44.358881] (-) TimerEvent: {}
+[44.459703] (-) TimerEvent: {}
+[44.564206] (-) TimerEvent: {}
+[44.664925] (-) TimerEvent: {}
+[44.765503] (-) TimerEvent: {}
+[44.866383] (-) TimerEvent: {}
+[44.966902] (-) TimerEvent: {}
+[45.067321] (-) TimerEvent: {}
+[45.167739] (-) TimerEvent: {}
+[45.268169] (-) TimerEvent: {}
+[45.368621] (-) TimerEvent: {}
+[45.469197] (-) TimerEvent: {}
+[45.569624] (-) TimerEvent: {}
+[45.670026] (-) TimerEvent: {}
+[45.770431] (-) TimerEvent: {}
+[45.870841] (-) TimerEvent: {}
+[45.971242] (-) TimerEvent: {}
+[46.071633] (-) TimerEvent: {}
+[46.172048] (-) TimerEvent: {}
+[46.272441] (-) TimerEvent: {}
+[46.372818] (-) TimerEvent: {}
+[46.473234] (-) TimerEvent: {}
+[46.573650] (-) TimerEvent: {}
+[46.674061] (-) TimerEvent: {}
+[46.774397] (-) TimerEvent: {}
+[46.874722] (-) TimerEvent: {}
+[46.975090] (-) TimerEvent: {}
+[47.075413] (-) TimerEvent: {}
+[47.175848] (-) TimerEvent: {}
+[47.276202] (-) TimerEvent: {}
+[47.376584] (-) TimerEvent: {}
+[47.476906] (-) TimerEvent: {}
+[47.577233] (-) TimerEvent: {}
+[47.677586] (-) TimerEvent: {}
+[47.777965] (-) TimerEvent: {}
+[47.878362] (-) TimerEvent: {}
+[47.979168] (-) TimerEvent: {}
+[48.079862] (-) TimerEvent: {}
+[48.180442] (-) TimerEvent: {}
+[48.280895] (-) TimerEvent: {}
+[48.377882] (simple_controller) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable controller_node\x1b[0m\n'}
+[48.381096] (-) TimerEvent: {}
+[48.481855] (-) TimerEvent: {}
+[48.582696] (-) TimerEvent: {}
+[48.683071] (-) TimerEvent: {}
+[48.787914] (-) TimerEvent: {}
+[48.814505] (simple_controller) StdoutLine: {'line': b'[100%] Built target controller_node\n'}
+[48.828756] (simple_controller) CommandEnded: {'returncode': 0}
+[48.862200] (simple_controller) JobProgress: {'identifier': 'simple_controller', 'progress': 'install'}
+[48.862970] (simple_controller) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/tutu/mr_ws_ros2/build/simple_controller'], 'cwd': '/home/tutu/mr_ws_ros2/build/simple_controller', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/tutu'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'tutu'), ('VSCODE_NLS_CONFIG', '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"zh-cn","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","languagePack":{"translationsConfigFile":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn/tcf.json","messagesFile":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn/d78a74bcdfad14d5d3b1b782f87255d802b57511/nls.messages.json","corruptMarkerFile":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn/corrupted.info"},"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"992791cd017d0441f609c48108aa8c37.zh-cn","_languagePackSupport":true,"_translationsConfigFile":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn/tcf.json","_cacheRoot":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn","_resolvedLanguagePackCoreLocation":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn/d78a74bcdfad14d5d3b1b782f87255d802b57511","_corruptedFile":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn/corrupted.info"}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('SSH_AGENT_PID', '1115'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/tutu/mr_ws_ros2/install/stage_ros2/lib:/home/tutu/mr_ws_ros2/install/Stage/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/tutu'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.94.0'), ('DESKTOP_SESSION', 'ubuntu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-e2d25e69-1.94-main.sock'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', '1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '947'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '21286'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/tutu/mr_ws_ros2/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'tutu'), ('_', '/usr/bin/colcon'), ('JOURNAL_STREAM', '8:32632'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tutu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/tutu/mr_ws_ros2/install/Stage/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/WP:@/tmp/.ICE-unix/1153,unix/WP:/tmp/.ICE-unix/1153'), ('VSCODE_AMD_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('INVOCATION_ID', '972ca220c8044d17a27921443397959c'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', ''), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-3f633deaf7.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/tutu/mr_ws_ros2/install/stage_ros2:/home/tutu/mr_ws_ros2/install/stage_controller:/home/tutu/mr_ws_ros2/install/simple_controller:/home/tutu/mr_ws_ros2/install/cart_launch:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tutu/mr_ws_ros2/build/simple_controller'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VSCODE_CODE_CACHE_PATH', '/home/tutu/.config/Code/CachedData/d78a74bcdfad14d5d3b1b782f87255d802b57511'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/tutu/mr_ws_ros2/install/stage_ros2:/home/tutu/mr_ws_ros2/install/stage_controller:/home/tutu/mr_ws_ros2/install/simple_controller:/home/tutu/mr_ws_ros2/install/cart_launch:/home/tutu/mr_ws_ros2/install/Stage:/opt/ros/foxy'), ('VSCODE_PID', '21286')]), 'shell': False}
+[48.876285] (simple_controller) StdoutLine: {'line': b'-- Install configuration: "RelWithDebInfo"\n'}
+[48.876823] (simple_controller) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[48.877202] (simple_controller) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/simple_controller/share/ament_index/resource_index/package_run_dependencies/simple_controller\n'}
+[48.888050] (-) TimerEvent: {}
+[48.889538] (simple_controller) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/simple_controller/share/ament_index/resource_index/parent_prefix_path/simple_controller\n'}
+[48.902288] (simple_controller) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/simple_controller/share/simple_controller/environment/ament_prefix_path.sh\n'}
+[48.913043] (simple_controller) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/simple_controller/share/simple_controller/environment/ament_prefix_path.dsv\n'}
+[48.925536] (simple_controller) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/simple_controller/share/simple_controller/environment/path.sh\n'}
+[48.938706] (simple_controller) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/simple_controller/share/simple_controller/environment/path.dsv\n'}
+[48.950986] (simple_controller) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/simple_controller/share/simple_controller/local_setup.bash\n'}
+[48.961461] (simple_controller) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/simple_controller/share/simple_controller/local_setup.sh\n'}
+[48.973853] (simple_controller) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/simple_controller/share/simple_controller/local_setup.zsh\n'}
+[48.987156] (simple_controller) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/simple_controller/share/simple_controller/local_setup.dsv\n'}
+[48.988118] (-) TimerEvent: {}
+[48.999932] (simple_controller) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/simple_controller/share/simple_controller/package.dsv\n'}
+[49.011129] (simple_controller) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/simple_controller/share/ament_index/resource_index/packages/simple_controller\n'}
+[49.023520] (simple_controller) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/simple_controller/share/simple_controller/cmake/simple_controllerConfig.cmake\n'}
+[49.034795] (simple_controller) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/simple_controller/share/simple_controller/cmake/simple_controllerConfig-version.cmake\n'}
+[49.044438] (simple_controller) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/simple_controller/share/simple_controller/package.xml\n'}
+[49.056067] (simple_controller) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/simple_controller/lib/simple_controller/controller_node\n'}
+[49.068351] (simple_controller) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/simple_controller/share/simple_controller/launch/controller.launch.py\n'}
+[49.077850] (simple_controller) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/simple_controller/share/simple_controller/launch/controller.yaml\n'}
+[49.088247] (-) TimerEvent: {}
+[49.089338] (simple_controller) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/simple_controller/share/simple_controller/launch/controller1s.yaml\n'}
+[49.101912] (simple_controller) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/simple_controller/share/simple_controller/launch/controller_curv.yaml\n'}
+[49.112103] (simple_controller) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/simple_controller/share/simple_controller/launch/controller_stage.launch.py\n'}
+[49.124403] (simple_controller) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/simple_controller/share/simple_controller/launch/slam.launch\n'}
+[49.136679] (simple_controller) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/simple_controller/lib/simple_controller/start_rqt\n'}
+[49.148607] (simple_controller) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/simple_controller/share/simple_controller/rqt_cfg/steer_error.perspective\n'}
+[49.160892] (simple_controller) CommandEnded: {'returncode': 0}
+[49.188401] (-) TimerEvent: {}
+[49.210532] (simple_controller) JobEnded: {'identifier': 'simple_controller', 'rc': 0}
+[49.288527] (-) TimerEvent: {}
+[49.388854] (-) TimerEvent: {}
+[49.489164] (-) TimerEvent: {}
+[49.589510] (-) TimerEvent: {}
+[49.689846] (-) TimerEvent: {}
+[49.790187] (-) TimerEvent: {}
+[49.890517] (-) TimerEvent: {}
+[49.990838] (-) TimerEvent: {}
+[50.091184] (-) TimerEvent: {}
+[50.191523] (-) TimerEvent: {}
+[50.291923] (-) TimerEvent: {}
+[50.392253] (-) TimerEvent: {}
+[50.492593] (-) TimerEvent: {}
+[50.593009] (-) TimerEvent: {}
+[50.693403] (-) TimerEvent: {}
+[50.793714] (-) TimerEvent: {}
+[50.894045] (-) TimerEvent: {}
+[50.994344] (-) TimerEvent: {}
+[51.094666] (-) TimerEvent: {}
+[51.194963] (-) TimerEvent: {}
+[51.295266] (-) TimerEvent: {}
+[51.395657] (-) TimerEvent: {}
+[51.496090] (-) TimerEvent: {}
+[51.596594] (-) TimerEvent: {}
+[51.697106] (-) TimerEvent: {}
+[51.797536] (-) TimerEvent: {}
+[51.897972] (-) TimerEvent: {}
+[51.998486] (-) TimerEvent: {}
+[52.098939] (-) TimerEvent: {}
+[52.199260] (-) TimerEvent: {}
+[52.299557] (-) TimerEvent: {}
+[52.400013] (-) TimerEvent: {}
+[52.500433] (-) TimerEvent: {}
+[52.600883] (-) TimerEvent: {}
+[52.701182] (-) TimerEvent: {}
+[52.801523] (-) TimerEvent: {}
+[52.901951] (-) TimerEvent: {}
+[53.002403] (-) TimerEvent: {}
+[53.102751] (-) TimerEvent: {}
+[53.203027] (-) TimerEvent: {}
+[53.303296] (-) TimerEvent: {}
+[53.403580] (-) TimerEvent: {}
+[53.503869] (-) TimerEvent: {}
+[53.604150] (-) TimerEvent: {}
+[53.704427] (-) TimerEvent: {}
+[53.804736] (-) TimerEvent: {}
+[53.905044] (-) TimerEvent: {}
+[54.005355] (-) TimerEvent: {}
+[54.105667] (-) TimerEvent: {}
+[54.171292] (stage_ros2) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libstage_node.so\x1b[0m\n'}
+[54.205790] (-) TimerEvent: {}
+[54.306067] (-) TimerEvent: {}
+[54.406337] (-) TimerEvent: {}
+[54.506619] (-) TimerEvent: {}
+[54.520466] (stage_ros2) StdoutLine: {'line': b'[ 71%] Built target stage_node\n'}
+[54.546115] (stage_ros2) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object CMakeFiles/stage_ros2.dir/src/main.cpp.o\x1b[0m\n'}
+[54.606775] (-) TimerEvent: {}
+[54.707085] (-) TimerEvent: {}
+[54.807387] (-) TimerEvent: {}
+[54.907691] (-) TimerEvent: {}
+[55.008001] (-) TimerEvent: {}
+[55.108347] (-) TimerEvent: {}
+[55.208641] (-) TimerEvent: {}
+[55.309002] (-) TimerEvent: {}
+[55.409361] (-) TimerEvent: {}
+[55.509683] (-) TimerEvent: {}
+[55.610021] (-) TimerEvent: {}
+[55.710378] (-) TimerEvent: {}
+[55.810690] (-) TimerEvent: {}
+[55.910999] (-) TimerEvent: {}
+[56.011353] (-) TimerEvent: {}
+[56.111653] (-) TimerEvent: {}
+[56.211979] (-) TimerEvent: {}
+[56.312307] (-) TimerEvent: {}
+[56.412629] (-) TimerEvent: {}
+[56.512933] (-) TimerEvent: {}
+[56.613228] (-) TimerEvent: {}
+[56.713519] (-) TimerEvent: {}
+[56.813787] (-) TimerEvent: {}
+[56.914157] (-) TimerEvent: {}
+[57.014528] (-) TimerEvent: {}
+[57.114946] (-) TimerEvent: {}
+[57.215485] (-) TimerEvent: {}
+[57.316076] (-) TimerEvent: {}
+[57.416476] (-) TimerEvent: {}
+[57.516957] (-) TimerEvent: {}
+[57.617343] (-) TimerEvent: {}
+[57.705303] (stage_ros2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable stage_ros2\x1b[0m\n'}
+[57.717453] (-) TimerEvent: {}
+[57.817864] (-) TimerEvent: {}
+[57.885487] (stage_ros2) StdoutLine: {'line': b'[100%] Built target stage_ros2\n'}
+[57.894287] (stage_ros2) CommandEnded: {'returncode': 0}
+[57.917972] (-) TimerEvent: {}
+[57.921714] (stage_ros2) JobProgress: {'identifier': 'stage_ros2', 'progress': 'install'}
+[57.922083] (stage_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/tutu/mr_ws_ros2/build/stage_ros2'], 'cwd': '/home/tutu/mr_ws_ros2/build/stage_ros2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/tutu'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'tutu'), ('VSCODE_NLS_CONFIG', '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"zh-cn","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","languagePack":{"translationsConfigFile":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn/tcf.json","messagesFile":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn/d78a74bcdfad14d5d3b1b782f87255d802b57511/nls.messages.json","corruptMarkerFile":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn/corrupted.info"},"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"992791cd017d0441f609c48108aa8c37.zh-cn","_languagePackSupport":true,"_translationsConfigFile":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn/tcf.json","_cacheRoot":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn","_resolvedLanguagePackCoreLocation":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn/d78a74bcdfad14d5d3b1b782f87255d802b57511","_corruptedFile":"/home/tutu/.config/Code/clp/992791cd017d0441f609c48108aa8c37.zh-cn/corrupted.info"}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('SSH_AGENT_PID', '1115'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/tutu/mr_ws_ros2/install/Stage/lib:/home/tutu/mr_ws_ros2/install/stage_ros2/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/tutu'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.94.0'), ('DESKTOP_SESSION', 'ubuntu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-e2d25e69-1.94-main.sock'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL', '1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '947'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '21286'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/tutu/mr_ws_ros2/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'tutu'), ('_', '/usr/bin/colcon'), ('JOURNAL_STREAM', '8:32632'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tutu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/tutu/mr_ws_ros2/install/Stage/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/WP:@/tmp/.ICE-unix/1153,unix/WP:/tmp/.ICE-unix/1153'), ('VSCODE_AMD_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('INVOCATION_ID', '972ca220c8044d17a27921443397959c'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', ''), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-3f633deaf7.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/tutu/mr_ws_ros2/install/stage_ros2:/home/tutu/mr_ws_ros2/install/stage_controller:/home/tutu/mr_ws_ros2/install/simple_controller:/home/tutu/mr_ws_ros2/install/cart_launch:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tutu/mr_ws_ros2/build/stage_ros2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VSCODE_CODE_CACHE_PATH', '/home/tutu/.config/Code/CachedData/d78a74bcdfad14d5d3b1b782f87255d802b57511'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/tutu/mr_ws_ros2/install/Stage:/home/tutu/mr_ws_ros2/install/stage_ros2:/home/tutu/mr_ws_ros2/install/stage_controller:/home/tutu/mr_ws_ros2/install/simple_controller:/home/tutu/mr_ws_ros2/install/cart_launch:/opt/ros/foxy'), ('VSCODE_PID', '21286')]), 'shell': False}
+[57.930867] (stage_ros2) StdoutLine: {'line': b'-- Install configuration: "RelWithDebInfo"\n'}
+[57.931275] (stage_ros2) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[57.931493] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/stage_ros2/share/stage_ros2/environment/library_path.sh\n'}
+[57.940328] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/stage_ros2/share/stage_ros2/environment/library_path.dsv\n'}
+[57.947450] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/stage_ros2/share/stage_ros2//launch/my_house.launch.py\n'}
+[57.956446] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/stage_ros2/share/stage_ros2//launch/my_house_multi.launch.py\n'}
+[57.963634] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/stage_ros2/share/stage_ros2//world/maps/autolab.png\n'}
+[57.972223] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/stage_ros2/share/stage_ros2//world/maps/cave.png\n'}
+[57.979212] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/stage_ros2/share/stage_ros2//world/maps/frieburg.png\n'}
+[57.987559] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/stage_ros2/share/stage_ros2//world/maps/ghost.png\n'}
+[57.994633] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/stage_ros2/share/stage_ros2//world/maps/hospital_section.png\n'}
+[58.002842] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/stage_ros2/share/stage_ros2//world/maps/human_outline.png\n'}
+[58.010101] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/stage_ros2/share/stage_ros2//world/maps/line.png\n'}
+[58.017876] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/stage_ros2/share/stage_ros2//world/maps/my_house.jpg\n'}
+[58.018053] (-) TimerEvent: {}
+[58.025954] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/stage_ros2/share/stage_ros2//world/maps/simple_rooms.png\n'}
+[58.034468] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/stage_ros2/share/stage_ros2//world/maps/space_invader.png\n'}
+[58.042165] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/stage_ros2/share/stage_ros2//world/maps/uoa_robotics_lab.png\n'}
+[58.050674] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/stage_ros2/share/stage_ros2//world/my_house.world\n'}
+[58.058585] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/stage_ros2/share/stage_ros2//world/my_house_multi.world\n'}
+[58.065965] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/stage_ros2/share/stage_ros2//world/robot/camera.inc\n'}
+[58.073775] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/stage_ros2/share/stage_ros2//world/robot/car_base.inc\n'}
+[58.080466] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/stage_ros2/share/stage_ros2//world/robot/laser.inc\n'}
+[58.088995] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/stage_ros2/share/stage_ros2//world/robot/mycar.inc\n'}
+[58.095942] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/stage_ros2/share/stage_ros2//config/rviz/example.rviz\n'}
+[58.104678] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/stage_ros2/lib/libstage_node.so\n'}
+[58.112680] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/stage_ros2/lib/stage_ros2/stage_ros2\n'}
+[58.118228] (-) TimerEvent: {}
+[58.121487] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/stage_ros2/share/ament_index/resource_index/package_run_dependencies/stage_ros2\n'}
+[58.129229] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/stage_ros2/share/ament_index/resource_index/parent_prefix_path/stage_ros2\n'}
+[58.138328] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/stage_ros2/share/stage_ros2/environment/ament_prefix_path.sh\n'}
+[58.145591] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/stage_ros2/share/stage_ros2/environment/ament_prefix_path.dsv\n'}
+[58.154611] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/stage_ros2/share/stage_ros2/environment/path.sh\n'}
+[58.161955] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/stage_ros2/share/stage_ros2/environment/path.dsv\n'}
+[58.170101] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/stage_ros2/share/stage_ros2/local_setup.bash\n'}
+[58.177338] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/stage_ros2/share/stage_ros2/local_setup.sh\n'}
+[58.184966] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/stage_ros2/share/stage_ros2/local_setup.zsh\n'}
+[58.192484] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/stage_ros2/share/stage_ros2/local_setup.dsv\n'}
+[58.200193] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/stage_ros2/share/stage_ros2/package.dsv\n'}
+[58.207943] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/stage_ros2/share/ament_index/resource_index/packages/stage_ros2\n'}
+[58.216384] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/stage_ros2/share/stage_ros2/cmake/stage_ros2Config.cmake\n'}
+[58.218350] (-) TimerEvent: {}
+[58.224685] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/stage_ros2/share/stage_ros2/cmake/stage_ros2Config-version.cmake\n'}
+[58.232150] (stage_ros2) StdoutLine: {'line': b'-- Symlinking: /home/tutu/mr_ws_ros2/install/stage_ros2/share/stage_ros2/package.xml\n'}
+[58.242242] (stage_ros2) CommandEnded: {'returncode': 0}
+[58.284403] (stage_ros2) JobEnded: {'identifier': 'stage_ros2', 'rc': 0}
+[58.285533] (-) EventReactorShutdown: {}

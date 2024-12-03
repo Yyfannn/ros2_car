@@ -1,0 +1,114 @@
+[0.041s] Invoking command in '/home/tutu/mr_ws_ros2/build/simple_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/tutu/mr_ws_ros2/build/simple_planner -- -j8 -l8
+[0.100s] [35m[1mScanning dependencies of target planner[0m
+[0.172s] [ 50%] [32mBuilding CXX object CMakeFiles/planner.dir/src/planner.cpp.o[0m
+[1.863s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:[m[K In member function ‘[01m[Kvoid simple_planner::Planner::on_pose(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.863s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:387:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<nav_msgs::msg::Odometry_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kpose[m[K’
+[1.863s]   387 |       start_pose_ = odom.[01;31m[Kpose[m[K.pose;
+[1.863s]       |                          [01;31m[K^~~~[m[K
+[1.866s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+[1.866s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[1.866s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.866s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.866s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.866s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.866s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.866s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.866s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.866s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.866s]                  from [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.h:4[m[K,
+[1.866s]                  from [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:344[m[K:
+[1.866s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:[m[K In member function ‘[01m[Kvoid simple_planner::Planner::on_target(geometry_msgs::msg::PoseStamped_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.866s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:402:83:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<geometry_msgs::msg::PoseStamped_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kpose[m[K’
+[1.866s]   402 | P_INFO(this->get_logger(), (std::string("Get goal ") + std::to_string(pose.[01;31m[Kpose[m[K.position.x) + std::string(" ") + std::to_string(pose.pose.position.y)).c_str());
+[1.867s]       |                                                                            [01;31m[K^~~~[m[K
+[1.867s] 
+[1.867s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:402:141:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<geometry_msgs::msg::PoseStamped_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kpose[m[K’
+[1.867s]   402 | ::to_string(pose.pose.position.x) + std::string(" ") + std::to_string(pose.[01;31m[Kpose[m[K.position.y)).c_str());
+[1.867s]       |                                                                            [01;31m[K^~~~[m[K
+[1.867s] 
+[1.867s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:405:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<geometry_msgs::msg::PoseStamped_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kpose[m[K’
+[1.867s]   405 |   target_pose_ = pose.[01;31m[Kpose[m[K;
+[1.868s]       |                       [01;31m[K^~~~[m[K
+[1.874s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:420:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<geometry_msgs::msg::PoseStamped_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kheader[m[K’
+[1.874s]   420 |     path_msg_.header.frame_id = pose.[01;31m[Kheader[m[K.frame_id;
+[1.875s]       |                                      [01;31m[K^~~~~~[m[K
+[2.061s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:[m[K In member function ‘[01m[Kvoid simple_planner::Planner::odomCallback(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.061s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:449:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<nav_msgs::msg::Odometry_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kpose[m[K’
+[2.061s]   449 |     current_x = odom_msg.[01;31m[Kpose[m[K.pose.position.x;
+[2.062s]       |                          [01;31m[K^~~~[m[K
+[2.062s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:450:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<nav_msgs::msg::Odometry_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kpose[m[K’
+[2.062s]   450 |     current_y = odom_msg.[01;31m[Kpose[m[K.pose.position.y;
+[2.062s]       |                          [01;31m[K^~~~[m[K
+[2.062s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:453:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<nav_msgs::msg::Odometry_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kpose[m[K’
+[2.062s]   453 |     tf2::Quaternion tf_orientation(odom_msg.[01;31m[Kpose[m[K.pose.orientation.x, odom_msg.pose.pose.orientation.y,
+[2.062s]       |                                             [01;31m[K^~~~[m[K
+[2.062s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:453:79:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<nav_msgs::msg::Odometry_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kpose[m[K’
+[2.062s]   453 |  tf2::Quaternion tf_orientation(odom_msg.pose.pose.orientation.x, odom_msg.[01;31m[Kpose[m[K.pose.orientation.y,
+[2.062s]       |                                                                            [01;31m[K^~~~[m[K
+[2.062s] 
+[2.063s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:454:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<nav_msgs::msg::Odometry_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kpose[m[K’
+[2.063s]   454 |                                    odom_msg.[01;31m[Kpose[m[K.pose.orientation.z, odom_msg.pose.pose.orientation.w);
+[2.063s]       |                                             [01;31m[K^~~~[m[K
+[2.063s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:454:79:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<nav_msgs::msg::Odometry_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kpose[m[K’
+[2.063s]   454 |                                 odom_msg.pose.pose.orientation.z, odom_msg.[01;31m[Kpose[m[K.pose.orientation.w);
+[2.063s]       |                                                                            [01;31m[K^~~~[m[K
+[2.063s] 
+[2.079s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:[m[K In member function ‘[01m[Kbool simple_planner::Planner::indices_in_map(int, int)[m[K’:
+[2.079s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:545:32:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Knav_msgs::msg::MapMetaData_<std::allocator<void> >::_width_type[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[2.079s]   545 |   return i >= 0 && j >= 0 && [01;35m[Ki < map_.info.width[m[K && j < map_.info.height;
+[2.079s]       |                              [01;35m[K~~^~~~~~~~~~~~~~~~~[m[K
+[2.079s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:545:55:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Knav_msgs::msg::MapMetaData_<std::allocator<void> >::_height_type[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[2.079s]   545 |   return i >= 0 && j >= 0 && i < map_.info.width && [01;35m[Kj < map_.info.height[m[K;
+[2.079s]       |                                                     [01;35m[K~~^~~~~~~~~~~~~~~~~~[m[K
+[2.082s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:[m[K In member function ‘[01m[Kvoid simple_planner::Planner::increase_obstacles(std::size_t)[m[K’:
+[2.082s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:556:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Knav_msgs::msg::MapMetaData_<std::allocator<void> >::_width_type[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[2.082s]   556 |   for (int i = 0; [01;35m[Ki < map_.info.width[m[K; ++i)
+[2.082s]       |                   [01;35m[K~~^~~~~~~~~~~~~~~~~[m[K
+[2.082s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:558:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Knav_msgs::msg::MapMetaData_<std::allocator<void> >::_height_type[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[2.083s]   558 |     for (int j = 0; [01;35m[Kj < map_.info.height[m[K; ++j)
+[2.083s]       |                     [01;35m[K~~^~~~~~~~~~~~~~~~~~[m[K
+[2.086s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:[m[K In member function ‘[01m[Kdouble simple_planner::Planner::heruistic(int, int)[m[K’:
+[2.087s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:611:31:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ki[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.087s]   611 | double Planner::heruistic([01;35m[Kint i[m[K, int j) {
+[2.088s]       |                           [01;35m[K~~~~^[m[K
+[2.088s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:611:38:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kj[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.088s]   611 | double Planner::heruistic(int i, [01;35m[Kint j[m[K) {
+[2.088s]       |                                  [01;35m[K~~~~^[m[K
+[2.088s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:[m[K In member function ‘[01m[Kbool simple_planner::CompareSearchNodes::operator()(const simple_planner::MapIndex&, const simple_planner::MapIndex&) const[m[K’:
+[2.088s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:619:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::vector<simple_planner::SearchNode> simple_planner::Planner::search_map_[m[K’ is private within this context
+[2.088s]   619 |    SearchNode& left = planner_.map_value(planner_.[01;31m[Ksearch_map_[m[K, left_index.i, left_index.j);
+[2.088s]       |                                                   [01;31m[K^~~~~~~~~~~[m[K
+[2.088s] In file included from [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:344[m[K:
+[2.088s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.h:109:29:[m[K [01;36m[Knote: [m[Kdeclared private here
+[2.088s]   109 |     std::vector<SearchNode> [01;36m[Ksearch_map_[m[K;
+[2.088s]       |                             [01;36m[K^~~~~~~~~~~[m[K
+[2.089s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:619:90:[m[K [01;31m[Kerror: [m[K‘[01m[KT& simple_planner::Planner::map_value(std::vector<BufferT>&, int, int) [with T = simple_planner::SearchNode][m[K’ is private within this context
+[2.089s]   619 |    SearchNode& left = planner_.map_value(planner_.search_map_, left_index.i, left_index.j[01;31m[K)[m[K;
+[2.089s]       |                                                                                          [01;31m[K^[m[K
+[2.089s] In file included from [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:344[m[K:
+[2.089s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.h:71:8:[m[K [01;36m[Knote: [m[Kdeclared private here
+[2.089s]    71 |     T& [01;36m[Kmap_value[m[K(std::vector<T>& data, int i, int j)
+[2.089s]       |        [01;36m[K^~~~~~~~~[m[K
+[2.089s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:620:52:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::vector<simple_planner::SearchNode> simple_planner::Planner::search_map_[m[K’ is private within this context
+[2.089s]   620 |    SearchNode& right = planner_.map_value(planner_.[01;31m[Ksearch_map_[m[K, right_index.i, right_index.j);
+[2.090s]       |                                                    [01;31m[K^~~~~~~~~~~[m[K
+[2.090s] In file included from [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:344[m[K:
+[2.090s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.h:109:29:[m[K [01;36m[Knote: [m[Kdeclared private here
+[2.090s]   109 |     std::vector<SearchNode> [01;36m[Ksearch_map_[m[K;
+[2.090s]       |                             [01;36m[K^~~~~~~~~~~[m[K
+[2.090s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:620:93:[m[K [01;31m[Kerror: [m[K‘[01m[KT& simple_planner::Planner::map_value(std::vector<BufferT>&, int, int) [with T = simple_planner::SearchNode][m[K’ is private within this context
+[2.090s]   620 | ght = planner_.map_value(planner_.search_map_, right_index.i, right_index.j[01;31m[K)[m[K;
+[2.090s]       |                                                                            [01;31m[K^[m[K
+[2.090s] 
+[2.090s] In file included from [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:344[m[K:
+[2.090s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.h:71:8:[m[K [01;36m[Knote: [m[Kdeclared private here
+[2.090s]    71 |     T& [01;36m[Kmap_value[m[K(std::vector<T>& data, int i, int j)
+[2.090s]       |        [01;36m[K^~~~~~~~~[m[K
+[2.098s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:[m[K In member function ‘[01m[Kvoid simple_planner::Planner::calculate_path()[m[K’:
+[2.098s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:720:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Knode[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.098s]   720 |       auto& [01;35m[Knode[m[K = map_value(search_map_, point.i, point.j);
+[2.098s]       |             [01;35m[K^~~~[m[K
+[4.591s] make[2]: *** [CMakeFiles/planner.dir/build.make:63：CMakeFiles/planner.dir/src/planner.cpp.o] 错误 1
+[4.591s] make[1]: *** [CMakeFiles/Makefile2:105：CMakeFiles/planner.dir/all] 错误 2
+[4.591s] make: *** [Makefile:141：all] 错误 2
+[4.593s] Invoked command in '/home/tutu/mr_ws_ros2/build/simple_planner' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/tutu/mr_ws_ros2/build/simple_planner -- -j8 -l8

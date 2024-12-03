@@ -1,0 +1,103 @@
+[0.024s] Invoking command in '/home/tutu/mr_ws_ros2/build/simple_controller': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/tutu/mr_ws_ros2/src/simple_controller -DCMAKE_INSTALL_PREFIX=/home/tutu/mr_ws_ros2/install/simple_controller
+[0.075s] -- The C compiler identification is GNU 9.4.0
+[0.123s] -- The CXX compiler identification is GNU 9.4.0
+[0.127s] -- Check for working C compiler: /usr/bin/cc
+[0.185s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.186s] -- Detecting C compiler ABI info
+[0.243s] -- Detecting C compiler ABI info - done
+[0.260s] -- Detecting C compile features
+[0.261s] -- Detecting C compile features - done
+[0.264s] -- Check for working CXX compiler: /usr/bin/c++
+[0.335s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.336s] -- Detecting CXX compiler ABI info
+[0.407s] -- Detecting CXX compiler ABI info - done
+[0.425s] -- Detecting CXX compile features
+[0.426s] -- Detecting CXX compile features - done
+[0.429s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.459s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.459s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.639s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.678s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.684s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.774s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.816s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.894s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.946s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.947s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.948s] -- Looking for pthread.h
+[1.005s] -- Looking for pthread.h - found
+[1.006s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.066s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.066s] -- Looking for pthread_create in pthreads
+[1.151s] -- Looking for pthread_create in pthreads - not found
+[1.152s] -- Looking for pthread_create in pthread
+[1.513s] -- Looking for pthread_create in pthread - found
+[1.515s] -- Found Threads: TRUE  
+[1.892s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[2.303s] -- Found tf2: 0.13.14 (/opt/ros/foxy/share/tf2/cmake)
+[2.325s] -- Found angles: 1.12.6 (/opt/ros/foxy/share/angles/cmake)
+[2.328s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.562s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.564s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.564s] -- Configured cppcheck include dirs: 
+[2.564s] -- Configured cppcheck exclude dirs and/or files: 
+[2.581s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.582s] -- Configured cpplint exclude dirs and/or files: 
+[2.582s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.583s] -- Added test 'lint_cmake' to check CMake code style
+[2.584s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[2.586s] -- Added test 'uncrustify' to check C / C++ code style
+[2.586s] -- Configured uncrustify additional arguments: 
+[2.587s] -- Added test 'xmllint' to check XML markup files
+[2.595s] -- Configuring done
+[2.634s] -- Generating done
+[2.636s] -- Build files have been written to: /home/tutu/mr_ws_ros2/build/simple_controller
+[2.652s] Invoked command in '/home/tutu/mr_ws_ros2/build/simple_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/tutu/mr_ws_ros2/src/simple_controller -DCMAKE_INSTALL_PREFIX=/home/tutu/mr_ws_ros2/install/simple_controller
+[2.653s] Invoking command in '/home/tutu/mr_ws_ros2/build/simple_controller': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/tutu/mr_ws_ros2/build/simple_controller -- -j8 -l8
+[2.780s] [35m[1mScanning dependencies of target controller_node[0m
+[2.847s] [ 33%] [32mBuilding CXX object CMakeFiles/controller_node.dir/src/controller.cpp.o[0m
+[2.889s] [ 66%] [32mBuilding CXX object CMakeFiles/controller_node.dir/src/controller_node.cpp.o[0m
+[6.039s] [01m[K/home/tutu/mr_ws_ros2/src/simple_controller/src/controller_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[6.039s] [01m[K/home/tutu/mr_ws_ros2/src/simple_controller/src/controller_node.cpp:39:7:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Krclcpp::node_interfaces::OnSetParametersCallbackHandle::SharedPtr rclcpp::Node::add_on_set_parameters_callback(rclcpp::Node::OnParametersSetCallbackType)[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+[6.040s]    39 |     })[01;35m[K;[m[K
+[6.040s]       |       [01;35m[K^[m[K
+[6.049s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[6.050s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[6.050s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[6.050s]                  from [01m[K/home/tutu/mr_ws_ros2/src/simple_controller/src/controller_node.cpp:1[m[K:
+[6.050s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:819:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.050s]   819 |   [01;36m[Kadd_on_set_parameters_callback[m[K(OnParametersSetCallbackType callback);
+[6.050s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[16.614s] [100%] [32m[1mLinking CXX executable controller_node[0m
+[16.952s] [100%] Built target controller_node
+[16.962s] Invoked command in '/home/tutu/mr_ws_ros2/build/simple_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/tutu/mr_ws_ros2/build/simple_controller -- -j8 -l8
+[16.983s] Invoking command in '/home/tutu/mr_ws_ros2/build/simple_controller': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/tutu/mr_ws_ros2/build/simple_controller
+[16.989s] -- Install configuration: ""
+[16.989s] -- Installing: /home/tutu/mr_ws_ros2/install/simple_controller/share/ament_index/resource_index/package_run_dependencies/simple_controller
+[16.990s] -- Installing: /home/tutu/mr_ws_ros2/install/simple_controller/share/ament_index/resource_index/parent_prefix_path/simple_controller
+[16.990s] -- Installing: /home/tutu/mr_ws_ros2/install/simple_controller/share/simple_controller/environment/ament_prefix_path.sh
+[16.990s] -- Installing: /home/tutu/mr_ws_ros2/install/simple_controller/share/simple_controller/environment/ament_prefix_path.dsv
+[16.990s] -- Installing: /home/tutu/mr_ws_ros2/install/simple_controller/share/simple_controller/environment/path.sh
+[16.990s] -- Installing: /home/tutu/mr_ws_ros2/install/simple_controller/share/simple_controller/environment/path.dsv
+[16.990s] -- Installing: /home/tutu/mr_ws_ros2/install/simple_controller/share/simple_controller/local_setup.bash
+[16.990s] -- Installing: /home/tutu/mr_ws_ros2/install/simple_controller/share/simple_controller/local_setup.sh
+[16.991s] -- Installing: /home/tutu/mr_ws_ros2/install/simple_controller/share/simple_controller/local_setup.zsh
+[16.991s] -- Installing: /home/tutu/mr_ws_ros2/install/simple_controller/share/simple_controller/local_setup.dsv
+[16.991s] -- Installing: /home/tutu/mr_ws_ros2/install/simple_controller/share/simple_controller/package.dsv
+[16.991s] -- Installing: /home/tutu/mr_ws_ros2/install/simple_controller/share/ament_index/resource_index/packages/simple_controller
+[16.991s] -- Installing: /home/tutu/mr_ws_ros2/install/simple_controller/share/simple_controller/cmake/simple_controllerConfig.cmake
+[16.991s] -- Installing: /home/tutu/mr_ws_ros2/install/simple_controller/share/simple_controller/cmake/simple_controllerConfig-version.cmake
+[16.991s] -- Installing: /home/tutu/mr_ws_ros2/install/simple_controller/share/simple_controller/package.xml
+[16.991s] -- Installing: /home/tutu/mr_ws_ros2/install/simple_controller/lib/simple_controller/controller_node
+[16.993s] -- Set runtime path of "/home/tutu/mr_ws_ros2/install/simple_controller/lib/simple_controller/controller_node" to ""
+[16.993s] -- Installing: /home/tutu/mr_ws_ros2/install/simple_controller/share/simple_controller/launch
+[16.993s] -- Installing: /home/tutu/mr_ws_ros2/install/simple_controller/share/simple_controller/launch/slam.launch
+[16.994s] -- Installing: /home/tutu/mr_ws_ros2/install/simple_controller/share/simple_controller/launch/controller_stage.launch.py
+[16.994s] -- Installing: /home/tutu/mr_ws_ros2/install/simple_controller/share/simple_controller/launch/controller_curv.yaml
+[16.994s] -- Installing: /home/tutu/mr_ws_ros2/install/simple_controller/share/simple_controller/launch/controller.launch.py
+[16.994s] -- Installing: /home/tutu/mr_ws_ros2/install/simple_controller/share/simple_controller/launch/controller.yaml
+[16.994s] -- Installing: /home/tutu/mr_ws_ros2/install/simple_controller/share/simple_controller/launch/controller1s.yaml
+[16.994s] -- Installing: /home/tutu/mr_ws_ros2/install/simple_controller/lib/simple_controller/start_rqt
+[16.994s] -- Installing: /home/tutu/mr_ws_ros2/install/simple_controller/share/simple_controller/rqt_cfg
+[16.995s] -- Installing: /home/tutu/mr_ws_ros2/install/simple_controller/share/simple_controller/rqt_cfg/steer_error.perspective
+[16.997s] Invoked command in '/home/tutu/mr_ws_ros2/build/simple_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/tutu/mr_ws_ros2/build/simple_controller

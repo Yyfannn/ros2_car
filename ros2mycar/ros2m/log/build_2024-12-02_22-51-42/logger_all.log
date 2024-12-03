@@ -1,0 +1,665 @@
+[0.115s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.115s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=1, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7e0e9aceca90>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7e0e9ae51ed0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7e0e9ae51ed0>>)
+[0.297s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.297s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.297s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.297s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.297s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.297s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.298s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/tutu/ros2m'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/Stage) by extensions ['ignore', 'ignore_ament_install']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/Stage) by extension 'ignore'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/Stage) by extension 'ignore_ament_install'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/Stage) by extensions ['colcon_pkg']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/Stage) by extension 'colcon_pkg'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/Stage) by extensions ['colcon_meta']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/Stage) by extension 'colcon_meta'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/Stage) by extensions ['ros']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/Stage) by extension 'ros'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/Stage) by extensions ['cmake', 'python']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/Stage) by extension 'cmake'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/Stage) by extension 'python'
+[0.318s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Stage' with type 'cmake' and name 'Stage'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/angles) by extensions ['ignore', 'ignore_ament_install']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/angles) by extension 'ignore'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/angles) by extension 'ignore_ament_install'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/angles) by extensions ['colcon_pkg']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/angles) by extension 'colcon_pkg'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/angles) by extensions ['colcon_meta']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/angles) by extension 'colcon_meta'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/angles) by extensions ['ros']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/angles) by extension 'ros'
+[0.322s] DEBUG:colcon.colcon_core.package_identification:Package 'src/angles' with type 'ros.ament_cmake' and name 'angles'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/barrel_slam) by extensions ['ignore', 'ignore_ament_install']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/barrel_slam) by extension 'ignore'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/barrel_slam) by extension 'ignore_ament_install'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/barrel_slam) by extensions ['colcon_pkg']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/barrel_slam) by extension 'colcon_pkg'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/barrel_slam) by extensions ['colcon_meta']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/barrel_slam) by extension 'colcon_meta'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/barrel_slam) by extensions ['ros']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/barrel_slam) by extension 'ros'
+[0.324s] DEBUG:colcon.colcon_core.package_identification:Package 'src/barrel_slam' with type 'ros.ament_cmake' and name 'barrel_slam'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/cart_launch) by extensions ['ignore', 'ignore_ament_install']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/cart_launch) by extension 'ignore'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/cart_launch) by extension 'ignore_ament_install'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/cart_launch) by extensions ['colcon_pkg']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/cart_launch) by extension 'colcon_pkg'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/cart_launch) by extensions ['colcon_meta']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/cart_launch) by extension 'colcon_meta'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/cart_launch) by extensions ['ros']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/cart_launch) by extension 'ros'
+[0.326s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cart_launch' with type 'ros.ament_cmake' and name 'cart_launch'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/feature_matcher) by extensions ['ignore', 'ignore_ament_install']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/feature_matcher) by extension 'ignore'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/feature_matcher) by extension 'ignore_ament_install'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/feature_matcher) by extensions ['colcon_pkg']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/feature_matcher) by extension 'colcon_pkg'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/feature_matcher) by extensions ['colcon_meta']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/feature_matcher) by extension 'colcon_meta'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/feature_matcher) by extensions ['ros']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/feature_matcher) by extension 'ros'
+[0.328s] DEBUG:colcon.colcon_core.package_identification:Package 'src/feature_matcher' with type 'ros.ament_cmake' and name 'feature_matcher'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_controller) by extension 'ignore'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_controller) by extension 'ignore_ament_install'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_controller) by extensions ['colcon_pkg']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_controller) by extension 'colcon_pkg'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_controller) by extensions ['colcon_meta']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_controller) by extension 'colcon_meta'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_controller) by extensions ['ros']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_controller) by extension 'ros'
+[0.331s] DEBUG:colcon.colcon_core.package_identification:Package 'src/simple_controller' with type 'ros.ament_cmake' and name 'simple_controller'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_planner) by extensions ['ignore', 'ignore_ament_install']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_planner) by extension 'ignore'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_planner) by extension 'ignore_ament_install'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_planner) by extensions ['colcon_pkg']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_planner) by extension 'colcon_pkg'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_planner) by extensions ['colcon_meta']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_planner) by extension 'colcon_meta'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_planner) by extensions ['ros']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/simple_planner) by extension 'ros'
+[0.333s] DEBUG:colcon.colcon_core.package_identification:Package 'src/simple_planner' with type 'ros.ament_cmake' and name 'simple_planner'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/stage_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/stage_controller) by extension 'ignore'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/stage_controller) by extension 'ignore_ament_install'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/stage_controller) by extensions ['colcon_pkg']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/stage_controller) by extension 'colcon_pkg'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/stage_controller) by extensions ['colcon_meta']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/stage_controller) by extension 'colcon_meta'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/stage_controller) by extensions ['ros']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/stage_controller) by extension 'ros'
+[0.335s] DEBUG:colcon.colcon_core.package_identification:Package 'src/stage_controller' with type 'ros.ament_cmake' and name 'stage_controller'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/stage_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/stage_ros2) by extension 'ignore'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/stage_ros2) by extension 'ignore_ament_install'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/stage_ros2) by extensions ['colcon_pkg']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/stage_ros2) by extension 'colcon_pkg'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/stage_ros2) by extensions ['colcon_meta']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/stage_ros2) by extension 'colcon_meta'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/stage_ros2) by extensions ['ros']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/stage_ros2) by extension 'ros'
+[0.336s] DEBUG:colcon.colcon_core.package_identification:Package 'src/stage_ros2' with type 'ros.ament_cmake' and name 'stage_ros2'
+[0.336s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.336s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.336s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.337s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.337s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.371s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.372s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.375s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 376 installed packages in /opt/ros/humble
+[0.377s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.426s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'angles' is in: /opt/ros/humble
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding angles
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.428s] Level 5:colcon.colcon_core.verb:set package 'Stage' build argument 'cmake_args' from command line to 'None'
+[0.429s] Level 5:colcon.colcon_core.verb:set package 'Stage' build argument 'cmake_target' from command line to 'None'
+[0.429s] Level 5:colcon.colcon_core.verb:set package 'Stage' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.429s] Level 5:colcon.colcon_core.verb:set package 'Stage' build argument 'cmake_clean_cache' from command line to 'False'
+[0.429s] Level 5:colcon.colcon_core.verb:set package 'Stage' build argument 'cmake_clean_first' from command line to 'False'
+[0.429s] Level 5:colcon.colcon_core.verb:set package 'Stage' build argument 'cmake_force_configure' from command line to 'False'
+[0.429s] Level 5:colcon.colcon_core.verb:set package 'Stage' build argument 'ament_cmake_args' from command line to 'None'
+[0.429s] Level 5:colcon.colcon_core.verb:set package 'Stage' build argument 'catkin_cmake_args' from command line to 'None'
+[0.429s] Level 5:colcon.colcon_core.verb:set package 'Stage' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.429s] DEBUG:colcon.colcon_core.verb:Building package 'Stage' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tutu/ros2m/build/Stage', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tutu/ros2m/install/Stage', 'merge_install': False, 'path': '/home/tutu/ros2m/src/Stage', 'symlink_install': False, 'test_result_base': None}
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'angles' build argument 'cmake_args' from command line to 'None'
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'angles' build argument 'cmake_target' from command line to 'None'
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'angles' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'angles' build argument 'cmake_clean_cache' from command line to 'False'
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'angles' build argument 'cmake_clean_first' from command line to 'False'
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'angles' build argument 'cmake_force_configure' from command line to 'False'
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'angles' build argument 'ament_cmake_args' from command line to 'None'
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'angles' build argument 'catkin_cmake_args' from command line to 'None'
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'angles' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.430s] DEBUG:colcon.colcon_core.verb:Building package 'angles' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tutu/ros2m/build/angles', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tutu/ros2m/install/angles', 'merge_install': False, 'path': '/home/tutu/ros2m/src/angles', 'symlink_install': False, 'test_result_base': None}
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'cart_launch' build argument 'cmake_args' from command line to 'None'
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'cart_launch' build argument 'cmake_target' from command line to 'None'
+[0.430s] Level 5:colcon.colcon_core.verb:set package 'cart_launch' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'cart_launch' build argument 'cmake_clean_cache' from command line to 'False'
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'cart_launch' build argument 'cmake_clean_first' from command line to 'False'
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'cart_launch' build argument 'cmake_force_configure' from command line to 'False'
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'cart_launch' build argument 'ament_cmake_args' from command line to 'None'
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'cart_launch' build argument 'catkin_cmake_args' from command line to 'None'
+[0.431s] Level 5:colcon.colcon_core.verb:set package 'cart_launch' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.431s] DEBUG:colcon.colcon_core.verb:Building package 'cart_launch' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tutu/ros2m/build/cart_launch', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tutu/ros2m/install/cart_launch', 'merge_install': False, 'path': '/home/tutu/ros2m/src/cart_launch', 'symlink_install': False, 'test_result_base': None}
+[0.432s] Level 5:colcon.colcon_core.verb:set package 'feature_matcher' build argument 'cmake_args' from command line to 'None'
+[0.432s] Level 5:colcon.colcon_core.verb:set package 'feature_matcher' build argument 'cmake_target' from command line to 'None'
+[0.432s] Level 5:colcon.colcon_core.verb:set package 'feature_matcher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.432s] Level 5:colcon.colcon_core.verb:set package 'feature_matcher' build argument 'cmake_clean_cache' from command line to 'False'
+[0.432s] Level 5:colcon.colcon_core.verb:set package 'feature_matcher' build argument 'cmake_clean_first' from command line to 'False'
+[0.432s] Level 5:colcon.colcon_core.verb:set package 'feature_matcher' build argument 'cmake_force_configure' from command line to 'False'
+[0.432s] Level 5:colcon.colcon_core.verb:set package 'feature_matcher' build argument 'ament_cmake_args' from command line to 'None'
+[0.432s] Level 5:colcon.colcon_core.verb:set package 'feature_matcher' build argument 'catkin_cmake_args' from command line to 'None'
+[0.433s] Level 5:colcon.colcon_core.verb:set package 'feature_matcher' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.433s] DEBUG:colcon.colcon_core.verb:Building package 'feature_matcher' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tutu/ros2m/build/feature_matcher', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tutu/ros2m/install/feature_matcher', 'merge_install': False, 'path': '/home/tutu/ros2m/src/feature_matcher', 'symlink_install': False, 'test_result_base': None}
+[0.433s] Level 5:colcon.colcon_core.verb:set package 'simple_planner' build argument 'cmake_args' from command line to 'None'
+[0.433s] Level 5:colcon.colcon_core.verb:set package 'simple_planner' build argument 'cmake_target' from command line to 'None'
+[0.433s] Level 5:colcon.colcon_core.verb:set package 'simple_planner' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.433s] Level 5:colcon.colcon_core.verb:set package 'simple_planner' build argument 'cmake_clean_cache' from command line to 'False'
+[0.433s] Level 5:colcon.colcon_core.verb:set package 'simple_planner' build argument 'cmake_clean_first' from command line to 'False'
+[0.433s] Level 5:colcon.colcon_core.verb:set package 'simple_planner' build argument 'cmake_force_configure' from command line to 'False'
+[0.433s] Level 5:colcon.colcon_core.verb:set package 'simple_planner' build argument 'ament_cmake_args' from command line to 'None'
+[0.433s] Level 5:colcon.colcon_core.verb:set package 'simple_planner' build argument 'catkin_cmake_args' from command line to 'None'
+[0.433s] Level 5:colcon.colcon_core.verb:set package 'simple_planner' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.433s] DEBUG:colcon.colcon_core.verb:Building package 'simple_planner' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tutu/ros2m/build/simple_planner', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tutu/ros2m/install/simple_planner', 'merge_install': False, 'path': '/home/tutu/ros2m/src/simple_planner', 'symlink_install': False, 'test_result_base': None}
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'stage_controller' build argument 'cmake_args' from command line to 'None'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'stage_controller' build argument 'cmake_target' from command line to 'None'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'stage_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'stage_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'stage_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'stage_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'stage_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'stage_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'stage_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.434s] DEBUG:colcon.colcon_core.verb:Building package 'stage_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tutu/ros2m/build/stage_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tutu/ros2m/install/stage_controller', 'merge_install': False, 'path': '/home/tutu/ros2m/src/stage_controller', 'symlink_install': False, 'test_result_base': None}
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'barrel_slam' build argument 'cmake_args' from command line to 'None'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'barrel_slam' build argument 'cmake_target' from command line to 'None'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'barrel_slam' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'barrel_slam' build argument 'cmake_clean_cache' from command line to 'False'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'barrel_slam' build argument 'cmake_clean_first' from command line to 'False'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'barrel_slam' build argument 'cmake_force_configure' from command line to 'False'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'barrel_slam' build argument 'ament_cmake_args' from command line to 'None'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'barrel_slam' build argument 'catkin_cmake_args' from command line to 'None'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'barrel_slam' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.435s] DEBUG:colcon.colcon_core.verb:Building package 'barrel_slam' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tutu/ros2m/build/barrel_slam', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tutu/ros2m/install/barrel_slam', 'merge_install': False, 'path': '/home/tutu/ros2m/src/barrel_slam', 'symlink_install': False, 'test_result_base': None}
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'simple_controller' build argument 'cmake_args' from command line to 'None'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'simple_controller' build argument 'cmake_target' from command line to 'None'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'simple_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'simple_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'simple_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'simple_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'simple_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'simple_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'simple_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.436s] DEBUG:colcon.colcon_core.verb:Building package 'simple_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tutu/ros2m/build/simple_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tutu/ros2m/install/simple_controller', 'merge_install': False, 'path': '/home/tutu/ros2m/src/simple_controller', 'symlink_install': False, 'test_result_base': None}
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'stage_ros2' build argument 'cmake_args' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'stage_ros2' build argument 'cmake_target' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'stage_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'stage_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'stage_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'stage_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'stage_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'stage_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'stage_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.437s] DEBUG:colcon.colcon_core.verb:Building package 'stage_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tutu/ros2m/build/stage_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tutu/ros2m/install/stage_ros2', 'merge_install': False, 'path': '/home/tutu/ros2m/src/stage_ros2', 'symlink_install': False, 'test_result_base': None}
+[0.437s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.441s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.441s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tutu/ros2m/src/angles' with build type 'ament_cmake'
+[0.441s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tutu/ros2m/src/angles'
+[0.446s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.447s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.447s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.469s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tutu/ros2m/build/angles': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tutu/ros2m/build/angles -- -j1 -l1
+[1.143s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tutu/ros2m/build/angles' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tutu/ros2m/build/angles -- -j1 -l1
+[1.155s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tutu/ros2m/build/angles': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tutu/ros2m/build/angles
+[1.238s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(angles)
+[1.241s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tutu/ros2m/build/angles' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tutu/ros2m/build/angles
+[1.241s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/angles' for CMake module files
+[1.242s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/angles' for CMake config files
+[1.242s] Level 1:colcon.colcon_core.shell:create_environment_hook('angles', 'cmake_prefix_path')
+[1.243s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tutu/ros2m/install/angles/share/angles/hook/cmake_prefix_path.ps1'
+[1.243s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tutu/ros2m/install/angles/share/angles/hook/cmake_prefix_path.dsv'
+[1.244s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tutu/ros2m/install/angles/share/angles/hook/cmake_prefix_path.sh'
+[1.246s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/angles/bin'
+[1.246s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/angles/lib/pkgconfig/angles.pc'
+[1.246s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/angles/lib/python3.10/site-packages'
+[1.246s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/angles/bin'
+[1.247s] INFO:colcon.colcon_core.shell:Creating package script '/home/tutu/ros2m/install/angles/share/angles/package.ps1'
+[1.248s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tutu/ros2m/install/angles/share/angles/package.dsv'
+[1.249s] INFO:colcon.colcon_core.shell:Creating package script '/home/tutu/ros2m/install/angles/share/angles/package.sh'
+[1.250s] INFO:colcon.colcon_core.shell:Creating package script '/home/tutu/ros2m/install/angles/share/angles/package.bash'
+[1.251s] INFO:colcon.colcon_core.shell:Creating package script '/home/tutu/ros2m/install/angles/share/angles/package.zsh'
+[1.252s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tutu/ros2m/install/angles/share/colcon-core/packages/angles)
+[1.253s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(angles)
+[1.253s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/angles' for CMake module files
+[1.254s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/angles' for CMake config files
+[1.254s] Level 1:colcon.colcon_core.shell:create_environment_hook('angles', 'cmake_prefix_path')
+[1.255s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tutu/ros2m/install/angles/share/angles/hook/cmake_prefix_path.ps1'
+[1.255s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tutu/ros2m/install/angles/share/angles/hook/cmake_prefix_path.dsv'
+[1.256s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tutu/ros2m/install/angles/share/angles/hook/cmake_prefix_path.sh'
+[1.257s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/angles/bin'
+[1.257s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/angles/lib/pkgconfig/angles.pc'
+[1.257s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/angles/lib/python3.10/site-packages'
+[1.258s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/angles/bin'
+[1.258s] INFO:colcon.colcon_core.shell:Creating package script '/home/tutu/ros2m/install/angles/share/angles/package.ps1'
+[1.259s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tutu/ros2m/install/angles/share/angles/package.dsv'
+[1.260s] INFO:colcon.colcon_core.shell:Creating package script '/home/tutu/ros2m/install/angles/share/angles/package.sh'
+[1.261s] INFO:colcon.colcon_core.shell:Creating package script '/home/tutu/ros2m/install/angles/share/angles/package.bash'
+[1.261s] INFO:colcon.colcon_core.shell:Creating package script '/home/tutu/ros2m/install/angles/share/angles/package.zsh'
+[1.262s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tutu/ros2m/install/angles/share/colcon-core/packages/angles)
+[1.265s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tutu/ros2m/src/Stage'
+[1.265s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.265s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.276s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tutu/ros2m/build/Stage': /usr/bin/cmake /home/tutu/ros2m/src/Stage -DCMAKE_INSTALL_PREFIX=/home/tutu/ros2m/install/Stage
+[3.083s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tutu/ros2m/build/Stage' returned '0': /usr/bin/cmake /home/tutu/ros2m/src/Stage -DCMAKE_INSTALL_PREFIX=/home/tutu/ros2m/install/Stage
+[3.084s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tutu/ros2m/build/Stage': /usr/bin/cmake --build /home/tutu/ros2m/build/Stage -- -j1 -l1
+[77.602s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tutu/ros2m/build/Stage' returned '0': /usr/bin/cmake --build /home/tutu/ros2m/build/Stage -- -j1 -l1
+[77.605s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tutu/ros2m/build/Stage': /usr/bin/cmake --install /home/tutu/ros2m/build/Stage
+[77.703s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(Stage)
+[77.703s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tutu/ros2m/build/Stage' returned '0': /usr/bin/cmake --install /home/tutu/ros2m/build/Stage
+[77.703s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/Stage' for CMake module files
+[77.704s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/Stage' for CMake config files
+[77.704s] Level 1:colcon.colcon_core.shell:create_environment_hook('Stage', 'cmake_prefix_path')
+[77.704s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tutu/ros2m/install/Stage/share/Stage/hook/cmake_prefix_path.ps1'
+[77.705s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tutu/ros2m/install/Stage/share/Stage/hook/cmake_prefix_path.dsv'
+[77.706s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tutu/ros2m/install/Stage/share/Stage/hook/cmake_prefix_path.sh'
+[77.707s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/Stage/lib'
+[77.707s] Level 1:colcon.colcon_core.shell:create_environment_hook('Stage', 'ld_library_path_lib')
+[77.709s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tutu/ros2m/install/Stage/share/Stage/hook/ld_library_path_lib.ps1'
+[77.711s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tutu/ros2m/install/Stage/share/Stage/hook/ld_library_path_lib.dsv'
+[77.713s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tutu/ros2m/install/Stage/share/Stage/hook/ld_library_path_lib.sh'
+[77.714s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/Stage/bin'
+[77.714s] Level 1:colcon.colcon_core.shell:create_environment_hook('Stage', 'path')
+[77.714s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tutu/ros2m/install/Stage/share/Stage/hook/path.ps1'
+[77.715s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tutu/ros2m/install/Stage/share/Stage/hook/path.dsv'
+[77.716s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tutu/ros2m/install/Stage/share/Stage/hook/path.sh'
+[77.717s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/Stage/lib/pkgconfig/Stage.pc'
+[77.717s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/Stage/lib/python3.10/site-packages'
+[77.717s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/Stage/bin'
+[77.718s] Level 1:colcon.colcon_core.shell:create_environment_hook('Stage', 'pythonscriptspath')
+[77.719s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tutu/ros2m/install/Stage/share/Stage/hook/pythonscriptspath.ps1'
+[77.719s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tutu/ros2m/install/Stage/share/Stage/hook/pythonscriptspath.dsv'
+[77.720s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tutu/ros2m/install/Stage/share/Stage/hook/pythonscriptspath.sh'
+[77.721s] INFO:colcon.colcon_core.shell:Creating package script '/home/tutu/ros2m/install/Stage/share/Stage/package.ps1'
+[77.723s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tutu/ros2m/install/Stage/share/Stage/package.dsv'
+[77.723s] INFO:colcon.colcon_core.shell:Creating package script '/home/tutu/ros2m/install/Stage/share/Stage/package.sh'
+[77.725s] INFO:colcon.colcon_core.shell:Creating package script '/home/tutu/ros2m/install/Stage/share/Stage/package.bash'
+[77.727s] INFO:colcon.colcon_core.shell:Creating package script '/home/tutu/ros2m/install/Stage/share/Stage/package.zsh'
+[77.728s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tutu/ros2m/install/Stage/share/colcon-core/packages/Stage)
+[77.730s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tutu/ros2m/src/cart_launch' with build type 'ament_cmake'
+[77.730s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tutu/ros2m/src/cart_launch'
+[77.730s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[77.730s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[77.746s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tutu/ros2m/build/cart_launch': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tutu/ros2m/build/cart_launch -- -j1 -l1
+[77.806s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tutu/ros2m/build/cart_launch' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tutu/ros2m/build/cart_launch -- -j1 -l1
+[77.808s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tutu/ros2m/build/cart_launch': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tutu/ros2m/build/cart_launch
+[77.843s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cart_launch)
+[77.845s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/cart_launch' for CMake module files
+[77.847s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/cart_launch' for CMake config files
+[77.851s] Level 1:colcon.colcon_core.shell:create_environment_hook('cart_launch', 'cmake_prefix_path')
+[77.851s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tutu/ros2m/install/cart_launch/share/cart_launch/hook/cmake_prefix_path.ps1'
+[77.851s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tutu/ros2m/install/cart_launch/share/cart_launch/hook/cmake_prefix_path.dsv'
+[77.853s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tutu/ros2m/build/cart_launch' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tutu/ros2m/build/cart_launch
+[77.853s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tutu/ros2m/install/cart_launch/share/cart_launch/hook/cmake_prefix_path.sh'
+[77.855s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/cart_launch/bin'
+[77.855s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/cart_launch/lib/pkgconfig/cart_launch.pc'
+[77.856s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/cart_launch/lib/python3.10/site-packages'
+[77.857s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/cart_launch/bin'
+[77.857s] INFO:colcon.colcon_core.shell:Creating package script '/home/tutu/ros2m/install/cart_launch/share/cart_launch/package.ps1'
+[77.859s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tutu/ros2m/install/cart_launch/share/cart_launch/package.dsv'
+[77.859s] INFO:colcon.colcon_core.shell:Creating package script '/home/tutu/ros2m/install/cart_launch/share/cart_launch/package.sh'
+[77.861s] INFO:colcon.colcon_core.shell:Creating package script '/home/tutu/ros2m/install/cart_launch/share/cart_launch/package.bash'
+[77.863s] INFO:colcon.colcon_core.shell:Creating package script '/home/tutu/ros2m/install/cart_launch/share/cart_launch/package.zsh'
+[77.865s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tutu/ros2m/install/cart_launch/share/colcon-core/packages/cart_launch)
+[77.866s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cart_launch)
+[77.867s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/cart_launch' for CMake module files
+[77.868s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/cart_launch' for CMake config files
+[77.868s] Level 1:colcon.colcon_core.shell:create_environment_hook('cart_launch', 'cmake_prefix_path')
+[77.869s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tutu/ros2m/install/cart_launch/share/cart_launch/hook/cmake_prefix_path.ps1'
+[77.870s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tutu/ros2m/install/cart_launch/share/cart_launch/hook/cmake_prefix_path.dsv'
+[77.870s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tutu/ros2m/install/cart_launch/share/cart_launch/hook/cmake_prefix_path.sh'
+[77.871s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/cart_launch/bin'
+[77.872s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/cart_launch/lib/pkgconfig/cart_launch.pc'
+[77.872s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/cart_launch/lib/python3.10/site-packages'
+[77.872s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/cart_launch/bin'
+[77.872s] INFO:colcon.colcon_core.shell:Creating package script '/home/tutu/ros2m/install/cart_launch/share/cart_launch/package.ps1'
+[77.873s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tutu/ros2m/install/cart_launch/share/cart_launch/package.dsv'
+[77.874s] INFO:colcon.colcon_core.shell:Creating package script '/home/tutu/ros2m/install/cart_launch/share/cart_launch/package.sh'
+[77.874s] INFO:colcon.colcon_core.shell:Creating package script '/home/tutu/ros2m/install/cart_launch/share/cart_launch/package.bash'
+[77.875s] INFO:colcon.colcon_core.shell:Creating package script '/home/tutu/ros2m/install/cart_launch/share/cart_launch/package.zsh'
+[77.876s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tutu/ros2m/install/cart_launch/share/colcon-core/packages/cart_launch)
+[77.878s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tutu/ros2m/src/feature_matcher' with build type 'ament_cmake'
+[77.878s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tutu/ros2m/src/feature_matcher'
+[77.879s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[77.879s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[77.893s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tutu/ros2m/build/feature_matcher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tutu/ros2m/build/feature_matcher -- -j1 -l1
+[78.007s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tutu/ros2m/build/feature_matcher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tutu/ros2m/build/feature_matcher -- -j1 -l1
+[78.011s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tutu/ros2m/build/feature_matcher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tutu/ros2m/build/feature_matcher
+[78.043s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(feature_matcher)
+[78.043s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/feature_matcher' for CMake module files
+[78.045s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tutu/ros2m/build/feature_matcher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tutu/ros2m/build/feature_matcher
+[78.046s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/feature_matcher' for CMake config files
+[78.047s] Level 1:colcon.colcon_core.shell:create_environment_hook('feature_matcher', 'cmake_prefix_path')
+[78.048s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tutu/ros2m/install/feature_matcher/share/feature_matcher/hook/cmake_prefix_path.ps1'
+[78.049s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tutu/ros2m/install/feature_matcher/share/feature_matcher/hook/cmake_prefix_path.dsv'
+[78.050s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tutu/ros2m/install/feature_matcher/share/feature_matcher/hook/cmake_prefix_path.sh'
+[78.051s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/feature_matcher/lib'
+[78.051s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/feature_matcher/bin'
+[78.051s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/feature_matcher/lib/pkgconfig/feature_matcher.pc'
+[78.051s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/feature_matcher/lib/python3.10/site-packages'
+[78.052s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/feature_matcher/bin'
+[78.052s] INFO:colcon.colcon_core.shell:Creating package script '/home/tutu/ros2m/install/feature_matcher/share/feature_matcher/package.ps1'
+[78.052s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tutu/ros2m/install/feature_matcher/share/feature_matcher/package.dsv'
+[78.053s] INFO:colcon.colcon_core.shell:Creating package script '/home/tutu/ros2m/install/feature_matcher/share/feature_matcher/package.sh'
+[78.054s] INFO:colcon.colcon_core.shell:Creating package script '/home/tutu/ros2m/install/feature_matcher/share/feature_matcher/package.bash'
+[78.055s] INFO:colcon.colcon_core.shell:Creating package script '/home/tutu/ros2m/install/feature_matcher/share/feature_matcher/package.zsh'
+[78.057s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tutu/ros2m/install/feature_matcher/share/colcon-core/packages/feature_matcher)
+[78.058s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(feature_matcher)
+[78.059s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/feature_matcher' for CMake module files
+[78.059s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/feature_matcher' for CMake config files
+[78.059s] Level 1:colcon.colcon_core.shell:create_environment_hook('feature_matcher', 'cmake_prefix_path')
+[78.059s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tutu/ros2m/install/feature_matcher/share/feature_matcher/hook/cmake_prefix_path.ps1'
+[78.060s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tutu/ros2m/install/feature_matcher/share/feature_matcher/hook/cmake_prefix_path.dsv'
+[78.062s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tutu/ros2m/install/feature_matcher/share/feature_matcher/hook/cmake_prefix_path.sh'
+[78.063s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/feature_matcher/lib'
+[78.064s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/feature_matcher/bin'
+[78.064s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/feature_matcher/lib/pkgconfig/feature_matcher.pc'
+[78.064s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/feature_matcher/lib/python3.10/site-packages'
+[78.064s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/feature_matcher/bin'
+[78.064s] INFO:colcon.colcon_core.shell:Creating package script '/home/tutu/ros2m/install/feature_matcher/share/feature_matcher/package.ps1'
+[78.065s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tutu/ros2m/install/feature_matcher/share/feature_matcher/package.dsv'
+[78.066s] INFO:colcon.colcon_core.shell:Creating package script '/home/tutu/ros2m/install/feature_matcher/share/feature_matcher/package.sh'
+[78.067s] INFO:colcon.colcon_core.shell:Creating package script '/home/tutu/ros2m/install/feature_matcher/share/feature_matcher/package.bash'
+[78.068s] INFO:colcon.colcon_core.shell:Creating package script '/home/tutu/ros2m/install/feature_matcher/share/feature_matcher/package.zsh'
+[78.068s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tutu/ros2m/install/feature_matcher/share/colcon-core/packages/feature_matcher)
+[78.069s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tutu/ros2m/src/simple_planner' with build type 'ament_cmake'
+[78.070s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tutu/ros2m/src/simple_planner'
+[78.071s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[78.071s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[78.082s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tutu/ros2m/build/simple_planner': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tutu/ros2m/build/simple_planner -- -j1 -l1
+[78.192s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tutu/ros2m/build/simple_planner' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tutu/ros2m/build/simple_planner -- -j1 -l1
+[78.194s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tutu/ros2m/build/simple_planner': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tutu/ros2m/build/simple_planner
+[78.217s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(simple_planner)
+[78.217s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/simple_planner' for CMake module files
+[78.219s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/simple_planner' for CMake config files
+[78.219s] Level 1:colcon.colcon_core.shell:create_environment_hook('simple_planner', 'cmake_prefix_path')
+[78.219s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tutu/ros2m/install/simple_planner/share/simple_planner/hook/cmake_prefix_path.ps1'
+[78.222s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tutu/ros2m/build/simple_planner' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tutu/ros2m/build/simple_planner
+[78.224s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tutu/ros2m/install/simple_planner/share/simple_planner/hook/cmake_prefix_path.dsv'
+[78.224s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tutu/ros2m/install/simple_planner/share/simple_planner/hook/cmake_prefix_path.sh'
+[78.226s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/simple_planner/lib'
+[78.226s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/simple_planner/bin'
+[78.226s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/simple_planner/lib/pkgconfig/simple_planner.pc'
+[78.226s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/simple_planner/lib/python3.10/site-packages'
+[78.226s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/simple_planner/bin'
+[78.226s] INFO:colcon.colcon_core.shell:Creating package script '/home/tutu/ros2m/install/simple_planner/share/simple_planner/package.ps1'
+[78.229s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tutu/ros2m/install/simple_planner/share/simple_planner/package.dsv'
+[78.231s] INFO:colcon.colcon_core.shell:Creating package script '/home/tutu/ros2m/install/simple_planner/share/simple_planner/package.sh'
+[78.231s] INFO:colcon.colcon_core.shell:Creating package script '/home/tutu/ros2m/install/simple_planner/share/simple_planner/package.bash'
+[78.233s] INFO:colcon.colcon_core.shell:Creating package script '/home/tutu/ros2m/install/simple_planner/share/simple_planner/package.zsh'
+[78.233s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tutu/ros2m/install/simple_planner/share/colcon-core/packages/simple_planner)
+[78.235s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(simple_planner)
+[78.235s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/simple_planner' for CMake module files
+[78.236s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/simple_planner' for CMake config files
+[78.237s] Level 1:colcon.colcon_core.shell:create_environment_hook('simple_planner', 'cmake_prefix_path')
+[78.237s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tutu/ros2m/install/simple_planner/share/simple_planner/hook/cmake_prefix_path.ps1'
+[78.239s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tutu/ros2m/install/simple_planner/share/simple_planner/hook/cmake_prefix_path.dsv'
+[78.239s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tutu/ros2m/install/simple_planner/share/simple_planner/hook/cmake_prefix_path.sh'
+[78.241s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/simple_planner/lib'
+[78.241s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/simple_planner/bin'
+[78.241s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/simple_planner/lib/pkgconfig/simple_planner.pc'
+[78.242s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/simple_planner/lib/python3.10/site-packages'
+[78.242s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/simple_planner/bin'
+[78.245s] INFO:colcon.colcon_core.shell:Creating package script '/home/tutu/ros2m/install/simple_planner/share/simple_planner/package.ps1'
+[78.246s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tutu/ros2m/install/simple_planner/share/simple_planner/package.dsv'
+[78.246s] INFO:colcon.colcon_core.shell:Creating package script '/home/tutu/ros2m/install/simple_planner/share/simple_planner/package.sh'
+[78.248s] INFO:colcon.colcon_core.shell:Creating package script '/home/tutu/ros2m/install/simple_planner/share/simple_planner/package.bash'
+[78.249s] INFO:colcon.colcon_core.shell:Creating package script '/home/tutu/ros2m/install/simple_planner/share/simple_planner/package.zsh'
+[78.250s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tutu/ros2m/install/simple_planner/share/colcon-core/packages/simple_planner)
+[78.253s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tutu/ros2m/src/stage_controller' with build type 'ament_cmake'
+[78.253s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tutu/ros2m/src/stage_controller'
+[78.253s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[78.253s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[78.284s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tutu/ros2m/build/stage_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tutu/ros2m/build/stage_controller -- -j1 -l1
+[78.406s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tutu/ros2m/build/stage_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tutu/ros2m/build/stage_controller -- -j1 -l1
+[78.406s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tutu/ros2m/build/stage_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tutu/ros2m/build/stage_controller
+[78.433s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(stage_controller)
+[78.434s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/stage_controller' for CMake module files
+[78.434s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tutu/ros2m/build/stage_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tutu/ros2m/build/stage_controller
+[78.435s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/stage_controller' for CMake config files
+[78.435s] Level 1:colcon.colcon_core.shell:create_environment_hook('stage_controller', 'cmake_prefix_path')
+[78.436s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tutu/ros2m/install/stage_controller/share/stage_controller/hook/cmake_prefix_path.ps1'
+[78.437s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tutu/ros2m/install/stage_controller/share/stage_controller/hook/cmake_prefix_path.dsv'
+[78.438s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tutu/ros2m/install/stage_controller/share/stage_controller/hook/cmake_prefix_path.sh'
+[78.440s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/stage_controller/lib'
+[78.440s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/stage_controller/bin'
+[78.440s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/stage_controller/lib/pkgconfig/stage_controller.pc'
+[78.440s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/stage_controller/lib/python3.10/site-packages'
+[78.441s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/stage_controller/bin'
+[78.442s] INFO:colcon.colcon_core.shell:Creating package script '/home/tutu/ros2m/install/stage_controller/share/stage_controller/package.ps1'
+[78.442s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tutu/ros2m/install/stage_controller/share/stage_controller/package.dsv'
+[78.443s] INFO:colcon.colcon_core.shell:Creating package script '/home/tutu/ros2m/install/stage_controller/share/stage_controller/package.sh'
+[78.444s] INFO:colcon.colcon_core.shell:Creating package script '/home/tutu/ros2m/install/stage_controller/share/stage_controller/package.bash'
+[78.445s] INFO:colcon.colcon_core.shell:Creating package script '/home/tutu/ros2m/install/stage_controller/share/stage_controller/package.zsh'
+[78.446s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tutu/ros2m/install/stage_controller/share/colcon-core/packages/stage_controller)
+[78.449s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(stage_controller)
+[78.450s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/stage_controller' for CMake module files
+[78.451s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/stage_controller' for CMake config files
+[78.452s] Level 1:colcon.colcon_core.shell:create_environment_hook('stage_controller', 'cmake_prefix_path')
+[78.453s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tutu/ros2m/install/stage_controller/share/stage_controller/hook/cmake_prefix_path.ps1'
+[78.453s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tutu/ros2m/install/stage_controller/share/stage_controller/hook/cmake_prefix_path.dsv'
+[78.455s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tutu/ros2m/install/stage_controller/share/stage_controller/hook/cmake_prefix_path.sh'
+[78.456s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/stage_controller/lib'
+[78.456s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/stage_controller/bin'
+[78.456s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/stage_controller/lib/pkgconfig/stage_controller.pc'
+[78.457s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/stage_controller/lib/python3.10/site-packages'
+[78.459s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/stage_controller/bin'
+[78.459s] INFO:colcon.colcon_core.shell:Creating package script '/home/tutu/ros2m/install/stage_controller/share/stage_controller/package.ps1'
+[78.461s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tutu/ros2m/install/stage_controller/share/stage_controller/package.dsv'
+[78.465s] INFO:colcon.colcon_core.shell:Creating package script '/home/tutu/ros2m/install/stage_controller/share/stage_controller/package.sh'
+[78.466s] INFO:colcon.colcon_core.shell:Creating package script '/home/tutu/ros2m/install/stage_controller/share/stage_controller/package.bash'
+[78.469s] INFO:colcon.colcon_core.shell:Creating package script '/home/tutu/ros2m/install/stage_controller/share/stage_controller/package.zsh'
+[78.471s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tutu/ros2m/install/stage_controller/share/colcon-core/packages/stage_controller)
+[78.472s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tutu/ros2m/src/barrel_slam' with build type 'ament_cmake'
+[78.472s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tutu/ros2m/src/barrel_slam'
+[78.473s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[78.473s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[78.507s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tutu/ros2m/build/barrel_slam': AMENT_PREFIX_PATH=/home/tutu/ros2m/install/angles:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tutu/ros2m/install/angles:/opt/ros/humble PYTHONPATH=/home/tutu/ros2m/install/angles/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tutu/ros2m/build/barrel_slam -- -j1 -l1
+[78.685s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tutu/ros2m/build/barrel_slam' returned '0': AMENT_PREFIX_PATH=/home/tutu/ros2m/install/angles:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tutu/ros2m/install/angles:/opt/ros/humble PYTHONPATH=/home/tutu/ros2m/install/angles/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tutu/ros2m/build/barrel_slam -- -j1 -l1
+[78.691s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tutu/ros2m/build/barrel_slam': AMENT_PREFIX_PATH=/home/tutu/ros2m/install/angles:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tutu/ros2m/install/angles:/opt/ros/humble PYTHONPATH=/home/tutu/ros2m/install/angles/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/tutu/ros2m/build/barrel_slam
+[78.721s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(barrel_slam)
+[78.721s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/barrel_slam' for CMake module files
+[78.723s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/barrel_slam' for CMake config files
+[78.724s] Level 1:colcon.colcon_core.shell:create_environment_hook('barrel_slam', 'cmake_prefix_path')
+[78.724s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tutu/ros2m/install/barrel_slam/share/barrel_slam/hook/cmake_prefix_path.ps1'
+[78.723s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tutu/ros2m/build/barrel_slam' returned '0': AMENT_PREFIX_PATH=/home/tutu/ros2m/install/angles:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tutu/ros2m/install/angles:/opt/ros/humble PYTHONPATH=/home/tutu/ros2m/install/angles/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/tutu/ros2m/build/barrel_slam
+[78.726s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tutu/ros2m/install/barrel_slam/share/barrel_slam/hook/cmake_prefix_path.dsv'
+[78.727s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tutu/ros2m/install/barrel_slam/share/barrel_slam/hook/cmake_prefix_path.sh'
+[78.729s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/barrel_slam/lib'
+[78.729s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/barrel_slam/bin'
+[78.729s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/barrel_slam/lib/pkgconfig/barrel_slam.pc'
+[78.730s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/barrel_slam/lib/python3.10/site-packages'
+[78.730s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/barrel_slam/bin'
+[78.730s] INFO:colcon.colcon_core.shell:Creating package script '/home/tutu/ros2m/install/barrel_slam/share/barrel_slam/package.ps1'
+[78.733s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tutu/ros2m/install/barrel_slam/share/barrel_slam/package.dsv'
+[78.733s] INFO:colcon.colcon_core.shell:Creating package script '/home/tutu/ros2m/install/barrel_slam/share/barrel_slam/package.sh'
+[78.735s] INFO:colcon.colcon_core.shell:Creating package script '/home/tutu/ros2m/install/barrel_slam/share/barrel_slam/package.bash'
+[78.737s] INFO:colcon.colcon_core.shell:Creating package script '/home/tutu/ros2m/install/barrel_slam/share/barrel_slam/package.zsh'
+[78.739s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tutu/ros2m/install/barrel_slam/share/colcon-core/packages/barrel_slam)
+[78.740s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(barrel_slam)
+[78.740s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/barrel_slam' for CMake module files
+[78.741s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/barrel_slam' for CMake config files
+[78.742s] Level 1:colcon.colcon_core.shell:create_environment_hook('barrel_slam', 'cmake_prefix_path')
+[78.743s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tutu/ros2m/install/barrel_slam/share/barrel_slam/hook/cmake_prefix_path.ps1'
+[78.744s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tutu/ros2m/install/barrel_slam/share/barrel_slam/hook/cmake_prefix_path.dsv'
+[78.745s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tutu/ros2m/install/barrel_slam/share/barrel_slam/hook/cmake_prefix_path.sh'
+[78.748s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/barrel_slam/lib'
+[78.748s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/barrel_slam/bin'
+[78.748s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/barrel_slam/lib/pkgconfig/barrel_slam.pc'
+[78.748s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/barrel_slam/lib/python3.10/site-packages'
+[78.748s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/barrel_slam/bin'
+[78.749s] INFO:colcon.colcon_core.shell:Creating package script '/home/tutu/ros2m/install/barrel_slam/share/barrel_slam/package.ps1'
+[78.751s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tutu/ros2m/install/barrel_slam/share/barrel_slam/package.dsv'
+[78.752s] INFO:colcon.colcon_core.shell:Creating package script '/home/tutu/ros2m/install/barrel_slam/share/barrel_slam/package.sh'
+[78.753s] INFO:colcon.colcon_core.shell:Creating package script '/home/tutu/ros2m/install/barrel_slam/share/barrel_slam/package.bash'
+[78.755s] INFO:colcon.colcon_core.shell:Creating package script '/home/tutu/ros2m/install/barrel_slam/share/barrel_slam/package.zsh'
+[78.757s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tutu/ros2m/install/barrel_slam/share/colcon-core/packages/barrel_slam)
+[78.760s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tutu/ros2m/src/simple_controller' with build type 'ament_cmake'
+[78.760s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tutu/ros2m/src/simple_controller'
+[78.762s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[78.762s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[78.788s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tutu/ros2m/build/simple_controller': AMENT_PREFIX_PATH=/home/tutu/ros2m/install/angles:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tutu/ros2m/install/angles:/opt/ros/humble PYTHONPATH=/home/tutu/ros2m/install/angles/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tutu/ros2m/build/simple_controller -- -j1 -l1
+[78.897s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tutu/ros2m/build/simple_controller' returned '0': AMENT_PREFIX_PATH=/home/tutu/ros2m/install/angles:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tutu/ros2m/install/angles:/opt/ros/humble PYTHONPATH=/home/tutu/ros2m/install/angles/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tutu/ros2m/build/simple_controller -- -j1 -l1
+[78.899s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tutu/ros2m/build/simple_controller': AMENT_PREFIX_PATH=/home/tutu/ros2m/install/angles:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tutu/ros2m/install/angles:/opt/ros/humble PYTHONPATH=/home/tutu/ros2m/install/angles/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/tutu/ros2m/build/simple_controller
+[78.917s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(simple_controller)
+[78.917s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/simple_controller' for CMake module files
+[78.919s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tutu/ros2m/build/simple_controller' returned '0': AMENT_PREFIX_PATH=/home/tutu/ros2m/install/angles:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tutu/ros2m/install/angles:/opt/ros/humble PYTHONPATH=/home/tutu/ros2m/install/angles/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/tutu/ros2m/build/simple_controller
+[78.919s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/simple_controller' for CMake config files
+[78.920s] Level 1:colcon.colcon_core.shell:create_environment_hook('simple_controller', 'cmake_prefix_path')
+[78.921s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tutu/ros2m/install/simple_controller/share/simple_controller/hook/cmake_prefix_path.ps1'
+[78.921s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tutu/ros2m/install/simple_controller/share/simple_controller/hook/cmake_prefix_path.dsv'
+[78.923s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tutu/ros2m/install/simple_controller/share/simple_controller/hook/cmake_prefix_path.sh'
+[78.926s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/simple_controller/lib'
+[78.926s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/simple_controller/bin'
+[78.926s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/simple_controller/lib/pkgconfig/simple_controller.pc'
+[78.926s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/simple_controller/lib/python3.10/site-packages'
+[78.926s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/simple_controller/bin'
+[78.927s] INFO:colcon.colcon_core.shell:Creating package script '/home/tutu/ros2m/install/simple_controller/share/simple_controller/package.ps1'
+[78.932s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tutu/ros2m/install/simple_controller/share/simple_controller/package.dsv'
+[78.933s] INFO:colcon.colcon_core.shell:Creating package script '/home/tutu/ros2m/install/simple_controller/share/simple_controller/package.sh'
+[78.934s] INFO:colcon.colcon_core.shell:Creating package script '/home/tutu/ros2m/install/simple_controller/share/simple_controller/package.bash'
+[78.935s] INFO:colcon.colcon_core.shell:Creating package script '/home/tutu/ros2m/install/simple_controller/share/simple_controller/package.zsh'
+[78.936s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tutu/ros2m/install/simple_controller/share/colcon-core/packages/simple_controller)
+[78.938s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(simple_controller)
+[78.939s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/simple_controller' for CMake module files
+[78.939s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/simple_controller' for CMake config files
+[78.939s] Level 1:colcon.colcon_core.shell:create_environment_hook('simple_controller', 'cmake_prefix_path')
+[78.939s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tutu/ros2m/install/simple_controller/share/simple_controller/hook/cmake_prefix_path.ps1'
+[78.942s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tutu/ros2m/install/simple_controller/share/simple_controller/hook/cmake_prefix_path.dsv'
+[78.943s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tutu/ros2m/install/simple_controller/share/simple_controller/hook/cmake_prefix_path.sh'
+[78.945s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/simple_controller/lib'
+[78.945s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/simple_controller/bin'
+[78.945s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/simple_controller/lib/pkgconfig/simple_controller.pc'
+[78.945s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/simple_controller/lib/python3.10/site-packages'
+[78.945s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/simple_controller/bin'
+[78.945s] INFO:colcon.colcon_core.shell:Creating package script '/home/tutu/ros2m/install/simple_controller/share/simple_controller/package.ps1'
+[78.947s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tutu/ros2m/install/simple_controller/share/simple_controller/package.dsv'
+[78.949s] INFO:colcon.colcon_core.shell:Creating package script '/home/tutu/ros2m/install/simple_controller/share/simple_controller/package.sh'
+[78.950s] INFO:colcon.colcon_core.shell:Creating package script '/home/tutu/ros2m/install/simple_controller/share/simple_controller/package.bash'
+[78.950s] INFO:colcon.colcon_core.shell:Creating package script '/home/tutu/ros2m/install/simple_controller/share/simple_controller/package.zsh'
+[78.954s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tutu/ros2m/install/simple_controller/share/colcon-core/packages/simple_controller)
+[78.955s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tutu/ros2m/src/stage_ros2' with build type 'ament_cmake'
+[78.956s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tutu/ros2m/src/stage_ros2'
+[78.958s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[78.959s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[78.973s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tutu/ros2m/build/stage_ros2': CMAKE_PREFIX_PATH=/home/tutu/ros2m/install/Stage:/opt/ros/humble LD_LIBRARY_PATH=/home/tutu/ros2m/install/Stage/lib:${LD_LIBRARY_PATH} PATH=/home/tutu/ros2m/install/Stage/bin:${PATH} /usr/bin/cmake /home/tutu/ros2m/src/stage_ros2 -DCMAKE_INSTALL_PREFIX=/home/tutu/ros2m/install/stage_ros2
+[81.061s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tutu/ros2m/build/stage_ros2' returned '0': CMAKE_PREFIX_PATH=/home/tutu/ros2m/install/Stage:/opt/ros/humble LD_LIBRARY_PATH=/home/tutu/ros2m/install/Stage/lib:${LD_LIBRARY_PATH} PATH=/home/tutu/ros2m/install/Stage/bin:${PATH} /usr/bin/cmake /home/tutu/ros2m/src/stage_ros2 -DCMAKE_INSTALL_PREFIX=/home/tutu/ros2m/install/stage_ros2
+[81.065s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tutu/ros2m/build/stage_ros2': CMAKE_PREFIX_PATH=/home/tutu/ros2m/install/Stage:/opt/ros/humble LD_LIBRARY_PATH=/home/tutu/ros2m/install/Stage/lib:${LD_LIBRARY_PATH} PATH=/home/tutu/ros2m/install/Stage/bin:${PATH} /usr/bin/cmake --build /home/tutu/ros2m/build/stage_ros2 -- -j1 -l1
+[134.338s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tutu/ros2m/build/stage_ros2' returned '0': CMAKE_PREFIX_PATH=/home/tutu/ros2m/install/Stage:/opt/ros/humble LD_LIBRARY_PATH=/home/tutu/ros2m/install/Stage/lib:${LD_LIBRARY_PATH} PATH=/home/tutu/ros2m/install/Stage/bin:${PATH} /usr/bin/cmake --build /home/tutu/ros2m/build/stage_ros2 -- -j1 -l1
+[134.344s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tutu/ros2m/build/stage_ros2': CMAKE_PREFIX_PATH=/home/tutu/ros2m/install/Stage:/opt/ros/humble LD_LIBRARY_PATH=/home/tutu/ros2m/install/Stage/lib:${LD_LIBRARY_PATH} PATH=/home/tutu/ros2m/install/Stage/bin:${PATH} /usr/bin/cmake --install /home/tutu/ros2m/build/stage_ros2
+[134.417s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(stage_ros2)
+[134.417s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/stage_ros2' for CMake module files
+[134.421s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tutu/ros2m/build/stage_ros2' returned '0': CMAKE_PREFIX_PATH=/home/tutu/ros2m/install/Stage:/opt/ros/humble LD_LIBRARY_PATH=/home/tutu/ros2m/install/Stage/lib:${LD_LIBRARY_PATH} PATH=/home/tutu/ros2m/install/Stage/bin:${PATH} /usr/bin/cmake --install /home/tutu/ros2m/build/stage_ros2
+[134.421s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/stage_ros2' for CMake config files
+[134.422s] Level 1:colcon.colcon_core.shell:create_environment_hook('stage_ros2', 'cmake_prefix_path')
+[134.422s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tutu/ros2m/install/stage_ros2/share/stage_ros2/hook/cmake_prefix_path.ps1'
+[134.423s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tutu/ros2m/install/stage_ros2/share/stage_ros2/hook/cmake_prefix_path.dsv'
+[134.423s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tutu/ros2m/install/stage_ros2/share/stage_ros2/hook/cmake_prefix_path.sh'
+[134.424s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/stage_ros2/lib'
+[134.424s] Level 1:colcon.colcon_core.shell:create_environment_hook('stage_ros2', 'ld_library_path_lib')
+[134.424s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tutu/ros2m/install/stage_ros2/share/stage_ros2/hook/ld_library_path_lib.ps1'
+[134.425s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tutu/ros2m/install/stage_ros2/share/stage_ros2/hook/ld_library_path_lib.dsv'
+[134.425s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tutu/ros2m/install/stage_ros2/share/stage_ros2/hook/ld_library_path_lib.sh'
+[134.426s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/stage_ros2/bin'
+[134.426s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/stage_ros2/lib/pkgconfig/stage_ros2.pc'
+[134.426s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/stage_ros2/lib/python3.10/site-packages'
+[134.427s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/stage_ros2/bin'
+[134.427s] INFO:colcon.colcon_core.shell:Creating package script '/home/tutu/ros2m/install/stage_ros2/share/stage_ros2/package.ps1'
+[134.428s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tutu/ros2m/install/stage_ros2/share/stage_ros2/package.dsv'
+[134.429s] INFO:colcon.colcon_core.shell:Creating package script '/home/tutu/ros2m/install/stage_ros2/share/stage_ros2/package.sh'
+[134.430s] INFO:colcon.colcon_core.shell:Creating package script '/home/tutu/ros2m/install/stage_ros2/share/stage_ros2/package.bash'
+[134.430s] INFO:colcon.colcon_core.shell:Creating package script '/home/tutu/ros2m/install/stage_ros2/share/stage_ros2/package.zsh'
+[134.432s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tutu/ros2m/install/stage_ros2/share/colcon-core/packages/stage_ros2)
+[134.435s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(stage_ros2)
+[134.437s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/stage_ros2' for CMake module files
+[134.437s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/stage_ros2' for CMake config files
+[134.437s] Level 1:colcon.colcon_core.shell:create_environment_hook('stage_ros2', 'cmake_prefix_path')
+[134.439s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tutu/ros2m/install/stage_ros2/share/stage_ros2/hook/cmake_prefix_path.ps1'
+[134.439s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tutu/ros2m/install/stage_ros2/share/stage_ros2/hook/cmake_prefix_path.dsv'
+[134.440s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tutu/ros2m/install/stage_ros2/share/stage_ros2/hook/cmake_prefix_path.sh'
+[134.442s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/stage_ros2/lib'
+[134.442s] Level 1:colcon.colcon_core.shell:create_environment_hook('stage_ros2', 'ld_library_path_lib')
+[134.442s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tutu/ros2m/install/stage_ros2/share/stage_ros2/hook/ld_library_path_lib.ps1'
+[134.443s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tutu/ros2m/install/stage_ros2/share/stage_ros2/hook/ld_library_path_lib.dsv'
+[134.445s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tutu/ros2m/install/stage_ros2/share/stage_ros2/hook/ld_library_path_lib.sh'
+[134.445s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/stage_ros2/bin'
+[134.446s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/stage_ros2/lib/pkgconfig/stage_ros2.pc'
+[134.446s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/stage_ros2/lib/python3.10/site-packages'
+[134.447s] Level 1:colcon.colcon_core.environment:checking '/home/tutu/ros2m/install/stage_ros2/bin'
+[134.447s] INFO:colcon.colcon_core.shell:Creating package script '/home/tutu/ros2m/install/stage_ros2/share/stage_ros2/package.ps1'
+[134.450s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tutu/ros2m/install/stage_ros2/share/stage_ros2/package.dsv'
+[134.452s] INFO:colcon.colcon_core.shell:Creating package script '/home/tutu/ros2m/install/stage_ros2/share/stage_ros2/package.sh'
+[134.453s] INFO:colcon.colcon_core.shell:Creating package script '/home/tutu/ros2m/install/stage_ros2/share/stage_ros2/package.bash'
+[134.453s] INFO:colcon.colcon_core.shell:Creating package script '/home/tutu/ros2m/install/stage_ros2/share/stage_ros2/package.zsh'
+[134.454s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tutu/ros2m/install/stage_ros2/share/colcon-core/packages/stage_ros2)
+[134.455s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[134.455s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[134.456s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[134.456s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[134.461s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[134.462s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[134.462s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[134.494s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[134.496s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tutu/ros2m/install/local_setup.ps1'
+[134.498s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tutu/ros2m/install/_local_setup_util_ps1.py'
+[134.502s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tutu/ros2m/install/setup.ps1'
+[134.505s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tutu/ros2m/install/local_setup.sh'
+[134.507s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tutu/ros2m/install/_local_setup_util_sh.py'
+[134.508s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tutu/ros2m/install/setup.sh'
+[134.511s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tutu/ros2m/install/local_setup.bash'
+[134.513s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tutu/ros2m/install/setup.bash'
+[134.516s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tutu/ros2m/install/local_setup.zsh'
+[134.516s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tutu/ros2m/install/setup.zsh'

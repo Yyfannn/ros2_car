@@ -1,0 +1,83 @@
+[0.022s] Invoking command in '/home/tutu/ros2m/build/angles': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tutu/ros2m/src/angles -DCMAKE_INSTALL_PREFIX=/home/tutu/ros2m/install/angles
+[0.103s] -- The C compiler identification is GNU 11.4.0
+[0.189s] -- The CXX compiler identification is GNU 11.4.0
+[0.199s] -- Detecting C compiler ABI info
+[0.292s] -- Detecting C compiler ABI info - done
+[0.300s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.301s] -- Detecting C compile features
+[0.305s] -- Detecting C compile features - done
+[0.308s] -- Detecting CXX compiler ABI info
+[0.420s] -- Detecting CXX compiler ABI info - done
+[0.432s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.433s] -- Detecting CXX compile features
+[0.433s] -- Detecting CXX compile features - done
+[0.435s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.644s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.794s] -- Found ament_cmake_gtest: 1.3.10 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[0.796s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.800s] -- Looking for pthread.h
+[0.893s] -- Looking for pthread.h - found
+[0.894s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.017s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.019s] -- Found Threads: TRUE  
+[1.022s] -- Found ament_cmake_pytest: 1.3.10 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+[2.154s] -- Configuring done
+[2.168s] -- Generating done
+[2.184s] -- Build files have been written to: /home/tutu/ros2m/build/angles
+[2.193s] Invoked command in '/home/tutu/ros2m/build/angles' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tutu/ros2m/src/angles -DCMAKE_INSTALL_PREFIX=/home/tutu/ros2m/install/angles
+[2.198s] Invoking command in '/home/tutu/ros2m/build/angles': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tutu/ros2m/build/angles -- -j1 -l1
+[2.262s] [ 16%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[4.515s] [ 33%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[4.709s] [ 33%] Built target gtest_main
+[4.783s] [ 50%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[15.663s] [ 66%] [32m[1mLinking CXX static library libgtest.a[0m
+[15.892s] [ 66%] Built target gtest
+[15.965s] [ 83%] [32mBuilding CXX object CMakeFiles/angles_utest.dir/test/utest.cpp.o[0m
+[18.169s] [100%] [32m[1mLinking CXX executable angles_utest[0m
+[18.361s] [100%] Built target angles_utest
+[18.392s] [100%] Built target ament_cmake_python_copy_angles
+[18.754s] running egg_info
+[18.754s] creating angles.egg-info
+[18.755s] writing angles.egg-info/PKG-INFO
+[18.757s] writing dependency_links to angles.egg-info/dependency_links.txt
+[18.758s] writing top-level names to angles.egg-info/top_level.txt
+[18.760s] writing manifest file 'angles.egg-info/SOURCES.txt'
+[18.763s] reading manifest file 'angles.egg-info/SOURCES.txt'
+[18.763s] writing manifest file 'angles.egg-info/SOURCES.txt'
+[18.795s] [100%] Built target ament_cmake_python_build_angles_egg
+[18.807s] Invoked command in '/home/tutu/ros2m/build/angles' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tutu/ros2m/build/angles -- -j1 -l1
+[18.816s] Invoking command in '/home/tutu/ros2m/build/angles': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tutu/ros2m/build/angles
+[18.826s] -- Install configuration: ""
+[18.827s] -- Installing: /home/tutu/ros2m/install/angles/include/angles
+[18.827s] -- Installing: /home/tutu/ros2m/install/angles/include/angles/angles
+[18.827s] -- Installing: /home/tutu/ros2m/install/angles/include/angles/angles/angles.h
+[18.827s] -- Installing: /home/tutu/ros2m/install/angles/share/angles/environment/pythonpath.sh
+[18.831s] -- Installing: /home/tutu/ros2m/install/angles/share/angles/environment/pythonpath.dsv
+[18.835s] -- Installing: /home/tutu/ros2m/install/angles/local/lib/python3.10/dist-packages/angles-1.16.0-py3.10.egg-info
+[18.835s] -- Installing: /home/tutu/ros2m/install/angles/local/lib/python3.10/dist-packages/angles-1.16.0-py3.10.egg-info/top_level.txt
+[18.835s] -- Installing: /home/tutu/ros2m/install/angles/local/lib/python3.10/dist-packages/angles-1.16.0-py3.10.egg-info/PKG-INFO
+[18.835s] -- Installing: /home/tutu/ros2m/install/angles/local/lib/python3.10/dist-packages/angles-1.16.0-py3.10.egg-info/dependency_links.txt
+[18.835s] -- Installing: /home/tutu/ros2m/install/angles/local/lib/python3.10/dist-packages/angles-1.16.0-py3.10.egg-info/SOURCES.txt
+[18.835s] -- Installing: /home/tutu/ros2m/install/angles/local/lib/python3.10/dist-packages/angles
+[18.835s] -- Installing: /home/tutu/ros2m/install/angles/local/lib/python3.10/dist-packages/angles/__init__.py
+[18.933s] Listing '/home/tutu/ros2m/install/angles/local/lib/python3.10/dist-packages/angles'...
+[18.933s] Compiling '/home/tutu/ros2m/install/angles/local/lib/python3.10/dist-packages/angles/__init__.py'...
+[18.948s] -- Installing: /home/tutu/ros2m/install/angles/share/ament_index/resource_index/package_run_dependencies/angles
+[18.948s] -- Installing: /home/tutu/ros2m/install/angles/share/ament_index/resource_index/parent_prefix_path/angles
+[18.948s] -- Installing: /home/tutu/ros2m/install/angles/share/angles/environment/ament_prefix_path.sh
+[18.948s] -- Installing: /home/tutu/ros2m/install/angles/share/angles/environment/ament_prefix_path.dsv
+[18.948s] -- Installing: /home/tutu/ros2m/install/angles/share/angles/environment/path.sh
+[18.948s] -- Installing: /home/tutu/ros2m/install/angles/share/angles/environment/path.dsv
+[18.948s] -- Installing: /home/tutu/ros2m/install/angles/share/angles/local_setup.bash
+[18.948s] -- Installing: /home/tutu/ros2m/install/angles/share/angles/local_setup.sh
+[18.950s] -- Installing: /home/tutu/ros2m/install/angles/share/angles/local_setup.zsh
+[18.950s] -- Installing: /home/tutu/ros2m/install/angles/share/angles/local_setup.dsv
+[18.951s] -- Installing: /home/tutu/ros2m/install/angles/share/angles/package.dsv
+[18.951s] -- Installing: /home/tutu/ros2m/install/angles/share/ament_index/resource_index/packages/angles
+[18.954s] -- Installing: /home/tutu/ros2m/install/angles/share/angles/cmake/export_anglesExport.cmake
+[18.954s] -- Installing: /home/tutu/ros2m/install/angles/share/angles/cmake/ament_cmake_export_include_directories-extras.cmake
+[18.954s] -- Installing: /home/tutu/ros2m/install/angles/share/angles/cmake/ament_cmake_export_targets-extras.cmake
+[18.954s] -- Installing: /home/tutu/ros2m/install/angles/share/angles/cmake/anglesConfig.cmake
+[18.954s] -- Installing: /home/tutu/ros2m/install/angles/share/angles/cmake/anglesConfig-version.cmake
+[18.954s] -- Installing: /home/tutu/ros2m/install/angles/share/angles/package.xml
+[18.961s] Invoked command in '/home/tutu/ros2m/build/angles' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tutu/ros2m/build/angles

@@ -1,0 +1,1 @@
+/home/tutu/mr_ws_ros2/src/stage_ros2/world/robot/laser.inc

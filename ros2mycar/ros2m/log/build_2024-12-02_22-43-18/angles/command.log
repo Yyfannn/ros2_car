@@ -1,0 +1,6 @@
+Invoking command in '/home/tutu/ros2m/build/angles': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tutu/ros2m/src/angles -DCMAKE_INSTALL_PREFIX=/home/tutu/ros2m/install/angles
+Invoked command in '/home/tutu/ros2m/build/angles' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tutu/ros2m/src/angles -DCMAKE_INSTALL_PREFIX=/home/tutu/ros2m/install/angles
+Invoking command in '/home/tutu/ros2m/build/angles': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tutu/ros2m/build/angles -- -j1 -l1
+Invoked command in '/home/tutu/ros2m/build/angles' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tutu/ros2m/build/angles -- -j1 -l1
+Invoking command in '/home/tutu/ros2m/build/angles': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tutu/ros2m/build/angles
+Invoked command in '/home/tutu/ros2m/build/angles' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tutu/ros2m/build/angles

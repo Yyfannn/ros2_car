@@ -1,0 +1,87 @@
+[0.023s] Invoking command in '/home/tutu/mr_ws_ros2/build/stage_ros2': CMAKE_PREFIX_PATH=/home/tutu/mr_ws_ros2/install/Stage:/home/tutu/mr_ws_ros2/install/stage_ros2:/home/tutu/mr_ws_ros2/install/stage_controller:/home/tutu/mr_ws_ros2/install/simple_controller:/home/tutu/mr_ws_ros2/install/cart_launch:/opt/ros/foxy LD_LIBRARY_PATH=/home/tutu/mr_ws_ros2/install/Stage/lib:/home/tutu/mr_ws_ros2/install/stage_ros2/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake /home/tutu/mr_ws_ros2/src/stage_ros2 -DCMAKE_BUILD_TYPE=RelWithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tutu/mr_ws_ros2/install/stage_ros2
+[0.066s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.125s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.572s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.584s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.639s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.644s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.854s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.954s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.957s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.248s] -- Found rclcpp_components: 2.4.3 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[1.355s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[1.570s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[1.708s] -- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)
+[2.208s] -- Found tf2_geometry_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)
+[2.220s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[2.271s] -- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)
+[2.298s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.433s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.434s] -- Configured cppcheck include dirs: /home/tutu/mr_ws_ros2/src/stage_ros2/./include;$<BUILD_INTERFACE:/home/tutu/mr_ws_ros2/src/stage_ros2/include>
+[2.434s] -- Configured cppcheck exclude dirs and/or files: 
+[2.435s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.436s] -- Added test 'lint_cmake' to check CMake code style
+[2.437s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[2.439s] -- Added test 'uncrustify' to check C / C++ code style
+[2.439s] -- Configured uncrustify additional arguments: 
+[2.440s] -- Added test 'xmllint' to check XML markup files
+[2.442s] -- Added test 'clang_format' to check C / C++ code style
+[2.442s] -- Added test 'pycodestyle' to check Python code against some of the style conventions in PEP 8
+[2.448s] -- Configuring done
+[2.492s] -- Generating done
+[2.496s] -- Build files have been written to: /home/tutu/mr_ws_ros2/build/stage_ros2
+[2.508s] Invoked command in '/home/tutu/mr_ws_ros2/build/stage_ros2' returned '0': CMAKE_PREFIX_PATH=/home/tutu/mr_ws_ros2/install/Stage:/home/tutu/mr_ws_ros2/install/stage_ros2:/home/tutu/mr_ws_ros2/install/stage_controller:/home/tutu/mr_ws_ros2/install/simple_controller:/home/tutu/mr_ws_ros2/install/cart_launch:/opt/ros/foxy LD_LIBRARY_PATH=/home/tutu/mr_ws_ros2/install/Stage/lib:/home/tutu/mr_ws_ros2/install/stage_ros2/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake /home/tutu/mr_ws_ros2/src/stage_ros2 -DCMAKE_BUILD_TYPE=RelWithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tutu/mr_ws_ros2/install/stage_ros2
+[2.511s] Invoking command in '/home/tutu/mr_ws_ros2/build/stage_ros2': CMAKE_PREFIX_PATH=/home/tutu/mr_ws_ros2/install/Stage:/home/tutu/mr_ws_ros2/install/stage_ros2:/home/tutu/mr_ws_ros2/install/stage_controller:/home/tutu/mr_ws_ros2/install/simple_controller:/home/tutu/mr_ws_ros2/install/cart_launch:/opt/ros/foxy LD_LIBRARY_PATH=/home/tutu/mr_ws_ros2/install/Stage/lib:/home/tutu/mr_ws_ros2/install/stage_ros2/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake --build /home/tutu/mr_ws_ros2/build/stage_ros2 -- -j8 -l8
+[2.643s] [ 14%] [32mBuilding CXX object CMakeFiles/stage_node.dir/src/stage_node.cpp.o[0m
+[2.649s] [ 28%] [32mBuilding CXX object CMakeFiles/stage_node.dir/src/camera.cpp.o[0m
+[2.656s] [ 42%] [32mBuilding CXX object CMakeFiles/stage_node.dir/src/vehicle.cpp.o[0m
+[2.665s] [ 57%] [32mBuilding CXX object CMakeFiles/stage_node.dir/src/ranger.cpp.o[0m
+[25.484s] [ 71%] [32m[1mLinking CXX shared library libstage_node.so[0m
+[25.833s] [ 71%] Built target stage_node
+[25.859s] [ 85%] [32mBuilding CXX object CMakeFiles/stage_ros2.dir/src/main.cpp.o[0m
+[29.018s] [100%] [32m[1mLinking CXX executable stage_ros2[0m
+[29.198s] [100%] Built target stage_ros2
+[29.207s] Invoked command in '/home/tutu/mr_ws_ros2/build/stage_ros2' returned '0': CMAKE_PREFIX_PATH=/home/tutu/mr_ws_ros2/install/Stage:/home/tutu/mr_ws_ros2/install/stage_ros2:/home/tutu/mr_ws_ros2/install/stage_controller:/home/tutu/mr_ws_ros2/install/simple_controller:/home/tutu/mr_ws_ros2/install/cart_launch:/opt/ros/foxy LD_LIBRARY_PATH=/home/tutu/mr_ws_ros2/install/Stage/lib:/home/tutu/mr_ws_ros2/install/stage_ros2/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake --build /home/tutu/mr_ws_ros2/build/stage_ros2 -- -j8 -l8
+[29.236s] Invoking command in '/home/tutu/mr_ws_ros2/build/stage_ros2': CMAKE_PREFIX_PATH=/home/tutu/mr_ws_ros2/install/Stage:/home/tutu/mr_ws_ros2/install/stage_ros2:/home/tutu/mr_ws_ros2/install/stage_controller:/home/tutu/mr_ws_ros2/install/simple_controller:/home/tutu/mr_ws_ros2/install/cart_launch:/opt/ros/foxy LD_LIBRARY_PATH=/home/tutu/mr_ws_ros2/install/Stage/lib:/home/tutu/mr_ws_ros2/install/stage_ros2/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake --install /home/tutu/mr_ws_ros2/build/stage_ros2
+[29.244s] -- Install configuration: "RelWithDebInfo"
+[29.244s] -- Execute custom install script
+[29.244s] -- Symlinking: /home/tutu/mr_ws_ros2/install/stage_ros2/share/stage_ros2/environment/library_path.sh
+[29.253s] -- Symlinking: /home/tutu/mr_ws_ros2/install/stage_ros2/share/stage_ros2/environment/library_path.dsv
+[29.260s] -- Symlinking: /home/tutu/mr_ws_ros2/install/stage_ros2/share/stage_ros2//launch/my_house.launch.py
+[29.269s] -- Symlinking: /home/tutu/mr_ws_ros2/install/stage_ros2/share/stage_ros2//launch/my_house_multi.launch.py
+[29.276s] -- Symlinking: /home/tutu/mr_ws_ros2/install/stage_ros2/share/stage_ros2//world/maps/autolab.png
+[29.285s] -- Symlinking: /home/tutu/mr_ws_ros2/install/stage_ros2/share/stage_ros2//world/maps/cave.png
+[29.292s] -- Symlinking: /home/tutu/mr_ws_ros2/install/stage_ros2/share/stage_ros2//world/maps/frieburg.png
+[29.300s] -- Symlinking: /home/tutu/mr_ws_ros2/install/stage_ros2/share/stage_ros2//world/maps/ghost.png
+[29.307s] -- Symlinking: /home/tutu/mr_ws_ros2/install/stage_ros2/share/stage_ros2//world/maps/hospital_section.png
+[29.316s] -- Symlinking: /home/tutu/mr_ws_ros2/install/stage_ros2/share/stage_ros2//world/maps/human_outline.png
+[29.323s] -- Symlinking: /home/tutu/mr_ws_ros2/install/stage_ros2/share/stage_ros2//world/maps/line.png
+[29.331s] -- Symlinking: /home/tutu/mr_ws_ros2/install/stage_ros2/share/stage_ros2//world/maps/my_house.jpg
+[29.339s] -- Symlinking: /home/tutu/mr_ws_ros2/install/stage_ros2/share/stage_ros2//world/maps/simple_rooms.png
+[29.347s] -- Symlinking: /home/tutu/mr_ws_ros2/install/stage_ros2/share/stage_ros2//world/maps/space_invader.png
+[29.355s] -- Symlinking: /home/tutu/mr_ws_ros2/install/stage_ros2/share/stage_ros2//world/maps/uoa_robotics_lab.png
+[29.364s] -- Symlinking: /home/tutu/mr_ws_ros2/install/stage_ros2/share/stage_ros2//world/my_house.world
+[29.371s] -- Symlinking: /home/tutu/mr_ws_ros2/install/stage_ros2/share/stage_ros2//world/my_house_multi.world
+[29.379s] -- Symlinking: /home/tutu/mr_ws_ros2/install/stage_ros2/share/stage_ros2//world/robot/camera.inc
+[29.387s] -- Symlinking: /home/tutu/mr_ws_ros2/install/stage_ros2/share/stage_ros2//world/robot/car_base.inc
+[29.393s] -- Symlinking: /home/tutu/mr_ws_ros2/install/stage_ros2/share/stage_ros2//world/robot/laser.inc
+[29.402s] -- Symlinking: /home/tutu/mr_ws_ros2/install/stage_ros2/share/stage_ros2//world/robot/mycar.inc
+[29.409s] -- Symlinking: /home/tutu/mr_ws_ros2/install/stage_ros2/share/stage_ros2//config/rviz/example.rviz
+[29.418s] -- Symlinking: /home/tutu/mr_ws_ros2/install/stage_ros2/lib/libstage_node.so
+[29.426s] -- Symlinking: /home/tutu/mr_ws_ros2/install/stage_ros2/lib/stage_ros2/stage_ros2
+[29.434s] -- Symlinking: /home/tutu/mr_ws_ros2/install/stage_ros2/share/ament_index/resource_index/package_run_dependencies/stage_ros2
+[29.442s] -- Symlinking: /home/tutu/mr_ws_ros2/install/stage_ros2/share/ament_index/resource_index/parent_prefix_path/stage_ros2
+[29.451s] -- Symlinking: /home/tutu/mr_ws_ros2/install/stage_ros2/share/stage_ros2/environment/ament_prefix_path.sh
+[29.458s] -- Symlinking: /home/tutu/mr_ws_ros2/install/stage_ros2/share/stage_ros2/environment/ament_prefix_path.dsv
+[29.467s] -- Symlinking: /home/tutu/mr_ws_ros2/install/stage_ros2/share/stage_ros2/environment/path.sh
+[29.475s] -- Symlinking: /home/tutu/mr_ws_ros2/install/stage_ros2/share/stage_ros2/environment/path.dsv
+[29.483s] -- Symlinking: /home/tutu/mr_ws_ros2/install/stage_ros2/share/stage_ros2/local_setup.bash
+[29.490s] -- Symlinking: /home/tutu/mr_ws_ros2/install/stage_ros2/share/stage_ros2/local_setup.sh
+[29.498s] -- Symlinking: /home/tutu/mr_ws_ros2/install/stage_ros2/share/stage_ros2/local_setup.zsh
+[29.505s] -- Symlinking: /home/tutu/mr_ws_ros2/install/stage_ros2/share/stage_ros2/local_setup.dsv
+[29.513s] -- Symlinking: /home/tutu/mr_ws_ros2/install/stage_ros2/share/stage_ros2/package.dsv
+[29.521s] -- Symlinking: /home/tutu/mr_ws_ros2/install/stage_ros2/share/ament_index/resource_index/packages/stage_ros2
+[29.529s] -- Symlinking: /home/tutu/mr_ws_ros2/install/stage_ros2/share/stage_ros2/cmake/stage_ros2Config.cmake
+[29.538s] -- Symlinking: /home/tutu/mr_ws_ros2/install/stage_ros2/share/stage_ros2/cmake/stage_ros2Config-version.cmake
+[29.545s] -- Symlinking: /home/tutu/mr_ws_ros2/install/stage_ros2/share/stage_ros2/package.xml
+[29.556s] Invoked command in '/home/tutu/mr_ws_ros2/build/stage_ros2' returned '0': CMAKE_PREFIX_PATH=/home/tutu/mr_ws_ros2/install/Stage:/home/tutu/mr_ws_ros2/install/stage_ros2:/home/tutu/mr_ws_ros2/install/stage_controller:/home/tutu/mr_ws_ros2/install/simple_controller:/home/tutu/mr_ws_ros2/install/cart_launch:/opt/ros/foxy LD_LIBRARY_PATH=/home/tutu/mr_ws_ros2/install/Stage/lib:/home/tutu/mr_ws_ros2/install/stage_ros2/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake --install /home/tutu/mr_ws_ros2/build/stage_ros2

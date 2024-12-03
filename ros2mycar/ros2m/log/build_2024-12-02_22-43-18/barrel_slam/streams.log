@@ -1,0 +1,92 @@
+[0.015s] Invoking command in '/home/tutu/ros2m/build/barrel_slam': AMENT_PREFIX_PATH=/home/tutu/ros2m/install/angles:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tutu/ros2m/install/angles:/opt/ros/humble PYTHONPATH=/home/tutu/ros2m/install/angles/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/tutu/ros2m/src/barrel_slam -DCMAKE_INSTALL_PREFIX=/home/tutu/ros2m/install/barrel_slam
+[0.084s] -- The C compiler identification is GNU 11.4.0
+[0.167s] -- The CXX compiler identification is GNU 11.4.0
+[0.179s] -- Detecting C compiler ABI info
+[0.296s] -- Detecting C compiler ABI info - done
+[0.302s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.303s] -- Detecting C compile features
+[0.304s] -- Detecting C compile features - done
+[0.316s] -- Detecting CXX compiler ABI info
+[0.450s] -- Detecting CXX compiler ABI info - done
+[0.464s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.464s] -- Detecting CXX compile features
+[0.465s] -- Detecting CXX compile features - done
+[0.472s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.673s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.803s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.902s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.915s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.941s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.955s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.975s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.045s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.049s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.157s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.192s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.249s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.262s] -- Looking for pthread.h
+[1.364s] -- Looking for pthread.h - found
+[1.369s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.469s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.471s] -- Found Threads: TRUE  
+[1.534s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.569s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.590s] -- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)
+[1.611s] -- Found angles: 1.16.0 (/home/tutu/ros2m/install/angles/share/angles/cmake)
+[1.616s] -- Found tf2: 0.25.8 (/opt/ros/humble/share/tf2/cmake)
+[1.638s] -- Found tf2_ros: 0.25.8 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.834s] -- Configuring done
+[1.860s] -- Generating done
+[1.866s] -- Build files have been written to: /home/tutu/ros2m/build/barrel_slam
+[1.880s] Invoked command in '/home/tutu/ros2m/build/barrel_slam' returned '0': AMENT_PREFIX_PATH=/home/tutu/ros2m/install/angles:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tutu/ros2m/install/angles:/opt/ros/humble PYTHONPATH=/home/tutu/ros2m/install/angles/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/tutu/ros2m/src/barrel_slam -DCMAKE_INSTALL_PREFIX=/home/tutu/ros2m/install/barrel_slam
+[1.884s] Invoking command in '/home/tutu/ros2m/build/barrel_slam': AMENT_PREFIX_PATH=/home/tutu/ros2m/install/angles:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tutu/ros2m/install/angles:/opt/ros/humble PYTHONPATH=/home/tutu/ros2m/install/angles/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tutu/ros2m/build/barrel_slam -- -j1 -l1
+[1.952s] [ 33%] [32mBuilding CXX object CMakeFiles/slam_node.dir/src/slam_node.cpp.o[0m
+[7.656s] [ 66%] [32mBuilding CXX object CMakeFiles/slam_node.dir/src/slam.cpp.o[0m
+[12.709s] [01m[K/home/tutu/ros2m/src/barrel_slam/src/slam.cpp:[m[K In member function ‘[01m[Kint Slam::add_landmark_to_state(int)[m[K’:
+[12.709s] [01m[K/home/tutu/ros2m/src/barrel_slam/src/slam.cpp:140:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[12.710s]   140 |   double [01;35m[Kx[m[K = X(0);
+[12.710s]       |          [01;35m[K^[m[K
+[12.710s] [01m[K/home/tutu/ros2m/src/barrel_slam/src/slam.cpp:141:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ky[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[12.711s]   141 |   double [01;35m[Ky[m[K = X(1);
+[12.711s]       |          [01;35m[K^[m[K
+[13.072s] [01m[K/home/tutu/ros2m/src/barrel_slam/src/slam.cpp:[m[K In member function ‘[01m[Kvoid Slam::correct(int, int)[m[K’:
+[13.072s] [01m[K/home/tutu/ros2m/src/barrel_slam/src/slam.cpp:199:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kzi_r[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[13.072s]   199 |   double [01;35m[Kzi_r[m[K = new_landmarks_measurement[measurementIndex](0);
+[13.073s]       |          [01;35m[K^~~~[m[K
+[13.073s] [01m[K/home/tutu/ros2m/src/barrel_slam/src/slam.cpp:200:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kzi_phi[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[13.073s]   200 |   double [01;35m[Kzi_phi[m[K = new_landmarks_measurement[measurementIndex](1);
+[13.073s]       |          [01;35m[K^~~~~~[m[K
+[13.077s] [01m[K/home/tutu/ros2m/src/barrel_slam/src/slam.cpp:[m[K In member function ‘[01m[Kvoid Slam::publish_results(const string&, const rclcpp::Time&)[m[K’:
+[13.077s] [01m[K/home/tutu/ros2m/src/barrel_slam/src/slam.cpp:346:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[13.077s]   346 |   for (int i = 0; [01;35m[Ki < landmarks_found_quantity[m[K; ++i)
+[13.080s]       |                   [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[13.238s] [01m[K/home/tutu/ros2m/src/barrel_slam/src/slam.cpp:[m[K In member function ‘[01m[Kvoid Slam::advertize_landmark_publishers()[m[K’:
+[13.239s] [01m[K/home/tutu/ros2m/src/barrel_slam/src/slam.cpp:422:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kconst size_t[m[K’ {aka ‘[01m[Kconst long unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[13.239s]   422 |   for (int i = 0; [01;35m[Ki < NUMBER_LANDMARKS[m[K; ++i)
+[13.240s]       |                   [01;35m[K~~^~~~~~~~~~~~~~~~~~[m[K
+[38.680s] [100%] [32m[1mLinking CXX executable slam_node[0m
+[40.162s] [100%] Built target slam_node
+[40.184s] Invoked command in '/home/tutu/ros2m/build/barrel_slam' returned '0': AMENT_PREFIX_PATH=/home/tutu/ros2m/install/angles:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tutu/ros2m/install/angles:/opt/ros/humble PYTHONPATH=/home/tutu/ros2m/install/angles/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tutu/ros2m/build/barrel_slam -- -j1 -l1
+[40.189s] Invoking command in '/home/tutu/ros2m/build/barrel_slam': AMENT_PREFIX_PATH=/home/tutu/ros2m/install/angles:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tutu/ros2m/install/angles:/opt/ros/humble PYTHONPATH=/home/tutu/ros2m/install/angles/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/tutu/ros2m/build/barrel_slam
+[40.197s] -- Install configuration: ""
+[40.200s] -- Installing: /home/tutu/ros2m/install/barrel_slam/lib/barrel_slam/slam_node
+[40.218s] -- Set runtime path of "/home/tutu/ros2m/install/barrel_slam/lib/barrel_slam/slam_node" to ""
+[40.219s] -- Installing: /home/tutu/ros2m/install/barrel_slam/share/barrel_slam//launch
+[40.220s] -- Installing: /home/tutu/ros2m/install/barrel_slam/share/barrel_slam//launch/slam.rviz
+[40.271s] -- Installing: /home/tutu/ros2m/install/barrel_slam/share/barrel_slam//launch/slam.launch.py
+[40.272s] -- Installing: /home/tutu/ros2m/install/barrel_slam/share/ament_index/resource_index/package_run_dependencies/barrel_slam
+[40.272s] -- Installing: /home/tutu/ros2m/install/barrel_slam/share/ament_index/resource_index/parent_prefix_path/barrel_slam
+[40.274s] -- Installing: /home/tutu/ros2m/install/barrel_slam/share/barrel_slam/environment/ament_prefix_path.sh
+[40.274s] -- Installing: /home/tutu/ros2m/install/barrel_slam/share/barrel_slam/environment/ament_prefix_path.dsv
+[40.280s] -- Installing: /home/tutu/ros2m/install/barrel_slam/share/barrel_slam/environment/path.sh
+[40.280s] -- Installing: /home/tutu/ros2m/install/barrel_slam/share/barrel_slam/environment/path.dsv
+[40.280s] -- Installing: /home/tutu/ros2m/install/barrel_slam/share/barrel_slam/local_setup.bash
+[40.280s] -- Installing: /home/tutu/ros2m/install/barrel_slam/share/barrel_slam/local_setup.sh
+[40.280s] -- Installing: /home/tutu/ros2m/install/barrel_slam/share/barrel_slam/local_setup.zsh
+[40.280s] -- Installing: /home/tutu/ros2m/install/barrel_slam/share/barrel_slam/local_setup.dsv
+[40.280s] -- Installing: /home/tutu/ros2m/install/barrel_slam/share/barrel_slam/package.dsv
+[40.280s] -- Installing: /home/tutu/ros2m/install/barrel_slam/share/ament_index/resource_index/packages/barrel_slam
+[40.280s] -- Installing: /home/tutu/ros2m/install/barrel_slam/share/barrel_slam/cmake/barrel_slamConfig.cmake
+[40.280s] -- Installing: /home/tutu/ros2m/install/barrel_slam/share/barrel_slam/cmake/barrel_slamConfig-version.cmake
+[40.281s] -- Installing: /home/tutu/ros2m/install/barrel_slam/share/barrel_slam/package.xml
+[40.288s] Invoked command in '/home/tutu/ros2m/build/barrel_slam' returned '0': AMENT_PREFIX_PATH=/home/tutu/ros2m/install/angles:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tutu/ros2m/install/angles:/opt/ros/humble PYTHONPATH=/home/tutu/ros2m/install/angles/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/tutu/ros2m/build/barrel_slam

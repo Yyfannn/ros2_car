@@ -1,0 +1,26 @@
+[0.011s] Invoking command in '/home/tutu/ros2m/build/simple_planner': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tutu/ros2m/build/simple_planner -- -j1 -l1
+[0.108s] [100%] Built target simple_planner
+[0.121s] Invoked command in '/home/tutu/ros2m/build/simple_planner' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tutu/ros2m/build/simple_planner -- -j1 -l1
+[0.123s] Invoking command in '/home/tutu/ros2m/build/simple_planner': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tutu/ros2m/build/simple_planner
+[0.133s] -- Install configuration: ""
+[0.133s] -- Up-to-date: /home/tutu/ros2m/install/simple_planner/lib/simple_planner/simple_planner
+[0.134s] -- Up-to-date: /home/tutu/ros2m/install/simple_planner/share/simple_planner//launch
+[0.134s] -- Up-to-date: /home/tutu/ros2m/install/simple_planner/share/simple_planner//launch/planner.launch.py
+[0.134s] -- Up-to-date: /home/tutu/ros2m/install/simple_planner/share/simple_planner//launch/planner.rviz
+[0.141s] -- Up-to-date: /home/tutu/ros2m/install/simple_planner/share/simple_planner//launch/default.rviz
+[0.141s] -- Up-to-date: /home/tutu/ros2m/install/simple_planner/share/ament_index/resource_index/package_run_dependencies/simple_planner
+[0.141s] -- Up-to-date: /home/tutu/ros2m/install/simple_planner/share/ament_index/resource_index/parent_prefix_path/simple_planner
+[0.141s] -- Up-to-date: /home/tutu/ros2m/install/simple_planner/share/simple_planner/environment/ament_prefix_path.sh
+[0.141s] -- Up-to-date: /home/tutu/ros2m/install/simple_planner/share/simple_planner/environment/ament_prefix_path.dsv
+[0.141s] -- Up-to-date: /home/tutu/ros2m/install/simple_planner/share/simple_planner/environment/path.sh
+[0.145s] -- Up-to-date: /home/tutu/ros2m/install/simple_planner/share/simple_planner/environment/path.dsv
+[0.147s] -- Up-to-date: /home/tutu/ros2m/install/simple_planner/share/simple_planner/local_setup.bash
+[0.147s] -- Up-to-date: /home/tutu/ros2m/install/simple_planner/share/simple_planner/local_setup.sh
+[0.147s] -- Up-to-date: /home/tutu/ros2m/install/simple_planner/share/simple_planner/local_setup.zsh
+[0.147s] -- Up-to-date: /home/tutu/ros2m/install/simple_planner/share/simple_planner/local_setup.dsv
+[0.148s] -- Installing: /home/tutu/ros2m/install/simple_planner/share/simple_planner/package.dsv
+[0.151s] -- Up-to-date: /home/tutu/ros2m/install/simple_planner/share/ament_index/resource_index/packages/simple_planner
+[0.151s] -- Up-to-date: /home/tutu/ros2m/install/simple_planner/share/simple_planner/cmake/simple_plannerConfig.cmake
+[0.151s] -- Up-to-date: /home/tutu/ros2m/install/simple_planner/share/simple_planner/cmake/simple_plannerConfig-version.cmake
+[0.151s] -- Up-to-date: /home/tutu/ros2m/install/simple_planner/share/simple_planner/package.xml
+[0.152s] Invoked command in '/home/tutu/ros2m/build/simple_planner' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tutu/ros2m/build/simple_planner

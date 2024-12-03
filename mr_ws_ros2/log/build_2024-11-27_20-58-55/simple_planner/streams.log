@@ -1,0 +1,1132 @@
+[0.043s] Invoking command in '/home/tutu/mr_ws_ros2/build/simple_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/tutu/mr_ws_ros2/build/simple_planner -- -j8 -l8
+[0.098s] [35m[1mScanning dependencies of target planner[0m
+[0.167s] [ 50%] [32mBuilding CXX object CMakeFiles/planner.dir/src/planner.cpp.o[0m
+[1.873s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:14:3:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[Kconst[m[K’
+[1.873s]    14 |   [01;31m[Kconst[m[K MapIndex neighbors[8] = { {1, 0}, {1, 1}, {0, 1}, {-1, 1}, {-1, 0}, {-1, -1}, {0, -1}, {1, -1}};
+[1.873s]       |   [01;31m[K^~~~~[m[K
+[1.874s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:14:9:[m[K [01;31m[Kerror: [m[K‘[01m[KMapIndex[m[K’ does not name a type
+[1.874s]    14 |   const [01;31m[KMapIndex[m[K neighbors[8] = { {1, 0}, {1, 1}, {0, 1}, {-1, 1}, {-1, 0}, {-1, -1}, {0, -1}, {1, -1}};
+[1.874s]       |         [01;31m[K^~~~~~~~[m[K
+[1.874s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:14:104:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[1.874s]    14 |   const MapIndex neighbors[8] = { {1, 0}, {1, 1}, {0, 1}, {-1, 1}, {-1, 0}, {-1, -1}, {0, -1}, {1, -1}}[01;35m[K;[m[K
+[1.874s]       |                                                                                                        [01;35m[K^[m[K
+[1.875s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:18:1:[m[K [01;31m[Kerror: [m[K‘[01m[KPlanner[m[K’ does not name a type
+[1.875s]    18 | [01;31m[KPlanner[m[K::Planner() : Node("simple_planner")
+[1.875s]       | [01;31m[K^~~~~~~[m[K
+[1.875s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:39:6:[m[K [01;31m[Kerror: [m[K‘[01m[KPlanner[m[K’ has not been declared
+[1.875s]    39 | void [01;31m[KPlanner[m[K::on_pose(const nav_msgs::msg::Odometry::SharedPtr odom) // 使用 `SharedPtr`
+[1.875s]       |      [01;31m[K^~~~~~~[m[K
+[1.879s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:[m[K In function ‘[01m[Kvoid on_pose(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.879s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:41:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kstart_pose_[m[K’ was not declared in this scope
+[1.879s]    41 |   [01;31m[Kstart_pose_[m[K = odom->pose.pose;
+[1.879s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[1.879s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:[m[K At global scope:
+[1.880s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:44:6:[m[K [01;31m[Kerror: [m[K‘[01m[KPlanner[m[K’ has not been declared
+[1.880s]    44 | void [01;31m[KPlanner[m[K::on_target(const geometry_msgs::msg::PoseStamped::SharedPtr pose) // 使用 `SharedPtr`
+[1.880s]       |      [01;31m[K^~~~~~~[m[K
+[1.887s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:[m[K In function ‘[01m[Kvoid on_target(geometry_msgs::msg::PoseStamped_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.887s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:46:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kstart_pose_[m[K’ was not declared in this scope
+[1.887s]    46 |   [01;31m[Kstart_pose_[m[K.position.x = current_x;
+[1.887s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[1.889s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:46:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_x[m[K’ was not declared in this scope
+[1.889s]    46 |   start_pose_.position.x = [01;31m[Kcurrent_x[m[K;
+[1.889s]       |                            [01;31m[K^~~~~~~~~[m[K
+[1.891s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:47:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_y[m[K’ was not declared in this scope
+[1.891s]    47 |   start_pose_.position.y = [01;31m[Kcurrent_y[m[K;
+[1.891s]       |                            [01;31m[K^~~~~~~~~[m[K
+[1.893s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:48:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_angle[m[K’ was not declared in this scope
+[1.894s]    48 |   start_pose_.orientation.z = [01;31m[Kcurrent_angle[m[K;
+[1.894s]       |                               [01;31m[K^~~~~~~~~~~~~[m[K
+[1.895s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:51:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kmutex_[m[K’ was not declared in this scope
+[1.895s]    51 |     std::lock_guard<std::mutex> lock([01;31m[Kmutex_[m[K); // 自动管理锁
+[1.895s]       |                                      [01;31m[K^~~~~~[m[K
+[1.898s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:52:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kabort_execution_[m[K’ was not declared in this scope
+[1.899s]    52 |     [01;31m[Kabort_execution_[m[K = true;
+[1.899s]       |     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[1.900s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[1.900s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[1.900s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.901s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.901s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.901s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.901s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.901s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.901s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.902s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.902s]                  from [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.h:4[m[K,
+[1.902s]                  from [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:2[m[K:
+[1.902s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:55:15:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.902s]    55 |   RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Get goal %.2f %.2f", pose->pose.position.x, pose->pose.position.y);
+[1.902s]       |               [01;31m[K^~~~[m[K
+[1.902s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:55:15:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.902s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:55:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.903s]    55 |   [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Get goal %.2f %.2f", pose->pose.position.x, pose->pose.position.y);
+[1.903s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[1.903s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:55:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.903s]    55 |   [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Get goal %.2f %.2f", pose->pose.position.x, pose->pose.position.y);
+[1.903s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[1.903s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:55:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.903s]    55 |   [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Get goal %.2f %.2f", pose->pose.position.x, pose->pose.position.y);
+[1.903s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[1.903s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+[1.903s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[1.904s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.904s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.904s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.904s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.904s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.904s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.904s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.904s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.904s]                  from [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.h:4[m[K,
+[1.905s]                  from [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:2[m[K:
+[1.905s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:55:15:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.905s]    55 |   RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Get goal %.2f %.2f", pose->pose.position.x, pose->pose.position.y);
+[1.905s]       |               [01;31m[K^~~~[m[K
+[1.905s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:55:15:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.905s]    55 |   RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Get goal %.2f %.2f", pose->pose.position.x, pose->pose.position.y);
+[1.905s]       |               [01;31m[K^~~~[m[K
+[1.905s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[1.905s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[1.905s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.905s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.905s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.905s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.905s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.906s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.906s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.906s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.906s]                  from [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.h:4[m[K,
+[1.906s]                  from [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:2[m[K:
+[1.906s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:56:15:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.906s]    56 |   RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Start is %.2f %.2f", start_pose_.position.x, start_pose_.position.y);
+[1.906s]       |               [01;31m[K^~~~[m[K
+[1.906s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:56:15:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.906s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:56:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.906s]    56 |   [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Start is %.2f %.2f", start_pose_.position.x, start_pose_.position.y);
+[1.906s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[1.906s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:56:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.906s]    56 |   [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Start is %.2f %.2f", start_pose_.position.x, start_pose_.position.y);
+[1.906s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[1.906s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:56:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.906s]    56 |   [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Start is %.2f %.2f", start_pose_.position.x, start_pose_.position.y);
+[1.907s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[1.907s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+[1.907s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[1.907s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.907s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.907s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.907s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.907s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.907s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.907s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.907s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.907s]                  from [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.h:4[m[K,
+[1.907s]                  from [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:2[m[K:
+[1.907s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:56:15:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.907s]    56 |   RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Start is %.2f %.2f", start_pose_.position.x, start_pose_.position.y);
+[1.907s]       |               [01;31m[K^~~~[m[K
+[1.907s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:56:15:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.907s]    56 |   RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Start is %.2f %.2f", start_pose_.position.x, start_pose_.position.y);
+[1.907s]       |               [01;31m[K^~~~[m[K
+[1.908s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:58:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ktarget_pose_[m[K’ was not declared in this scope
+[1.908s]    58 |   [01;31m[Ktarget_pose_[m[K = pose->pose;
+[1.908s]       |   [01;31m[K^~~~~~~~~~~~[m[K
+[1.908s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:60:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kupdate_static_map[m[K’ was not declared in this scope
+[1.908s]    60 |   if (![01;31m[Kupdate_static_map[m[K())
+[1.908s]       |        [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[1.908s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[1.908s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[1.908s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.908s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.908s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.909s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.909s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.909s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.909s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.909s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.909s]                  from [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.h:4[m[K,
+[1.909s]                  from [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:2[m[K:
+[1.909s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:62:18:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.909s]    62 |     RCLCPP_ERROR([01;31m[Kthis[m[K->get_logger(), "Cannot receive map");
+[1.909s]       |                  [01;31m[K^~~~[m[K
+[1.909s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:62:18:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.909s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:62:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.909s]    62 |     [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Cannot receive map");
+[1.909s]       |     [01;31m[K^~~~~~~~~~~~[m[K
+[1.909s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:62:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.909s]    62 |     [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Cannot receive map");
+[1.909s]       |     [01;31m[K^~~~~~~~~~~~[m[K
+[1.909s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:62:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.910s]    62 |     [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Cannot receive map");
+[1.910s]       |     [01;31m[K^~~~~~~~~~~~[m[K
+[1.910s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+[1.910s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[1.910s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.910s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.910s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.910s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.910s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.910s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.910s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.910s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.910s]                  from [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.h:4[m[K,
+[1.910s]                  from [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:2[m[K:
+[1.910s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:62:18:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.910s]    62 |     RCLCPP_ERROR([01;31m[Kthis[m[K->get_logger(), "Cannot receive map");
+[1.910s]       |                  [01;31m[K^~~~[m[K
+[1.910s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:62:18:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.910s]    62 |     RCLCPP_ERROR([01;31m[Kthis[m[K->get_logger(), "Cannot receive map");
+[1.911s]       |                  [01;31m[K^~~~[m[K
+[1.911s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:65:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kcost_map_publisher_[m[K’ was not declared in this scope
+[1.911s]    65 |   [01;31m[Kcost_map_publisher_[m[K->publish(map_);
+[1.911s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.912s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:65:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kmap_[m[K’ was not declared in this scope
+[1.912s]    65 |   cost_map_publisher_->publish([01;31m[Kmap_[m[K);
+[1.913s]       |                                [01;31m[K^~~~[m[K
+[1.916s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:66:27:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_radius_[m[K’ was not declared in this scope
+[1.916s]    66 |   increase_obstacles(ceil([01;31m[Krobot_radius_[m[K / map_.info.resolution));
+[1.916s]       |                           [01;31m[K^~~~~~~~~~~~~[m[K
+[1.920s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:66:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kincrease_obstacles[m[K’ was not declared in this scope
+[1.920s]    66 |   [01;31m[Kincrease_obstacles[m[K(ceil(robot_radius_ / map_.info.resolution));
+[1.920s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[1.924s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:67:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kobstacle_map_publisher_[m[K’ was not declared in this scope
+[1.924s]    67 |   [01;31m[Kobstacle_map_publisher_[m[K->publish(obstacle_map_);
+[1.924s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.926s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:67:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kobstacle_map_[m[K’ was not declared in this scope
+[1.926s]    67 |   obstacle_map_publisher_->publish([01;31m[Kobstacle_map_[m[K);
+[1.926s]       |                                    [01;31m[K^~~~~~~~~~~~~[m[K
+[1.928s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:69:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kcalculate_path[m[K’ was not declared in this scope
+[1.928s]    69 |   [01;31m[Kcalculate_path[m[K();
+[1.928s]       |   [01;31m[K^~~~~~~~~~~~~~[m[K
+[1.929s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:71:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kpath_msg_[m[K’ was not declared in this scope
+[1.929s]    71 |   if (![01;31m[Kpath_msg_[m[K.points.empty()) {
+[1.929s]       |        [01;31m[K^~~~~~~~~[m[K
+[1.930s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:72:30:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.930s]    72 |     path_msg_.header.stamp = [01;31m[Kthis[m[K->now();
+[1.930s]       |                              [01;31m[K^~~~[m[K
+[1.932s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:74:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpath_publisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_publisher_t[m[K’?
+[1.932s]    74 |     [01;31m[Kpath_publisher_[m[K->publish(path_msg_);
+[1.932s]       |     [01;31m[K^~~~~~~~~~~~~~~[m[K
+[1.933s]       |     [32m[Krcl_publisher_t[m[K
+[1.936s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:78:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kabort_execution_[m[K’ was not declared in this scope
+[1.936s]    78 |     [01;31m[Kabort_execution_[m[K = false;
+[1.936s]       |     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[1.937s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[1.937s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[1.937s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.937s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.937s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.937s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.937s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.937s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.937s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.937s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.937s]                  from [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.h:4[m[K,
+[1.937s]                  from [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:2[m[K:
+[1.937s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:83:26:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.937s]    83 |       RCLCPP_INFO_STREAM([01;31m[Kthis[m[K->get_logger(), "Moving to target position: " << target_x << ", " << target_y);
+[1.937s]       |                          [01;31m[K^~~~[m[K
+[1.937s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:83:26:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.938s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:83:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.938s]    83 |       [01;31m[KRCLCPP_INFO_STREAM[m[K(this->get_logger(), "Moving to target position: " << target_x << ", " << target_y);
+[1.938s]       |       [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[1.938s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:83:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.938s]    83 |       [01;31m[KRCLCPP_INFO_STREAM[m[K(this->get_logger(), "Moving to target position: " << target_x << ", " << target_y);
+[1.938s]       |       [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[1.938s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:83:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.938s]    83 |       [01;31m[KRCLCPP_INFO_STREAM[m[K(this->get_logger(), "Moving to target position: " << target_x << ", " << target_y);
+[1.938s]       |       [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[1.938s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+[1.938s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[1.938s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.938s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.938s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.938s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.938s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.939s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.939s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.939s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.939s]                  from [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.h:4[m[K,
+[1.939s]                  from [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:2[m[K:
+[1.939s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:83:26:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.939s]    83 |       RCLCPP_INFO_STREAM([01;31m[Kthis[m[K->get_logger(), "Moving to target position: " << target_x << ", " << target_y);
+[1.939s]       |                          [01;31m[K^~~~[m[K
+[1.939s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:83:26:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.939s]    83 |       RCLCPP_INFO_STREAM([01;31m[Kthis[m[K->get_logger(), "Moving to target position: " << target_x << ", " << target_y);
+[1.939s]       |                          [01;31m[K^~~~[m[K
+[1.940s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:84:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_to_position[m[K’ was not declared in this scope
+[1.941s]    84 |       std::unique_lock<std::mutex> lock2 = [01;31m[Kmove_to_position[m[K(target_x, target_y, linear_speed, angular_speed);
+[1.941s]       |                                            [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[1.941s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[1.941s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[1.941s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.941s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.941s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.941s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.941s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.941s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.941s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.941s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.941s]                  from [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.h:4[m[K,
+[1.941s]                  from [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:2[m[K:
+[1.941s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:86:28:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.942s]    86 |         RCLCPP_INFO_STREAM([01;31m[Kthis[m[K->get_logger(), "Aborting execution");
+[1.942s]       |                            [01;31m[K^~~~[m[K
+[1.942s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:86:28:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.942s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:86:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.942s]    86 |         [01;31m[KRCLCPP_INFO_STREAM[m[K(this->get_logger(), "Aborting execution");
+[1.942s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[1.942s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:86:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.942s]    86 |         [01;31m[KRCLCPP_INFO_STREAM[m[K(this->get_logger(), "Aborting execution");
+[1.942s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[1.942s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:86:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.942s]    86 |         [01;31m[KRCLCPP_INFO_STREAM[m[K(this->get_logger(), "Aborting execution");
+[1.942s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[1.942s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+[1.942s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[1.942s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.943s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.943s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.943s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.943s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.943s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.943s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.943s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.943s]                  from [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.h:4[m[K,
+[1.943s]                  from [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:2[m[K:
+[1.943s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:86:28:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.943s]    86 |         RCLCPP_INFO_STREAM([01;31m[Kthis[m[K->get_logger(), "Aborting execution");
+[1.943s]       |                            [01;31m[K^~~~[m[K
+[1.943s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:86:28:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.943s]    86 |         RCLCPP_INFO_STREAM([01;31m[Kthis[m[K->get_logger(), "Aborting execution");
+[1.943s]       |                            [01;31m[K^~~~[m[K
+[1.943s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[1.944s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[1.944s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.944s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.944s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.944s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.944s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.944s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.944s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.944s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.944s]                  from [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.h:4[m[K,
+[1.944s]                  from [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:2[m[K:
+[1.944s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:90:24:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.944s]    90 |     RCLCPP_INFO_STREAM([01;31m[Kthis[m[K->get_logger(), "Success!");
+[1.944s]       |                        [01;31m[K^~~~[m[K
+[1.944s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:90:24:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.944s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:90:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.944s]    90 |     [01;31m[KRCLCPP_INFO_STREAM[m[K(this->get_logger(), "Success!");
+[1.945s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[1.945s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:90:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.945s]    90 |     [01;31m[KRCLCPP_INFO_STREAM[m[K(this->get_logger(), "Success!");
+[1.945s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[1.945s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:90:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.945s]    90 |     [01;31m[KRCLCPP_INFO_STREAM[m[K(this->get_logger(), "Success!");
+[1.945s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[1.945s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+[1.945s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[1.945s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.945s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.945s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.945s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.945s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.945s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.945s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.945s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.945s]                  from [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.h:4[m[K,
+[1.945s]                  from [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:2[m[K:
+[1.946s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:90:24:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.946s]    90 |     RCLCPP_INFO_STREAM([01;31m[Kthis[m[K->get_logger(), "Success!");
+[1.946s]       |                        [01;31m[K^~~~[m[K
+[1.946s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:90:24:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.946s]    90 |     RCLCPP_INFO_STREAM([01;31m[Kthis[m[K->get_logger(), "Success!");
+[1.946s]       |                        [01;31m[K^~~~[m[K
+[1.946s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[1.946s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[1.946s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.946s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.946s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.946s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.946s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.946s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.946s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.946s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.947s]                  from [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.h:4[m[K,
+[1.947s]                  from [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:2[m[K:
+[1.947s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:92:24:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.947s]    92 |     RCLCPP_WARN_STREAM([01;31m[Kthis[m[K->get_logger(), "Path not found!");
+[1.947s]       |                        [01;31m[K^~~~[m[K
+[1.947s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:92:24:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.947s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:92:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.947s]    92 |     [01;31m[KRCLCPP_WARN_STREAM[m[K(this->get_logger(), "Path not found!");
+[1.947s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[1.947s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:92:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.947s]    92 |     [01;31m[KRCLCPP_WARN_STREAM[m[K(this->get_logger(), "Path not found!");
+[1.947s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[1.947s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:92:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.948s]    92 |     [01;31m[KRCLCPP_WARN_STREAM[m[K(this->get_logger(), "Path not found!");
+[1.948s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[1.948s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+[1.948s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[1.948s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.948s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.949s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.949s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.949s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.949s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.949s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.949s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.949s]                  from [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.h:4[m[K,
+[1.949s]                  from [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:2[m[K:
+[1.949s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:92:24:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.949s]    92 |     RCLCPP_WARN_STREAM([01;31m[Kthis[m[K->get_logger(), "Path not found!");
+[1.950s]       |                        [01;31m[K^~~~[m[K
+[1.950s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:92:24:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.950s]    92 |     RCLCPP_WARN_STREAM([01;31m[Kthis[m[K->get_logger(), "Path not found!");
+[1.950s]       |                        [01;31m[K^~~~[m[K
+[1.950s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:[m[K At global scope:
+[1.951s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:96:6:[m[K [01;31m[Kerror: [m[K‘[01m[KPlanner[m[K’ has not been declared
+[1.951s]    96 | void [01;31m[KPlanner[m[K::odomCallback(const nav_msgs::msg::Odometry::SharedPtr odom_msg) // 使用 `SharedPtr`
+[1.951s]       |      [01;31m[K^~~~~~~[m[K
+[1.951s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:[m[K In function ‘[01m[Kvoid odomCallback(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.951s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:99:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_x[m[K’ was not declared in this scope
+[1.951s]    99 |     [01;31m[Kcurrent_x[m[K = odom_msg->pose.pose.position.x;
+[1.951s]       |     [01;31m[K^~~~~~~~~[m[K
+[1.951s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:100:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_y[m[K’ was not declared in this scope
+[1.951s]   100 |     [01;31m[Kcurrent_y[m[K = odom_msg->pose.pose.position.y;
+[1.951s]       |     [01;31m[K^~~~~~~~~[m[K
+[1.952s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:107:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_angle[m[K’ was not declared in this scope
+[1.952s]   107 |     [01;31m[Kcurrent_angle[m[K = yaw;
+[1.952s]       |     [01;31m[K^~~~~~~~~~~~~[m[K
+[1.952s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:[m[K At global scope:
+[1.952s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:110:30:[m[K [01;31m[Kerror: [m[K‘[01m[KPlanner[m[K’ has not been declared
+[1.952s]   110 | std::unique_lock<std::mutex> [01;31m[KPlanner[m[K::move_to_position(double target_x, double target_y, double linear_speed, double angular_speed) {
+[1.952s]       |                              [01;31m[K^~~~~~~[m[K
+[1.953s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:[m[K In function ‘[01m[Kstd::unique_lock<std::mutex> move_to_position(double, double, double, double)[m[K’:
+[1.953s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:112:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kmutex_[m[K’ was not declared in this scope
+[1.953s]   112 |     std::unique_lock<std::mutex> lock([01;31m[Kmutex_[m[K);
+[1.953s]       |                                       [01;31m[K^~~~~~[m[K
+[1.956s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:113:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kabort_execution_[m[K’ was not declared in this scope
+[1.956s]   113 |     if ([01;31m[Kabort_execution_[m[K) {
+[1.956s]       |         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[1.957s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:114:23:[m[K [01;35m[Kwarning: [m[Kmoving a local object in a return statement prevents copy elision [[01;35m[K-Wpessimizing-move[m[K]
+[1.957s]   114 |       return [01;35m[Kstd::move(lock)[m[K;
+[1.957s]       |              [01;35m[K~~~~~~~~~^~~~~~[m[K
+[1.957s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:114:23:[m[K [01;36m[Knote: [m[Kremove ‘[01m[Kstd::move[m[K’ call
+[1.958s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:119:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_x[m[K’ was not declared in this scope
+[1.958s]   119 |     double dx = target_x - [01;31m[Kcurrent_x[m[K;
+[1.958s]       |                            [01;31m[K^~~~~~~~~[m[K
+[1.960s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:120:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_y[m[K’ was not declared in this scope
+[1.960s]   120 |     double dy = target_y - [01;31m[Kcurrent_y[m[K;
+[1.960s]       |                            [01;31m[K^~~~~~~~~[m[K
+[1.962s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:122:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_angle[m[K’ was not declared in this scope
+[1.962s]   122 |     double angle_diff = desired_angle - [01;31m[Kcurrent_angle[m[K;
+[1.962s]       |                                         [01;31m[K^~~~~~~~~~~~~[m[K
+[1.964s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:132:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcmd_vel_pub_[m[K’ was not declared in this scope
+[1.964s]   132 |       [01;31m[Kcmd_vel_pub_[m[K->publish(cmd);
+[1.965s]       |       [01;31m[K^~~~~~~~~~~~[m[K
+[1.965s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[1.965s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[1.966s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.966s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.966s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.966s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.966s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.966s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.966s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.966s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.967s]                  from [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.h:4[m[K,
+[1.967s]                  from [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:2[m[K:
+[1.967s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:134:23:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.967s]   134 |           RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Target position reached!");
+[1.967s]       |                       [01;31m[K^~~~[m[K
+[1.967s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:134:23:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.967s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:134:11:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.968s]   134 |           [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Target position reached!");
+[1.968s]       |           [01;31m[K^~~~~~~~~~~[m[K
+[1.968s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:134:11:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.968s]   134 |           [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Target position reached!");
+[1.968s]       |           [01;31m[K^~~~~~~~~~~[m[K
+[1.968s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:134:11:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.968s]   134 |           [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Target position reached!");
+[1.968s]       |           [01;31m[K^~~~~~~~~~~[m[K
+[1.969s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+[1.969s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[1.969s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.969s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.969s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.969s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.969s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.969s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.969s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.970s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.970s]                  from [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.h:4[m[K,
+[1.970s]                  from [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:2[m[K:
+[1.970s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:134:23:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.970s]   134 |           RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Target position reached!");
+[1.970s]       |                       [01;31m[K^~~~[m[K
+[1.970s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:134:23:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.970s]   134 |           RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Target position reached!");
+[1.970s]       |                       [01;31m[K^~~~[m[K
+[1.970s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:139:27:[m[K [01;35m[Kwarning: [m[Kmoving a local object in a return statement prevents copy elision [[01;35m[K-Wpessimizing-move[m[K]
+[1.970s]   139 |           return [01;35m[Kstd::move(lock)[m[K;
+[1.970s]       |                  [01;35m[K~~~~~~~~~^~~~~~[m[K
+[1.970s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:139:27:[m[K [01;36m[Knote: [m[Kremove ‘[01m[Kstd::move[m[K’ call
+[1.970s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:144:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kcmd_vel_pub_[m[K’ was not declared in this scope
+[1.970s]   144 |       [01;31m[Kcmd_vel_pub_[m[K->publish(cmd);
+[1.970s]       |       [01;31m[K^~~~~~~~~~~~[m[K
+[1.970s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:[m[K At global scope:
+[1.971s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:149:6:[m[K [01;31m[Kerror: [m[K‘[01m[KPlanner[m[K’ has not been declared
+[1.971s]   149 | bool [01;31m[KPlanner[m[K::update_static_map()
+[1.971s]       |      [01;31m[K^~~~~~~[m[K
+[1.973s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:[m[K In function ‘[01m[Kbool update_static_map()[m[K’:
+[1.973s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:153:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kmap_server_client_[m[K’ was not declared in this scope
+[1.973s]   153 |   while(![01;31m[Kmap_server_client_[m[K->wait_for_service(1s)) {
+[1.973s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[1.973s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[1.973s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[1.973s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.973s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.973s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.973s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.973s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.973s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.974s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.974s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.974s]                  from [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.h:4[m[K,
+[1.974s]                  from [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:2[m[K:
+[1.974s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:154:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.974s]   154 |     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Wait map server");
+[1.974s]       |                 [01;31m[K^~~~[m[K
+[1.974s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:154:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.974s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:154:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.974s]   154 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Wait map server");
+[1.974s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[1.974s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:154:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.974s]   154 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Wait map server");
+[1.974s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[1.974s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:154:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.974s]   154 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Wait map server");
+[1.974s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[1.974s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+[1.974s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[1.975s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.975s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.975s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.975s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.975s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.975s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.975s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.975s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.975s]                  from [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.h:4[m[K,
+[1.975s]                  from [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:2[m[K:
+[1.975s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:154:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.975s]   154 |     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Wait map server");
+[1.975s]       |                 [01;31m[K^~~~[m[K
+[1.975s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:154:17:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.975s]   154 |     RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Wait map server");
+[1.975s]       |                 [01;31m[K^~~~[m[K
+[1.975s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[1.975s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[1.975s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.975s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.976s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.976s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.976s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.976s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.976s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.976s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.976s]                  from [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.h:4[m[K,
+[1.976s]                  from [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:2[m[K:
+[1.976s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:156:15:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.976s]   156 |   RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Service connected");
+[1.976s]       |               [01;31m[K^~~~[m[K
+[1.976s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:156:15:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.976s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:156:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.976s]   156 |   [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Service connected");
+[1.976s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[1.976s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:156:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.976s]   156 |   [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Service connected");
+[1.977s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[1.977s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:156:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.977s]   156 |   [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Service connected");
+[1.977s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[1.977s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+[1.977s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[1.977s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.977s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.977s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.977s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.977s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.977s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.977s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.977s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.977s]                  from [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.h:4[m[K,
+[1.977s]                  from [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:2[m[K:
+[1.977s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:156:15:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.978s]   156 |   RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Service connected");
+[1.978s]       |               [01;31m[K^~~~[m[K
+[1.978s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:156:15:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.978s]   156 |   RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Service connected");
+[1.978s]       |               [01;31m[K^~~~[m[K
+[1.978s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:158:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kmap_server_client_[m[K’ was not declared in this scope
+[1.978s]   158 |   auto srv_future = [01;31m[Kmap_server_client_[m[K->async_send_request(std::make_shared<nav_msgs::srv::GetMap::Request>());
+[1.978s]       |                     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[1.980s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:163:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kmap_[m[K’ was not declared in this scope
+[1.980s]   163 |     [01;31m[Kmap_[m[K = srv_future.get()->map;
+[1.980s]       |     [01;31m[K^~~~[m[K
+[1.980s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[1.980s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[1.980s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.980s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.980s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.981s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.981s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.981s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.982s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.982s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.982s]                  from [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.h:4[m[K,
+[1.982s]                  from [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:2[m[K:
+[1.982s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:164:24:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.983s]   164 |     RCLCPP_INFO_STREAM([01;31m[Kthis[m[K->get_logger(), "Map received: " << map_.info.width << " " << map_.info.height);
+[1.983s]       |                        [01;31m[K^~~~[m[K
+[1.983s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:164:24:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.983s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:164:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.983s]   164 |     [01;31m[KRCLCPP_INFO_STREAM[m[K(this->get_logger(), "Map received: " << map_.info.width << " " << map_.info.height);
+[1.983s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[1.983s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:164:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.983s]   164 |     [01;31m[KRCLCPP_INFO_STREAM[m[K(this->get_logger(), "Map received: " << map_.info.width << " " << map_.info.height);
+[1.983s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[1.983s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:164:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.984s]   164 |     [01;31m[KRCLCPP_INFO_STREAM[m[K(this->get_logger(), "Map received: " << map_.info.width << " " << map_.info.height);
+[1.984s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[1.984s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+[1.984s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[1.984s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.984s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.984s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.984s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.984s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.984s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.985s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.985s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.985s]                  from [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.h:4[m[K,
+[1.985s]                  from [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:2[m[K:
+[1.985s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:164:24:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.985s]   164 |     RCLCPP_INFO_STREAM([01;31m[Kthis[m[K->get_logger(), "Map received: " << map_.info.width << " " << map_.info.height);
+[1.985s]       |                        [01;31m[K^~~~[m[K
+[1.986s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:164:24:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.986s]   164 |     RCLCPP_INFO_STREAM([01;31m[Kthis[m[K->get_logger(), "Map received: " << map_.info.width << " " << map_.info.height);
+[1.986s]       |                        [01;31m[K^~~~[m[K
+[1.986s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[1.986s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[1.986s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.986s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.986s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.986s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.986s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.986s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.987s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.987s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.987s]                  from [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.h:4[m[K,
+[1.987s]                  from [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:2[m[K:
+[1.987s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:167:18:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.987s]   167 |     RCLCPP_ERROR([01;31m[Kthis[m[K->get_logger(), "Map request timeout");
+[1.987s]       |                  [01;31m[K^~~~[m[K
+[1.987s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:167:18:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.987s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:167:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.987s]   167 |     [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Map request timeout");
+[1.987s]       |     [01;31m[K^~~~~~~~~~~~[m[K
+[1.987s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:167:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.987s]   167 |     [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Map request timeout");
+[1.988s]       |     [01;31m[K^~~~~~~~~~~~[m[K
+[1.988s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:167:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.988s]   167 |     [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Map request timeout");
+[1.988s]       |     [01;31m[K^~~~~~~~~~~~[m[K
+[1.988s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+[1.988s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[1.988s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.988s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.988s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.988s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.988s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.988s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.988s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.988s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.988s]                  from [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.h:4[m[K,
+[1.988s]                  from [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:2[m[K:
+[1.989s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:167:18:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.989s]   167 |     RCLCPP_ERROR([01;31m[Kthis[m[K->get_logger(), "Map request timeout");
+[1.989s]       |                  [01;31m[K^~~~[m[K
+[1.989s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:167:18:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.989s]   167 |     RCLCPP_ERROR([01;31m[Kthis[m[K->get_logger(), "Map request timeout");
+[1.989s]       |                  [01;31m[K^~~~[m[K
+[1.989s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[1.989s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[1.989s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.989s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.989s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.989s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.989s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.989s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.989s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.989s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.989s]                  from [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.h:4[m[K,
+[1.989s]                  from [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:2[m[K:
+[1.990s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:171:18:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.990s]   171 |     RCLCPP_ERROR([01;31m[Kthis[m[K->get_logger(), "Map request deferred");
+[1.990s]       |                  [01;31m[K^~~~[m[K
+[1.990s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:171:18:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.990s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:171:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.990s]   171 |     [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Map request deferred");
+[1.990s]       |     [01;31m[K^~~~~~~~~~~~[m[K
+[1.990s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:171:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.990s]   171 |     [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Map request deferred");
+[1.990s]       |     [01;31m[K^~~~~~~~~~~~[m[K
+[1.990s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:171:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.990s]   171 |     [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Map request deferred");
+[1.990s]       |     [01;31m[K^~~~~~~~~~~~[m[K
+[1.990s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+[1.990s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[1.991s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.991s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.991s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.991s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.991s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.991s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.991s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.991s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.991s]                  from [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.h:4[m[K,
+[1.991s]                  from [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:2[m[K:
+[1.991s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:171:18:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.991s]   171 |     RCLCPP_ERROR([01;31m[Kthis[m[K->get_logger(), "Map request deferred");
+[1.991s]       |                  [01;31m[K^~~~[m[K
+[1.991s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:171:18:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.991s]   171 |     RCLCPP_ERROR([01;31m[Kthis[m[K->get_logger(), "Map request deferred");
+[1.991s]       |                  [01;31m[K^~~~[m[K
+[1.991s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:[m[K At global scope:
+[1.991s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:177:6:[m[K [01;31m[Kerror: [m[K‘[01m[KPlanner[m[K’ has not been declared
+[1.991s]   177 | bool [01;31m[KPlanner[m[K::indices_in_map(int i, int j)
+[1.992s]       |      [01;31m[K^~~~~~~[m[K
+[1.992s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:[m[K In function ‘[01m[Kbool indices_in_map(int, int)[m[K’:
+[1.992s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:179:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kmap_[m[K’ was not declared in this scope
+[1.992s]   179 |   return i >= 0 && j >= 0 && i < [01;31m[Kmap_[m[K.info.width && j < map_.info.height;
+[1.992s]       |                                  [01;31m[K^~~~[m[K
+[1.992s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:[m[K At global scope:
+[1.992s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:182:6:[m[K [01;31m[Kerror: [m[K‘[01m[KPlanner[m[K’ has not been declared
+[1.992s]   182 | void [01;31m[KPlanner[m[K::increase_obstacles(std::size_t cells)
+[1.992s]       |      [01;31m[K^~~~~~~[m[K
+[1.992s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:[m[K In function ‘[01m[Kvoid increase_obstacles(std::size_t)[m[K’:
+[1.992s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:184:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kobstacle_map_[m[K’ was not declared in this scope
+[1.992s]   184 |   [01;31m[Kobstacle_map_[m[K.info = map_.info;
+[1.992s]       |   [01;31m[K^~~~~~~~~~~~~[m[K
+[1.993s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:184:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kmap_[m[K’ was not declared in this scope
+[1.993s]   184 |   obstacle_map_.info = [01;31m[Kmap_[m[K.info;
+[1.993s]       |                        [01;31m[K^~~~[m[K
+[1.993s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:189:14:[m[K [01;31m[Kerror: [m[K‘[01m[KMapIndex[m[K’ was not declared in this scope; did you mean ‘[01m[Ksimple_planner::MapIndex[m[K’?
+[1.993s]   189 |   std::queue<[01;31m[KMapIndex[m[K> wave;
+[1.993s]       |              [01;31m[K^~~~~~~~[m[K
+[1.993s]       |              [32m[Ksimple_planner::MapIndex[m[K
+[1.993s] In file included from [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:2[m[K:
+[1.993s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.h:34:8:[m[K [01;36m[Knote: [m[K‘[01m[Ksimple_planner::MapIndex[m[K’ declared here
+[1.993s]    34 | struct [01;36m[KMapIndex[m[K {
+[1.993s]       |        [01;36m[K^~~~~~~~[m[K
+[1.993s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:189:22:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.993s]   189 |   std::queue<MapIndex[01;31m[K>[m[K wave;
+[1.993s]       |                      [01;31m[K^[m[K
+[1.993s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:189:22:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[1.993s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:194:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kmap_value[m[K’ was not declared in this scope; did you mean ‘[01m[Ksi_value[m[K’?
+[1.993s]   194 |       if ([01;31m[Kmap_value[m[K(map_.data, i, j) != kObstacleValue)
+[1.994s]       |           [01;31m[K^~~~~~~~~[m[K
+[1.994s]       |           [32m[Ksi_value[m[K
+[1.994s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:198:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kneighbors[m[K’ was not declared in this scope
+[1.994s]   198 |       for(const auto& shift : [01;31m[Kneighbors[m[K)
+[1.994s]       |                               [01;31m[K^~~~~~~~~[m[K
+[1.996s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:206:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kmap_value[m[K’ was not declared in this scope; did you mean ‘[01m[Ksi_value[m[K’?
+[1.996s]   206 |         if ([01;31m[Kmap_value[m[K(map_.data, neighbor_i, neighbor_j) != kObstacleValue)
+[1.996s]       |             [01;31m[K^~~~~~~~~[m[K
+[1.996s]       |             [32m[Ksi_value[m[K
+[1.996s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:208:16:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kpush[m[K’ in ‘[01m[Kwave[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[1.996s]   208 |           wave.[01;31m[Kpush[m[K({i, j});
+[1.996s]       |                [01;31m[K^~~~[m[K
+[1.996s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:216:24:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[1.996s]   216 |     std::queue<MapIndex[01;31m[K>[m[K next_wave;
+[1.996s]       |                        [01;31m[K^[m[K
+[1.996s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:217:17:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kempty[m[K’ in ‘[01m[Kwave[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[1.996s]   217 |     while(!wave.[01;31m[Kempty[m[K()) {
+[1.996s]       |                 [01;31m[K^~~~~[m[K
+[1.996s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:218:27:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kfront[m[K’ in ‘[01m[Kwave[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[1.996s]   218 |       auto indices = wave.[01;31m[Kfront[m[K();
+[1.996s]       |                           [01;31m[K^~~~~[m[K
+[1.997s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:219:12:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kpop[m[K’ in ‘[01m[Kwave[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[1.997s]   219 |       wave.[01;31m[Kpop[m[K();
+[1.997s]       |            [01;31m[K^~~[m[K
+[1.998s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:220:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kneighbors[m[K’ was not declared in this scope
+[1.998s]   220 |       for(const auto& shift : [01;31m[Kneighbors[m[K)
+[1.998s]       |                               [01;31m[K^~~~~~~~~[m[K
+[2.002s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:229:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kmap_value[m[K’ was not declared in this scope; did you mean ‘[01m[Ksi_value[m[K’?
+[2.002s]   229 |         if ([01;31m[Kmap_value[m[K(obstacle_map_.data, neighbor_index.i, neighbor_index.j) != kObstacleValue)
+[2.003s]       |             [01;31m[K^~~~~~~~~[m[K
+[2.003s]       |             [32m[Ksi_value[m[K
+[2.003s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:232:21:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kpush[m[K’ in ‘[01m[Knext_wave[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[2.003s]   232 |           next_wave.[01;31m[Kpush[m[K(neighbor_index);
+[2.003s]       |                     [01;31m[K^~~~[m[K
+[2.003s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:[m[K At global scope:
+[2.004s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:240:8:[m[K [01;31m[Kerror: [m[K‘[01m[KPlanner[m[K’ has not been declared
+[2.004s]   240 | double [01;31m[KPlanner[m[K::heruistic(int i, int j) {
+[2.004s]       |        [01;31m[K^~~~~~~[m[K
+[2.004s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:[m[K In function ‘[01m[Kdouble heruistic(int, int)[m[K’:
+[2.004s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:240:31:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ki[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.004s]   240 | double Planner::heruistic([01;35m[Kint i[m[K, int j) {
+[2.004s]       |                           [01;35m[K~~~~^[m[K
+[2.004s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:240:38:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kj[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.004s]   240 | double Planner::heruistic(int i, [01;35m[Kint j[m[K) {
+[2.004s]       |                                  [01;35m[K~~~~^[m[K
+[2.004s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:[m[K At global scope:
+[2.004s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:246:38:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+[2.004s]   246 |   explicit CompareSearchNodes[34m[K([m[KPlanner[01;31m[K&[m[K planner): planner_(planner) {}
+[2.004s]       |                              [34m[K~[m[K       [01;31m[K^[m[K
+[2.004s]       |                                      [32m[K)[m[K
+[2.005s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:247:27:[m[K [01;31m[Kerror: [m[K‘[01m[KMapIndex[m[K’ does not name a type
+[2.005s]   247 |   bool operator () (const [01;31m[KMapIndex[m[K& left_index, const MapIndex& right_index) const {
+[2.005s]       |                           [01;31m[K^~~~~~~~[m[K
+[2.007s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:247:55:[m[K [01;31m[Kerror: [m[K‘[01m[KMapIndex[m[K’ does not name a type
+[2.007s]   247 |   bool operator () (const MapIndex& left_index, const [01;31m[KMapIndex[m[K& right_index) const {
+[2.007s]       |                                                       [01;31m[K^~~~~~~~[m[K
+[2.008s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:259:3:[m[K [01;31m[Kerror: [m[K‘[01m[KPlanner[m[K’ does not name a type
+[2.008s]   259 |   [01;31m[KPlanner[m[K& planner_;
+[2.008s]       |   [01;31m[K^~~~~~~[m[K
+[2.009s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:[m[K In member function ‘[01m[Kbool CompareSearchNodes::operator()(const int&, const int&) const[m[K’:
+[2.009s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:248:4:[m[K [01;31m[Kerror: [m[K‘[01m[KSearchNode[m[K’ was not declared in this scope; did you mean ‘[01m[Ksimple_planner::SearchNode[m[K’?
+[2.009s]   248 |    [01;31m[KSearchNode[m[K& left = planner_.map_value(planner_.search_map_, left_index.i, left_index.j);
+[2.009s]       |    [01;31m[K^~~~~~~~~~[m[K
+[2.009s]       |    [32m[Ksimple_planner::SearchNode[m[K
+[2.009s] In file included from [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:2[m[K:
+[2.009s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.h:22:8:[m[K [01;36m[Knote: [m[K‘[01m[Ksimple_planner::SearchNode[m[K’ declared here
+[2.009s]    22 | struct [01;36m[KSearchNode[m[K{
+[2.009s]       |        [01;36m[K^~~~~~~~~~[m[K
+[2.009s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:248:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kleft[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::left[m[K’?
+[2.009s]   248 |    SearchNode& [01;31m[Kleft[m[K = planner_.map_value(planner_.search_map_, left_index.i, left_index.j);
+[2.009s]       |                [01;31m[K^~~~[m[K
+[2.010s]       |                [32m[Kstd::left[m[K
+[2.010s] In file included from [01m[K/usr/include/c++/9/ios:42[m[K,
+[2.010s]                  from [01m[K/usr/include/c++/9/ostream:38[m[K,
+[2.010s]                  from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[2.010s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:22[m[K,
+[2.010s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[2.010s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[2.010s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[2.010s]                  from [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.h:4[m[K,
+[2.010s]                  from [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:2[m[K:
+[2.010s] [01m[K/usr/include/c++/9/bits/ios_base.h:1011:3:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::left[m[K’ declared here
+[2.010s]  1011 |   [01;36m[Kleft[m[K(ios_base& __base)
+[2.010s]       |   [01;36m[K^~~~[m[K
+[2.011s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:248:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kplanner_[m[K’ was not declared in this scope
+[2.012s]   248 |    SearchNode& left = [01;31m[Kplanner_[m[K.map_value(planner_.search_map_, left_index.i, left_index.j);
+[2.012s]       |                       [01;31m[K^~~~~~~~[m[K
+[2.012s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:248:75:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Ki[m[K’ in ‘[01m[Kleft_index[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+[2.012s]   248 |    SearchNode& left = planner_.map_value(planner_.search_map_, left_index.[01;31m[Ki[m[K, left_index.j);
+[2.012s]       |                                                                           [01;31m[K^[m[K
+[2.012s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:248:89:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kj[m[K’ in ‘[01m[Kleft_index[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+[2.012s]   248 |    SearchNode& left = planner_.map_value(planner_.search_map_, left_index.i, left_index.[01;31m[Kj[m[K);
+[2.012s]       |                                                                                         [01;31m[K^[m[K
+[2.012s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:249:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kright[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::right[m[K’?
+[2.012s]   249 |    SearchNode& [01;31m[Kright[m[K = planner_.map_value(planner_.search_map_, right_index.i, right_index.j);
+[2.012s]       |                [01;31m[K^~~~~[m[K
+[2.012s]       |                [32m[Kstd::right[m[K
+[2.012s] In file included from [01m[K/usr/include/c++/9/ios:42[m[K,
+[2.012s]                  from [01m[K/usr/include/c++/9/ostream:38[m[K,
+[2.013s]                  from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[2.013s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:22[m[K,
+[2.013s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[2.013s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[2.013s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[2.013s]                  from [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.h:4[m[K,
+[2.013s]                  from [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:2[m[K:
+[2.013s] [01m[K/usr/include/c++/9/bits/ios_base.h:1019:3:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::right[m[K’ declared here
+[2.013s]  1019 |   [01;36m[Kright[m[K(ios_base& __base)
+[2.013s]       |   [01;36m[K^~~~~[m[K
+[2.013s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:249:77:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Ki[m[K’ in ‘[01m[Kright_index[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+[2.013s]   249 |    SearchNode& right = planner_.map_value(planner_.search_map_, right_index.[01;31m[Ki[m[K, right_index.j);
+[2.013s]       |                                                                             [01;31m[K^[m[K
+[2.013s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:249:92:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kj[m[K’ in ‘[01m[Kright_index[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+[2.013s]   249 |    SearchNode& right = planner_.map_value(planner_.search_map_, right_index.i, right_index.[01;31m[Kj[m[K);
+[2.014s]       |                                                                                            [01;31m[K^[m[K
+[2.014s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:251:21:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Ki[m[K’ in ‘[01m[Kleft_index[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+[2.014s]   251 |      if (left_index.[01;31m[Ki[m[K == right_index.i) {
+[2.014s]       |                     [01;31m[K^[m[K
+[2.014s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:251:38:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Ki[m[K’ in ‘[01m[Kright_index[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+[2.014s]   251 |      if (left_index.i == right_index.[01;31m[Ki[m[K) {
+[2.014s]       |                                      [01;31m[K^[m[K
+[2.014s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:252:25:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kj[m[K’ in ‘[01m[Kleft_index[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+[2.014s]   252 |       return left_index.[01;31m[Kj[m[K < right_index.j;
+[2.014s]       |                         [01;31m[K^[m[K
+[2.014s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:252:41:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kj[m[K’ in ‘[01m[Kright_index[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+[2.014s]   252 |       return left_index.j < right_index.[01;31m[Kj[m[K;
+[2.014s]       |                                         [01;31m[K^[m[K
+[2.015s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:254:24:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Ki[m[K’ in ‘[01m[Kleft_index[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+[2.015s]   254 |      return left_index.[01;31m[Ki[m[K < right_index.i;
+[2.015s]       |                        [01;31m[K^[m[K
+[2.015s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:254:40:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Ki[m[K’ in ‘[01m[Kright_index[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+[2.015s]   254 |      return left_index.i < right_index.[01;31m[Ki[m[K;
+[2.015s]       |                                        [01;31m[K^[m[K
+[2.016s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:[m[K At global scope:
+[2.016s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:262:6:[m[K [01;31m[Kerror: [m[K‘[01m[KPlanner[m[K’ has not been declared
+[2.016s]   262 | void [01;31m[KPlanner[m[K::calculate_path()
+[2.016s]       |      [01;31m[K^~~~~~~[m[K
+[2.016s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:[m[K In function ‘[01m[Kvoid calculate_path()[m[K’:
+[2.017s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:264:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ksearch_map_[m[K’ was not declared in this scope
+[2.017s]   264 |   [01;31m[Ksearch_map_[m[K.resize(map_.data.size());
+[2.017s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[2.017s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:264:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kmap_[m[K’ was not declared in this scope
+[2.017s]   264 |   search_map_.resize([01;31m[Kmap_[m[K.data.size());
+[2.017s]       |                      [01;31m[K^~~~[m[K
+[2.019s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:265:53:[m[K [01;31m[Kerror: [m[K‘[01m[KSearchNode[m[K’ was not declared in this scope; did you mean ‘[01m[Ksimple_planner::SearchNode[m[K’?
+[2.019s]   265 |   std::fill(search_map_.begin(), search_map_.end(), [01;31m[KSearchNode[m[K());
+[2.019s]       |                                                     [01;31m[K^~~~~~~~~~[m[K
+[2.019s]       |                                                     [32m[Ksimple_planner::SearchNode[m[K
+[2.019s] In file included from [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:2[m[K:
+[2.019s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.h:22:8:[m[K [01;36m[Knote: [m[K‘[01m[Ksimple_planner::SearchNode[m[K’ declared here
+[2.019s]    22 | struct [01;36m[KSearchNode[m[K{
+[2.019s]       |        [01;36m[K^~~~~~~~~~[m[K
+[2.022s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:266:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kpath_msg_[m[K’ was not declared in this scope
+[2.022s]   266 |   [01;31m[Kpath_msg_[m[K.points.clear();
+[2.022s]       |   [01;31m[K^~~~~~~~~[m[K
+[2.022s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:268:12:[m[K [01;31m[Kerror: [m[K‘[01m[KMapIndex[m[K’ was not declared in this scope; did you mean ‘[01m[Ksimple_planner::MapIndex[m[K’?
+[2.022s]   268 |   std::set<[01;31m[KMapIndex[m[K, CompareSearchNodes> queue(CompareSearchNodes(*this));
+[2.023s]       |            [01;31m[K^~~~~~~~[m[K
+[2.023s]       |            [32m[Ksimple_planner::MapIndex[m[K
+[2.023s] In file included from [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:2[m[K:
+[2.023s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.h:34:8:[m[K [01;36m[Knote: [m[K‘[01m[Ksimple_planner::MapIndex[m[K’ declared here
+[2.023s]    34 | struct [01;36m[KMapIndex[m[K {
+[2.023s]       |        [01;36m[K^~~~~~~~[m[K
+[2.023s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:268:40:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.023s]   268 |   std::set<MapIndex, CompareSearchNodes[01;31m[K>[m[K queue(CompareSearchNodes(*this));
+[2.023s]       |                                        [01;31m[K^[m[K
+[2.023s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:268:40:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[2.023s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:268:68:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[2.024s]   268 |   std::set<MapIndex, CompareSearchNodes> queue(CompareSearchNodes(*[01;31m[Kthis[m[K));
+[2.024s]       |                                                                    [01;31m[K^~~~[m[K
+[2.024s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:269:11:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kstart_index[m[K’
+[2.024s]   269 |   MapIndex[01;31m[K [m[K[32m[Kstart_index[m[K = point_index(start_pose_.position.x, start_pose_.position.y);
+[2.024s]       |           [01;31m[K^[m[K[32m[K~~~~~~~~~~~[m[K
+[2.024s]       |           [32m[K;[m[K
+[2.024s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:270:11:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Ktarget_index[m[K’
+[2.024s]   270 |   MapIndex[01;31m[K [m[K[32m[Ktarget_index[m[K = point_index(target_pose_.position.x, target_pose_.position.y);
+[2.024s]       |           [01;31m[K^[m[K[32m[K~~~~~~~~~~~~[m[K
+[2.024s]       |           [32m[K;[m[K
+[2.025s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:272:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kstart_index[m[K’ was not declared in this scope
+[2.025s]   272 |   if (!indices_in_map( [01;31m[Kstart_index[m[K.i, start_index.j) || !indices_in_map(target_index.i, target_index.j)) {
+[2.025s]       |                        [01;31m[K^~~~~~~~~~~[m[K
+[2.027s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:272:73:[m[K [01;31m[Kerror: [m[K‘[01m[Ktarget_index[m[K’ was not declared in this scope
+[2.027s]   272 |   if (!indices_in_map( start_index.i, start_index.j) || !indices_in_map([01;31m[Ktarget_index[m[K.i, target_index.j)) {
+[2.028s]       |                                                                         [01;31m[K^~~~~~~~~~~~[m[K
+[2.028s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[2.028s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[2.028s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[2.028s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[2.028s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[2.028s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[2.028s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[2.028s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[2.028s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[2.029s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[2.029s]                  from [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.h:4[m[K,
+[2.029s]                  from [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:2[m[K:
+[2.029s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:273:24:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[2.029s]   273 |     RCLCPP_WARN_STREAM([01;31m[Kthis[m[K->get_logger(), "Start or target point is out of map bounds!");
+[2.029s]       |                        [01;31m[K^~~~[m[K
+[2.029s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:273:24:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[2.029s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:273:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.029s]   273 |     [01;31m[KRCLCPP_WARN_STREAM[m[K(this->get_logger(), "Start or target point is out of map bounds!");
+[2.029s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[2.029s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:273:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.030s]   273 |     [01;31m[KRCLCPP_WARN_STREAM[m[K(this->get_logger(), "Start or target point is out of map bounds!");
+[2.030s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[2.030s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:273:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.030s]   273 |     [01;31m[KRCLCPP_WARN_STREAM[m[K(this->get_logger(), "Start or target point is out of map bounds!");
+[2.030s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[2.030s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+[2.030s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[2.030s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[2.030s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[2.031s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[2.031s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[2.031s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[2.031s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[2.031s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[2.031s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[2.031s]                  from [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.h:4[m[K,
+[2.031s]                  from [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:2[m[K:
+[2.031s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:273:24:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[2.032s]   273 |     RCLCPP_WARN_STREAM([01;31m[Kthis[m[K->get_logger(), "Start or target point is out of map bounds!");
+[2.032s]       |                        [01;31m[K^~~~[m[K
+[2.032s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:273:24:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[2.032s]   273 |     RCLCPP_WARN_STREAM([01;31m[Kthis[m[K->get_logger(), "Start or target point is out of map bounds!");
+[2.032s]       |                        [01;31m[K^~~~[m[K
+[2.038s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:278:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kstart_index[m[K’ was not declared in this scope
+[2.038s]   278 |   wave_map[[01;31m[Kstart_index[m[K.i][start_index.j] = 0;
+[2.038s]       |            [01;31m[K^~~~~~~~~~~[m[K
+[2.039s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:279:22:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[2.039s]   279 |   std::queue<MapIndex[01;31m[K>[m[K wave;
+[2.039s]       |                      [01;31m[K^[m[K
+[2.039s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:280:8:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kpush[m[K’ in ‘[01m[Kwave[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[2.039s]   280 |   wave.[01;31m[Kpush[m[K(start_index);
+[2.039s]       |        [01;31m[K^~~~[m[K
+[2.039s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:283:16:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kempty[m[K’ in ‘[01m[Kwave[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[2.039s]   283 |   while (!wave.[01;31m[Kempty[m[K() && !found) {
+[2.039s]       |                [01;31m[K^~~~~[m[K
+[2.039s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:284:31:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kfront[m[K’ in ‘[01m[Kwave[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[2.039s]   284 |     auto current_index = wave.[01;31m[Kfront[m[K();
+[2.039s]       |                               [01;31m[K^~~~~[m[K
+[2.039s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:285:10:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kpop[m[K’ in ‘[01m[Kwave[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[2.040s]   285 |     wave.[01;31m[Kpop[m[K();
+[2.040s]       |          [01;31m[K^~~[m[K
+[2.040s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:287:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kneighbors[m[K’ was not declared in this scope
+[2.040s]   287 |     for (const auto& shift : [01;31m[Kneighbors[m[K) {
+[2.040s]       |                              [01;31m[K^~~~~~~~~[m[K
+[2.042s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:294:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kobstacle_map_[m[K’ was not declared in this scope
+[2.042s]   294 |           (map_value([01;31m[Kobstacle_map_[m[K.data, neighbor_index.i, neighbor_index.j) != kObstacleValue)) {
+[2.042s]       |                      [01;31m[K^~~~~~~~~~~~~[m[K
+[2.044s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:294:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kmap_value[m[K’ was not declared in this scope; did you mean ‘[01m[Ksi_value[m[K’?
+[2.044s]   294 |           ([01;31m[Kmap_value[m[K(obstacle_map_.data, neighbor_index.i, neighbor_index.j) != kObstacleValue)) {
+[2.044s]       |            [01;31m[K^~~~~~~~~[m[K
+[2.044s]       |            [32m[Ksi_value[m[K
+[2.044s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:296:16:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kpush[m[K’ in ‘[01m[Kwave[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[2.044s]   296 |           wave.[01;31m[Kpush[m[K(neighbor_index);
+[2.044s]       |                [01;31m[K^~~~[m[K
+[2.046s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:297:36:[m[K [01;31m[Kerror: [m[K‘[01m[Ktarget_index[m[K’ was not declared in this scope
+[2.046s]   297 |           if ((neighbor_index.i == [01;31m[Ktarget_index[m[K.i) &&
+[2.046s]       |                                    [01;31m[K^~~~~~~~~~~~[m[K
+[2.046s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:308:25:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[2.046s]   308 |     std::vector<MapIndex[01;31m[K>[m[K path;
+[2.046s]       |                         [01;31m[K^[m[K
+[2.046s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:309:13:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kcurrent_index[m[K’
+[2.047s]   309 |     MapIndex[01;31m[K [m[K[32m[Kcurrent_index[m[K = target_index;
+[2.047s]       |             [01;31m[K^[m[K[32m[K~~~~~~~~~~~~~[m[K
+[2.047s]       |             [32m[K;[m[K
+[2.047s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:310:10:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kpush_back[m[K’ in ‘[01m[Kpath[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[2.047s]   310 |     path.[01;31m[Kpush_back[m[K(current_index);
+[2.047s]       |          [01;31m[K^~~~~~~~~[m[K
+[2.049s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:310:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_index[m[K’ was not declared in this scope
+[2.049s]   310 |     path.push_back([01;31m[Kcurrent_index[m[K);
+[2.049s]       |                    [01;31m[K^~~~~~~~~~~~~[m[K
+[2.052s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:313:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kneighbors[m[K’ was not declared in this scope
+[2.053s]   313 |       for (const auto& shift : [01;31m[Kneighbors[m[K) {
+[2.053s]       |                                [01;31m[K^~~~~~~~~[m[K
+[2.053s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:320:20:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kpush_back[m[K’ in ‘[01m[Kpath[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[2.053s]   320 |               path.[01;31m[Kpush_back[m[K(neighbor_index);
+[2.053s]       |                    [01;31m[K^~~~~~~~~[m[K
+[2.053s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:326:23:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kbegin[m[K’ in ‘[01m[Kpath[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[2.053s]   326 |     std::reverse(path.[01;31m[Kbegin[m[K(), path.end());
+[2.053s]       |                       [01;31m[K^~~~~[m[K
+[2.053s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:326:37:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kend[m[K’ in ‘[01m[Kpath[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+[2.053s]   326 |     std::reverse(path.begin(), path.[01;31m[Kend[m[K());
+[2.053s]       |                                     [01;31m[K^~~[m[K
+[2.054s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:327:16:[m[K [01;31m[Kerror: [m[K‘[01m[KMapIndex[m[K’ does not name a type
+[2.054s]   327 |     for (const [01;31m[KMapIndex[m[K& point : path) {
+[2.055s]       |                [01;31m[K^~~~~~~~[m[K
+[2.055s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:333:6:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kdo[m[K’
+[2.055s]   333 |     }
+[2.055s]       |      [01;31m[K^[m[K
+[2.055s]       |      [32m[K;[m[K
+[2.055s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[2.055s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[2.055s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[2.055s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[2.056s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[2.056s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[2.056s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[2.056s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[2.056s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[2.056s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[2.056s]                  from [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.h:4[m[K,
+[2.056s]                  from [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:2[m[K:
+[2.056s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:334:5:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kdo[m[K’
+[2.056s]   334 |     [01;31m[KRCLCPP_INFO_STREAM[m[K(this->get_logger(), "The path has been found!");
+[2.056s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[2.057s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:333:6:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kdo[m[K’
+[2.057s]   333 |     }
+[2.057s]       |      [01;31m[K^[m[K
+[2.057s]       |      [32m[K;[m[K
+[2.057s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[2.057s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[2.057s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[2.057s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[2.057s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[2.057s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[2.057s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[2.058s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[2.058s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[2.058s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[2.058s]                  from [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.h:4[m[K,
+[2.058s]                  from [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:2[m[K:
+[2.058s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:334:5:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kdo[m[K’
+[2.058s]   334 |     [01;31m[KRCLCPP_INFO_STREAM[m[K(this->get_logger(), "The path has been found!");
+[2.058s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[2.058s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:333:6:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kdo[m[K’
+[2.058s]   333 |     }
+[2.059s]       |      [01;31m[K^[m[K
+[2.059s]       |      [32m[K)[m[K
+[2.059s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:327:9:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+[2.059s]   327 |     for [01;36m[K([m[Kconst MapIndex& point : path) {
+[2.059s]       |         [01;36m[K^[m[K
+[2.059s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[2.059s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[2.059s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[2.059s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[2.059s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[2.060s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[2.060s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[2.060s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[2.060s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[2.060s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[2.060s]                  from [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.h:4[m[K,
+[2.060s]                  from [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:2[m[K:
+[2.060s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:334:24:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[2.060s]   334 |     RCLCPP_INFO_STREAM([01;31m[Kthis[m[K->get_logger(), "The path has been found!");
+[2.060s]       |                        [01;31m[K^~~~[m[K
+[2.060s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:334:24:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[2.061s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:334:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.061s]   334 |     [01;31m[KRCLCPP_INFO_STREAM[m[K(this->get_logger(), "The path has been found!");
+[2.061s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[2.061s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:334:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.061s]   334 |     [01;31m[KRCLCPP_INFO_STREAM[m[K(this->get_logger(), "The path has been found!");
+[2.061s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[2.061s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:334:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.061s]   334 |     [01;31m[KRCLCPP_INFO_STREAM[m[K(this->get_logger(), "The path has been found!");
+[2.061s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[2.061s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+[2.062s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[2.062s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[2.062s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[2.062s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[2.062s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[2.062s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[2.062s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[2.062s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[2.062s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[2.062s]                  from [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.h:4[m[K,
+[2.062s]                  from [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:2[m[K:
+[2.063s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:334:24:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[2.063s]   334 |     RCLCPP_INFO_STREAM([01;31m[Kthis[m[K->get_logger(), "The path has been found!");
+[2.063s]       |                        [01;31m[K^~~~[m[K
+[2.063s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:334:24:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[2.063s]   334 |     RCLCPP_INFO_STREAM([01;31m[Kthis[m[K->get_logger(), "The path has been found!");
+[2.063s]       |                        [01;31m[K^~~~[m[K
+[2.063s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:268:42:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kqueue[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.063s]   268 |   std::set<MapIndex, CompareSearchNodes> [01;35m[Kqueue[m[K(CompareSearchNodes(*this));
+[2.063s]       |                                          [01;35m[K^~~~~[m[K
+[2.064s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:335:3:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[2.064s]   335 |   [01;31m[K}[m[K
+[2.064s]       |   [01;31m[K^[m[K
+[2.064s] [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:263:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[2.064s]   263 | [01;36m[K{[m[K
+[2.064s]       | [01;36m[K^[m[K
+[2.634s] make[2]: *** [CMakeFiles/planner.dir/build.make:63：CMakeFiles/planner.dir/src/planner.cpp.o] 错误 1
+[2.635s] make[1]: *** [CMakeFiles/Makefile2:105：CMakeFiles/planner.dir/all] 错误 2
+[2.635s] make: *** [Makefile:141：all] 错误 2
+[2.637s] Invoked command in '/home/tutu/mr_ws_ros2/build/simple_planner' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/tutu/mr_ws_ros2/build/simple_planner -- -j8 -l8

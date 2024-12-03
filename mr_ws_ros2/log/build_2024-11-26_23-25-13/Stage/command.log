@@ -1,0 +1,6 @@
+Invoking command in '/home/tutu/mr_ws_ros2/build/Stage': /usr/bin/cmake /home/tutu/mr_ws_ros2/src/Stage -DCMAKE_INSTALL_PREFIX=/home/tutu/mr_ws_ros2/install/Stage
+Invoked command in '/home/tutu/mr_ws_ros2/build/Stage' returned '0': /usr/bin/cmake /home/tutu/mr_ws_ros2/src/Stage -DCMAKE_INSTALL_PREFIX=/home/tutu/mr_ws_ros2/install/Stage
+Invoking command in '/home/tutu/mr_ws_ros2/build/Stage': /usr/bin/cmake --build /home/tutu/mr_ws_ros2/build/Stage -- -j8 -l8
+Invoked command in '/home/tutu/mr_ws_ros2/build/Stage' returned '0': /usr/bin/cmake --build /home/tutu/mr_ws_ros2/build/Stage -- -j8 -l8
+Invoking command in '/home/tutu/mr_ws_ros2/build/Stage': /usr/bin/cmake --install /home/tutu/mr_ws_ros2/build/Stage
+Invoked command in '/home/tutu/mr_ws_ros2/build/Stage' returned '0': /usr/bin/cmake --install /home/tutu/mr_ws_ros2/build/Stage

@@ -1,0 +1,86 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)
+-- Found angles: 1.16.0 (/home/tutu/ros2m/install/angles/share/angles/cmake)
+-- Found tf2: 0.25.8 (/opt/ros/humble/share/tf2/cmake)
+-- Found tf2_ros: 0.25.8 (/opt/ros/humble/share/tf2_ros/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/tutu/ros2m/build/barrel_slam
+[ 33%] [32mBuilding CXX object CMakeFiles/slam_node.dir/src/slam_node.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/slam_node.dir/src/slam.cpp.o[0m
+[01m[K/home/tutu/ros2m/src/barrel_slam/src/slam.cpp:[m[K In member function ‘[01m[Kint Slam::add_landmark_to_state(int)[m[K’:
+[01m[K/home/tutu/ros2m/src/barrel_slam/src/slam.cpp:140:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  140 |   double [01;35m[Kx[m[K = X(0);
+      |          [01;35m[K^[m[K
+[01m[K/home/tutu/ros2m/src/barrel_slam/src/slam.cpp:141:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ky[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  141 |   double [01;35m[Ky[m[K = X(1);
+      |          [01;35m[K^[m[K
+[01m[K/home/tutu/ros2m/src/barrel_slam/src/slam.cpp:[m[K In member function ‘[01m[Kvoid Slam::correct(int, int)[m[K’:
+[01m[K/home/tutu/ros2m/src/barrel_slam/src/slam.cpp:199:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kzi_r[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  199 |   double [01;35m[Kzi_r[m[K = new_landmarks_measurement[measurementIndex](0);
+      |          [01;35m[K^~~~[m[K
+[01m[K/home/tutu/ros2m/src/barrel_slam/src/slam.cpp:200:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kzi_phi[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  200 |   double [01;35m[Kzi_phi[m[K = new_landmarks_measurement[measurementIndex](1);
+      |          [01;35m[K^~~~~~[m[K
+[01m[K/home/tutu/ros2m/src/barrel_slam/src/slam.cpp:[m[K In member function ‘[01m[Kvoid Slam::publish_results(const string&, const rclcpp::Time&)[m[K’:
+[01m[K/home/tutu/ros2m/src/barrel_slam/src/slam.cpp:346:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::size_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  346 |   for (int i = 0; [01;35m[Ki < landmarks_found_quantity[m[K; ++i)
+      |                   [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tutu/ros2m/src/barrel_slam/src/slam.cpp:[m[K In member function ‘[01m[Kvoid Slam::advertize_landmark_publishers()[m[K’:
+[01m[K/home/tutu/ros2m/src/barrel_slam/src/slam.cpp:422:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kconst size_t[m[K’ {aka ‘[01m[Kconst long unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  422 |   for (int i = 0; [01;35m[Ki < NUMBER_LANDMARKS[m[K; ++i)
+      |                   [01;35m[K~~^~~~~~~~~~~~~~~~~~[m[K
+[100%] [32m[1mLinking CXX executable slam_node[0m
+[100%] Built target slam_node
+-- Install configuration: ""
+-- Installing: /home/tutu/ros2m/install/barrel_slam/lib/barrel_slam/slam_node
+-- Set runtime path of "/home/tutu/ros2m/install/barrel_slam/lib/barrel_slam/slam_node" to ""
+-- Installing: /home/tutu/ros2m/install/barrel_slam/share/barrel_slam//launch
+-- Installing: /home/tutu/ros2m/install/barrel_slam/share/barrel_slam//launch/slam.rviz
+-- Installing: /home/tutu/ros2m/install/barrel_slam/share/barrel_slam//launch/slam.launch.py
+-- Installing: /home/tutu/ros2m/install/barrel_slam/share/ament_index/resource_index/package_run_dependencies/barrel_slam
+-- Installing: /home/tutu/ros2m/install/barrel_slam/share/ament_index/resource_index/parent_prefix_path/barrel_slam
+-- Installing: /home/tutu/ros2m/install/barrel_slam/share/barrel_slam/environment/ament_prefix_path.sh
+-- Installing: /home/tutu/ros2m/install/barrel_slam/share/barrel_slam/environment/ament_prefix_path.dsv
+-- Installing: /home/tutu/ros2m/install/barrel_slam/share/barrel_slam/environment/path.sh
+-- Installing: /home/tutu/ros2m/install/barrel_slam/share/barrel_slam/environment/path.dsv
+-- Installing: /home/tutu/ros2m/install/barrel_slam/share/barrel_slam/local_setup.bash
+-- Installing: /home/tutu/ros2m/install/barrel_slam/share/barrel_slam/local_setup.sh
+-- Installing: /home/tutu/ros2m/install/barrel_slam/share/barrel_slam/local_setup.zsh
+-- Installing: /home/tutu/ros2m/install/barrel_slam/share/barrel_slam/local_setup.dsv
+-- Installing: /home/tutu/ros2m/install/barrel_slam/share/barrel_slam/package.dsv
+-- Installing: /home/tutu/ros2m/install/barrel_slam/share/ament_index/resource_index/packages/barrel_slam
+-- Installing: /home/tutu/ros2m/install/barrel_slam/share/barrel_slam/cmake/barrel_slamConfig.cmake
+-- Installing: /home/tutu/ros2m/install/barrel_slam/share/barrel_slam/cmake/barrel_slamConfig-version.cmake
+-- Installing: /home/tutu/ros2m/install/barrel_slam/share/barrel_slam/package.xml

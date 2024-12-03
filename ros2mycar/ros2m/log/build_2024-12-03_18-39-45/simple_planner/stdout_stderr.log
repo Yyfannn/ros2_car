@@ -1,0 +1,59 @@
+[ 33%] [32mBuilding CXX object CMakeFiles/simple_planner.dir/src/planner.cpp.o[0m
+[01m[K/home/tutu/ros2m/src/simple_planner/src/planner.cpp:[m[K In member function ‘[01m[Kstd::unique_lock<std::mutex> simple_planner::Planner::move_to_position(double, double, double, double)[m[K’:
+[01m[K/home/tutu/ros2m/src/simple_planner/src/planner.cpp:117:27:[m[K [01;35m[Kwarning: [m[Kmoving a local object in a return statement prevents copy elision [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpessimizing-move-Wpessimizing-move]8;;[m[K]
+  117 |           return [01;35m[Kstd::move(lock)[m[K;
+      |                  [01;35m[K~~~~~~~~~^~~~~~[m[K
+[01m[K/home/tutu/ros2m/src/simple_planner/src/planner.cpp:117:27:[m[K [01;36m[Knote: [m[Kremove ‘[01m[Kstd::move[m[K’ call
+[01m[K/home/tutu/ros2m/src/simple_planner/src/planner.cpp:148:31:[m[K [01;35m[Kwarning: [m[Kmoving a local object in a return statement prevents copy elision [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpessimizing-move-Wpessimizing-move]8;;[m[K]
+  148 |               return [01;35m[Kstd::move(lock)[m[K;
+      |                      [01;35m[K~~~~~~~~~^~~~~~[m[K
+[01m[K/home/tutu/ros2m/src/simple_planner/src/planner.cpp:148:31:[m[K [01;36m[Knote: [m[Kremove ‘[01m[Kstd::move[m[K’ call
+[01m[K/home/tutu/ros2m/src/simple_planner/src/planner.cpp:[m[K In member function ‘[01m[Kbool simple_planner::Planner::indices_in_map(int, int)[m[K’:
+[01m[K/home/tutu/ros2m/src/simple_planner/src/planner.cpp:192:32:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Knav_msgs::msg::MapMetaData_<std::allocator<void> >::_width_type[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  192 |   return i >= 0 && j >= 0 && [01;35m[Ki < map_.info.width[m[K && j < map_.info.height;
+      |                              [01;35m[K~~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tutu/ros2m/src/simple_planner/src/planner.cpp:192:55:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Knav_msgs::msg::MapMetaData_<std::allocator<void> >::_height_type[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  192 |   return i >= 0 && j >= 0 && i < map_.info.width && [01;35m[Kj < map_.info.height[m[K;
+      |                                                     [01;35m[K~~^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tutu/ros2m/src/simple_planner/src/planner.cpp:[m[K In member function ‘[01m[Kvoid simple_planner::Planner::increase_obstacles(std::size_t)[m[K’:
+[01m[K/home/tutu/ros2m/src/simple_planner/src/planner.cpp:203:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Knav_msgs::msg::MapMetaData_<std::allocator<void> >::_width_type[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  203 |   for (int i = 0; [01;35m[Ki < map_.info.width[m[K; ++i)
+      |                   [01;35m[K~~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tutu/ros2m/src/simple_planner/src/planner.cpp:205:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Knav_msgs::msg::MapMetaData_<std::allocator<void> >::_height_type[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  205 |     for (int j = 0; [01;35m[Kj < map_.info.height[m[K; ++j)
+      |                     [01;35m[K~~^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tutu/ros2m/src/simple_planner/src/planner.cpp:[m[K In member function ‘[01m[Kdouble simple_planner::Planner::heruistic(int, int)[m[K’:
+[01m[K/home/tutu/ros2m/src/simple_planner/src/planner.cpp:258:31:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ki[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  258 | double Planner::heruistic([01;35m[Kint i[m[K, int j) {
+      |                           [01;35m[K~~~~^[m[K
+[01m[K/home/tutu/ros2m/src/simple_planner/src/planner.cpp:258:38:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kj[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  258 | double Planner::heruistic(int i, [01;35m[Kint j[m[K) {
+      |                                  [01;35m[K~~~~^[m[K
+[01m[K/home/tutu/ros2m/src/simple_planner/src/planner.cpp:[m[K In member function ‘[01m[Kvoid simple_planner::Planner::calculate_path()[m[K’:
+[01m[K/home/tutu/ros2m/src/simple_planner/src/planner.cpp:367:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Knode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  367 |       auto& [01;35m[Knode[m[K = map_value(search_map_, point.i, point.j);
+      |             [01;35m[K^~~~[m[K
+[ 66%] [32m[1mLinking CXX executable simple_planner[0m
+[100%] Built target simple_planner
+-- Install configuration: ""
+-- Installing: /home/tutu/ros2m/install/simple_planner/lib/simple_planner/simple_planner
+-- Set runtime path of "/home/tutu/ros2m/install/simple_planner/lib/simple_planner/simple_planner" to ""
+-- Up-to-date: /home/tutu/ros2m/install/simple_planner/share/simple_planner//launch
+-- Up-to-date: /home/tutu/ros2m/install/simple_planner/share/simple_planner//launch/planner.launch.py
+-- Up-to-date: /home/tutu/ros2m/install/simple_planner/share/simple_planner//launch/planner.rviz
+-- Up-to-date: /home/tutu/ros2m/install/simple_planner/share/simple_planner//launch/default.rviz
+-- Up-to-date: /home/tutu/ros2m/install/simple_planner/share/ament_index/resource_index/package_run_dependencies/simple_planner
+-- Up-to-date: /home/tutu/ros2m/install/simple_planner/share/ament_index/resource_index/parent_prefix_path/simple_planner
+-- Up-to-date: /home/tutu/ros2m/install/simple_planner/share/simple_planner/environment/ament_prefix_path.sh
+-- Up-to-date: /home/tutu/ros2m/install/simple_planner/share/simple_planner/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/tutu/ros2m/install/simple_planner/share/simple_planner/environment/path.sh
+-- Up-to-date: /home/tutu/ros2m/install/simple_planner/share/simple_planner/environment/path.dsv
+-- Up-to-date: /home/tutu/ros2m/install/simple_planner/share/simple_planner/local_setup.bash
+-- Up-to-date: /home/tutu/ros2m/install/simple_planner/share/simple_planner/local_setup.sh
+-- Up-to-date: /home/tutu/ros2m/install/simple_planner/share/simple_planner/local_setup.zsh
+-- Up-to-date: /home/tutu/ros2m/install/simple_planner/share/simple_planner/local_setup.dsv
+-- Installing: /home/tutu/ros2m/install/simple_planner/share/simple_planner/package.dsv
+-- Up-to-date: /home/tutu/ros2m/install/simple_planner/share/ament_index/resource_index/packages/simple_planner
+-- Up-to-date: /home/tutu/ros2m/install/simple_planner/share/simple_planner/cmake/simple_plannerConfig.cmake
+-- Up-to-date: /home/tutu/ros2m/install/simple_planner/share/simple_planner/cmake/simple_plannerConfig-version.cmake
+-- Up-to-date: /home/tutu/ros2m/install/simple_planner/share/simple_planner/package.xml

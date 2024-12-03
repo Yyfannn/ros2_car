@@ -1,0 +1,51 @@
+[0.052s] Invoking command in '/home/tutu/mr_ws_ros2/build/stage_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/tutu/mr_ws_ros2/src/stage_controller -DCMAKE_BUILD_TYPE=RelWithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tutu/mr_ws_ros2/install/stage_controller
+[0.074s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.109s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.367s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.376s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.424s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.430s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.640s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.709s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.709s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.909s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.949s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.034s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.034s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.035s] -- Configured cppcheck include dirs: 
+[1.035s] -- Configured cppcheck exclude dirs and/or files: 
+[1.035s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.035s] -- Configured cpplint exclude dirs and/or files: 
+[1.036s] -- Added test 'lint_cmake' to check CMake code style
+[1.036s] -- Added test 'uncrustify' to check C / C++ code style
+[1.037s] -- Configured uncrustify additional arguments: 
+[1.037s] -- Added test 'xmllint' to check XML markup files
+[1.040s] -- Configuring done
+[1.054s] -- Generating done
+[1.055s] -- Build files have been written to: /home/tutu/mr_ws_ros2/build/stage_controller
+[1.061s] Invoked command in '/home/tutu/mr_ws_ros2/build/stage_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/tutu/mr_ws_ros2/src/stage_controller -DCMAKE_BUILD_TYPE=RelWithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tutu/mr_ws_ros2/install/stage_controller
+[1.066s] Invoking command in '/home/tutu/mr_ws_ros2/build/stage_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/tutu/mr_ws_ros2/build/stage_controller -- -j8 -l8
+[1.140s] [ 50%] Built target stage_controller
+[1.141s] [100%] Built target stage_throttle
+[1.155s] Invoked command in '/home/tutu/mr_ws_ros2/build/stage_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/tutu/mr_ws_ros2/build/stage_controller -- -j8 -l8
+[1.191s] Invoking command in '/home/tutu/mr_ws_ros2/build/stage_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/tutu/mr_ws_ros2/build/stage_controller
+[1.202s] -- Install configuration: "RelWithDebInfo"
+[1.203s] -- Execute custom install script
+[1.203s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/stage_controller/lib/stage_controller/stage_controller
+[1.203s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/stage_controller/lib/stage_controller/stage_throttle
+[1.204s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/stage_controller/share/ament_index/resource_index/package_run_dependencies/stage_controller
+[1.204s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/stage_controller/share/ament_index/resource_index/parent_prefix_path/stage_controller
+[1.204s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/stage_controller/share/stage_controller/environment/ament_prefix_path.sh
+[1.204s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/stage_controller/share/stage_controller/environment/ament_prefix_path.dsv
+[1.205s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/stage_controller/share/stage_controller/environment/path.sh
+[1.205s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/stage_controller/share/stage_controller/environment/path.dsv
+[1.205s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/stage_controller/share/stage_controller/local_setup.bash
+[1.205s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/stage_controller/share/stage_controller/local_setup.sh
+[1.206s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/stage_controller/share/stage_controller/local_setup.zsh
+[1.206s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/stage_controller/share/stage_controller/local_setup.dsv
+[1.206s] -- Symlinking: /home/tutu/mr_ws_ros2/install/stage_controller/share/stage_controller/package.dsv
+[1.220s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/stage_controller/share/ament_index/resource_index/packages/stage_controller
+[1.221s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/stage_controller/share/stage_controller/cmake/stage_controllerConfig.cmake
+[1.221s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/stage_controller/share/stage_controller/cmake/stage_controllerConfig-version.cmake
+[1.221s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/stage_controller/share/stage_controller/package.xml
+[1.225s] Invoked command in '/home/tutu/mr_ws_ros2/build/stage_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/tutu/mr_ws_ros2/build/stage_controller

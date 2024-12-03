@@ -1,0 +1,217 @@
+[0.033s] Invoking command in '/home/tutu/mr_ws_ros2/build/Stage': /usr/bin/cmake /home/tutu/mr_ws_ros2/src/Stage -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_INSTALL_PREFIX=/home/tutu/mr_ws_ros2/install/Stage
+[0.054s] -- Stage version 4.3.0
+[0.054s] -- Operating system is Linux
+[0.054s] -- Installing Libraries to /home/tutu/mr_ws_ros2/install/Stage/lib
+[0.055s] -- Installing Plugins to /home/tutu/mr_ws_ros2/install/Stage/lib/Stage-4.3
+[0.055s] -- Build type RELWITHDEBINFO
+[0.055s] -- Checking for libtool
+[0.055s] -- Checking for required libraries...
+[0.176s] -- Checking for optional libraries...
+[0.176s] -- Installation path CMAKE_INSTALL_PREFIX=/home/tutu/mr_ws_ros2/install/Stage
+[0.177s] -- Configuring libstage
+[0.184s] -- Checking for one of the modules 'playercore>=2.1.0'
+[0.188s] --   * Player not detected. If Player is installed but not detected, check your PKG_CONFIG_PATH.
+[0.208s] -- Configuring done
+[0.250s] -- Generating done
+[0.252s] -- Build files have been written to: /home/tutu/mr_ws_ros2/build/Stage
+[0.258s] Invoked command in '/home/tutu/mr_ws_ros2/build/Stage' returned '0': /usr/bin/cmake /home/tutu/mr_ws_ros2/src/Stage -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_INSTALL_PREFIX=/home/tutu/mr_ws_ros2/install/Stage
+[0.262s] Invoking command in '/home/tutu/mr_ws_ros2/build/Stage': /usr/bin/cmake --build /home/tutu/mr_ws_ros2/build/Stage -- -j8 -l8
+[0.333s] [  3%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/block.cc.o[0m
+[0.333s] [  3%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/blockgroup.cc.o[0m
+[0.334s] [  6%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/camera.cc.o[0m
+[0.334s] [  6%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/color.cc.o[0m
+[0.335s] [  8%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/logentry.cc.o[0m
+[0.343s] [ 11%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/file_manager.cc.o[0m
+[0.343s] [ 11%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/gl.cc.o[0m
+[0.344s] [ 13%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/model.cc.o[0m
+[2.145s] [ 15%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_actuator.cc.o[0m
+[3.136s] [ 16%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_blinkenlight.cc.o[0m
+[3.318s] [ 18%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_blobfinder.cc.o[0m
+[3.341s] [ 20%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_bumper.cc.o[0m
+[4.026s] [ 22%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_callbacks.cc.o[0m
+[4.324s] [ 23%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_camera.cc.o[0m
+[4.773s] [ 25%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_draw.cc.o[0m
+[5.311s] [ 27%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_fiducial.cc.o[0m
+[5.843s] [ 28%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_gripper.cc.o[0m
+[6.476s] [ 30%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_lightindicator.cc.o[0m
+[7.007s] [ 32%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_position.cc.o[0m
+[7.389s] [ 33%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_ranger.cc.o[0m
+[7.444s] [ 35%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/option.cc.o[0m
+[7.649s] [ 37%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/powerpack.cc.o[0m
+[9.099s] [ 38%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/region.cc.o[0m
+[9.228s] [ 40%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/stage.cc.o[0m
+[9.281s] [ 42%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/texture_manager.cc.o[0m
+[9.585s] [ 44%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/typetable.cc.o[0m
+[10.201s] [ 45%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/world.cc.o[0m
+[11.477s] [ 47%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/worldfile.cc.o[0m
+[11.679s] [ 49%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/canvas.cc.o[0m
+[11.716s] [ 50%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/options_dlg.cc.o[0m
+[12.387s] [ 52%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/vis_strip.cc.o[0m
+[13.507s] [ 54%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/worldgui.cc.o[0m
+[13.529s] [ 55%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/ancestor.cc.o[0m
+[19.218s] [ 57%] [32m[1mLinking CXX shared library libstage.so[0m
+[19.860s] [ 57%] Built target stage
+[19.934s] [ 59%] [32mBuilding CXX object libstage/CMakeFiles/stagebinary.dir/main.cc.o[0m
+[19.935s] [ 61%] [32mBuilding CXX object examples/ctrl/CMakeFiles/fasr.dir/fasr.cc.o[0m
+[19.954s] [ 62%] [32mBuilding CXX object examples/ctrl/CMakeFiles/sink.dir/sink.cc.o[0m
+[19.966s] [ 64%] [32mBuilding CXX object examples/ctrl/CMakeFiles/fasr2.dir/fasr2.cc.o[0m
+[19.971s] [ 66%] [32mBuilding CXX object examples/ctrl/CMakeFiles/dynamic.dir/dynamic.cc.o[0m
+[19.991s] [ 67%] [32mBuilding CXX object examples/ctrl/CMakeFiles/source.dir/source.cc.o[0m
+[20.005s] [ 69%] [32mBuilding CXX object examples/ctrl/CMakeFiles/wander.dir/wander.cc.o[0m
+[20.024s] [ 71%] [32mBuilding CXX object examples/ctrl/CMakeFiles/rasterize.dir/rasterize.cc.o[0m
+[22.704s] [ 72%] [32m[1mLinking CXX shared module fasr.so[0m
+[23.054s] [ 72%] Built target fasr
+[23.141s] [ 74%] [32mBuilding CXX object examples/ctrl/CMakeFiles/fasr2.dir/astar/findpath.cpp.o[0m
+[23.927s] [ 76%] [32m[1mLinking CXX shared module dynamic.so[0m
+[24.192s] [ 77%] [32m[1mLinking CXX shared module wander.so[0m
+[24.462s] [ 77%] Built target dynamic
+[24.596s] [ 77%] Built target wander
+[24.631s] [ 79%] [32mBuilding CXX object examples/ctrl/CMakeFiles/lasernoise.dir/lasernoise.cc.o[0m
+[24.637s] [ 81%] [32m[1mLinking CXX shared module sink.so[0m
+[24.758s] [ 83%] [32mBuilding CXX object examples/ctrl/CMakeFiles/pioneer_flocking.dir/pioneer_flocking.cc.o[0m
+[24.759s] [ 84%] [32m[1mLinking CXX shared module rasterize.so[0m
+[24.787s] [ 86%] [32m[1mLinking CXX executable stage[0m
+[25.010s] [ 88%] [32m[1mLinking CXX shared module source.so[0m
+[25.097s] [ 88%] Built target rasterize
+[25.101s] [ 88%] Built target sink
+[25.285s] [ 89%] [32mBuilding CXX object worlds/benchmark/CMakeFiles/expand_pioneer.dir/expand_pioneer.cc.o[0m
+[25.305s] [ 91%] [32mBuilding CXX object worlds/benchmark/CMakeFiles/expand_swarm.dir/expand_swarm.cc.o[0m
+[25.352s] [ 91%] Built target source
+[25.428s] [ 91%] Built target stagebinary
+[26.699s] [ 93%] [32m[1mLinking CXX shared module fasr2.so[0m
+[26.954s] [ 93%] Built target fasr2
+[27.478s] [ 94%] [32m[1mLinking CXX shared module pioneer_flocking.so[0m
+[27.777s] [ 94%] Built target pioneer_flocking
+[27.977s] [ 96%] [32m[1mLinking CXX shared module lasernoise.so[0m
+[28.133s] [ 98%] [32m[1mLinking CXX shared module expand_swarm.so[0m
+[28.197s] [ 98%] Built target lasernoise
+[28.358s] [100%] [32m[1mLinking CXX shared module expand_pioneer.so[0m
+[28.362s] [100%] Built target expand_swarm
+[28.513s] [100%] Built target expand_pioneer
+[28.533s] Invoked command in '/home/tutu/mr_ws_ros2/build/Stage' returned '0': /usr/bin/cmake --build /home/tutu/mr_ws_ros2/build/Stage -- -j8 -l8
+[28.586s] Invoking command in '/home/tutu/mr_ws_ros2/build/Stage': /usr/bin/cmake --install /home/tutu/mr_ws_ros2/build/Stage
+[28.602s] -- Install configuration: "RELWITHDEBINFO"
+[28.603s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/lib/pkgconfig/stage.pc
+[28.603s] -- Installing: /home/tutu/mr_ws_ros2/install/Stage/lib/cmake/Stage/stage-config.cmake
+[28.603s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/lib/cmake/Stage/stage-config-version.cmake
+[28.604s] -- Installing: /home/tutu/mr_ws_ros2/install/Stage/bin/stage
+[28.604s] -- Set runtime path of "/home/tutu/mr_ws_ros2/install/Stage/bin/stage" to ""
+[28.605s] -- Installing: /home/tutu/mr_ws_ros2/install/Stage/lib/libstage.so.4.3.0
+[28.619s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/lib/libstage.so
+[28.619s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/include/Stage-4.3/stage.hh
+[28.620s] -- Installing: /home/tutu/mr_ws_ros2/install/Stage/lib/Stage-4.3/fasr.so
+[28.621s] -- Set runtime path of "/home/tutu/mr_ws_ros2/install/Stage/lib/Stage-4.3/fasr.so" to ""
+[28.622s] -- Installing: /home/tutu/mr_ws_ros2/install/Stage/lib/Stage-4.3/sink.so
+[28.622s] -- Set runtime path of "/home/tutu/mr_ws_ros2/install/Stage/lib/Stage-4.3/sink.so" to ""
+[28.623s] -- Installing: /home/tutu/mr_ws_ros2/install/Stage/lib/Stage-4.3/source.so
+[28.623s] -- Set runtime path of "/home/tutu/mr_ws_ros2/install/Stage/lib/Stage-4.3/source.so" to ""
+[28.624s] -- Installing: /home/tutu/mr_ws_ros2/install/Stage/lib/Stage-4.3/wander.so
+[28.624s] -- Set runtime path of "/home/tutu/mr_ws_ros2/install/Stage/lib/Stage-4.3/wander.so" to ""
+[28.625s] -- Installing: /home/tutu/mr_ws_ros2/install/Stage/lib/Stage-4.3/pioneer_flocking.so
+[28.625s] -- Set runtime path of "/home/tutu/mr_ws_ros2/install/Stage/lib/Stage-4.3/pioneer_flocking.so" to ""
+[28.625s] -- Installing: /home/tutu/mr_ws_ros2/install/Stage/lib/Stage-4.3/rasterize.so
+[28.626s] -- Set runtime path of "/home/tutu/mr_ws_ros2/install/Stage/lib/Stage-4.3/rasterize.so" to ""
+[28.626s] -- Installing: /home/tutu/mr_ws_ros2/install/Stage/lib/Stage-4.3/lasernoise.so
+[28.627s] -- Set runtime path of "/home/tutu/mr_ws_ros2/install/Stage/lib/Stage-4.3/lasernoise.so" to ""
+[28.627s] -- Installing: /home/tutu/mr_ws_ros2/install/Stage/lib/Stage-4.3/dynamic.so
+[28.627s] -- Set runtime path of "/home/tutu/mr_ws_ros2/install/Stage/lib/Stage-4.3/dynamic.so" to ""
+[28.628s] -- Installing: /home/tutu/mr_ws_ros2/install/Stage/lib/Stage-4.3/fasr2.so
+[28.629s] -- Set runtime path of "/home/tutu/mr_ws_ros2/install/Stage/lib/Stage-4.3/fasr2.so" to ""
+[28.630s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/assets/blue.png
+[28.630s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/assets/death.png
+[28.630s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/assets/green.png
+[28.631s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/assets/logo.png
+[28.631s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/assets/mains.png
+[28.631s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/assets/mainspower.png
+[28.631s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/assets/question_mark.png
+[28.632s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/assets/red.png
+[28.632s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/assets/stagelogo.png
+[28.632s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/assets/stall-old.png
+[28.632s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/assets/stall.png
+[28.632s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/assets/rgb.txt
+[28.634s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/rgb.txt
+[28.634s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/amcl-sonar.cfg
+[28.634s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/autolab.cfg
+[28.635s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/camera.cfg
+[28.635s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/everything.cfg
+[28.635s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/lsp_test.cfg
+[28.636s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/mbicp.cfg
+[28.636s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/nd.cfg
+[28.637s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/roomba.cfg
+[28.637s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/simple.cfg
+[28.637s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/test.cfg
+[28.637s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/uoa_robotics_lab.cfg
+[28.638s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/vfh.cfg
+[28.638s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/wavefront-remote.cfg
+[28.638s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/wavefront.cfg
+[28.638s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/wifi.cfg
+[28.639s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/SFU.world
+[28.639s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/autolab.world
+[28.639s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/camera.world
+[28.639s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/circuit.world
+[28.639s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/everything.world
+[28.639s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/fasr.world
+[28.640s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/fasr2.world
+[28.640s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/fasr_plan.world
+[28.640s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/large.world
+[28.640s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/lsp_test.world
+[28.641s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/mbicp.world
+[28.642s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/pioneer_flocking.world
+[28.643s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/pioneer_follow.world
+[28.643s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/pioneer_walle.world
+[28.643s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/roomba.world
+[28.644s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/sensor_noise_demo.world
+[28.644s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/sensor_noise_module_demo.world
+[28.644s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/simple.world
+[28.644s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/uoa_robotics_lab.world
+[28.645s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/wifi.world
+[28.645s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/beacons.inc
+[28.645s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/chatterbox.inc
+[28.645s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/hokuyo.inc
+[28.646s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/irobot.inc
+[28.646s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/map.inc
+[28.646s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/objects.inc
+[28.646s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/pantilt.inc
+[28.647s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/pioneer.inc
+[28.647s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/sick.inc
+[28.648s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/ubot.inc
+[28.649s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/uoa_robotics_lab_models.inc
+[28.650s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/walle.inc
+[28.650s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/cfggen.sh
+[28.651s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/test.sh
+[28.651s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/worldgen.sh
+[28.651s] -- Installing: /home/tutu/mr_ws_ros2/install/Stage/lib/Stage-4.3/expand_swarm.so
+[28.651s] -- Set runtime path of "/home/tutu/mr_ws_ros2/install/Stage/lib/Stage-4.3/expand_swarm.so" to ""
+[28.652s] -- Installing: /home/tutu/mr_ws_ros2/install/Stage/lib/Stage-4.3/expand_pioneer.so
+[28.652s] -- Set runtime path of "/home/tutu/mr_ws_ros2/install/Stage/lib/Stage-4.3/expand_pioneer.so" to ""
+[28.652s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/bitmaps/889_05.png
+[28.652s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/bitmaps/SFU_1200x615.png
+[28.652s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/bitmaps/SRI-AIC-kwing.png
+[28.653s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/bitmaps/autolab.png
+[28.653s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/bitmaps/cave.png
+[28.653s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/bitmaps/cave_compact.png
+[28.653s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/bitmaps/cave_filled.png
+[28.653s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/bitmaps/frieburg.png
+[28.653s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/bitmaps/ghost.png
+[28.654s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/bitmaps/hospital.png
+[28.654s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/bitmaps/hospital_section.png
+[28.654s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/bitmaps/human_outline.png
+[28.654s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/bitmaps/mbicp.png
+[28.654s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/bitmaps/rink.png
+[28.654s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/bitmaps/sal2.png
+[28.654s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/bitmaps/simple_rooms.png
+[28.655s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/bitmaps/space_invader.png
+[28.655s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/bitmaps/submarine.png
+[28.655s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/bitmaps/submarine_small.png
+[28.655s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/bitmaps/table.png
+[28.655s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/bitmaps/uoa_robotics_lab.png
+[28.655s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/wifi/commando.world
+[28.656s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/wifi/hosp_wifi.world
+[28.656s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/wifi/hosp_wifi_5.world
+[28.656s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/wifi/wifi.world
+[28.656s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/wifi/wifi_itu.world
+[28.656s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/wifi/wifi_logdistance.world
+[28.656s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/wifi/wifi_ray.world
+[28.657s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/wifi/wifi_simple.world
+[28.657s] -- Up-to-date: /home/tutu/mr_ws_ros2/install/Stage/share/stage/worlds/wifi/map.inc
+[28.657s] Invoked command in '/home/tutu/mr_ws_ros2/build/Stage' returned '0': /usr/bin/cmake --install /home/tutu/mr_ws_ros2/build/Stage

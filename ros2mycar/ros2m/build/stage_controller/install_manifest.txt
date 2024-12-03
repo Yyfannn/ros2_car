@@ -1,0 +1,17 @@
+/home/tutu/ros2m/install/stage_controller/lib/stage_controller/stage_controller
+/home/tutu/ros2m/install/stage_controller/lib/stage_controller/stage_throttle
+/home/tutu/ros2m/install/stage_controller/share/ament_index/resource_index/package_run_dependencies/stage_controller
+/home/tutu/ros2m/install/stage_controller/share/ament_index/resource_index/parent_prefix_path/stage_controller
+/home/tutu/ros2m/install/stage_controller/share/stage_controller/environment/ament_prefix_path.sh
+/home/tutu/ros2m/install/stage_controller/share/stage_controller/environment/ament_prefix_path.dsv
+/home/tutu/ros2m/install/stage_controller/share/stage_controller/environment/path.sh
+/home/tutu/ros2m/install/stage_controller/share/stage_controller/environment/path.dsv
+/home/tutu/ros2m/install/stage_controller/share/stage_controller/local_setup.bash
+/home/tutu/ros2m/install/stage_controller/share/stage_controller/local_setup.sh
+/home/tutu/ros2m/install/stage_controller/share/stage_controller/local_setup.zsh
+/home/tutu/ros2m/install/stage_controller/share/stage_controller/local_setup.dsv
+/home/tutu/ros2m/install/stage_controller/share/stage_controller/package.dsv
+/home/tutu/ros2m/install/stage_controller/share/ament_index/resource_index/packages/stage_controller
+/home/tutu/ros2m/install/stage_controller/share/stage_controller/cmake/stage_controllerConfig.cmake
+/home/tutu/ros2m/install/stage_controller/share/stage_controller/cmake/stage_controllerConfig-version.cmake
+/home/tutu/ros2m/install/stage_controller/share/stage_controller/package.xml

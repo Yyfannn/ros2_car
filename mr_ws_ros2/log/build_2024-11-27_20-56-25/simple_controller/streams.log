@@ -1,0 +1,31 @@
+[0.037s] Invoking command in '/home/tutu/mr_ws_ros2/build/simple_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/tutu/mr_ws_ros2/build/simple_controller -- -j8 -l8
+[0.123s] [100%] Built target controller_node
+[0.158s] Invoked command in '/home/tutu/mr_ws_ros2/build/simple_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/tutu/mr_ws_ros2/build/simple_controller -- -j8 -l8
+[0.235s] Invoking command in '/home/tutu/mr_ws_ros2/build/simple_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/tutu/mr_ws_ros2/build/simple_controller
+[0.252s] -- Install configuration: "RelWithDebInfo"
+[0.252s] -- Execute custom install script
+[0.253s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/simple_controller/share/ament_index/resource_index/package_run_dependencies/simple_controller
+[0.255s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/simple_controller/share/ament_index/resource_index/parent_prefix_path/simple_controller
+[0.255s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/simple_controller/share/simple_controller/environment/ament_prefix_path.sh
+[0.255s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/simple_controller/share/simple_controller/environment/ament_prefix_path.dsv
+[0.255s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/simple_controller/share/simple_controller/environment/path.sh
+[0.255s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/simple_controller/share/simple_controller/environment/path.dsv
+[0.256s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/simple_controller/share/simple_controller/local_setup.bash
+[0.258s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/simple_controller/share/simple_controller/local_setup.sh
+[0.258s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/simple_controller/share/simple_controller/local_setup.zsh
+[0.258s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/simple_controller/share/simple_controller/local_setup.dsv
+[0.258s] -- Symlinking: /home/tutu/mr_ws_ros2/install/simple_controller/share/simple_controller/package.dsv
+[0.268s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/simple_controller/share/ament_index/resource_index/packages/simple_controller
+[0.268s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/simple_controller/share/simple_controller/cmake/simple_controllerConfig.cmake
+[0.268s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/simple_controller/share/simple_controller/cmake/simple_controllerConfig-version.cmake
+[0.268s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/simple_controller/share/simple_controller/package.xml
+[0.269s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/simple_controller/lib/simple_controller/controller_node
+[0.270s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/simple_controller/share/simple_controller/launch/controller.launch.py
+[0.270s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/simple_controller/share/simple_controller/launch/controller.yaml
+[0.270s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/simple_controller/share/simple_controller/launch/controller1s.yaml
+[0.270s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/simple_controller/share/simple_controller/launch/controller_curv.yaml
+[0.273s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/simple_controller/share/simple_controller/launch/controller_stage.launch.py
+[0.274s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/simple_controller/share/simple_controller/launch/slam.launch
+[0.276s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/simple_controller/lib/simple_controller/start_rqt
+[0.280s] -- Up-to-date symlink: /home/tutu/mr_ws_ros2/install/simple_controller/share/simple_controller/rqt_cfg/steer_error.perspective
+[0.286s] Invoked command in '/home/tutu/mr_ws_ros2/build/simple_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/tutu/mr_ws_ros2/build/simple_controller

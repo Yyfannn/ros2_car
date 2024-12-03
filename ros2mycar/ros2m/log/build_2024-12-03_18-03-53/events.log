@@ -1,0 +1,864 @@
+[0.000000] (-) TimerEvent: {}
+[0.000803] (Stage) JobQueued: {'identifier': 'Stage', 'dependencies': OrderedDict()}
+[0.000844] (angles) JobQueued: {'identifier': 'angles', 'dependencies': OrderedDict()}
+[0.000860] (cart_launch) JobQueued: {'identifier': 'cart_launch', 'dependencies': OrderedDict()}
+[0.000872] (feature_matcher) JobQueued: {'identifier': 'feature_matcher', 'dependencies': OrderedDict()}
+[0.000884] (simple_planner) JobQueued: {'identifier': 'simple_planner', 'dependencies': OrderedDict()}
+[0.000895] (stage_controller) JobQueued: {'identifier': 'stage_controller', 'dependencies': OrderedDict()}
+[0.000907] (simple_controller) JobQueued: {'identifier': 'simple_controller', 'dependencies': OrderedDict([('angles', '/home/tutu/ros2m/install/angles')])}
+[0.000921] (stage_ros2) JobQueued: {'identifier': 'stage_ros2', 'dependencies': OrderedDict([('Stage', '/home/tutu/ros2m/install/Stage')])}
+[0.000934] (Stage) JobStarted: {'identifier': 'Stage'}
+[0.036411] (Stage) JobProgress: {'identifier': 'Stage', 'progress': 'cmake'}
+[0.039387] (Stage) JobProgress: {'identifier': 'Stage', 'progress': 'build'}
+[0.042868] (Stage) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tutu/ros2m/build/Stage', '--', '-j1', '-l1'], 'cwd': '/home/tutu/ros2m/build/Stage', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'tutu'), ('LC_TIME', 'ru_RU.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/tutu/ros2m/install/stage_ros2/lib:/home/tutu/ros2m/install/Stage/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tutu'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.95.3'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ru_RU.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '876'), ('SYSTEMD_EXEC_PID', '1037'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1562'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/tutu/ros2m/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tutu'), ('JOURNAL_STREAM', '8:8556'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tutu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/tutu/ros2m/install/Stage/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tutu-VirtualBox:@/tmp/.ICE-unix/1010,unix/tutu-VirtualBox:/tmp/.ICE-unix/1010'), ('INVOCATION_ID', '52600b1b7b69438b88b849412c164ce7'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ru_RU.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ru_RU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ISKYX2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b7da840b4c.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/tutu/ros2m/install/stage_ros2:/home/tutu/ros2m/install/stage_controller:/home/tutu/ros2m/install/simple_planner:/home/tutu/ros2m/install/simple_controller:/home/tutu/ros2m/install/feature_matcher:/home/tutu/ros2m/install/cart_launch:/home/tutu/ros2m/install/barrel_slam:/home/tutu/ros2m/install/angles:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ru_RU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ru_RU.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ru_RU.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tutu/ros2m/build/Stage'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tutu/ros2m/install/angles/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('ROS_HOSTNAME', '172.17.232.190'), ('LC_NUMERIC', 'ru_RU.UTF-8'), ('LC_PAPER', 'ru_RU.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/tutu/ros2m/install/stage_ros2:/home/tutu/ros2m/install/stage_controller:/home/tutu/ros2m/install/simple_planner:/home/tutu/ros2m/install/simple_controller:/home/tutu/ros2m/install/feature_matcher:/home/tutu/ros2m/install/cart_launch:/home/tutu/ros2m/install/barrel_slam:/home/tutu/ros2m/install/angles:/home/tutu/ros2m/install/Stage')]), 'shell': False}
+[0.097282] (-) TimerEvent: {}
+[0.197659] (-) TimerEvent: {}
+[0.254393] (Stage) StdoutLine: {'line': b'[ 57%] Built target stage\n'}
+[0.299850] (-) TimerEvent: {}
+[0.308275] (Stage) StdoutLine: {'line': b'[ 61%] Built target stagebinary\n'}
+[0.361084] (Stage) StdoutLine: {'line': b'[ 64%] Built target fasr\n'}
+[0.402276] (-) TimerEvent: {}
+[0.422115] (Stage) StdoutLine: {'line': b'[ 67%] Built target sink\n'}
+[0.480227] (Stage) StdoutLine: {'line': b'[ 71%] Built target source\n'}
+[0.502542] (-) TimerEvent: {}
+[0.535658] (Stage) StdoutLine: {'line': b'[ 74%] Built target wander\n'}
+[0.587779] (Stage) StdoutLine: {'line': b'[ 77%] Built target pioneer_flocking\n'}
+[0.603650] (-) TimerEvent: {}
+[0.641899] (Stage) StdoutLine: {'line': b'[ 81%] Built target rasterize\n'}
+[0.690673] (Stage) StdoutLine: {'line': b'[ 84%] Built target lasernoise\n'}
+[0.707673] (-) TimerEvent: {}
+[0.740892] (Stage) StdoutLine: {'line': b'[ 88%] Built target dynamic\n'}
+[0.796714] (Stage) StdoutLine: {'line': b'[ 93%] Built target fasr2\n'}
+[0.809495] (-) TimerEvent: {}
+[0.842373] (Stage) StdoutLine: {'line': b'[ 96%] Built target expand_swarm\n'}
+[0.893211] (Stage) StdoutLine: {'line': b'[100%] Built target expand_pioneer\n'}
+[0.910618] (-) TimerEvent: {}
+[0.921533] (Stage) CommandEnded: {'returncode': 0}
+[0.924724] (Stage) JobProgress: {'identifier': 'Stage', 'progress': 'install'}
+[0.941161] (Stage) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/tutu/ros2m/build/Stage'], 'cwd': '/home/tutu/ros2m/build/Stage', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'tutu'), ('LC_TIME', 'ru_RU.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/tutu/ros2m/install/stage_ros2/lib:/home/tutu/ros2m/install/Stage/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tutu'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.95.3'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ru_RU.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '876'), ('SYSTEMD_EXEC_PID', '1037'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1562'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/tutu/ros2m/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tutu'), ('JOURNAL_STREAM', '8:8556'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tutu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/tutu/ros2m/install/Stage/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tutu-VirtualBox:@/tmp/.ICE-unix/1010,unix/tutu-VirtualBox:/tmp/.ICE-unix/1010'), ('INVOCATION_ID', '52600b1b7b69438b88b849412c164ce7'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ru_RU.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ru_RU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ISKYX2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b7da840b4c.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/tutu/ros2m/install/stage_ros2:/home/tutu/ros2m/install/stage_controller:/home/tutu/ros2m/install/simple_planner:/home/tutu/ros2m/install/simple_controller:/home/tutu/ros2m/install/feature_matcher:/home/tutu/ros2m/install/cart_launch:/home/tutu/ros2m/install/barrel_slam:/home/tutu/ros2m/install/angles:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ru_RU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ru_RU.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ru_RU.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tutu/ros2m/build/Stage'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tutu/ros2m/install/angles/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('ROS_HOSTNAME', '172.17.232.190'), ('LC_NUMERIC', 'ru_RU.UTF-8'), ('LC_PAPER', 'ru_RU.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/tutu/ros2m/install/stage_ros2:/home/tutu/ros2m/install/stage_controller:/home/tutu/ros2m/install/simple_planner:/home/tutu/ros2m/install/simple_controller:/home/tutu/ros2m/install/feature_matcher:/home/tutu/ros2m/install/cart_launch:/home/tutu/ros2m/install/barrel_slam:/home/tutu/ros2m/install/angles:/home/tutu/ros2m/install/Stage')]), 'shell': False}
+[0.963323] (Stage) StdoutLine: {'line': b'-- Install configuration: "RELEASE"\n'}
+[0.963534] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/lib/pkgconfig/stage.pc\n'}
+[0.964218] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/lib/cmake/Stage/stage-config.cmake\n'}
+[0.964353] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/lib/cmake/Stage/stage-config-version.cmake\n'}
+[0.967675] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/bin/stage\n'}
+[0.970139] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/lib/libstage.so.4.3.0\n'}
+[0.970780] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/lib/libstage.so\n'}
+[0.972242] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/include/Stage-4.3/stage.hh\n'}
+[0.977460] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/lib/Stage-4.3/fasr.so\n'}
+[0.979942] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/lib/Stage-4.3/sink.so\n'}
+[0.985112] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/lib/Stage-4.3/source.so\n'}
+[0.986531] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/lib/Stage-4.3/wander.so\n'}
+[0.989821] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/lib/Stage-4.3/pioneer_flocking.so\n'}
+[0.992187] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/lib/Stage-4.3/rasterize.so\n'}
+[0.993549] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/lib/Stage-4.3/lasernoise.so\n'}
+[0.996049] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/lib/Stage-4.3/dynamic.so\n'}
+[0.999629] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/lib/Stage-4.3/fasr2.so\n'}
+[1.001375] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/share/stage/assets/blue.png\n'}
+[1.001521] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/share/stage/assets/death.png\n'}
+[1.002672] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/share/stage/assets/green.png\n'}
+[1.002740] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/share/stage/assets/logo.png\n'}
+[1.003912] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/share/stage/assets/mains.png\n'}
+[1.004177] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/share/stage/assets/mainspower.png\n'}
+[1.005920] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/share/stage/assets/question_mark.png\n'}
+[1.005994] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/share/stage/assets/red.png\n'}
+[1.006076] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/share/stage/assets/stagelogo.png\n'}
+[1.006125] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/share/stage/assets/stall-old.png\n'}
+[1.006173] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/share/stage/assets/stall.png\n'}
+[1.006222] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/share/stage/assets/rgb.txt\n'}
+[1.006272] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/share/stage/rgb.txt\n'}
+[1.009647] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/share/stage/worlds/amcl-sonar.cfg\n'}
+[1.009864] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/share/stage/worlds/autolab.cfg\n'}
+[1.009952] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/share/stage/worlds/camera.cfg\n'}
+[1.011070] (-) TimerEvent: {}
+[1.012277] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/share/stage/worlds/everything.cfg\n'}
+[1.012491] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/share/stage/worlds/lsp_test.cfg\n'}
+[1.012541] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/share/stage/worlds/mbicp.cfg\n'}
+[1.012586] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/share/stage/worlds/nd.cfg\n'}
+[1.012631] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/share/stage/worlds/roomba.cfg\n'}
+[1.012676] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/share/stage/worlds/simple.cfg\n'}
+[1.012718] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/share/stage/worlds/test.cfg\n'}
+[1.012773] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/share/stage/worlds/uoa_robotics_lab.cfg\n'}
+[1.012817] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/share/stage/worlds/vfh.cfg\n'}
+[1.012860] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/share/stage/worlds/wavefront-remote.cfg\n'}
+[1.012903] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/share/stage/worlds/wavefront.cfg\n'}
+[1.012944] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/share/stage/worlds/wifi.cfg\n'}
+[1.012985] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/share/stage/worlds/SFU.world\n'}
+[1.013025] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/share/stage/worlds/autolab.world\n'}
+[1.013066] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/share/stage/worlds/camera.world\n'}
+[1.013107] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/share/stage/worlds/circuit.world\n'}
+[1.013147] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/share/stage/worlds/everything.world\n'}
+[1.015844] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/share/stage/worlds/fasr.world\n'}
+[1.015992] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/share/stage/worlds/fasr2.world\n'}
+[1.016424] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/share/stage/worlds/fasr_plan.world\n'}
+[1.016507] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/share/stage/worlds/large.world\n'}
+[1.018764] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/share/stage/worlds/lsp_test.world\n'}
+[1.018870] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/share/stage/worlds/mbicp.world\n'}
+[1.018917] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/share/stage/worlds/pioneer_flocking.world\n'}
+[1.018961] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/share/stage/worlds/pioneer_follow.world\n'}
+[1.019005] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/share/stage/worlds/pioneer_walle.world\n'}
+[1.019218] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/share/stage/worlds/roomba.world\n'}
+[1.019271] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/share/stage/worlds/sensor_noise_demo.world\n'}
+[1.019315] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/share/stage/worlds/sensor_noise_module_demo.world\n'}
+[1.019359] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/share/stage/worlds/simple.world\n'}
+[1.019402] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/share/stage/worlds/uoa_robotics_lab.world\n'}
+[1.019445] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/share/stage/worlds/wifi.world\n'}
+[1.019488] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/share/stage/worlds/beacons.inc\n'}
+[1.019530] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/share/stage/worlds/chatterbox.inc\n'}
+[1.019572] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/share/stage/worlds/hokuyo.inc\n'}
+[1.019613] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/share/stage/worlds/irobot.inc\n'}
+[1.019659] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/share/stage/worlds/map.inc\n'}
+[1.019703] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/share/stage/worlds/objects.inc\n'}
+[1.019746] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/share/stage/worlds/pantilt.inc\n'}
+[1.023170] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/share/stage/worlds/pioneer.inc\n'}
+[1.024344] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/share/stage/worlds/sick.inc\n'}
+[1.024398] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/share/stage/worlds/ubot.inc\n'}
+[1.024443] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/share/stage/worlds/uoa_robotics_lab_models.inc\n'}
+[1.024488] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/share/stage/worlds/walle.inc\n'}
+[1.024532] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/share/stage/worlds/cfggen.sh\n'}
+[1.026658] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/share/stage/worlds/test.sh\n'}
+[1.026919] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/share/stage/worlds/worldgen.sh\n'}
+[1.029666] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/lib/Stage-4.3/expand_swarm.so\n'}
+[1.029724] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/lib/Stage-4.3/expand_pioneer.so\n'}
+[1.029769] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/share/stage/worlds/bitmaps/889_05.png\n'}
+[1.029813] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/share/stage/worlds/bitmaps/SFU_1200x615.png\n'}
+[1.032197] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/share/stage/worlds/bitmaps/SRI-AIC-kwing.png\n'}
+[1.032359] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/share/stage/worlds/bitmaps/autolab.png\n'}
+[1.036339] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/share/stage/worlds/bitmaps/cave.png\n'}
+[1.036561] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/share/stage/worlds/bitmaps/cave_compact.png\n'}
+[1.036610] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/share/stage/worlds/bitmaps/cave_filled.png\n'}
+[1.036654] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/share/stage/worlds/bitmaps/frieburg.png\n'}
+[1.036696] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/share/stage/worlds/bitmaps/ghost.png\n'}
+[1.036739] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/share/stage/worlds/bitmaps/hospital.png\n'}
+[1.036783] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/share/stage/worlds/bitmaps/hospital_section.png\n'}
+[1.036825] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/share/stage/worlds/bitmaps/human_outline.png\n'}
+[1.036870] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/share/stage/worlds/bitmaps/mbicp.png\n'}
+[1.036912] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/share/stage/worlds/bitmaps/rink.png\n'}
+[1.036955] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/share/stage/worlds/bitmaps/sal2.png\n'}
+[1.036997] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/share/stage/worlds/bitmaps/simple_rooms.png\n'}
+[1.037039] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/share/stage/worlds/bitmaps/space_invader.png\n'}
+[1.037081] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/share/stage/worlds/bitmaps/submarine.png\n'}
+[1.037134] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/share/stage/worlds/bitmaps/submarine_small.png\n'}
+[1.037177] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/share/stage/worlds/bitmaps/table.png\n'}
+[1.037219] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/share/stage/worlds/bitmaps/uoa_robotics_lab.png\n'}
+[1.037262] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/share/stage/worlds/wifi/commando.world\n'}
+[1.037305] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/share/stage/worlds/wifi/hosp_wifi.world\n'}
+[1.038618] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/share/stage/worlds/wifi/hosp_wifi_5.world\n'}
+[1.039920] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/share/stage/worlds/wifi/wifi.world\n'}
+[1.040502] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/share/stage/worlds/wifi/wifi_itu.world\n'}
+[1.040589] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/share/stage/worlds/wifi/wifi_logdistance.world\n'}
+[1.041730] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/share/stage/worlds/wifi/wifi_ray.world\n'}
+[1.041862] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/share/stage/worlds/wifi/wifi_simple.world\n'}
+[1.041948] (Stage) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/Stage/share/stage/worlds/wifi/map.inc\n'}
+[1.043457] (Stage) CommandEnded: {'returncode': 0}
+[1.104376] (Stage) JobEnded: {'identifier': 'Stage', 'rc': 0}
+[1.109439] (angles) JobStarted: {'identifier': 'angles'}
+[1.112788] (-) TimerEvent: {}
+[1.125036] (angles) JobProgress: {'identifier': 'angles', 'progress': 'cmake'}
+[1.128487] (angles) JobProgress: {'identifier': 'angles', 'progress': 'build'}
+[1.128688] (angles) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tutu/ros2m/build/angles', '--', '-j1', '-l1'], 'cwd': '/home/tutu/ros2m/build/angles', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'tutu'), ('LC_TIME', 'ru_RU.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/tutu/ros2m/install/stage_ros2/lib:/home/tutu/ros2m/install/Stage/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tutu'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.95.3'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ru_RU.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '876'), ('SYSTEMD_EXEC_PID', '1037'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1562'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/tutu/ros2m/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tutu'), ('JOURNAL_STREAM', '8:8556'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tutu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/tutu/ros2m/install/Stage/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tutu-VirtualBox:@/tmp/.ICE-unix/1010,unix/tutu-VirtualBox:/tmp/.ICE-unix/1010'), ('INVOCATION_ID', '52600b1b7b69438b88b849412c164ce7'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ru_RU.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ru_RU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ISKYX2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b7da840b4c.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/tutu/ros2m/install/stage_ros2:/home/tutu/ros2m/install/stage_controller:/home/tutu/ros2m/install/simple_planner:/home/tutu/ros2m/install/simple_controller:/home/tutu/ros2m/install/feature_matcher:/home/tutu/ros2m/install/cart_launch:/home/tutu/ros2m/install/barrel_slam:/home/tutu/ros2m/install/angles:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ru_RU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ru_RU.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ru_RU.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tutu/ros2m/build/angles'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tutu/ros2m/install/angles/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('ROS_HOSTNAME', '172.17.232.190'), ('LC_NUMERIC', 'ru_RU.UTF-8'), ('LC_PAPER', 'ru_RU.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/tutu/ros2m/install/stage_ros2:/home/tutu/ros2m/install/stage_controller:/home/tutu/ros2m/install/simple_planner:/home/tutu/ros2m/install/simple_controller:/home/tutu/ros2m/install/feature_matcher:/home/tutu/ros2m/install/cart_launch:/home/tutu/ros2m/install/barrel_slam:/home/tutu/ros2m/install/angles:/home/tutu/ros2m/install/Stage:/opt/ros/humble')]), 'shell': False}
+[1.214847] (-) TimerEvent: {}
+[1.264765] (angles) StdoutLine: {'line': b'[ 33%] Built target gtest_main\n'}
+[1.315568] (-) TimerEvent: {}
+[1.317977] (angles) StdoutLine: {'line': b'[ 66%] Built target gtest\n'}
+[1.371779] (angles) StdoutLine: {'line': b'[100%] Built target angles_utest\n'}
+[1.420204] (-) TimerEvent: {}
+[1.436496] (angles) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_copy_angles\n'}
+[1.521280] (-) TimerEvent: {}
+[1.625301] (-) TimerEvent: {}
+[1.727303] (-) TimerEvent: {}
+[1.829028] (-) TimerEvent: {}
+[1.931139] (-) TimerEvent: {}
+[2.031491] (-) TimerEvent: {}
+[2.095501] (angles) StdoutLine: {'line': b'running egg_info\n'}
+[2.096700] (angles) StdoutLine: {'line': b'writing angles.egg-info/PKG-INFO\n'}
+[2.101427] (angles) StdoutLine: {'line': b'writing dependency_links to angles.egg-info/dependency_links.txt\n'}
+[2.101566] (angles) StdoutLine: {'line': b'writing top-level names to angles.egg-info/top_level.txt\n'}
+[2.109078] (angles) StdoutLine: {'line': b"reading manifest file 'angles.egg-info/SOURCES.txt'\n"}
+[2.112146] (angles) StdoutLine: {'line': b"writing manifest file 'angles.egg-info/SOURCES.txt'\n"}
+[2.132751] (-) TimerEvent: {}
+[2.189100] (angles) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_angles_egg\n'}
+[2.219937] (angles) CommandEnded: {'returncode': 0}
+[2.226358] (angles) JobProgress: {'identifier': 'angles', 'progress': 'install'}
+[2.226483] (angles) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/tutu/ros2m/build/angles'], 'cwd': '/home/tutu/ros2m/build/angles', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'tutu'), ('LC_TIME', 'ru_RU.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/tutu/ros2m/install/stage_ros2/lib:/home/tutu/ros2m/install/Stage/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tutu'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.95.3'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ru_RU.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '876'), ('SYSTEMD_EXEC_PID', '1037'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1562'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/tutu/ros2m/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tutu'), ('JOURNAL_STREAM', '8:8556'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tutu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/tutu/ros2m/install/Stage/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tutu-VirtualBox:@/tmp/.ICE-unix/1010,unix/tutu-VirtualBox:/tmp/.ICE-unix/1010'), ('INVOCATION_ID', '52600b1b7b69438b88b849412c164ce7'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ru_RU.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ru_RU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ISKYX2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b7da840b4c.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/tutu/ros2m/install/stage_ros2:/home/tutu/ros2m/install/stage_controller:/home/tutu/ros2m/install/simple_planner:/home/tutu/ros2m/install/simple_controller:/home/tutu/ros2m/install/feature_matcher:/home/tutu/ros2m/install/cart_launch:/home/tutu/ros2m/install/barrel_slam:/home/tutu/ros2m/install/angles:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ru_RU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ru_RU.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ru_RU.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tutu/ros2m/build/angles'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tutu/ros2m/install/angles/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('ROS_HOSTNAME', '172.17.232.190'), ('LC_NUMERIC', 'ru_RU.UTF-8'), ('LC_PAPER', 'ru_RU.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/tutu/ros2m/install/stage_ros2:/home/tutu/ros2m/install/stage_controller:/home/tutu/ros2m/install/simple_planner:/home/tutu/ros2m/install/simple_controller:/home/tutu/ros2m/install/feature_matcher:/home/tutu/ros2m/install/cart_launch:/home/tutu/ros2m/install/barrel_slam:/home/tutu/ros2m/install/angles:/home/tutu/ros2m/install/Stage:/opt/ros/humble')]), 'shell': False}
+[2.236051] (-) TimerEvent: {}
+[2.247996] (angles) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.248146] (angles) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/angles/include/angles\n'}
+[2.248203] (angles) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/angles/include/angles/angles\n'}
+[2.248249] (angles) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/angles/include/angles/angles/angles.h\n'}
+[2.248328] (angles) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/angles/share/angles/environment/pythonpath.sh\n'}
+[2.250347] (angles) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/angles/share/angles/environment/pythonpath.dsv\n'}
+[2.250502] (angles) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/angles/local/lib/python3.10/dist-packages/angles-1.16.0-py3.10.egg-info\n'}
+[2.250553] (angles) StdoutLine: {'line': b'-- Installing: /home/tutu/ros2m/install/angles/local/lib/python3.10/dist-packages/angles-1.16.0-py3.10.egg-info/top_level.txt\n'}
+[2.250597] (angles) StdoutLine: {'line': b'-- Installing: /home/tutu/ros2m/install/angles/local/lib/python3.10/dist-packages/angles-1.16.0-py3.10.egg-info/PKG-INFO\n'}
+[2.250642] (angles) StdoutLine: {'line': b'-- Installing: /home/tutu/ros2m/install/angles/local/lib/python3.10/dist-packages/angles-1.16.0-py3.10.egg-info/dependency_links.txt\n'}
+[2.250685] (angles) StdoutLine: {'line': b'-- Installing: /home/tutu/ros2m/install/angles/local/lib/python3.10/dist-packages/angles-1.16.0-py3.10.egg-info/SOURCES.txt\n'}
+[2.250727] (angles) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/angles/local/lib/python3.10/dist-packages/angles\n'}
+[2.250770] (angles) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/angles/local/lib/python3.10/dist-packages/angles/__init__.py\n'}
+[2.329063] (angles) StdoutLine: {'line': b"Listing '/home/tutu/ros2m/install/angles/local/lib/python3.10/dist-packages/angles'...\n"}
+[2.337228] (-) TimerEvent: {}
+[2.342876] (angles) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/angles/share/ament_index/resource_index/package_run_dependencies/angles\n'}
+[2.344484] (angles) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/angles/share/ament_index/resource_index/parent_prefix_path/angles\n'}
+[2.345094] (angles) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/angles/share/angles/environment/ament_prefix_path.sh\n'}
+[2.345772] (angles) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/angles/share/angles/environment/ament_prefix_path.dsv\n'}
+[2.345906] (angles) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/angles/share/angles/environment/path.sh\n'}
+[2.346546] (angles) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/angles/share/angles/environment/path.dsv\n'}
+[2.347390] (angles) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/angles/share/angles/local_setup.bash\n'}
+[2.348263] (angles) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/angles/share/angles/local_setup.sh\n'}
+[2.348383] (angles) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/angles/share/angles/local_setup.zsh\n'}
+[2.349201] (angles) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/angles/share/angles/local_setup.dsv\n'}
+[2.350012] (angles) StdoutLine: {'line': b'-- Installing: /home/tutu/ros2m/install/angles/share/angles/package.dsv\n'}
+[2.351507] (angles) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/angles/share/ament_index/resource_index/packages/angles\n'}
+[2.354271] (angles) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/angles/share/angles/cmake/export_anglesExport.cmake\n'}
+[2.354818] (angles) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/angles/share/angles/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.354913] (angles) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/angles/share/angles/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[2.354965] (angles) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/angles/share/angles/cmake/anglesConfig.cmake\n'}
+[2.355026] (angles) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/angles/share/angles/cmake/anglesConfig-version.cmake\n'}
+[2.355077] (angles) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/angles/share/angles/package.xml\n'}
+[2.363977] (angles) CommandEnded: {'returncode': 0}
+[2.406547] (angles) JobEnded: {'identifier': 'angles', 'rc': 0}
+[2.411630] (cart_launch) JobStarted: {'identifier': 'cart_launch'}
+[2.428935] (cart_launch) JobProgress: {'identifier': 'cart_launch', 'progress': 'cmake'}
+[2.431972] (cart_launch) JobProgress: {'identifier': 'cart_launch', 'progress': 'build'}
+[2.432175] (cart_launch) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tutu/ros2m/build/cart_launch', '--', '-j1', '-l1'], 'cwd': '/home/tutu/ros2m/build/cart_launch', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'tutu'), ('LC_TIME', 'ru_RU.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/tutu/ros2m/install/stage_ros2/lib:/home/tutu/ros2m/install/Stage/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tutu'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.95.3'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ru_RU.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '876'), ('SYSTEMD_EXEC_PID', '1037'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1562'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/tutu/ros2m/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tutu'), ('JOURNAL_STREAM', '8:8556'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tutu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/tutu/ros2m/install/Stage/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tutu-VirtualBox:@/tmp/.ICE-unix/1010,unix/tutu-VirtualBox:/tmp/.ICE-unix/1010'), ('INVOCATION_ID', '52600b1b7b69438b88b849412c164ce7'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ru_RU.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ru_RU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ISKYX2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b7da840b4c.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/tutu/ros2m/install/stage_ros2:/home/tutu/ros2m/install/stage_controller:/home/tutu/ros2m/install/simple_planner:/home/tutu/ros2m/install/simple_controller:/home/tutu/ros2m/install/feature_matcher:/home/tutu/ros2m/install/cart_launch:/home/tutu/ros2m/install/barrel_slam:/home/tutu/ros2m/install/angles:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ru_RU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ru_RU.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ru_RU.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tutu/ros2m/build/cart_launch'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tutu/ros2m/install/angles/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('ROS_HOSTNAME', '172.17.232.190'), ('LC_NUMERIC', 'ru_RU.UTF-8'), ('LC_PAPER', 'ru_RU.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/tutu/ros2m/install/stage_ros2:/home/tutu/ros2m/install/stage_controller:/home/tutu/ros2m/install/simple_planner:/home/tutu/ros2m/install/simple_controller:/home/tutu/ros2m/install/feature_matcher:/home/tutu/ros2m/install/cart_launch:/home/tutu/ros2m/install/barrel_slam:/home/tutu/ros2m/install/angles:/home/tutu/ros2m/install/Stage:/opt/ros/humble')]), 'shell': False}
+[2.438094] (-) TimerEvent: {}
+[2.516172] (cart_launch) CommandEnded: {'returncode': 0}
+[2.520054] (cart_launch) JobProgress: {'identifier': 'cart_launch', 'progress': 'install'}
+[2.520788] (cart_launch) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/tutu/ros2m/build/cart_launch'], 'cwd': '/home/tutu/ros2m/build/cart_launch', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'tutu'), ('LC_TIME', 'ru_RU.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/tutu/ros2m/install/stage_ros2/lib:/home/tutu/ros2m/install/Stage/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tutu'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.95.3'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ru_RU.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '876'), ('SYSTEMD_EXEC_PID', '1037'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1562'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/tutu/ros2m/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tutu'), ('JOURNAL_STREAM', '8:8556'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tutu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/tutu/ros2m/install/Stage/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tutu-VirtualBox:@/tmp/.ICE-unix/1010,unix/tutu-VirtualBox:/tmp/.ICE-unix/1010'), ('INVOCATION_ID', '52600b1b7b69438b88b849412c164ce7'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ru_RU.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ru_RU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ISKYX2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b7da840b4c.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/tutu/ros2m/install/stage_ros2:/home/tutu/ros2m/install/stage_controller:/home/tutu/ros2m/install/simple_planner:/home/tutu/ros2m/install/simple_controller:/home/tutu/ros2m/install/feature_matcher:/home/tutu/ros2m/install/cart_launch:/home/tutu/ros2m/install/barrel_slam:/home/tutu/ros2m/install/angles:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ru_RU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ru_RU.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ru_RU.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tutu/ros2m/build/cart_launch'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tutu/ros2m/install/angles/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('ROS_HOSTNAME', '172.17.232.190'), ('LC_NUMERIC', 'ru_RU.UTF-8'), ('LC_PAPER', 'ru_RU.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/tutu/ros2m/install/stage_ros2:/home/tutu/ros2m/install/stage_controller:/home/tutu/ros2m/install/simple_planner:/home/tutu/ros2m/install/simple_controller:/home/tutu/ros2m/install/feature_matcher:/home/tutu/ros2m/install/cart_launch:/home/tutu/ros2m/install/barrel_slam:/home/tutu/ros2m/install/angles:/home/tutu/ros2m/install/Stage:/opt/ros/humble')]), 'shell': False}
+[2.539870] (-) TimerEvent: {}
+[2.542878] (cart_launch) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.543081] (cart_launch) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/cart_launch/share/cart_launch//launch\n'}
+[2.543244] (cart_launch) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/cart_launch/share/cart_launch//launch/cart.launch.py\n'}
+[2.543773] (cart_launch) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/cart_launch/share/cart_launch//launch/cart_stage.launch.py\n'}
+[2.544518] (cart_launch) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/cart_launch/share/cart_launch//worlds\n'}
+[2.544720] (cart_launch) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/cart_launch/share/cart_launch//worlds/cart_empty.world\n'}
+[2.544771] (cart_launch) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/cart_launch/share/cart_launch//worlds/slam.world\n'}
+[2.545737] (cart_launch) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/cart_launch/share/cart_launch//worlds/simple.world\n'}
+[2.545889] (cart_launch) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/cart_launch/share/cart_launch//worlds/terrain.world\n'}
+[2.550036] (cart_launch) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/cart_launch/share/cart_launch//worlds/simple\n'}
+[2.550228] (cart_launch) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/cart_launch/share/cart_launch//worlds/materials\n'}
+[2.550314] (cart_launch) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/cart_launch/share/cart_launch//worlds/materials/textures\n'}
+[2.552520] (cart_launch) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/cart_launch/share/cart_launch//worlds/materials/textures/grass_dry.png\n'}
+[2.552592] (cart_launch) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/cart_launch/share/cart_launch//worlds/far_empty.world\n'}
+[2.552640] (cart_launch) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/cart_launch/share/cart_launch//worlds/populated.world\n'}
+[2.552684] (cart_launch) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/cart_launch/share/cart_launch//stage_worlds\n'}
+[2.552729] (cart_launch) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/cart_launch/share/cart_launch//stage_worlds/cave.yaml\n'}
+[2.552772] (cart_launch) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/cart_launch/share/cart_launch//stage_worlds/empty.world\n'}
+[2.552815] (cart_launch) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/cart_launch/share/cart_launch//stage_worlds/robots.inc\n'}
+[2.552858] (cart_launch) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/cart_launch/share/cart_launch//stage_worlds/mr.inc\n'}
+[2.552899] (cart_launch) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/cart_launch/share/cart_launch//stage_worlds/bitmaps\n'}
+[2.555053] (cart_launch) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/cart_launch/share/cart_launch//stage_worlds/bitmaps/feature_map.png\n'}
+[2.556583] (cart_launch) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/cart_launch/share/cart_launch//stage_worlds/bitmaps/cave.png\n'}
+[2.556679] (cart_launch) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/cart_launch/share/cart_launch//stage_worlds/bitmaps/empty.png\n'}
+[2.556725] (cart_launch) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/cart_launch/share/cart_launch//stage_worlds/bitmaps/feature_map_simple.png\n'}
+[2.556771] (cart_launch) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/cart_launch/share/cart_launch//stage_worlds/bitmaps/mapping_map.png\n'}
+[2.556814] (cart_launch) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/cart_launch/share/cart_launch//stage_worlds/bitmaps/kalman_map.png\n'}
+[2.556857] (cart_launch) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/cart_launch/share/cart_launch//stage_worlds/pioneer2dx.inc\n'}
+[2.556900] (cart_launch) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/cart_launch/share/cart_launch//stage_worlds/mapping.world\n'}
+[2.556942] (cart_launch) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/cart_launch/share/cart_launch//stage_worlds/simple.world\n'}
+[2.556984] (cart_launch) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/cart_launch/share/cart_launch//stage_worlds/kalman_map.world\n'}
+[2.557026] (cart_launch) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/cart_launch/share/cart_launch//stage_worlds/pioneer.inc\n'}
+[2.557068] (cart_launch) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/cart_launch/share/cart_launch//stage_worlds/map.inc\n'}
+[2.557110] (cart_launch) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/cart_launch/share/cart_launch//stage_worlds/feature_map_simple.world\n'}
+[2.557153] (cart_launch) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/cart_launch/share/cart_launch//stage_worlds/feature_map.world\n'}
+[2.557207] (cart_launch) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/cart_launch/share/cart_launch//stage_worlds/sick20.inc\n'}
+[2.563603] (cart_launch) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/cart_launch/share/cart_launch//stage_worlds/sick.inc\n'}
+[2.563676] (cart_launch) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/cart_launch/share/ament_index/resource_index/package_run_dependencies/cart_launch\n'}
+[2.563723] (cart_launch) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/cart_launch/share/ament_index/resource_index/parent_prefix_path/cart_launch\n'}
+[2.563768] (cart_launch) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/cart_launch/share/cart_launch/environment/ament_prefix_path.sh\n'}
+[2.563812] (cart_launch) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/cart_launch/share/cart_launch/environment/ament_prefix_path.dsv\n'}
+[2.563854] (cart_launch) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/cart_launch/share/cart_launch/environment/path.sh\n'}
+[2.563897] (cart_launch) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/cart_launch/share/cart_launch/environment/path.dsv\n'}
+[2.563950] (cart_launch) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/cart_launch/share/cart_launch/local_setup.bash\n'}
+[2.563994] (cart_launch) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/cart_launch/share/cart_launch/local_setup.sh\n'}
+[2.564036] (cart_launch) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/cart_launch/share/cart_launch/local_setup.zsh\n'}
+[2.564125] (cart_launch) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/cart_launch/share/cart_launch/local_setup.dsv\n'}
+[2.564179] (cart_launch) StdoutLine: {'line': b'-- Installing: /home/tutu/ros2m/install/cart_launch/share/cart_launch/package.dsv\n'}
+[2.564223] (cart_launch) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/cart_launch/share/ament_index/resource_index/packages/cart_launch\n'}
+[2.564271] (cart_launch) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/cart_launch/share/cart_launch/cmake/cart_launchConfig.cmake\n'}
+[2.564315] (cart_launch) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/cart_launch/share/cart_launch/cmake/cart_launchConfig-version.cmake\n'}
+[2.564382] (cart_launch) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/cart_launch/share/cart_launch/package.xml\n'}
+[2.564429] (cart_launch) CommandEnded: {'returncode': 0}
+[2.596771] (cart_launch) JobEnded: {'identifier': 'cart_launch', 'rc': 0}
+[2.599407] (feature_matcher) JobStarted: {'identifier': 'feature_matcher'}
+[2.614845] (feature_matcher) JobProgress: {'identifier': 'feature_matcher', 'progress': 'cmake'}
+[2.617837] (feature_matcher) JobProgress: {'identifier': 'feature_matcher', 'progress': 'build'}
+[2.621916] (feature_matcher) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tutu/ros2m/build/feature_matcher', '--', '-j1', '-l1'], 'cwd': '/home/tutu/ros2m/build/feature_matcher', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'tutu'), ('LC_TIME', 'ru_RU.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/tutu/ros2m/install/stage_ros2/lib:/home/tutu/ros2m/install/Stage/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tutu'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.95.3'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ru_RU.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '876'), ('SYSTEMD_EXEC_PID', '1037'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1562'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/tutu/ros2m/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tutu'), ('JOURNAL_STREAM', '8:8556'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tutu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/tutu/ros2m/install/Stage/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tutu-VirtualBox:@/tmp/.ICE-unix/1010,unix/tutu-VirtualBox:/tmp/.ICE-unix/1010'), ('INVOCATION_ID', '52600b1b7b69438b88b849412c164ce7'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ru_RU.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ru_RU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ISKYX2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b7da840b4c.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/tutu/ros2m/install/stage_ros2:/home/tutu/ros2m/install/stage_controller:/home/tutu/ros2m/install/simple_planner:/home/tutu/ros2m/install/simple_controller:/home/tutu/ros2m/install/feature_matcher:/home/tutu/ros2m/install/cart_launch:/home/tutu/ros2m/install/barrel_slam:/home/tutu/ros2m/install/angles:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ru_RU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ru_RU.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ru_RU.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tutu/ros2m/build/feature_matcher'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tutu/ros2m/install/angles/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('ROS_HOSTNAME', '172.17.232.190'), ('LC_NUMERIC', 'ru_RU.UTF-8'), ('LC_PAPER', 'ru_RU.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/tutu/ros2m/install/stage_ros2:/home/tutu/ros2m/install/stage_controller:/home/tutu/ros2m/install/simple_planner:/home/tutu/ros2m/install/simple_controller:/home/tutu/ros2m/install/feature_matcher:/home/tutu/ros2m/install/cart_launch:/home/tutu/ros2m/install/barrel_slam:/home/tutu/ros2m/install/angles:/home/tutu/ros2m/install/Stage:/opt/ros/humble')]), 'shell': False}
+[2.643239] (-) TimerEvent: {}
+[2.744654] (-) TimerEvent: {}
+[2.846667] (-) TimerEvent: {}
+[2.861410] (feature_matcher) StdoutLine: {'line': b'[100%] Built target feature_matcher\n'}
+[2.885986] (feature_matcher) CommandEnded: {'returncode': 0}
+[2.891516] (feature_matcher) JobProgress: {'identifier': 'feature_matcher', 'progress': 'install'}
+[2.891583] (feature_matcher) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/tutu/ros2m/build/feature_matcher'], 'cwd': '/home/tutu/ros2m/build/feature_matcher', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'tutu'), ('LC_TIME', 'ru_RU.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/tutu/ros2m/install/stage_ros2/lib:/home/tutu/ros2m/install/Stage/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tutu'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.95.3'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ru_RU.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '876'), ('SYSTEMD_EXEC_PID', '1037'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1562'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/tutu/ros2m/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tutu'), ('JOURNAL_STREAM', '8:8556'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tutu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/tutu/ros2m/install/Stage/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tutu-VirtualBox:@/tmp/.ICE-unix/1010,unix/tutu-VirtualBox:/tmp/.ICE-unix/1010'), ('INVOCATION_ID', '52600b1b7b69438b88b849412c164ce7'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ru_RU.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ru_RU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ISKYX2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b7da840b4c.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/tutu/ros2m/install/stage_ros2:/home/tutu/ros2m/install/stage_controller:/home/tutu/ros2m/install/simple_planner:/home/tutu/ros2m/install/simple_controller:/home/tutu/ros2m/install/feature_matcher:/home/tutu/ros2m/install/cart_launch:/home/tutu/ros2m/install/barrel_slam:/home/tutu/ros2m/install/angles:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ru_RU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ru_RU.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ru_RU.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tutu/ros2m/build/feature_matcher'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tutu/ros2m/install/angles/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('ROS_HOSTNAME', '172.17.232.190'), ('LC_NUMERIC', 'ru_RU.UTF-8'), ('LC_PAPER', 'ru_RU.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/tutu/ros2m/install/stage_ros2:/home/tutu/ros2m/install/stage_controller:/home/tutu/ros2m/install/simple_planner:/home/tutu/ros2m/install/simple_controller:/home/tutu/ros2m/install/feature_matcher:/home/tutu/ros2m/install/cart_launch:/home/tutu/ros2m/install/barrel_slam:/home/tutu/ros2m/install/angles:/home/tutu/ros2m/install/Stage:/opt/ros/humble')]), 'shell': False}
+[2.906344] (feature_matcher) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.908089] (feature_matcher) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/feature_matcher/lib/feature_matcher/feature_matcher\n'}
+[2.909365] (feature_matcher) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/feature_matcher/share/feature_matcher//launch\n'}
+[2.909748] (feature_matcher) StdoutLine: {'line': b'-- Installing: /home/tutu/ros2m/install/feature_matcher/share/feature_matcher//launch/matcher.rviz\n'}
+[2.910704] (feature_matcher) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/feature_matcher/share/feature_matcher//launch/matcher.launch.py\n'}
+[2.910986] (feature_matcher) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/feature_matcher/share/ament_index/resource_index/package_run_dependencies/feature_matcher\n'}
+[2.911594] (feature_matcher) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/feature_matcher/share/ament_index/resource_index/parent_prefix_path/feature_matcher\n'}
+[2.911698] (feature_matcher) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/feature_matcher/share/feature_matcher/environment/ament_prefix_path.sh\n'}
+[2.912678] (feature_matcher) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/feature_matcher/share/feature_matcher/environment/ament_prefix_path.dsv\n'}
+[2.912770] (feature_matcher) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/feature_matcher/share/feature_matcher/environment/path.sh\n'}
+[2.912911] (feature_matcher) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/feature_matcher/share/feature_matcher/environment/path.dsv\n'}
+[2.912997] (feature_matcher) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/feature_matcher/share/feature_matcher/local_setup.bash\n'}
+[2.913132] (feature_matcher) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/feature_matcher/share/feature_matcher/local_setup.sh\n'}
+[2.913378] (feature_matcher) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/feature_matcher/share/feature_matcher/local_setup.zsh\n'}
+[2.913806] (feature_matcher) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/feature_matcher/share/feature_matcher/local_setup.dsv\n'}
+[2.914722] (feature_matcher) StdoutLine: {'line': b'-- Installing: /home/tutu/ros2m/install/feature_matcher/share/feature_matcher/package.dsv\n'}
+[2.915587] (feature_matcher) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/feature_matcher/share/ament_index/resource_index/packages/feature_matcher\n'}
+[2.916105] (feature_matcher) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/feature_matcher/share/feature_matcher/cmake/feature_matcherConfig.cmake\n'}
+[2.916212] (feature_matcher) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/feature_matcher/share/feature_matcher/cmake/feature_matcherConfig-version.cmake\n'}
+[2.916634] (feature_matcher) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/feature_matcher/share/feature_matcher/package.xml\n'}
+[2.921635] (feature_matcher) CommandEnded: {'returncode': 0}
+[2.948619] (-) TimerEvent: {}
+[2.953270] (feature_matcher) JobEnded: {'identifier': 'feature_matcher', 'rc': 0}
+[2.955903] (simple_planner) JobStarted: {'identifier': 'simple_planner'}
+[2.969803] (simple_planner) JobProgress: {'identifier': 'simple_planner', 'progress': 'cmake'}
+[2.973228] (simple_planner) JobProgress: {'identifier': 'simple_planner', 'progress': 'build'}
+[2.973524] (simple_planner) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tutu/ros2m/build/simple_planner', '--', '-j1', '-l1'], 'cwd': '/home/tutu/ros2m/build/simple_planner', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'tutu'), ('LC_TIME', 'ru_RU.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/tutu/ros2m/install/stage_ros2/lib:/home/tutu/ros2m/install/Stage/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tutu'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.95.3'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ru_RU.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '876'), ('SYSTEMD_EXEC_PID', '1037'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1562'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/tutu/ros2m/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tutu'), ('JOURNAL_STREAM', '8:8556'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tutu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/tutu/ros2m/install/Stage/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tutu-VirtualBox:@/tmp/.ICE-unix/1010,unix/tutu-VirtualBox:/tmp/.ICE-unix/1010'), ('INVOCATION_ID', '52600b1b7b69438b88b849412c164ce7'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ru_RU.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ru_RU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ISKYX2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b7da840b4c.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/tutu/ros2m/install/stage_ros2:/home/tutu/ros2m/install/stage_controller:/home/tutu/ros2m/install/simple_planner:/home/tutu/ros2m/install/simple_controller:/home/tutu/ros2m/install/feature_matcher:/home/tutu/ros2m/install/cart_launch:/home/tutu/ros2m/install/barrel_slam:/home/tutu/ros2m/install/angles:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ru_RU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ru_RU.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ru_RU.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tutu/ros2m/build/simple_planner'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tutu/ros2m/install/angles/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('ROS_HOSTNAME', '172.17.232.190'), ('LC_NUMERIC', 'ru_RU.UTF-8'), ('LC_PAPER', 'ru_RU.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/tutu/ros2m/install/stage_ros2:/home/tutu/ros2m/install/stage_controller:/home/tutu/ros2m/install/simple_planner:/home/tutu/ros2m/install/simple_controller:/home/tutu/ros2m/install/feature_matcher:/home/tutu/ros2m/install/cart_launch:/home/tutu/ros2m/install/barrel_slam:/home/tutu/ros2m/install/angles:/home/tutu/ros2m/install/Stage:/opt/ros/humble')]), 'shell': False}
+[3.049233] (-) TimerEvent: {}
+[3.111493] (simple_planner) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/simple_planner.dir/src/planner.cpp.o\x1b[0m\n'}
+[3.149515] (-) TimerEvent: {}
+[3.250978] (-) TimerEvent: {}
+[3.353781] (-) TimerEvent: {}
+[3.456587] (-) TimerEvent: {}
+[3.559014] (-) TimerEvent: {}
+[3.661133] (-) TimerEvent: {}
+[3.762717] (-) TimerEvent: {}
+[3.863304] (-) TimerEvent: {}
+[3.965940] (-) TimerEvent: {}
+[4.068709] (-) TimerEvent: {}
+[4.171709] (-) TimerEvent: {}
+[4.275854] (-) TimerEvent: {}
+[4.382008] (-) TimerEvent: {}
+[4.485055] (-) TimerEvent: {}
+[4.586864] (-) TimerEvent: {}
+[4.688368] (-) TimerEvent: {}
+[4.792146] (-) TimerEvent: {}
+[4.894623] (-) TimerEvent: {}
+[4.994882] (-) TimerEvent: {}
+[5.097176] (-) TimerEvent: {}
+[5.198006] (-) TimerEvent: {}
+[5.300873] (-) TimerEvent: {}
+[5.402555] (-) TimerEvent: {}
+[5.505171] (-) TimerEvent: {}
+[5.608646] (-) TimerEvent: {}
+[5.714903] (-) TimerEvent: {}
+[5.817379] (-) TimerEvent: {}
+[5.919465] (-) TimerEvent: {}
+[6.021700] (-) TimerEvent: {}
+[6.122239] (-) TimerEvent: {}
+[6.223347] (-) TimerEvent: {}
+[6.327898] (-) TimerEvent: {}
+[6.428210] (-) TimerEvent: {}
+[6.531432] (-) TimerEvent: {}
+[6.632756] (-) TimerEvent: {}
+[6.734043] (-) TimerEvent: {}
+[6.834306] (-) TimerEvent: {}
+[6.938558] (-) TimerEvent: {}
+[7.039511] (-) TimerEvent: {}
+[7.140643] (-) TimerEvent: {}
+[7.242566] (-) TimerEvent: {}
+[7.344726] (-) TimerEvent: {}
+[7.445082] (-) TimerEvent: {}
+[7.548679] (-) TimerEvent: {}
+[7.651532] (-) TimerEvent: {}
+[7.752773] (-) TimerEvent: {}
+[7.855034] (-) TimerEvent: {}
+[7.959857] (-) TimerEvent: {}
+[8.060989] (-) TimerEvent: {}
+[8.163804] (-) TimerEvent: {}
+[8.265872] (-) TimerEvent: {}
+[8.369795] (-) TimerEvent: {}
+[8.471653] (-) TimerEvent: {}
+[8.575898] (-) TimerEvent: {}
+[8.676985] (-) TimerEvent: {}
+[8.779016] (-) TimerEvent: {}
+[8.880885] (-) TimerEvent: {}
+[8.983783] (-) TimerEvent: {}
+[9.085958] (-) TimerEvent: {}
+[9.189325] (-) TimerEvent: {}
+[9.290424] (-) TimerEvent: {}
+[9.393443] (-) TimerEvent: {}
+[9.495888] (-) TimerEvent: {}
+[9.601800] (-) TimerEvent: {}
+[9.703841] (-) TimerEvent: {}
+[9.805700] (-) TimerEvent: {}
+[9.908029] (-) TimerEvent: {}
+[10.008749] (-) TimerEvent: {}
+[10.113467] (-) TimerEvent: {}
+[10.214081] (-) TimerEvent: {}
+[10.314500] (-) TimerEvent: {}
+[10.417324] (-) TimerEvent: {}
+[10.521205] (-) TimerEvent: {}
+[10.621913] (-) TimerEvent: {}
+[10.723376] (-) TimerEvent: {}
+[10.823950] (-) TimerEvent: {}
+[10.894529] (simple_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tutu/ros2m/src/simple_planner/src/planner.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_lock<std::mutex> simple_planner::Planner::move_to_position(double, double, double, double)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.895125] (simple_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tutu/ros2m/src/simple_planner/src/planner.cpp:117:27:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmoving a local object in a return statement prevents copy elision [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpessimizing-move\x07-Wpessimizing-move\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.895508] (simple_planner) StderrLine: {'line': b'  117 |           return \x1b[01;35m\x1b[Kstd::move(lock)\x1b[m\x1b[K;\n'}
+[10.897085] (simple_planner) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[10.897466] (simple_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tutu/ros2m/src/simple_planner/src/planner.cpp:117:27:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kremove \xe2\x80\x98\x1b[01m\x1b[Kstd::move\x1b[m\x1b[K\xe2\x80\x99 call\n'}
+[10.897910] (simple_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tutu/ros2m/src/simple_planner/src/planner.cpp:148:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmoving a local object in a return statement prevents copy elision [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpessimizing-move\x07-Wpessimizing-move\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.898219] (simple_planner) StderrLine: {'line': b'  148 |               return \x1b[01;35m\x1b[Kstd::move(lock)\x1b[m\x1b[K;\n'}
+[10.898334] (simple_planner) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[10.898624] (simple_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tutu/ros2m/src/simple_planner/src/planner.cpp:148:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kremove \xe2\x80\x98\x1b[01m\x1b[Kstd::move\x1b[m\x1b[K\xe2\x80\x99 call\n'}
+[10.904046] (simple_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tutu/ros2m/src/simple_planner/src/planner.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool simple_planner::Planner::indices_in_map(int, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.904902] (simple_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tutu/ros2m/src/simple_planner/src/planner.cpp:192:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Knav_msgs::msg::MapMetaData_<std::allocator<void> >::_width_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.905285] (simple_planner) StderrLine: {'line': b'  192 |   return i >= 0 && j >= 0 && \x1b[01;35m\x1b[Ki < map_.info.width\x1b[m\x1b[K && j < map_.info.height;\n'}
+[10.906840] (simple_planner) StderrLine: {'line': b'      |                              \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.907168] (simple_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tutu/ros2m/src/simple_planner/src/planner.cpp:192:55:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Knav_msgs::msg::MapMetaData_<std::allocator<void> >::_height_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.907584] (simple_planner) StderrLine: {'line': b'  192 |   return i >= 0 && j >= 0 && i < map_.info.width && \x1b[01;35m\x1b[Kj < map_.info.height\x1b[m\x1b[K;\n'}
+[10.907908] (simple_planner) StderrLine: {'line': b'      |                                                     \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.912573] (simple_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tutu/ros2m/src/simple_planner/src/planner.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid simple_planner::Planner::increase_obstacles(std::size_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.913231] (simple_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tutu/ros2m/src/simple_planner/src/planner.cpp:203:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Knav_msgs::msg::MapMetaData_<std::allocator<void> >::_width_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.913697] (simple_planner) StderrLine: {'line': b'  203 |   for (int i = 0; \x1b[01;35m\x1b[Ki < map_.info.width\x1b[m\x1b[K; ++i)\n'}
+[10.914011] (simple_planner) StderrLine: {'line': b'      |                   \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.914553] (simple_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tutu/ros2m/src/simple_planner/src/planner.cpp:205:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Knav_msgs::msg::MapMetaData_<std::allocator<void> >::_height_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.914895] (simple_planner) StderrLine: {'line': b'  205 |     for (int j = 0; \x1b[01;35m\x1b[Kj < map_.info.height\x1b[m\x1b[K; ++j)\n'}
+[10.916423] (simple_planner) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.918471] (simple_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tutu/ros2m/src/simple_planner/src/planner.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kdouble simple_planner::Planner::heruistic(int, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.918948] (simple_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tutu/ros2m/src/simple_planner/src/planner.cpp:258:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ki\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.919355] (simple_planner) StderrLine: {'line': b'  258 | double Planner::heruistic(\x1b[01;35m\x1b[Kint i\x1b[m\x1b[K, int j) {\n'}
+[10.919639] (simple_planner) StderrLine: {'line': b'      |                           \x1b[01;35m\x1b[K~~~~^\x1b[m\x1b[K\n'}
+[10.922125] (simple_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tutu/ros2m/src/simple_planner/src/planner.cpp:258:38:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kj\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.922626] (simple_planner) StderrLine: {'line': b'  258 | double Planner::heruistic(int i, \x1b[01;35m\x1b[Kint j\x1b[m\x1b[K) {\n'}
+[10.922999] (simple_planner) StderrLine: {'line': b'      |                                  \x1b[01;35m\x1b[K~~~~^\x1b[m\x1b[K\n'}
+[10.924124] (-) TimerEvent: {}
+[10.942823] (simple_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tutu/ros2m/src/simple_planner/src/planner.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid simple_planner::Planner::calculate_path()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.943576] (simple_planner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tutu/ros2m/src/simple_planner/src/planner.cpp:367:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Knode\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.943725] (simple_planner) StderrLine: {'line': b'  367 |       auto& \x1b[01;35m\x1b[Knode\x1b[m\x1b[K = map_value(search_map_, point.i, point.j);\n'}
+[10.943822] (simple_planner) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[11.024251] (-) TimerEvent: {}
+[11.125515] (-) TimerEvent: {}
+[11.228987] (-) TimerEvent: {}
+[11.331868] (-) TimerEvent: {}
+[11.432850] (-) TimerEvent: {}
+[11.534631] (-) TimerEvent: {}
+[11.635914] (-) TimerEvent: {}
+[11.737219] (-) TimerEvent: {}
+[11.837912] (-) TimerEvent: {}
+[11.938816] (-) TimerEvent: {}
+[12.041022] (-) TimerEvent: {}
+[12.142657] (-) TimerEvent: {}
+[12.246489] (-) TimerEvent: {}
+[12.347415] (-) TimerEvent: {}
+[12.447838] (-) TimerEvent: {}
+[12.550257] (-) TimerEvent: {}
+[12.650877] (-) TimerEvent: {}
+[12.752076] (-) TimerEvent: {}
+[12.852735] (-) TimerEvent: {}
+[12.955500] (-) TimerEvent: {}
+[13.056449] (-) TimerEvent: {}
+[13.157038] (-) TimerEvent: {}
+[13.260061] (-) TimerEvent: {}
+[13.362325] (-) TimerEvent: {}
+[13.462667] (-) TimerEvent: {}
+[13.563851] (-) TimerEvent: {}
+[13.665253] (-) TimerEvent: {}
+[13.767914] (-) TimerEvent: {}
+[13.868739] (-) TimerEvent: {}
+[13.970000] (-) TimerEvent: {}
+[14.070424] (-) TimerEvent: {}
+[14.171159] (-) TimerEvent: {}
+[14.271722] (-) TimerEvent: {}
+[14.373502] (-) TimerEvent: {}
+[14.475055] (-) TimerEvent: {}
+[14.576609] (-) TimerEvent: {}
+[14.677186] (-) TimerEvent: {}
+[14.779681] (-) TimerEvent: {}
+[14.881113] (-) TimerEvent: {}
+[14.982225] (-) TimerEvent: {}
+[15.083590] (-) TimerEvent: {}
+[15.184263] (-) TimerEvent: {}
+[15.284794] (-) TimerEvent: {}
+[15.389769] (-) TimerEvent: {}
+[15.491062] (-) TimerEvent: {}
+[15.592871] (-) TimerEvent: {}
+[15.694275] (-) TimerEvent: {}
+[15.799485] (-) TimerEvent: {}
+[15.900631] (-) TimerEvent: {}
+[16.003784] (-) TimerEvent: {}
+[16.105021] (-) TimerEvent: {}
+[16.206328] (-) TimerEvent: {}
+[16.309700] (-) TimerEvent: {}
+[16.413879] (-) TimerEvent: {}
+[16.517963] (-) TimerEvent: {}
+[16.621318] (-) TimerEvent: {}
+[16.722788] (-) TimerEvent: {}
+[16.823765] (-) TimerEvent: {}
+[16.928076] (-) TimerEvent: {}
+[17.029838] (-) TimerEvent: {}
+[17.131620] (-) TimerEvent: {}
+[17.232197] (-) TimerEvent: {}
+[17.333437] (-) TimerEvent: {}
+[17.438150] (-) TimerEvent: {}
+[17.538770] (-) TimerEvent: {}
+[17.639983] (-) TimerEvent: {}
+[17.741259] (-) TimerEvent: {}
+[17.842628] (-) TimerEvent: {}
+[17.943964] (-) TimerEvent: {}
+[18.045835] (-) TimerEvent: {}
+[18.147972] (-) TimerEvent: {}
+[18.252796] (-) TimerEvent: {}
+[18.353822] (-) TimerEvent: {}
+[18.455079] (-) TimerEvent: {}
+[18.560233] (-) TimerEvent: {}
+[18.661194] (-) TimerEvent: {}
+[18.762631] (-) TimerEvent: {}
+[18.862988] (-) TimerEvent: {}
+[18.963973] (-) TimerEvent: {}
+[19.064702] (-) TimerEvent: {}
+[19.169969] (-) TimerEvent: {}
+[19.273368] (-) TimerEvent: {}
+[19.374457] (-) TimerEvent: {}
+[19.474995] (-) TimerEvent: {}
+[19.576357] (-) TimerEvent: {}
+[19.679349] (-) TimerEvent: {}
+[19.781624] (-) TimerEvent: {}
+[19.881852] (-) TimerEvent: {}
+[19.985651] (-) TimerEvent: {}
+[20.086574] (-) TimerEvent: {}
+[20.186884] (-) TimerEvent: {}
+[20.288651] (-) TimerEvent: {}
+[20.389378] (-) TimerEvent: {}
+[20.491140] (-) TimerEvent: {}
+[20.592411] (-) TimerEvent: {}
+[20.696329] (-) TimerEvent: {}
+[20.797001] (-) TimerEvent: {}
+[20.898112] (-) TimerEvent: {}
+[20.999039] (-) TimerEvent: {}
+[21.099664] (-) TimerEvent: {}
+[21.200759] (-) TimerEvent: {}
+[21.303471] (-) TimerEvent: {}
+[21.404761] (-) TimerEvent: {}
+[21.508281] (-) TimerEvent: {}
+[21.609910] (-) TimerEvent: {}
+[21.711260] (-) TimerEvent: {}
+[21.811758] (-) TimerEvent: {}
+[21.913101] (-) TimerEvent: {}
+[22.013783] (-) TimerEvent: {}
+[22.116142] (-) TimerEvent: {}
+[22.217040] (-) TimerEvent: {}
+[22.319174] (-) TimerEvent: {}
+[22.419744] (-) TimerEvent: {}
+[22.521389] (-) TimerEvent: {}
+[22.623396] (-) TimerEvent: {}
+[22.726533] (-) TimerEvent: {}
+[22.831722] (-) TimerEvent: {}
+[22.932550] (-) TimerEvent: {}
+[23.033188] (-) TimerEvent: {}
+[23.134359] (-) TimerEvent: {}
+[23.236675] (-) TimerEvent: {}
+[23.337107] (-) TimerEvent: {}
+[23.438147] (-) TimerEvent: {}
+[23.539846] (-) TimerEvent: {}
+[23.641030] (-) TimerEvent: {}
+[23.744038] (-) TimerEvent: {}
+[23.845479] (-) TimerEvent: {}
+[23.948257] (-) TimerEvent: {}
+[24.049059] (-) TimerEvent: {}
+[24.151348] (-) TimerEvent: {}
+[24.255905] (-) TimerEvent: {}
+[24.358221] (-) TimerEvent: {}
+[24.458555] (-) TimerEvent: {}
+[24.560875] (-) TimerEvent: {}
+[24.662155] (-) TimerEvent: {}
+[24.763425] (-) TimerEvent: {}
+[24.864665] (-) TimerEvent: {}
+[24.967021] (-) TimerEvent: {}
+[25.072092] (-) TimerEvent: {}
+[25.175033] (-) TimerEvent: {}
+[25.277205] (-) TimerEvent: {}
+[25.380730] (-) TimerEvent: {}
+[25.481651] (-) TimerEvent: {}
+[25.584201] (-) TimerEvent: {}
+[25.686636] (-) TimerEvent: {}
+[25.789322] (-) TimerEvent: {}
+[25.890677] (-) TimerEvent: {}
+[25.991827] (-) TimerEvent: {}
+[26.092709] (-) TimerEvent: {}
+[26.197719] (-) TimerEvent: {}
+[26.298516] (-) TimerEvent: {}
+[26.399204] (-) TimerEvent: {}
+[26.503413] (-) TimerEvent: {}
+[26.606711] (-) TimerEvent: {}
+[26.707407] (-) TimerEvent: {}
+[26.808668] (-) TimerEvent: {}
+[26.910919] (-) TimerEvent: {}
+[27.013391] (-) TimerEvent: {}
+[27.121180] (-) TimerEvent: {}
+[27.223561] (-) TimerEvent: {}
+[27.323771] (-) TimerEvent: {}
+[27.426330] (-) TimerEvent: {}
+[27.528617] (-) TimerEvent: {}
+[27.630061] (-) TimerEvent: {}
+[27.731755] (-) TimerEvent: {}
+[27.832528] (-) TimerEvent: {}
+[27.933637] (-) TimerEvent: {}
+[28.034516] (-) TimerEvent: {}
+[28.136900] (-) TimerEvent: {}
+[28.238107] (-) TimerEvent: {}
+[28.338727] (-) TimerEvent: {}
+[28.439304] (-) TimerEvent: {}
+[28.542341] (-) TimerEvent: {}
+[28.646071] (-) TimerEvent: {}
+[28.748098] (-) TimerEvent: {}
+[28.849097] (-) TimerEvent: {}
+[28.952757] (-) TimerEvent: {}
+[29.053449] (-) TimerEvent: {}
+[29.154257] (-) TimerEvent: {}
+[29.254941] (-) TimerEvent: {}
+[29.358856] (-) TimerEvent: {}
+[29.459133] (-) TimerEvent: {}
+[29.560634] (-) TimerEvent: {}
+[29.662841] (-) TimerEvent: {}
+[29.764256] (-) TimerEvent: {}
+[29.865279] (-) TimerEvent: {}
+[29.967089] (-) TimerEvent: {}
+[30.069092] (-) TimerEvent: {}
+[30.169996] (-) TimerEvent: {}
+[30.272155] (-) TimerEvent: {}
+[30.376505] (-) TimerEvent: {}
+[30.478299] (-) TimerEvent: {}
+[30.583108] (-) TimerEvent: {}
+[30.685427] (-) TimerEvent: {}
+[30.786708] (-) TimerEvent: {}
+[30.888478] (-) TimerEvent: {}
+[30.993171] (-) TimerEvent: {}
+[31.094057] (-) TimerEvent: {}
+[31.197644] (-) TimerEvent: {}
+[31.299753] (-) TimerEvent: {}
+[31.400080] (-) TimerEvent: {}
+[31.506225] (-) TimerEvent: {}
+[31.607396] (-) TimerEvent: {}
+[31.709163] (-) TimerEvent: {}
+[31.810296] (-) TimerEvent: {}
+[31.911762] (-) TimerEvent: {}
+[32.014913] (-) TimerEvent: {}
+[32.116387] (-) TimerEvent: {}
+[32.220248] (-) TimerEvent: {}
+[32.321863] (-) TimerEvent: {}
+[32.423047] (-) TimerEvent: {}
+[32.524918] (-) TimerEvent: {}
+[32.627860] (-) TimerEvent: {}
+[32.728535] (-) TimerEvent: {}
+[32.835647] (-) TimerEvent: {}
+[32.938686] (-) TimerEvent: {}
+[33.040052] (-) TimerEvent: {}
+[33.141399] (-) TimerEvent: {}
+[33.246429] (-) TimerEvent: {}
+[33.349706] (-) TimerEvent: {}
+[33.450896] (-) TimerEvent: {}
+[33.556363] (-) TimerEvent: {}
+[33.659255] (-) TimerEvent: {}
+[33.760260] (-) TimerEvent: {}
+[33.863456] (-) TimerEvent: {}
+[33.966458] (-) TimerEvent: {}
+[34.068012] (-) TimerEvent: {}
+[34.171609] (-) TimerEvent: {}
+[34.273161] (-) TimerEvent: {}
+[34.375216] (-) TimerEvent: {}
+[34.478297] (-) TimerEvent: {}
+[34.582563] (-) TimerEvent: {}
+[34.684977] (-) TimerEvent: {}
+[34.787673] (-) TimerEvent: {}
+[34.903049] (-) TimerEvent: {}
+[35.004166] (-) TimerEvent: {}
+[35.106374] (-) TimerEvent: {}
+[35.207827] (-) TimerEvent: {}
+[35.218149] (simple_planner) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable simple_planner\x1b[0m\n'}
+[35.307956] (-) TimerEvent: {}
+[35.408740] (-) TimerEvent: {}
+[35.512656] (-) TimerEvent: {}
+[35.617835] (-) TimerEvent: {}
+[35.718495] (-) TimerEvent: {}
+[35.822521] (-) TimerEvent: {}
+[35.923238] (-) TimerEvent: {}
+[36.024365] (-) TimerEvent: {}
+[36.126597] (-) TimerEvent: {}
+[36.230292] (-) TimerEvent: {}
+[36.332454] (-) TimerEvent: {}
+[36.433747] (-) TimerEvent: {}
+[36.534071] (-) TimerEvent: {}
+[36.636087] (-) TimerEvent: {}
+[36.738057] (-) TimerEvent: {}
+[36.840003] (-) TimerEvent: {}
+[36.940696] (-) TimerEvent: {}
+[37.043687] (-) TimerEvent: {}
+[37.146019] (-) TimerEvent: {}
+[37.175867] (simple_planner) StdoutLine: {'line': b'[100%] Built target simple_planner\n'}
+[37.209416] (simple_planner) CommandEnded: {'returncode': 0}
+[37.215696] (simple_planner) JobProgress: {'identifier': 'simple_planner', 'progress': 'install'}
+[37.216851] (simple_planner) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/tutu/ros2m/build/simple_planner'], 'cwd': '/home/tutu/ros2m/build/simple_planner', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'tutu'), ('LC_TIME', 'ru_RU.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/tutu/ros2m/install/stage_ros2/lib:/home/tutu/ros2m/install/Stage/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tutu'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.95.3'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ru_RU.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '876'), ('SYSTEMD_EXEC_PID', '1037'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1562'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/tutu/ros2m/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tutu'), ('JOURNAL_STREAM', '8:8556'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tutu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/tutu/ros2m/install/Stage/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tutu-VirtualBox:@/tmp/.ICE-unix/1010,unix/tutu-VirtualBox:/tmp/.ICE-unix/1010'), ('INVOCATION_ID', '52600b1b7b69438b88b849412c164ce7'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ru_RU.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ru_RU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ISKYX2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b7da840b4c.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/tutu/ros2m/install/stage_ros2:/home/tutu/ros2m/install/stage_controller:/home/tutu/ros2m/install/simple_planner:/home/tutu/ros2m/install/simple_controller:/home/tutu/ros2m/install/feature_matcher:/home/tutu/ros2m/install/cart_launch:/home/tutu/ros2m/install/barrel_slam:/home/tutu/ros2m/install/angles:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ru_RU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ru_RU.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ru_RU.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tutu/ros2m/build/simple_planner'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tutu/ros2m/install/angles/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('ROS_HOSTNAME', '172.17.232.190'), ('LC_NUMERIC', 'ru_RU.UTF-8'), ('LC_PAPER', 'ru_RU.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/tutu/ros2m/install/stage_ros2:/home/tutu/ros2m/install/stage_controller:/home/tutu/ros2m/install/simple_planner:/home/tutu/ros2m/install/simple_controller:/home/tutu/ros2m/install/feature_matcher:/home/tutu/ros2m/install/cart_launch:/home/tutu/ros2m/install/barrel_slam:/home/tutu/ros2m/install/angles:/home/tutu/ros2m/install/Stage:/opt/ros/humble')]), 'shell': False}
+[37.239765] (simple_planner) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[37.243433] (simple_planner) StdoutLine: {'line': b'-- Installing: /home/tutu/ros2m/install/simple_planner/lib/simple_planner/simple_planner\n'}
+[37.247015] (-) TimerEvent: {}
+[37.257637] (simple_planner) StdoutLine: {'line': b'-- Set runtime path of "/home/tutu/ros2m/install/simple_planner/lib/simple_planner/simple_planner" to ""\n'}
+[37.259438] (simple_planner) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/simple_planner/share/simple_planner//launch\n'}
+[37.262886] (simple_planner) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/simple_planner/share/simple_planner//launch/planner.launch.py\n'}
+[37.263344] (simple_planner) StdoutLine: {'line': b'-- Installing: /home/tutu/ros2m/install/simple_planner/share/simple_planner//launch/planner.rviz\n'}
+[37.263785] (simple_planner) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/simple_planner/share/simple_planner//launch/default.rviz\n'}
+[37.265978] (simple_planner) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/simple_planner/share/ament_index/resource_index/package_run_dependencies/simple_planner\n'}
+[37.268106] (simple_planner) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/simple_planner/share/ament_index/resource_index/parent_prefix_path/simple_planner\n'}
+[37.269599] (simple_planner) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/simple_planner/share/simple_planner/environment/ament_prefix_path.sh\n'}
+[37.271739] (simple_planner) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/simple_planner/share/simple_planner/environment/ament_prefix_path.dsv\n'}
+[37.271974] (simple_planner) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/simple_planner/share/simple_planner/environment/path.sh\n'}
+[37.272161] (simple_planner) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/simple_planner/share/simple_planner/environment/path.dsv\n'}
+[37.272226] (simple_planner) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/simple_planner/share/simple_planner/local_setup.bash\n'}
+[37.272275] (simple_planner) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/simple_planner/share/simple_planner/local_setup.sh\n'}
+[37.272328] (simple_planner) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/simple_planner/share/simple_planner/local_setup.zsh\n'}
+[37.272374] (simple_planner) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/simple_planner/share/simple_planner/local_setup.dsv\n'}
+[37.272419] (simple_planner) StdoutLine: {'line': b'-- Installing: /home/tutu/ros2m/install/simple_planner/share/simple_planner/package.dsv\n'}
+[37.277532] (simple_planner) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/simple_planner/share/ament_index/resource_index/packages/simple_planner\n'}
+[37.281912] (simple_planner) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/simple_planner/share/simple_planner/cmake/simple_plannerConfig.cmake\n'}
+[37.282101] (simple_planner) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/simple_planner/share/simple_planner/cmake/simple_plannerConfig-version.cmake\n'}
+[37.282156] (simple_planner) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/simple_planner/share/simple_planner/package.xml\n'}
+[37.287095] (simple_planner) CommandEnded: {'returncode': 0}
+[37.334551] (simple_planner) JobEnded: {'identifier': 'simple_planner', 'rc': 0}
+[37.335919] (stage_controller) JobStarted: {'identifier': 'stage_controller'}
+[37.347135] (-) TimerEvent: {}
+[37.361033] (stage_controller) JobProgress: {'identifier': 'stage_controller', 'progress': 'cmake'}
+[37.367741] (stage_controller) JobProgress: {'identifier': 'stage_controller', 'progress': 'build'}
+[37.367810] (stage_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tutu/ros2m/build/stage_controller', '--', '-j1', '-l1'], 'cwd': '/home/tutu/ros2m/build/stage_controller', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'tutu'), ('LC_TIME', 'ru_RU.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/tutu/ros2m/install/stage_ros2/lib:/home/tutu/ros2m/install/Stage/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tutu'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.95.3'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ru_RU.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '876'), ('SYSTEMD_EXEC_PID', '1037'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1562'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/tutu/ros2m/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tutu'), ('JOURNAL_STREAM', '8:8556'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tutu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/tutu/ros2m/install/Stage/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tutu-VirtualBox:@/tmp/.ICE-unix/1010,unix/tutu-VirtualBox:/tmp/.ICE-unix/1010'), ('INVOCATION_ID', '52600b1b7b69438b88b849412c164ce7'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ru_RU.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ru_RU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ISKYX2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b7da840b4c.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/tutu/ros2m/install/stage_ros2:/home/tutu/ros2m/install/stage_controller:/home/tutu/ros2m/install/simple_planner:/home/tutu/ros2m/install/simple_controller:/home/tutu/ros2m/install/feature_matcher:/home/tutu/ros2m/install/cart_launch:/home/tutu/ros2m/install/barrel_slam:/home/tutu/ros2m/install/angles:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ru_RU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ru_RU.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ru_RU.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tutu/ros2m/build/stage_controller'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tutu/ros2m/install/angles/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('ROS_HOSTNAME', '172.17.232.190'), ('LC_NUMERIC', 'ru_RU.UTF-8'), ('LC_PAPER', 'ru_RU.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/tutu/ros2m/install/stage_ros2:/home/tutu/ros2m/install/stage_controller:/home/tutu/ros2m/install/simple_planner:/home/tutu/ros2m/install/simple_controller:/home/tutu/ros2m/install/feature_matcher:/home/tutu/ros2m/install/cart_launch:/home/tutu/ros2m/install/barrel_slam:/home/tutu/ros2m/install/angles:/home/tutu/ros2m/install/Stage:/opt/ros/humble')]), 'shell': False}
+[37.449272] (-) TimerEvent: {}
+[37.495819] (stage_controller) StdoutLine: {'line': b'[ 50%] Built target stage_controller\n'}
+[37.550034] (-) TimerEvent: {}
+[37.562359] (stage_controller) StdoutLine: {'line': b'[100%] Built target stage_throttle\n'}
+[37.590646] (stage_controller) CommandEnded: {'returncode': 0}
+[37.596994] (stage_controller) JobProgress: {'identifier': 'stage_controller', 'progress': 'install'}
+[37.597105] (stage_controller) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/tutu/ros2m/build/stage_controller'], 'cwd': '/home/tutu/ros2m/build/stage_controller', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'tutu'), ('LC_TIME', 'ru_RU.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/tutu/ros2m/install/stage_ros2/lib:/home/tutu/ros2m/install/Stage/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tutu'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.95.3'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ru_RU.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '876'), ('SYSTEMD_EXEC_PID', '1037'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1562'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/tutu/ros2m/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tutu'), ('JOURNAL_STREAM', '8:8556'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tutu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/tutu/ros2m/install/Stage/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tutu-VirtualBox:@/tmp/.ICE-unix/1010,unix/tutu-VirtualBox:/tmp/.ICE-unix/1010'), ('INVOCATION_ID', '52600b1b7b69438b88b849412c164ce7'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ru_RU.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ru_RU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ISKYX2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b7da840b4c.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/tutu/ros2m/install/stage_ros2:/home/tutu/ros2m/install/stage_controller:/home/tutu/ros2m/install/simple_planner:/home/tutu/ros2m/install/simple_controller:/home/tutu/ros2m/install/feature_matcher:/home/tutu/ros2m/install/cart_launch:/home/tutu/ros2m/install/barrel_slam:/home/tutu/ros2m/install/angles:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ru_RU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ru_RU.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ru_RU.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tutu/ros2m/build/stage_controller'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tutu/ros2m/install/angles/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('ROS_HOSTNAME', '172.17.232.190'), ('LC_NUMERIC', 'ru_RU.UTF-8'), ('LC_PAPER', 'ru_RU.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/tutu/ros2m/install/stage_ros2:/home/tutu/ros2m/install/stage_controller:/home/tutu/ros2m/install/simple_planner:/home/tutu/ros2m/install/simple_controller:/home/tutu/ros2m/install/feature_matcher:/home/tutu/ros2m/install/cart_launch:/home/tutu/ros2m/install/barrel_slam:/home/tutu/ros2m/install/angles:/home/tutu/ros2m/install/Stage:/opt/ros/humble')]), 'shell': False}
+[37.616950] (stage_controller) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[37.621020] (stage_controller) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/stage_controller/lib/stage_controller/stage_controller\n'}
+[37.622688] (stage_controller) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/stage_controller/lib/stage_controller/stage_throttle\n'}
+[37.623990] (stage_controller) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/stage_controller/share/ament_index/resource_index/package_run_dependencies/stage_controller\n'}
+[37.625271] (stage_controller) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/stage_controller/share/ament_index/resource_index/parent_prefix_path/stage_controller\n'}
+[37.628028] (stage_controller) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/stage_controller/share/stage_controller/environment/ament_prefix_path.sh\n'}
+[37.628167] (stage_controller) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/stage_controller/share/stage_controller/environment/ament_prefix_path.dsv\n'}
+[37.630011] (stage_controller) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/stage_controller/share/stage_controller/environment/path.sh\n'}
+[37.630165] (stage_controller) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/stage_controller/share/stage_controller/environment/path.dsv\n'}
+[37.630220] (stage_controller) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/stage_controller/share/stage_controller/local_setup.bash\n'}
+[37.630279] (stage_controller) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/stage_controller/share/stage_controller/local_setup.sh\n'}
+[37.632124] (stage_controller) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/stage_controller/share/stage_controller/local_setup.zsh\n'}
+[37.632374] (stage_controller) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/stage_controller/share/stage_controller/local_setup.dsv\n'}
+[37.632451] (stage_controller) StdoutLine: {'line': b'-- Installing: /home/tutu/ros2m/install/stage_controller/share/stage_controller/package.dsv\n'}
+[37.633626] (stage_controller) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/stage_controller/share/ament_index/resource_index/packages/stage_controller\n'}
+[37.634248] (stage_controller) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/stage_controller/share/stage_controller/cmake/stage_controllerConfig.cmake\n'}
+[37.634642] (stage_controller) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/stage_controller/share/stage_controller/cmake/stage_controllerConfig-version.cmake\n'}
+[37.634982] (stage_controller) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/stage_controller/share/stage_controller/package.xml\n'}
+[37.639118] (stage_controller) CommandEnded: {'returncode': 0}
+[37.652970] (-) TimerEvent: {}
+[37.676801] (stage_controller) JobEnded: {'identifier': 'stage_controller', 'rc': 0}
+[37.677870] (simple_controller) JobStarted: {'identifier': 'simple_controller'}
+[37.699001] (simple_controller) JobProgress: {'identifier': 'simple_controller', 'progress': 'cmake'}
+[37.703799] (simple_controller) JobProgress: {'identifier': 'simple_controller', 'progress': 'build'}
+[37.703880] (simple_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tutu/ros2m/build/simple_controller', '--', '-j1', '-l1'], 'cwd': '/home/tutu/ros2m/build/simple_controller', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'tutu'), ('LC_TIME', 'ru_RU.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/tutu/ros2m/install/stage_ros2/lib:/home/tutu/ros2m/install/Stage/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tutu'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.95.3'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ru_RU.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '876'), ('SYSTEMD_EXEC_PID', '1037'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1562'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/tutu/ros2m/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tutu'), ('JOURNAL_STREAM', '8:8556'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tutu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/tutu/ros2m/install/Stage/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tutu-VirtualBox:@/tmp/.ICE-unix/1010,unix/tutu-VirtualBox:/tmp/.ICE-unix/1010'), ('INVOCATION_ID', '52600b1b7b69438b88b849412c164ce7'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ru_RU.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ru_RU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ISKYX2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b7da840b4c.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/tutu/ros2m/install/stage_ros2:/home/tutu/ros2m/install/stage_controller:/home/tutu/ros2m/install/simple_planner:/home/tutu/ros2m/install/simple_controller:/home/tutu/ros2m/install/feature_matcher:/home/tutu/ros2m/install/cart_launch:/home/tutu/ros2m/install/barrel_slam:/home/tutu/ros2m/install/angles:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ru_RU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ru_RU.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ru_RU.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tutu/ros2m/build/simple_controller'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tutu/ros2m/install/angles/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('ROS_HOSTNAME', '172.17.232.190'), ('LC_NUMERIC', 'ru_RU.UTF-8'), ('LC_PAPER', 'ru_RU.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/tutu/ros2m/install/angles:/home/tutu/ros2m/install/stage_ros2:/home/tutu/ros2m/install/stage_controller:/home/tutu/ros2m/install/simple_planner:/home/tutu/ros2m/install/simple_controller:/home/tutu/ros2m/install/feature_matcher:/home/tutu/ros2m/install/cart_launch:/home/tutu/ros2m/install/barrel_slam:/home/tutu/ros2m/install/Stage:/opt/ros/humble')]), 'shell': False}
+[37.753146] (-) TimerEvent: {}
+[37.854876] (-) TimerEvent: {}
+[37.861212] (simple_controller) StdoutLine: {'line': b'[100%] Built target controller_node\n'}
+[37.890711] (simple_controller) CommandEnded: {'returncode': 0}
+[37.899353] (simple_controller) JobProgress: {'identifier': 'simple_controller', 'progress': 'install'}
+[37.899564] (simple_controller) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/tutu/ros2m/build/simple_controller'], 'cwd': '/home/tutu/ros2m/build/simple_controller', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'tutu'), ('LC_TIME', 'ru_RU.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/tutu/ros2m/install/stage_ros2/lib:/home/tutu/ros2m/install/Stage/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tutu'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.95.3'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ru_RU.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '876'), ('SYSTEMD_EXEC_PID', '1037'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1562'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/tutu/ros2m/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tutu'), ('JOURNAL_STREAM', '8:8556'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tutu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/tutu/ros2m/install/Stage/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tutu-VirtualBox:@/tmp/.ICE-unix/1010,unix/tutu-VirtualBox:/tmp/.ICE-unix/1010'), ('INVOCATION_ID', '52600b1b7b69438b88b849412c164ce7'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ru_RU.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ru_RU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ISKYX2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b7da840b4c.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/tutu/ros2m/install/stage_ros2:/home/tutu/ros2m/install/stage_controller:/home/tutu/ros2m/install/simple_planner:/home/tutu/ros2m/install/simple_controller:/home/tutu/ros2m/install/feature_matcher:/home/tutu/ros2m/install/cart_launch:/home/tutu/ros2m/install/barrel_slam:/home/tutu/ros2m/install/angles:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ru_RU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ru_RU.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ru_RU.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tutu/ros2m/build/simple_controller'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tutu/ros2m/install/angles/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('ROS_HOSTNAME', '172.17.232.190'), ('LC_NUMERIC', 'ru_RU.UTF-8'), ('LC_PAPER', 'ru_RU.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/tutu/ros2m/install/angles:/home/tutu/ros2m/install/stage_ros2:/home/tutu/ros2m/install/stage_controller:/home/tutu/ros2m/install/simple_planner:/home/tutu/ros2m/install/simple_controller:/home/tutu/ros2m/install/feature_matcher:/home/tutu/ros2m/install/cart_launch:/home/tutu/ros2m/install/barrel_slam:/home/tutu/ros2m/install/Stage:/opt/ros/humble')]), 'shell': False}
+[37.918901] (simple_controller) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[37.922859] (simple_controller) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/simple_controller/lib/simple_controller/controller_node\n'}
+[37.924175] (simple_controller) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/simple_controller/share/simple_controller//launch\n'}
+[37.925941] (simple_controller) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/simple_controller/share/simple_controller//launch/controller_stage.launch.py\n'}
+[37.926104] (simple_controller) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/simple_controller/share/simple_controller//launch/controller1s.yaml\n'}
+[37.926165] (simple_controller) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/simple_controller/share/simple_controller//launch/controller_curv.yaml\n'}
+[37.926321] (simple_controller) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/simple_controller/share/simple_controller//launch/controller.yaml\n'}
+[37.926373] (simple_controller) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/simple_controller/include\n'}
+[37.927836] (simple_controller) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/simple_controller/include/trajectory_segment.h\n'}
+[37.928080] (simple_controller) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/simple_controller/share/ament_index/resource_index/package_run_dependencies/simple_controller\n'}
+[37.929551] (simple_controller) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/simple_controller/share/ament_index/resource_index/parent_prefix_path/simple_controller\n'}
+[37.930264] (simple_controller) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/simple_controller/share/simple_controller/environment/ament_prefix_path.sh\n'}
+[37.930448] (simple_controller) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/simple_controller/share/simple_controller/environment/ament_prefix_path.dsv\n'}
+[37.930593] (simple_controller) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/simple_controller/share/simple_controller/environment/path.sh\n'}
+[37.930782] (simple_controller) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/simple_controller/share/simple_controller/environment/path.dsv\n'}
+[37.931995] (simple_controller) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/simple_controller/share/simple_controller/local_setup.bash\n'}
+[37.932099] (simple_controller) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/simple_controller/share/simple_controller/local_setup.sh\n'}
+[37.933011] (simple_controller) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/simple_controller/share/simple_controller/local_setup.zsh\n'}
+[37.933665] (simple_controller) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/simple_controller/share/simple_controller/local_setup.dsv\n'}
+[37.934602] (simple_controller) StdoutLine: {'line': b'-- Installing: /home/tutu/ros2m/install/simple_controller/share/simple_controller/package.dsv\n'}
+[37.937542] (simple_controller) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/simple_controller/share/ament_index/resource_index/packages/simple_controller\n'}
+[37.943201] (simple_controller) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/simple_controller/share/simple_controller/cmake/simple_controllerConfig.cmake\n'}
+[37.943331] (simple_controller) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/simple_controller/share/simple_controller/cmake/simple_controllerConfig-version.cmake\n'}
+[37.943415] (simple_controller) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/simple_controller/share/simple_controller/package.xml\n'}
+[37.947047] (simple_controller) CommandEnded: {'returncode': 0}
+[37.957060] (-) TimerEvent: {}
+[37.992741] (simple_controller) JobEnded: {'identifier': 'simple_controller', 'rc': 0}
+[37.993411] (stage_ros2) JobStarted: {'identifier': 'stage_ros2'}
+[38.022047] (stage_ros2) JobProgress: {'identifier': 'stage_ros2', 'progress': 'cmake'}
+[38.027178] (stage_ros2) JobProgress: {'identifier': 'stage_ros2', 'progress': 'build'}
+[38.027238] (stage_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tutu/ros2m/build/stage_ros2', '--', '-j1', '-l1'], 'cwd': '/home/tutu/ros2m/build/stage_ros2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'tutu'), ('LC_TIME', 'ru_RU.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/tutu/ros2m/install/Stage/lib:/home/tutu/ros2m/install/stage_ros2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tutu'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.95.3'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ru_RU.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '876'), ('SYSTEMD_EXEC_PID', '1037'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1562'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/tutu/ros2m/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tutu'), ('JOURNAL_STREAM', '8:8556'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tutu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/tutu/ros2m/install/Stage/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tutu-VirtualBox:@/tmp/.ICE-unix/1010,unix/tutu-VirtualBox:/tmp/.ICE-unix/1010'), ('INVOCATION_ID', '52600b1b7b69438b88b849412c164ce7'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ru_RU.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ru_RU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ISKYX2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b7da840b4c.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/tutu/ros2m/install/stage_ros2:/home/tutu/ros2m/install/stage_controller:/home/tutu/ros2m/install/simple_planner:/home/tutu/ros2m/install/simple_controller:/home/tutu/ros2m/install/feature_matcher:/home/tutu/ros2m/install/cart_launch:/home/tutu/ros2m/install/barrel_slam:/home/tutu/ros2m/install/angles:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ru_RU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ru_RU.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ru_RU.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tutu/ros2m/build/stage_ros2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tutu/ros2m/install/angles/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('ROS_HOSTNAME', '172.17.232.190'), ('LC_NUMERIC', 'ru_RU.UTF-8'), ('LC_PAPER', 'ru_RU.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/tutu/ros2m/install/Stage:/home/tutu/ros2m/install/stage_ros2:/home/tutu/ros2m/install/stage_controller:/home/tutu/ros2m/install/simple_planner:/home/tutu/ros2m/install/simple_controller:/home/tutu/ros2m/install/feature_matcher:/home/tutu/ros2m/install/cart_launch:/home/tutu/ros2m/install/barrel_slam:/home/tutu/ros2m/install/angles:/opt/ros/humble')]), 'shell': False}
+[38.057659] (-) TimerEvent: {}
+[38.159073] (-) TimerEvent: {}
+[38.217740] (stage_ros2) StdoutLine: {'line': b'[ 71%] Built target stage_node\n'}
+[38.262607] (-) TimerEvent: {}
+[38.292492] (stage_ros2) StdoutLine: {'line': b'[100%] Built target stage_ros2\n'}
+[38.317728] (stage_ros2) CommandEnded: {'returncode': 0}
+[38.325600] (stage_ros2) JobProgress: {'identifier': 'stage_ros2', 'progress': 'install'}
+[38.325658] (stage_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/tutu/ros2m/build/stage_ros2'], 'cwd': '/home/tutu/ros2m/build/stage_ros2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'tutu'), ('LC_TIME', 'ru_RU.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/tutu/ros2m/install/Stage/lib:/home/tutu/ros2m/install/stage_ros2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tutu'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.95.3'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ru_RU.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '876'), ('SYSTEMD_EXEC_PID', '1037'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1562'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/tutu/ros2m/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tutu'), ('JOURNAL_STREAM', '8:8556'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tutu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/tutu/ros2m/install/Stage/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tutu-VirtualBox:@/tmp/.ICE-unix/1010,unix/tutu-VirtualBox:/tmp/.ICE-unix/1010'), ('INVOCATION_ID', '52600b1b7b69438b88b849412c164ce7'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ru_RU.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ru_RU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ISKYX2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b7da840b4c.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/tutu/ros2m/install/stage_ros2:/home/tutu/ros2m/install/stage_controller:/home/tutu/ros2m/install/simple_planner:/home/tutu/ros2m/install/simple_controller:/home/tutu/ros2m/install/feature_matcher:/home/tutu/ros2m/install/cart_launch:/home/tutu/ros2m/install/barrel_slam:/home/tutu/ros2m/install/angles:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ru_RU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ru_RU.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ru_RU.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tutu/ros2m/build/stage_ros2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tutu/ros2m/install/angles/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('ROS_HOSTNAME', '172.17.232.190'), ('LC_NUMERIC', 'ru_RU.UTF-8'), ('LC_PAPER', 'ru_RU.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/tutu/ros2m/install/Stage:/home/tutu/ros2m/install/stage_ros2:/home/tutu/ros2m/install/stage_controller:/home/tutu/ros2m/install/simple_planner:/home/tutu/ros2m/install/simple_controller:/home/tutu/ros2m/install/feature_matcher:/home/tutu/ros2m/install/cart_launch:/home/tutu/ros2m/install/barrel_slam:/home/tutu/ros2m/install/angles:/opt/ros/humble')]), 'shell': False}
+[38.344947] (stage_ros2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[38.347211] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2/environment/library_path.sh\n'}
+[38.350307] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2/environment/library_path.dsv\n'}
+[38.350688] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2//launch\n'}
+[38.351051] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2//launch/f710.launch.py\n'}
+[38.351158] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2//launch/rviz.launch.py\n'}
+[38.352490] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2//launch/rviz_ns.launch.py\n'}
+[38.352709] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2//launch/stage.launch.py\n'}
+[38.352774] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2//launch/demo.launch.py\n'}
+[38.352820] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2//world\n'}
+[38.352863] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2//world/willow-four-erratics-multisensor.world\n'}
+[38.352906] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2//world/cave.world\n'}
+[38.352948] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2//world/cave_seven_robots.world\n'}
+[38.352992] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2//world/bitmaps\n'}
+[38.355603] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2//world/bitmaps/hallway.png\n'}
+[38.356151] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2//world/bitmaps/cave.png\n'}
+[38.356333] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2//world/bitmaps/hallway.pgm\n'}
+[38.356444] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2//world/bitmaps/warehouse200.pgm\n'}
+[38.358310] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2//world/bitmaps/line.png\n'}
+[38.358498] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2//world/bitmaps/warehouse032.pgm\n'}
+[38.358575] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2//world/bitmaps/willow-full.pgm\n'}
+[38.360812] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2//world/bitmaps/warehouse008.pgm\n'}
+[38.360989] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2//world/bitmaps/straden.png\n'}
+[38.361068] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2//world/include\n'}
+[38.361217] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2//world/include/robots.inc\n'}
+[38.361274] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2//world/include/pioneer2dx.inc\n'}
+[38.361396] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2//world/cave_three_robots.world\n'}
+[38.361441] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2//world/lines.world\n'}
+[38.361485] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2//world/cave_multi.world\n'}
+[38.361529] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2//world/straden.world\n'}
+[38.361571] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2//world/hallway.world\n'}
+[38.361614] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2//config\n'}
+[38.361657] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2//config/teleop_twist_joy\n'}
+[38.363321] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2//config/teleop_twist_joy/f710.config.yaml\n'}
+[38.363530] (-) TimerEvent: {}
+[38.363909] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2//config/rviz\n'}
+[38.365456] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2//config/rviz/lines.rviz\n'}
+[38.365591] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2//config/rviz/robot0.rviz\n'}
+[38.365642] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2//config/rviz/cave_seven_robots.rviz\n'}
+[38.365731] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2//config/rviz/cave_three_robots.rviz\n'}
+[38.365866] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2//config/rviz/robot_ns_depth.rviz\n'}
+[38.365974] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2//config/rviz/robot_ns.rviz\n'}
+[38.366510] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2//config/rviz/cave.rviz\n'}
+[38.369407] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/stage_ros2/lib/libstage_node.so\n'}
+[38.375196] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/stage_ros2/lib/stage_ros2/stage_ros2\n'}
+[38.375597] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/stage_ros2/share/ament_index/resource_index/package_run_dependencies/stage_ros2\n'}
+[38.376099] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/stage_ros2/share/ament_index/resource_index/parent_prefix_path/stage_ros2\n'}
+[38.376313] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2/environment/ament_prefix_path.sh\n'}
+[38.376373] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2/environment/ament_prefix_path.dsv\n'}
+[38.376419] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2/environment/path.sh\n'}
+[38.377092] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2/environment/path.dsv\n'}
+[38.377185] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2/local_setup.bash\n'}
+[38.377805] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2/local_setup.sh\n'}
+[38.377934] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2/local_setup.zsh\n'}
+[38.378795] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2/local_setup.dsv\n'}
+[38.378999] (stage_ros2) StdoutLine: {'line': b'-- Installing: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2/package.dsv\n'}
+[38.381485] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/stage_ros2/share/ament_index/resource_index/packages/stage_ros2\n'}
+[38.383882] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2/cmake/stage_ros2Config.cmake\n'}
+[38.383964] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2/cmake/stage_ros2Config-version.cmake\n'}
+[38.384012] (stage_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/tutu/ros2m/install/stage_ros2/share/stage_ros2/package.xml\n'}
+[38.390589] (stage_ros2) CommandEnded: {'returncode': 0}
+[38.446332] (stage_ros2) JobEnded: {'identifier': 'stage_ros2', 'rc': 0}
+[38.448189] (-) EventReactorShutdown: {}

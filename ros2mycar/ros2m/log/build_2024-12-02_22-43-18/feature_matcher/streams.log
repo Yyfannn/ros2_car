@@ -1,0 +1,74 @@
+[0.021s] Invoking command in '/home/tutu/ros2m/build/feature_matcher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tutu/ros2m/src/feature_matcher -DCMAKE_INSTALL_PREFIX=/home/tutu/ros2m/install/feature_matcher
+[0.217s] -- The C compiler identification is GNU 11.4.0
+[0.365s] -- The CXX compiler identification is GNU 11.4.0
+[0.394s] -- Detecting C compiler ABI info
+[0.585s] -- Detecting C compiler ABI info - done
+[0.612s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.616s] -- Detecting C compile features
+[0.622s] -- Detecting C compile features - done
+[0.635s] -- Detecting CXX compiler ABI info
+[0.941s] -- Detecting CXX compiler ABI info - done
+[0.959s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.961s] -- Detecting CXX compile features
+[0.962s] -- Detecting CXX compile features - done
+[0.970s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.389s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.695s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[1.831s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.848s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.878s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.921s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.976s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.107s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.114s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.380s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.473s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.617s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.653s] -- Looking for pthread.h
+[2.882s] -- Looking for pthread.h - found
+[2.885s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.066s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.068s] -- Found Threads: TRUE  
+[3.210s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[3.227s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[3.259s] -- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)
+[3.304s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[3.357s] -- Found tf2: 0.25.8 (/opt/ros/humble/share/tf2/cmake)
+[3.383s] -- Found tf2_ros: 0.25.8 (/opt/ros/humble/share/tf2_ros/cmake)
+[3.823s] -- Configuring done
+[3.859s] -- Generating done
+[3.869s] -- Build files have been written to: /home/tutu/ros2m/build/feature_matcher
+[3.894s] Invoked command in '/home/tutu/ros2m/build/feature_matcher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tutu/ros2m/src/feature_matcher -DCMAKE_INSTALL_PREFIX=/home/tutu/ros2m/install/feature_matcher
+[3.895s] Invoking command in '/home/tutu/ros2m/build/feature_matcher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tutu/ros2m/build/feature_matcher -- -j1 -l1
+[4.028s] [ 33%] [32mBuilding CXX object CMakeFiles/feature_matcher.dir/src/feature_matcher.cpp.o[0m
+[16.736s] [ 66%] [32mBuilding CXX object CMakeFiles/feature_matcher.dir/src/matcher.cpp.o[0m
+[24.879s] [01m[K/home/tutu/ros2m/src/feature_matcher/src/matcher.cpp:[m[K In member function ‘[01m[Kvoid Matcher::publish_transform(const Header&)[m[K’:
+[24.879s] [01m[K/home/tutu/ros2m/src/feature_matcher/src/matcher.cpp:206:17:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kinc_matrix[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[24.879s]   206 |     const auto& [01;35m[Kinc_matrix[m[K = incremental_transform.matrix();
+[24.879s]       |                 [01;35m[K^~~~~~~~~~[m[K
+[34.993s] [100%] [32m[1mLinking CXX executable feature_matcher[0m
+[36.138s] [100%] Built target feature_matcher
+[36.150s] Invoked command in '/home/tutu/ros2m/build/feature_matcher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tutu/ros2m/build/feature_matcher -- -j1 -l1
+[36.151s] Invoking command in '/home/tutu/ros2m/build/feature_matcher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tutu/ros2m/build/feature_matcher
+[36.160s] -- Install configuration: ""
+[36.162s] -- Installing: /home/tutu/ros2m/install/feature_matcher/lib/feature_matcher/feature_matcher
+[36.164s] -- Set runtime path of "/home/tutu/ros2m/install/feature_matcher/lib/feature_matcher/feature_matcher" to ""
+[36.165s] -- Installing: /home/tutu/ros2m/install/feature_matcher/share/feature_matcher//launch
+[36.165s] -- Installing: /home/tutu/ros2m/install/feature_matcher/share/feature_matcher//launch/matcher.rviz
+[36.165s] -- Installing: /home/tutu/ros2m/install/feature_matcher/share/feature_matcher//launch/matcher.launch.py
+[36.166s] -- Installing: /home/tutu/ros2m/install/feature_matcher/share/ament_index/resource_index/package_run_dependencies/feature_matcher
+[36.166s] -- Installing: /home/tutu/ros2m/install/feature_matcher/share/ament_index/resource_index/parent_prefix_path/feature_matcher
+[36.166s] -- Installing: /home/tutu/ros2m/install/feature_matcher/share/feature_matcher/environment/ament_prefix_path.sh
+[36.167s] -- Installing: /home/tutu/ros2m/install/feature_matcher/share/feature_matcher/environment/ament_prefix_path.dsv
+[36.167s] -- Installing: /home/tutu/ros2m/install/feature_matcher/share/feature_matcher/environment/path.sh
+[36.167s] -- Installing: /home/tutu/ros2m/install/feature_matcher/share/feature_matcher/environment/path.dsv
+[36.167s] -- Installing: /home/tutu/ros2m/install/feature_matcher/share/feature_matcher/local_setup.bash
+[36.168s] -- Installing: /home/tutu/ros2m/install/feature_matcher/share/feature_matcher/local_setup.sh
+[36.168s] -- Installing: /home/tutu/ros2m/install/feature_matcher/share/feature_matcher/local_setup.zsh
+[36.168s] -- Installing: /home/tutu/ros2m/install/feature_matcher/share/feature_matcher/local_setup.dsv
+[36.169s] -- Installing: /home/tutu/ros2m/install/feature_matcher/share/feature_matcher/package.dsv
+[36.169s] -- Installing: /home/tutu/ros2m/install/feature_matcher/share/ament_index/resource_index/packages/feature_matcher
+[36.169s] -- Installing: /home/tutu/ros2m/install/feature_matcher/share/feature_matcher/cmake/feature_matcherConfig.cmake
+[36.170s] -- Installing: /home/tutu/ros2m/install/feature_matcher/share/feature_matcher/cmake/feature_matcherConfig-version.cmake
+[36.170s] -- Installing: /home/tutu/ros2m/install/feature_matcher/share/feature_matcher/package.xml
+[36.172s] Invoked command in '/home/tutu/ros2m/build/feature_matcher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tutu/ros2m/build/feature_matcher

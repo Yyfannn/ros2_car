@@ -1,0 +1,26 @@
+[0.012s] Invoking command in '/home/tutu/ros2m/build/barrel_slam': AMENT_PREFIX_PATH=/home/tutu/ros2m/install/angles:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tutu/ros2m/install/angles:/opt/ros/humble PYTHONPATH=/home/tutu/ros2m/install/angles/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tutu/ros2m/build/barrel_slam -- -j1 -l1
+[0.100s] [35m[1mConsolidate compiler generated dependencies of target slam_node[0m
+[0.132s] [100%] Built target slam_node
+[0.148s] Invoked command in '/home/tutu/ros2m/build/barrel_slam' returned '0': AMENT_PREFIX_PATH=/home/tutu/ros2m/install/angles:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tutu/ros2m/install/angles:/opt/ros/humble PYTHONPATH=/home/tutu/ros2m/install/angles/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tutu/ros2m/build/barrel_slam -- -j1 -l1
+[0.149s] Invoking command in '/home/tutu/ros2m/build/barrel_slam': AMENT_PREFIX_PATH=/home/tutu/ros2m/install/angles:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tutu/ros2m/install/angles:/opt/ros/humble PYTHONPATH=/home/tutu/ros2m/install/angles/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/tutu/ros2m/build/barrel_slam
+[0.159s] -- Install configuration: ""
+[0.159s] -- Up-to-date: /home/tutu/ros2m/install/barrel_slam/lib/barrel_slam/slam_node
+[0.160s] -- Up-to-date: /home/tutu/ros2m/install/barrel_slam/share/barrel_slam//launch
+[0.160s] -- Up-to-date: /home/tutu/ros2m/install/barrel_slam/share/barrel_slam//launch/slam.rviz
+[0.160s] -- Up-to-date: /home/tutu/ros2m/install/barrel_slam/share/barrel_slam//launch/slam.launch.py
+[0.161s] -- Up-to-date: /home/tutu/ros2m/install/barrel_slam/share/ament_index/resource_index/package_run_dependencies/barrel_slam
+[0.161s] -- Up-to-date: /home/tutu/ros2m/install/barrel_slam/share/ament_index/resource_index/parent_prefix_path/barrel_slam
+[0.161s] -- Up-to-date: /home/tutu/ros2m/install/barrel_slam/share/barrel_slam/environment/ament_prefix_path.sh
+[0.162s] -- Up-to-date: /home/tutu/ros2m/install/barrel_slam/share/barrel_slam/environment/ament_prefix_path.dsv
+[0.166s] -- Up-to-date: /home/tutu/ros2m/install/barrel_slam/share/barrel_slam/environment/path.sh
+[0.166s] -- Up-to-date: /home/tutu/ros2m/install/barrel_slam/share/barrel_slam/environment/path.dsv
+[0.166s] -- Up-to-date: /home/tutu/ros2m/install/barrel_slam/share/barrel_slam/local_setup.bash
+[0.166s] -- Up-to-date: /home/tutu/ros2m/install/barrel_slam/share/barrel_slam/local_setup.sh
+[0.167s] -- Up-to-date: /home/tutu/ros2m/install/barrel_slam/share/barrel_slam/local_setup.zsh
+[0.167s] -- Up-to-date: /home/tutu/ros2m/install/barrel_slam/share/barrel_slam/local_setup.dsv
+[0.167s] -- Installing: /home/tutu/ros2m/install/barrel_slam/share/barrel_slam/package.dsv
+[0.167s] -- Up-to-date: /home/tutu/ros2m/install/barrel_slam/share/ament_index/resource_index/packages/barrel_slam
+[0.167s] -- Up-to-date: /home/tutu/ros2m/install/barrel_slam/share/barrel_slam/cmake/barrel_slamConfig.cmake
+[0.167s] -- Up-to-date: /home/tutu/ros2m/install/barrel_slam/share/barrel_slam/cmake/barrel_slamConfig-version.cmake
+[0.167s] -- Up-to-date: /home/tutu/ros2m/install/barrel_slam/share/barrel_slam/package.xml
+[0.174s] Invoked command in '/home/tutu/ros2m/build/barrel_slam' returned '0': AMENT_PREFIX_PATH=/home/tutu/ros2m/install/angles:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tutu/ros2m/install/angles:/opt/ros/humble PYTHONPATH=/home/tutu/ros2m/install/angles/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/tutu/ros2m/build/barrel_slam

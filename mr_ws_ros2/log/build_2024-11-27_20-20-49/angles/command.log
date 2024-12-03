@@ -1,0 +1,3 @@
+Invoking command in '/home/tutu/mr_ws_ros2/build/angles': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/tutu/mr_ws_ros2/src/angles -DCMAKE_INSTALL_PREFIX=/home/tutu/mr_ws_ros2/install/angles
+Invoked command in '/home/tutu/mr_ws_ros2/build/angles' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/tutu/mr_ws_ros2/src/angles -DCMAKE_INSTALL_PREFIX=/home/tutu/mr_ws_ros2/install/angles
+Invoking command in '/home/tutu/mr_ws_ros2/build/angles': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/tutu/mr_ws_ros2/build/angles -- -j8 -l8

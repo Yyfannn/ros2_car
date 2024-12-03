@@ -1,0 +1,77 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found ament_cmake_gtest: 1.3.10 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found ament_cmake_pytest: 1.3.10 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/tutu/ros2m/build/angles
+[ 16%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[ 33%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 33%] Built target gtest_main
+[ 50%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 66%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 66%] Built target gtest
+[ 83%] [32mBuilding CXX object CMakeFiles/angles_utest.dir/test/utest.cpp.o[0m
+[100%] [32m[1mLinking CXX executable angles_utest[0m
+[100%] Built target angles_utest
+[100%] Built target ament_cmake_python_copy_angles
+running egg_info
+creating angles.egg-info
+writing angles.egg-info/PKG-INFO
+writing dependency_links to angles.egg-info/dependency_links.txt
+writing top-level names to angles.egg-info/top_level.txt
+writing manifest file 'angles.egg-info/SOURCES.txt'
+reading manifest file 'angles.egg-info/SOURCES.txt'
+writing manifest file 'angles.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_angles_egg
+-- Install configuration: ""
+-- Installing: /home/tutu/ros2m/install/angles/include/angles
+-- Installing: /home/tutu/ros2m/install/angles/include/angles/angles
+-- Installing: /home/tutu/ros2m/install/angles/include/angles/angles/angles.h
+-- Installing: /home/tutu/ros2m/install/angles/share/angles/environment/pythonpath.sh
+-- Installing: /home/tutu/ros2m/install/angles/share/angles/environment/pythonpath.dsv
+-- Installing: /home/tutu/ros2m/install/angles/local/lib/python3.10/dist-packages/angles-1.16.0-py3.10.egg-info
+-- Installing: /home/tutu/ros2m/install/angles/local/lib/python3.10/dist-packages/angles-1.16.0-py3.10.egg-info/top_level.txt
+-- Installing: /home/tutu/ros2m/install/angles/local/lib/python3.10/dist-packages/angles-1.16.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/tutu/ros2m/install/angles/local/lib/python3.10/dist-packages/angles-1.16.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/tutu/ros2m/install/angles/local/lib/python3.10/dist-packages/angles-1.16.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/tutu/ros2m/install/angles/local/lib/python3.10/dist-packages/angles
+-- Installing: /home/tutu/ros2m/install/angles/local/lib/python3.10/dist-packages/angles/__init__.py
+Listing '/home/tutu/ros2m/install/angles/local/lib/python3.10/dist-packages/angles'...
+Compiling '/home/tutu/ros2m/install/angles/local/lib/python3.10/dist-packages/angles/__init__.py'...
+-- Installing: /home/tutu/ros2m/install/angles/share/ament_index/resource_index/package_run_dependencies/angles
+-- Installing: /home/tutu/ros2m/install/angles/share/ament_index/resource_index/parent_prefix_path/angles
+-- Installing: /home/tutu/ros2m/install/angles/share/angles/environment/ament_prefix_path.sh
+-- Installing: /home/tutu/ros2m/install/angles/share/angles/environment/ament_prefix_path.dsv
+-- Installing: /home/tutu/ros2m/install/angles/share/angles/environment/path.sh
+-- Installing: /home/tutu/ros2m/install/angles/share/angles/environment/path.dsv
+-- Installing: /home/tutu/ros2m/install/angles/share/angles/local_setup.bash
+-- Installing: /home/tutu/ros2m/install/angles/share/angles/local_setup.sh
+-- Installing: /home/tutu/ros2m/install/angles/share/angles/local_setup.zsh
+-- Installing: /home/tutu/ros2m/install/angles/share/angles/local_setup.dsv
+-- Installing: /home/tutu/ros2m/install/angles/share/angles/package.dsv
+-- Installing: /home/tutu/ros2m/install/angles/share/ament_index/resource_index/packages/angles
+-- Installing: /home/tutu/ros2m/install/angles/share/angles/cmake/export_anglesExport.cmake
+-- Installing: /home/tutu/ros2m/install/angles/share/angles/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/tutu/ros2m/install/angles/share/angles/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/tutu/ros2m/install/angles/share/angles/cmake/anglesConfig.cmake
+-- Installing: /home/tutu/ros2m/install/angles/share/angles/cmake/anglesConfig-version.cmake
+-- Installing: /home/tutu/ros2m/install/angles/share/angles/package.xml

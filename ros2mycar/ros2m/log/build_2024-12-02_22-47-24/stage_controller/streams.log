@@ -1,0 +1,26 @@
+[0.019s] Invoking command in '/home/tutu/ros2m/build/stage_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tutu/ros2m/build/stage_controller -- -j1 -l1
+[0.074s] [35m[1mConsolidate compiler generated dependencies of target stage_controller[0m
+[0.115s] [ 50%] Built target stage_controller
+[0.140s] [35m[1mConsolidate compiler generated dependencies of target stage_throttle[0m
+[0.162s] [100%] Built target stage_throttle
+[0.179s] Invoked command in '/home/tutu/ros2m/build/stage_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tutu/ros2m/build/stage_controller -- -j1 -l1
+[0.179s] Invoking command in '/home/tutu/ros2m/build/stage_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tutu/ros2m/build/stage_controller
+[0.189s] -- Install configuration: ""
+[0.190s] -- Up-to-date: /home/tutu/ros2m/install/stage_controller/lib/stage_controller/stage_controller
+[0.190s] -- Up-to-date: /home/tutu/ros2m/install/stage_controller/lib/stage_controller/stage_throttle
+[0.190s] -- Up-to-date: /home/tutu/ros2m/install/stage_controller/share/ament_index/resource_index/package_run_dependencies/stage_controller
+[0.191s] -- Up-to-date: /home/tutu/ros2m/install/stage_controller/share/ament_index/resource_index/parent_prefix_path/stage_controller
+[0.192s] -- Up-to-date: /home/tutu/ros2m/install/stage_controller/share/stage_controller/environment/ament_prefix_path.sh
+[0.192s] -- Up-to-date: /home/tutu/ros2m/install/stage_controller/share/stage_controller/environment/ament_prefix_path.dsv
+[0.192s] -- Up-to-date: /home/tutu/ros2m/install/stage_controller/share/stage_controller/environment/path.sh
+[0.192s] -- Up-to-date: /home/tutu/ros2m/install/stage_controller/share/stage_controller/environment/path.dsv
+[0.196s] -- Up-to-date: /home/tutu/ros2m/install/stage_controller/share/stage_controller/local_setup.bash
+[0.197s] -- Up-to-date: /home/tutu/ros2m/install/stage_controller/share/stage_controller/local_setup.sh
+[0.197s] -- Up-to-date: /home/tutu/ros2m/install/stage_controller/share/stage_controller/local_setup.zsh
+[0.197s] -- Up-to-date: /home/tutu/ros2m/install/stage_controller/share/stage_controller/local_setup.dsv
+[0.197s] -- Installing: /home/tutu/ros2m/install/stage_controller/share/stage_controller/package.dsv
+[0.197s] -- Up-to-date: /home/tutu/ros2m/install/stage_controller/share/ament_index/resource_index/packages/stage_controller
+[0.197s] -- Up-to-date: /home/tutu/ros2m/install/stage_controller/share/stage_controller/cmake/stage_controllerConfig.cmake
+[0.197s] -- Up-to-date: /home/tutu/ros2m/install/stage_controller/share/stage_controller/cmake/stage_controllerConfig-version.cmake
+[0.197s] -- Up-to-date: /home/tutu/ros2m/install/stage_controller/share/stage_controller/package.xml
+[0.200s] Invoked command in '/home/tutu/ros2m/build/stage_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tutu/ros2m/build/stage_controller

@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target slam_node[0m
+[100%] Built target slam_node
+-- Install configuration: ""
+-- Up-to-date: /home/tutu/ros2m/install/barrel_slam/lib/barrel_slam/slam_node
+-- Up-to-date: /home/tutu/ros2m/install/barrel_slam/share/barrel_slam//launch
+-- Up-to-date: /home/tutu/ros2m/install/barrel_slam/share/barrel_slam//launch/slam.rviz
+-- Up-to-date: /home/tutu/ros2m/install/barrel_slam/share/barrel_slam//launch/slam.launch.py
+-- Up-to-date: /home/tutu/ros2m/install/barrel_slam/share/ament_index/resource_index/package_run_dependencies/barrel_slam
+-- Up-to-date: /home/tutu/ros2m/install/barrel_slam/share/ament_index/resource_index/parent_prefix_path/barrel_slam
+-- Up-to-date: /home/tutu/ros2m/install/barrel_slam/share/barrel_slam/environment/ament_prefix_path.sh
+-- Up-to-date: /home/tutu/ros2m/install/barrel_slam/share/barrel_slam/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/tutu/ros2m/install/barrel_slam/share/barrel_slam/environment/path.sh
+-- Up-to-date: /home/tutu/ros2m/install/barrel_slam/share/barrel_slam/environment/path.dsv
+-- Up-to-date: /home/tutu/ros2m/install/barrel_slam/share/barrel_slam/local_setup.bash
+-- Up-to-date: /home/tutu/ros2m/install/barrel_slam/share/barrel_slam/local_setup.sh
+-- Up-to-date: /home/tutu/ros2m/install/barrel_slam/share/barrel_slam/local_setup.zsh
+-- Up-to-date: /home/tutu/ros2m/install/barrel_slam/share/barrel_slam/local_setup.dsv
+-- Installing: /home/tutu/ros2m/install/barrel_slam/share/barrel_slam/package.dsv
+-- Up-to-date: /home/tutu/ros2m/install/barrel_slam/share/ament_index/resource_index/packages/barrel_slam
+-- Up-to-date: /home/tutu/ros2m/install/barrel_slam/share/barrel_slam/cmake/barrel_slamConfig.cmake
+-- Up-to-date: /home/tutu/ros2m/install/barrel_slam/share/barrel_slam/cmake/barrel_slamConfig-version.cmake
+-- Up-to-date: /home/tutu/ros2m/install/barrel_slam/share/barrel_slam/package.xml

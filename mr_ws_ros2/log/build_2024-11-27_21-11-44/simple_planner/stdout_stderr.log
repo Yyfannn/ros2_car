@@ -1,0 +1,75 @@
+[35m[1mScanning dependencies of target planner[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/planner.dir/src/planner.cpp.o[0m
+[01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:[m[K In member function ‘[01m[Kbool simple_planner::Planner::indices_in_map(int, int)[m[K’:
+[01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:184:1:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K}[m[K’ token
+  184 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+[01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:184:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:179:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ki[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  179 | bool Planner::indices_in_map([01;35m[Kint i[m[K, int j)
+      |                              [01;35m[K~~~~^[m[K
+[01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:179:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kj[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  179 | bool Planner::indices_in_map(int i, [01;35m[Kint j[m[K)
+      |                                     [01;35m[K~~~~^[m[K
+[01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:[m[K In member function ‘[01m[Kvoid simple_planner::Planner::increase_obstacles(std::size_t)[m[K’:
+[01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:194:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Knav_msgs::msg::MapMetaData_<std::allocator<void> >::_width_type[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  194 |   for (int i = 0; [01;35m[Ki < map_.info.width[m[K; ++i)
+      |                   [01;35m[K~~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:196:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Knav_msgs::msg::MapMetaData_<std::allocator<void> >::_height_type[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  196 |     for (int j = 0; [01;35m[Kj < map_.info.height[m[K; ++j)
+      |                     [01;35m[K~~^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:[m[K In member function ‘[01m[Kdouble simple_planner::Planner::heruistic(int, int)[m[K’:
+[01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:244:31:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ki[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  244 | double Planner::heruistic([01;35m[Kint i[m[K, int j) {
+      |                           [01;35m[K~~~~^[m[K
+[01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:244:38:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kj[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  244 | double Planner::heruistic(int i, [01;35m[Kint j[m[K) {
+      |                                  [01;35m[K~~~~^[m[K
+[01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:[m[K In member function ‘[01m[Kbool simple_planner::CompareSearchNodes::operator()(const simple_planner::MapIndex&, const simple_planner::MapIndex&) const[m[K’:
+[01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:252:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::vector<simple_planner::SearchNode> simple_planner::Planner::search_map_[m[K’ is private within this context
+  252 |    SearchNode& left = planner_.map_value(planner_.[01;31m[Ksearch_map_[m[K, left_index.i, left_index.j);
+      |                                                   [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:2[m[K:
+[01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.h:105:29:[m[K [01;36m[Knote: [m[Kdeclared private here
+  105 |     std::vector<SearchNode> [01;36m[Ksearch_map_[m[K;
+      |                             [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:252:90:[m[K [01;31m[Kerror: [m[K‘[01m[KT& simple_planner::Planner::map_value(std::vector<BufferT>&, int, int) [with T = simple_planner::SearchNode][m[K’ is private within this context
+  252 | anner_.map_value(planner_.search_map_, left_index.i, left_index.j[01;31m[K)[m[K;
+      |                                                                  [01;31m[K^[m[K
+
+In file included from [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:2[m[K:
+[01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.h:67:8:[m[K [01;36m[Knote: [m[Kdeclared private here
+   67 |     T& [01;36m[Kmap_value[m[K(std::vector<T>& data, int i, int j)
+      |        [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:253:52:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::vector<simple_planner::SearchNode> simple_planner::Planner::search_map_[m[K’ is private within this context
+  253 |    SearchNode& right = planner_.map_value(planner_.[01;31m[Ksearch_map_[m[K, right_index.i, right_index.j);
+      |                                                    [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:2[m[K:
+[01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.h:105:29:[m[K [01;36m[Knote: [m[Kdeclared private here
+  105 |     std::vector<SearchNode> [01;36m[Ksearch_map_[m[K;
+      |                             [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:253:93:[m[K [01;31m[Kerror: [m[K‘[01m[KT& simple_planner::Planner::map_value(std::vector<BufferT>&, int, int) [with T = simple_planner::SearchNode][m[K’ is private within this context
+  253 | ner_.map_value(planner_.search_map_, right_index.i, right_index.j[01;31m[K)[m[K;
+      |                                                                  [01;31m[K^[m[K
+
+In file included from [01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:2[m[K:
+[01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.h:67:8:[m[K [01;36m[Knote: [m[Kdeclared private here
+   67 |     T& [01;36m[Kmap_value[m[K(std::vector<T>& data, int i, int j)
+      |        [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:[m[K In member function ‘[01m[Kvoid simple_planner::Planner::calculate_path()[m[K’:
+[01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:335:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Knode[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  335 |       auto& [01;35m[Knode[m[K = map_value(search_map_, point.i, point.j);
+      |             [01;35m[K^~~~[m[K
+[01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:340:10:[m[K [01;31m[Kerror: [m[Kreturn-statement with a value, in function returning ‘[01m[Kvoid[m[K’ [[01;31m[K-fpermissive[m[K]
+  340 |   return [01;31m[Kfalse[m[K;
+      |          [01;31m[K^~~~~[m[K
+[01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:[m[K At global scope:
+[01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:341:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+  341 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+[01m[K/home/tutu/mr_ws_ros2/src/simple_planner/src/planner.cpp:12:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   12 | [01;36m[K{[m[K
+      | [01;36m[K^[m[K
+make[2]: *** [CMakeFiles/planner.dir/build.make:63：CMakeFiles/planner.dir/src/planner.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:105：CMakeFiles/planner.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

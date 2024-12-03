@@ -1,0 +1,2 @@
+Invoking command in '/home/tutu/mr_ws_ros2/build/simple_planner': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/tutu/mr_ws_ros2/build/simple_planner -- -j8 -l8
+Invoked command in '/home/tutu/mr_ws_ros2/build/simple_planner' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/tutu/mr_ws_ros2/build/simple_planner -- -j8 -l8

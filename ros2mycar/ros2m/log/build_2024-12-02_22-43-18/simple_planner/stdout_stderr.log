@@ -1,0 +1,97 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+-- Found tf2: 0.25.8 (/opt/ros/humble/share/tf2/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/tutu/ros2m/build/simple_planner
+[ 33%] [32mBuilding CXX object CMakeFiles/simple_planner.dir/src/simple_planner.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/simple_planner.dir/src/planner.cpp.o[0m
+[01m[K/home/tutu/ros2m/src/simple_planner/src/planner.cpp:[m[K In member function ‘[01m[Kstd::unique_lock<std::mutex> simple_planner::Planner::move_to_position(double, double, double, double)[m[K’:
+[01m[K/home/tutu/ros2m/src/simple_planner/src/planner.cpp:117:27:[m[K [01;35m[Kwarning: [m[Kmoving a local object in a return statement prevents copy elision [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpessimizing-move-Wpessimizing-move]8;;[m[K]
+  117 |           return [01;35m[Kstd::move(lock)[m[K;
+      |                  [01;35m[K~~~~~~~~~^~~~~~[m[K
+[01m[K/home/tutu/ros2m/src/simple_planner/src/planner.cpp:117:27:[m[K [01;36m[Knote: [m[Kremove ‘[01m[Kstd::move[m[K’ call
+[01m[K/home/tutu/ros2m/src/simple_planner/src/planner.cpp:148:31:[m[K [01;35m[Kwarning: [m[Kmoving a local object in a return statement prevents copy elision [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpessimizing-move-Wpessimizing-move]8;;[m[K]
+  148 |               return [01;35m[Kstd::move(lock)[m[K;
+      |                      [01;35m[K~~~~~~~~~^~~~~~[m[K
+[01m[K/home/tutu/ros2m/src/simple_planner/src/planner.cpp:148:31:[m[K [01;36m[Knote: [m[Kremove ‘[01m[Kstd::move[m[K’ call
+[01m[K/home/tutu/ros2m/src/simple_planner/src/planner.cpp:[m[K In member function ‘[01m[Kbool simple_planner::Planner::indices_in_map(int, int)[m[K’:
+[01m[K/home/tutu/ros2m/src/simple_planner/src/planner.cpp:192:32:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Knav_msgs::msg::MapMetaData_<std::allocator<void> >::_width_type[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  192 |   return i >= 0 && j >= 0 && [01;35m[Ki < map_.info.width[m[K && j < map_.info.height;
+      |                              [01;35m[K~~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tutu/ros2m/src/simple_planner/src/planner.cpp:192:55:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Knav_msgs::msg::MapMetaData_<std::allocator<void> >::_height_type[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  192 |   return i >= 0 && j >= 0 && i < map_.info.width && [01;35m[Kj < map_.info.height[m[K;
+      |                                                     [01;35m[K~~^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tutu/ros2m/src/simple_planner/src/planner.cpp:[m[K In member function ‘[01m[Kvoid simple_planner::Planner::increase_obstacles(std::size_t)[m[K’:
+[01m[K/home/tutu/ros2m/src/simple_planner/src/planner.cpp:203:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Knav_msgs::msg::MapMetaData_<std::allocator<void> >::_width_type[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  203 |   for (int i = 0; [01;35m[Ki < map_.info.width[m[K; ++i)
+      |                   [01;35m[K~~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tutu/ros2m/src/simple_planner/src/planner.cpp:205:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Knav_msgs::msg::MapMetaData_<std::allocator<void> >::_height_type[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  205 |     for (int j = 0; [01;35m[Kj < map_.info.height[m[K; ++j)
+      |                     [01;35m[K~~^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tutu/ros2m/src/simple_planner/src/planner.cpp:[m[K In member function ‘[01m[Kdouble simple_planner::Planner::heruistic(int, int)[m[K’:
+[01m[K/home/tutu/ros2m/src/simple_planner/src/planner.cpp:258:31:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ki[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  258 | double Planner::heruistic([01;35m[Kint i[m[K, int j) {
+      |                           [01;35m[K~~~~^[m[K
+[01m[K/home/tutu/ros2m/src/simple_planner/src/planner.cpp:258:38:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kj[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  258 | double Planner::heruistic(int i, [01;35m[Kint j[m[K) {
+      |                                  [01;35m[K~~~~^[m[K
+[01m[K/home/tutu/ros2m/src/simple_planner/src/planner.cpp:[m[K In member function ‘[01m[Kvoid simple_planner::Planner::calculate_path()[m[K’:
+[01m[K/home/tutu/ros2m/src/simple_planner/src/planner.cpp:367:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Knode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  367 |       auto& [01;35m[Knode[m[K = map_value(search_map_, point.i, point.j);
+      |             [01;35m[K^~~~[m[K
+[100%] [32m[1mLinking CXX executable simple_planner[0m
+[100%] Built target simple_planner
+-- Install configuration: ""
+-- Installing: /home/tutu/ros2m/install/simple_planner/lib/simple_planner/simple_planner
+-- Set runtime path of "/home/tutu/ros2m/install/simple_planner/lib/simple_planner/simple_planner" to ""
+-- Installing: /home/tutu/ros2m/install/simple_planner/share/simple_planner//launch
+-- Installing: /home/tutu/ros2m/install/simple_planner/share/simple_planner//launch/planner.launch.py
+-- Installing: /home/tutu/ros2m/install/simple_planner/share/simple_planner//launch/planner.rviz
+-- Installing: /home/tutu/ros2m/install/simple_planner/share/simple_planner//launch/default.rviz
+-- Installing: /home/tutu/ros2m/install/simple_planner/share/ament_index/resource_index/package_run_dependencies/simple_planner
+-- Installing: /home/tutu/ros2m/install/simple_planner/share/ament_index/resource_index/parent_prefix_path/simple_planner
+-- Installing: /home/tutu/ros2m/install/simple_planner/share/simple_planner/environment/ament_prefix_path.sh
+-- Installing: /home/tutu/ros2m/install/simple_planner/share/simple_planner/environment/ament_prefix_path.dsv
+-- Installing: /home/tutu/ros2m/install/simple_planner/share/simple_planner/environment/path.sh
+-- Installing: /home/tutu/ros2m/install/simple_planner/share/simple_planner/environment/path.dsv
+-- Installing: /home/tutu/ros2m/install/simple_planner/share/simple_planner/local_setup.bash
+-- Installing: /home/tutu/ros2m/install/simple_planner/share/simple_planner/local_setup.sh
+-- Installing: /home/tutu/ros2m/install/simple_planner/share/simple_planner/local_setup.zsh
+-- Installing: /home/tutu/ros2m/install/simple_planner/share/simple_planner/local_setup.dsv
+-- Installing: /home/tutu/ros2m/install/simple_planner/share/simple_planner/package.dsv
+-- Installing: /home/tutu/ros2m/install/simple_planner/share/ament_index/resource_index/packages/simple_planner
+-- Installing: /home/tutu/ros2m/install/simple_planner/share/simple_planner/cmake/simple_plannerConfig.cmake
+-- Installing: /home/tutu/ros2m/install/simple_planner/share/simple_planner/cmake/simple_plannerConfig-version.cmake
+-- Installing: /home/tutu/ros2m/install/simple_planner/share/simple_planner/package.xml

@@ -1,0 +1,99 @@
+[0.325s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/tutu/mr_ws_ros2']
+[0.325s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], base_paths=['/home/tutu/mr_ws_ros2'], build_base='build', ignore_user_meta=False, log_base=None, log_level=None, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7fb0275881f0>>, metas=['./colcon.meta'], names_only=False, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, paths=None, paths_only=True, topological_graph=False, topological_graph_density=False, topological_graph_dot=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, topological_graph_legend=False, topological_order=False, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7fb0275881f0>, verb_name='list', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fb027594850>)
+[0.623s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.623s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.623s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.623s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.623s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.623s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/tutu/mr_ws_ros2'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tutu/mr_ws_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tutu/mr_ws_ros2) by extension 'ignore'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tutu/mr_ws_ros2) by extension 'ignore_ament_install'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tutu/mr_ws_ros2) by extensions ['colcon_pkg']
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tutu/mr_ws_ros2) by extension 'colcon_pkg'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tutu/mr_ws_ros2) by extensions ['colcon_meta']
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tutu/mr_ws_ros2) by extension 'colcon_meta'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tutu/mr_ws_ros2) by extensions ['ros']
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tutu/mr_ws_ros2) by extension 'ros'
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tutu/mr_ws_ros2) by extensions ['cmake', 'python']
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tutu/mr_ws_ros2) by extension 'cmake'
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tutu/mr_ws_ros2) by extension 'python'
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tutu/mr_ws_ros2) by extensions ['python_setup_py']
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tutu/mr_ws_ros2) by extension 'python_setup_py'
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tutu/mr_ws_ros2/build) by extensions ['ignore', 'ignore_ament_install']
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tutu/mr_ws_ros2/build) by extension 'ignore'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tutu/mr_ws_ros2/build) ignored
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tutu/mr_ws_ros2/install) by extensions ['ignore', 'ignore_ament_install']
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tutu/mr_ws_ros2/install) by extension 'ignore'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tutu/mr_ws_ros2/install) ignored
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tutu/mr_ws_ros2/log) by extensions ['ignore', 'ignore_ament_install']
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tutu/mr_ws_ros2/log) by extension 'ignore'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tutu/mr_ws_ros2/log) ignored
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tutu/mr_ws_ros2/src) by extensions ['ignore', 'ignore_ament_install']
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tutu/mr_ws_ros2/src) by extension 'ignore'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tutu/mr_ws_ros2/src) by extension 'ignore_ament_install'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tutu/mr_ws_ros2/src) by extensions ['colcon_pkg']
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tutu/mr_ws_ros2/src) by extension 'colcon_pkg'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tutu/mr_ws_ros2/src) by extensions ['colcon_meta']
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tutu/mr_ws_ros2/src) by extension 'colcon_meta'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tutu/mr_ws_ros2/src) by extensions ['ros']
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tutu/mr_ws_ros2/src) by extension 'ros'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tutu/mr_ws_ros2/src) by extensions ['cmake', 'python']
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tutu/mr_ws_ros2/src) by extension 'cmake'
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tutu/mr_ws_ros2/src) by extension 'python'
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tutu/mr_ws_ros2/src) by extensions ['python_setup_py']
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tutu/mr_ws_ros2/src) by extension 'python_setup_py'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tutu/mr_ws_ros2/src/Stage) by extensions ['ignore', 'ignore_ament_install']
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tutu/mr_ws_ros2/src/Stage) by extension 'ignore'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tutu/mr_ws_ros2/src/Stage) by extension 'ignore_ament_install'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tutu/mr_ws_ros2/src/Stage) by extensions ['colcon_pkg']
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tutu/mr_ws_ros2/src/Stage) by extension 'colcon_pkg'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tutu/mr_ws_ros2/src/Stage) by extensions ['colcon_meta']
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tutu/mr_ws_ros2/src/Stage) by extension 'colcon_meta'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tutu/mr_ws_ros2/src/Stage) by extensions ['ros']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tutu/mr_ws_ros2/src/Stage) by extension 'ros'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tutu/mr_ws_ros2/src/Stage) by extensions ['cmake', 'python']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tutu/mr_ws_ros2/src/Stage) by extension 'cmake'
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tutu/mr_ws_ros2/src/Stage) by extension 'python'
+[0.656s] DEBUG:colcon.colcon_core.package_identification:Package '/home/tutu/mr_ws_ros2/src/Stage' with type 'cmake' and name 'Stage'
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tutu/mr_ws_ros2/src/cart_launch) by extensions ['ignore', 'ignore_ament_install']
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tutu/mr_ws_ros2/src/cart_launch) by extension 'ignore'
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tutu/mr_ws_ros2/src/cart_launch) by extension 'ignore_ament_install'
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tutu/mr_ws_ros2/src/cart_launch) by extensions ['colcon_pkg']
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tutu/mr_ws_ros2/src/cart_launch) by extension 'colcon_pkg'
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tutu/mr_ws_ros2/src/cart_launch) by extensions ['colcon_meta']
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tutu/mr_ws_ros2/src/cart_launch) by extension 'colcon_meta'
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tutu/mr_ws_ros2/src/cart_launch) by extensions ['ros']
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tutu/mr_ws_ros2/src/cart_launch) by extension 'ros'
+[0.661s] DEBUG:colcon.colcon_core.package_identification:Package '/home/tutu/mr_ws_ros2/src/cart_launch' with type 'ros.ament_cmake' and name 'cart_launch'
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tutu/mr_ws_ros2/src/simple_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tutu/mr_ws_ros2/src/simple_controller) by extension 'ignore'
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tutu/mr_ws_ros2/src/simple_controller) by extension 'ignore_ament_install'
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tutu/mr_ws_ros2/src/simple_controller) by extensions ['colcon_pkg']
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tutu/mr_ws_ros2/src/simple_controller) by extension 'colcon_pkg'
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tutu/mr_ws_ros2/src/simple_controller) by extensions ['colcon_meta']
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tutu/mr_ws_ros2/src/simple_controller) by extension 'colcon_meta'
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tutu/mr_ws_ros2/src/simple_controller) by extensions ['ros']
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tutu/mr_ws_ros2/src/simple_controller) by extension 'ros'
+[0.663s] DEBUG:colcon.colcon_core.package_identification:Package '/home/tutu/mr_ws_ros2/src/simple_controller' with type 'ros.ament_cmake' and name 'simple_controller'
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tutu/mr_ws_ros2/src/stage_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tutu/mr_ws_ros2/src/stage_controller) by extension 'ignore'
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tutu/mr_ws_ros2/src/stage_controller) by extension 'ignore_ament_install'
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tutu/mr_ws_ros2/src/stage_controller) by extensions ['colcon_pkg']
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tutu/mr_ws_ros2/src/stage_controller) by extension 'colcon_pkg'
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tutu/mr_ws_ros2/src/stage_controller) by extensions ['colcon_meta']
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tutu/mr_ws_ros2/src/stage_controller) by extension 'colcon_meta'
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tutu/mr_ws_ros2/src/stage_controller) by extensions ['ros']
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tutu/mr_ws_ros2/src/stage_controller) by extension 'ros'
+[0.669s] DEBUG:colcon.colcon_core.package_identification:Package '/home/tutu/mr_ws_ros2/src/stage_controller' with type 'ros.ament_cmake' and name 'stage_controller'
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tutu/mr_ws_ros2/src/stage_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tutu/mr_ws_ros2/src/stage_ros2) by extension 'ignore'
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tutu/mr_ws_ros2/src/stage_ros2) by extension 'ignore_ament_install'
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tutu/mr_ws_ros2/src/stage_ros2) by extensions ['colcon_pkg']
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tutu/mr_ws_ros2/src/stage_ros2) by extension 'colcon_pkg'
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tutu/mr_ws_ros2/src/stage_ros2) by extensions ['colcon_meta']
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tutu/mr_ws_ros2/src/stage_ros2) by extension 'colcon_meta'
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tutu/mr_ws_ros2/src/stage_ros2) by extensions ['ros']
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tutu/mr_ws_ros2/src/stage_ros2) by extension 'ros'
+[0.672s] DEBUG:colcon.colcon_core.package_identification:Package '/home/tutu/mr_ws_ros2/src/stage_ros2' with type 'ros.ament_cmake' and name 'stage_ros2'
+[0.672s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

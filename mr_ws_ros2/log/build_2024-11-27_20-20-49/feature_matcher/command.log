@@ -1,0 +1,3 @@
+Invoking command in '/home/tutu/mr_ws_ros2/build/feature_matcher': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/tutu/mr_ws_ros2/src/feature_matcher -DCMAKE_INSTALL_PREFIX=/home/tutu/mr_ws_ros2/install/feature_matcher
+Invoked command in '/home/tutu/mr_ws_ros2/build/feature_matcher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/tutu/mr_ws_ros2/src/feature_matcher -DCMAKE_INSTALL_PREFIX=/home/tutu/mr_ws_ros2/install/feature_matcher
+Invoking command in '/home/tutu/mr_ws_ros2/build/feature_matcher': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/tutu/mr_ws_ros2/build/feature_matcher -- -j8 -l8

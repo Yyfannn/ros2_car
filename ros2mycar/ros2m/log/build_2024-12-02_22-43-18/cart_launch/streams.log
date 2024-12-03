@@ -1,0 +1,75 @@
+[0.018s] Invoking command in '/home/tutu/ros2m/build/cart_launch': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tutu/ros2m/src/cart_launch -DCMAKE_INSTALL_PREFIX=/home/tutu/ros2m/install/cart_launch
+[0.163s] -- The C compiler identification is GNU 11.4.0
+[0.318s] -- The CXX compiler identification is GNU 11.4.0
+[0.342s] -- Detecting C compiler ABI info
+[0.467s] -- Detecting C compiler ABI info - done
+[0.486s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.486s] -- Detecting C compile features
+[0.492s] -- Detecting C compile features - done
+[0.494s] -- Detecting CXX compiler ABI info
+[0.622s] -- Detecting CXX compiler ABI info - done
+[0.631s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.631s] -- Detecting CXX compile features
+[0.633s] -- Detecting CXX compile features - done
+[0.636s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.847s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.325s] -- Configuring done
+[1.330s] -- Generating done
+[1.336s] -- Build files have been written to: /home/tutu/ros2m/build/cart_launch
+[1.358s] Invoked command in '/home/tutu/ros2m/build/cart_launch' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tutu/ros2m/src/cart_launch -DCMAKE_INSTALL_PREFIX=/home/tutu/ros2m/install/cart_launch
+[1.367s] Invoking command in '/home/tutu/ros2m/build/cart_launch': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tutu/ros2m/build/cart_launch -- -j1 -l1
+[1.470s] Invoked command in '/home/tutu/ros2m/build/cart_launch' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tutu/ros2m/build/cart_launch -- -j1 -l1
+[1.471s] Invoking command in '/home/tutu/ros2m/build/cart_launch': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tutu/ros2m/build/cart_launch
+[1.507s] -- Install configuration: ""
+[1.507s] -- Installing: /home/tutu/ros2m/install/cart_launch/share/cart_launch//launch
+[1.507s] -- Installing: /home/tutu/ros2m/install/cart_launch/share/cart_launch//launch/cart.launch.py
+[1.508s] -- Installing: /home/tutu/ros2m/install/cart_launch/share/cart_launch//launch/cart_stage.launch.py
+[1.508s] -- Installing: /home/tutu/ros2m/install/cart_launch/share/cart_launch//worlds
+[1.508s] -- Installing: /home/tutu/ros2m/install/cart_launch/share/cart_launch//worlds/cart_empty.world
+[1.508s] -- Installing: /home/tutu/ros2m/install/cart_launch/share/cart_launch//worlds/slam.world
+[1.508s] -- Installing: /home/tutu/ros2m/install/cart_launch/share/cart_launch//worlds/simple.world
+[1.508s] -- Installing: /home/tutu/ros2m/install/cart_launch/share/cart_launch//worlds/terrain.world
+[1.508s] -- Installing: /home/tutu/ros2m/install/cart_launch/share/cart_launch//worlds/simple
+[1.509s] -- Installing: /home/tutu/ros2m/install/cart_launch/share/cart_launch//worlds/materials
+[1.509s] -- Installing: /home/tutu/ros2m/install/cart_launch/share/cart_launch//worlds/materials/textures
+[1.509s] -- Installing: /home/tutu/ros2m/install/cart_launch/share/cart_launch//worlds/materials/textures/grass_dry.png
+[1.509s] -- Installing: /home/tutu/ros2m/install/cart_launch/share/cart_launch//worlds/far_empty.world
+[1.509s] -- Installing: /home/tutu/ros2m/install/cart_launch/share/cart_launch//worlds/populated.world
+[1.511s] -- Installing: /home/tutu/ros2m/install/cart_launch/share/cart_launch//stage_worlds
+[1.513s] -- Installing: /home/tutu/ros2m/install/cart_launch/share/cart_launch//stage_worlds/cave.yaml
+[1.516s] -- Installing: /home/tutu/ros2m/install/cart_launch/share/cart_launch//stage_worlds/empty.world
+[1.516s] -- Installing: /home/tutu/ros2m/install/cart_launch/share/cart_launch//stage_worlds/robots.inc
+[1.517s] -- Installing: /home/tutu/ros2m/install/cart_launch/share/cart_launch//stage_worlds/mr.inc
+[1.517s] -- Installing: /home/tutu/ros2m/install/cart_launch/share/cart_launch//stage_worlds/bitmaps
+[1.518s] -- Installing: /home/tutu/ros2m/install/cart_launch/share/cart_launch//stage_worlds/bitmaps/feature_map.png
+[1.518s] -- Installing: /home/tutu/ros2m/install/cart_launch/share/cart_launch//stage_worlds/bitmaps/cave.png
+[1.518s] -- Installing: /home/tutu/ros2m/install/cart_launch/share/cart_launch//stage_worlds/bitmaps/empty.png
+[1.519s] -- Installing: /home/tutu/ros2m/install/cart_launch/share/cart_launch//stage_worlds/bitmaps/feature_map_simple.png
+[1.521s] -- Installing: /home/tutu/ros2m/install/cart_launch/share/cart_launch//stage_worlds/bitmaps/mapping_map.png
+[1.521s] -- Installing: /home/tutu/ros2m/install/cart_launch/share/cart_launch//stage_worlds/bitmaps/kalman_map.png
+[1.521s] -- Installing: /home/tutu/ros2m/install/cart_launch/share/cart_launch//stage_worlds/pioneer2dx.inc
+[1.521s] -- Installing: /home/tutu/ros2m/install/cart_launch/share/cart_launch//stage_worlds/mapping.world
+[1.525s] -- Installing: /home/tutu/ros2m/install/cart_launch/share/cart_launch//stage_worlds/simple.world
+[1.525s] -- Installing: /home/tutu/ros2m/install/cart_launch/share/cart_launch//stage_worlds/kalman_map.world
+[1.525s] -- Installing: /home/tutu/ros2m/install/cart_launch/share/cart_launch//stage_worlds/pioneer.inc
+[1.525s] -- Installing: /home/tutu/ros2m/install/cart_launch/share/cart_launch//stage_worlds/map.inc
+[1.525s] -- Installing: /home/tutu/ros2m/install/cart_launch/share/cart_launch//stage_worlds/feature_map_simple.world
+[1.525s] -- Installing: /home/tutu/ros2m/install/cart_launch/share/cart_launch//stage_worlds/feature_map.world
+[1.525s] -- Installing: /home/tutu/ros2m/install/cart_launch/share/cart_launch//stage_worlds/sick20.inc
+[1.525s] -- Installing: /home/tutu/ros2m/install/cart_launch/share/cart_launch//stage_worlds/sick.inc
+[1.525s] -- Installing: /home/tutu/ros2m/install/cart_launch/share/ament_index/resource_index/package_run_dependencies/cart_launch
+[1.527s] -- Installing: /home/tutu/ros2m/install/cart_launch/share/ament_index/resource_index/parent_prefix_path/cart_launch
+[1.527s] -- Installing: /home/tutu/ros2m/install/cart_launch/share/cart_launch/environment/ament_prefix_path.sh
+[1.529s] -- Installing: /home/tutu/ros2m/install/cart_launch/share/cart_launch/environment/ament_prefix_path.dsv
+[1.529s] -- Installing: /home/tutu/ros2m/install/cart_launch/share/cart_launch/environment/path.sh
+[1.533s] -- Installing: /home/tutu/ros2m/install/cart_launch/share/cart_launch/environment/path.dsv
+[1.533s] -- Installing: /home/tutu/ros2m/install/cart_launch/share/cart_launch/local_setup.bash
+[1.533s] -- Installing: /home/tutu/ros2m/install/cart_launch/share/cart_launch/local_setup.sh
+[1.534s] -- Installing: /home/tutu/ros2m/install/cart_launch/share/cart_launch/local_setup.zsh
+[1.534s] -- Installing: /home/tutu/ros2m/install/cart_launch/share/cart_launch/local_setup.dsv
+[1.534s] -- Installing: /home/tutu/ros2m/install/cart_launch/share/cart_launch/package.dsv
+[1.534s] -- Installing: /home/tutu/ros2m/install/cart_launch/share/ament_index/resource_index/packages/cart_launch
+[1.534s] -- Installing: /home/tutu/ros2m/install/cart_launch/share/cart_launch/cmake/cart_launchConfig.cmake
+[1.534s] -- Installing: /home/tutu/ros2m/install/cart_launch/share/cart_launch/cmake/cart_launchConfig-version.cmake
+[1.538s] -- Installing: /home/tutu/ros2m/install/cart_launch/share/cart_launch/package.xml
+[1.545s] Invoked command in '/home/tutu/ros2m/build/cart_launch' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tutu/ros2m/build/cart_launch
